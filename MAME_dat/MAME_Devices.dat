@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Devices (dir2dat)</name>
-		<description>pS MAME Official Devices 20240228</description>
+		<description>pS MAME Official Devices 20240327</description>
 		<category>MAME System Files</category>
-		<version>0.263</version>
-		<date>28/02/2024</date>
+		<version>0.264</version>
+		<date>27/03/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -1794,6 +1794,11 @@
 		<rom name="octek_vl_combo_v2.1_myc000.bin" size="32768" crc="1a97b6d5" sha1="fde41c45347b66ed4b1f99c3f7057e7411cdf4da"/>
 		<rom name="techyosd-isa-bios-v1.2.u8" size="32768" crc="6adf7e71" sha1="2b07d964cc7c2c0aa560625b7c12f38d4537d652"/>
 	</machine>
+	<machine name="clgd5446_pci">
+		<description>clgd5446_pci</description>
+		<rom name="cl-gd5446_pci_vga_bios_version_1.25.u2" size="32768" crc="7a859659" sha1="ff667218261969c48082ec12aa91088a01b0cb2a"/>
+		<rom name="cl-gd5446_pci_vga_bios_version_1.31.u2" size="32768" crc="61f8cac7" sha1="6e54aadfe10dfa5c7e417a054e9a64499a99083c"/>
+	</machine>
 	<machine name="clgd5465_laguna">
 		<description>clgd5465_laguna</description>
 		<rom name="chaintech.vbi" size="32768" crc="8afa1afb" sha1="251a953d442dc34738f80371cfbd0fd9f1097635"/>
@@ -2217,10 +2222,6 @@
 	<machine name="dm_clgd5430">
 		<description>dm_clgd5430</description>
 		<rom name="speedstar_pro_se_v1.00.u2" size="65536" crc="ed79572c" sha1="15131e2b2db7a34971083a250e4a21ab7bd64a9d"/>
-	</machine>
-	<machine name="dms3d2kp">
-		<description>dms3d2kp</description>
-		<rom name="virgedxdiamond.bin" size="32768" crc="58b0dcda" sha1="b13ae6b04db6fc05a76d924ddf2efe150b823029"/>
 	</machine>
 	<machine name="dmv_k220">
 		<description>dmv_k220</description>
@@ -3771,6 +3772,11 @@
 		<description>pd3_pc16</description>
 		<rom name="procolor_ver60590.bin" size="32768" crc="ebef6168" sha1="e41ecc7d12fc13bc74f9223ca02920e8a7eb072b"/>
 	</machine>
+	<machine name="pdc20262">
+		<description>pdc20262</description>
+		<rom name="ul114b0728.bin" size="16384" crc="a71f0c3d" sha1="ace4872c6060e9dd8458540c0f3193d1a9b4321a"/>
+		<rom name="ul200b18.bin" size="16384" crc="71e48d73" sha1="84d8c72118a3e26181573412e2cbb859691672de"/>
+	</machine>
 	<machine name="pds30_emac">
 		<description>pds30_emac</description>
 		<rom name="5000118-00-01.bin" size="16384" crc="49a602ec" sha1="65a8e87180a793cd54d30930cc030b95723369f1"/>
@@ -3814,6 +3820,12 @@
 	<machine name="plg100_vl">
 		<description>plg100_vl</description>
 		<rom name="xt47810.ic03" size="1048576" crc="ef472e45" sha1="13d54c33a4708c77de2dc1e02210da107add6ce6"/>
+	</machine>
+	<machine name="plg150_ap">
+		<description>plg150_ap</description>
+		<rom name="x5757b0.ic03" size="524288" crc="5383b363" sha1="b8e8e0673439c80dc9aecd6638f1c20454c82080"/>
+		<rom name="x575810.ic09" size="8388608" crc="273b4574" sha1="b33d67f7fe3a020c19133cc52bd6a228227941c5"/>
+		<rom name="x575910.ic11" size="8388608" crc="32a37ef3" sha1="c0b5dfb1fbb5a3ddd33e6303039fbc197478abd2"/>
 	</machine>
 	<machine name="polyvti">
 		<description>polyvti</description>
@@ -4235,15 +4247,6 @@
 		<rom name="s3_86c775-86c785_video_bios_v1.01.04.u5" size="32768" crc="e718418f" sha1="1288ce51bb732a346eb7c61d5bdf80ea22454d45"/>
 		<rom name="utd88a.bin" size="32768" crc="8df4524d" sha1="e652dd2cec49d5edf3cb207e410233963efa22b8"/>
 	</machine>
-	<machine name="s3virge">
-		<description>s3virge</description>
-		<rom name="pci_m-v_virge-4s3.bin" size="32768" crc="d0a0f1de" sha1="b7b41081974762a199610219bdeab149b7c7143d"/>
-		<rom name="s3virge.bin" size="65536" crc="a7983a85" sha1="e885371816d3237f7badd57ccd602cd863c9c9f8"/>
-	</machine>
-	<machine name="s3virgedx">
-		<description>s3virgedx</description>
-		<rom name="s3virgedx.bin" size="32768" crc="0da83bd3" sha1="228a2d644e1732cb5a2eb1291608c7050cf39229"/>
-	</machine>
 	<machine name="s97269pb">
 		<description>s97269pb</description>
 		<rom name="pr-02.a1" size="256" crc="8e633b5c" sha1="7ee40abe0e8a56aae2cc5f1102fa8c334a19e075"/>
@@ -4435,6 +4438,13 @@
 		<rom name="oemrom.bin" size="49152" crc="03d8df9d" sha1="8fb80a2bf4067d9bebc90fb498448869ae795b2b"/>
 		<rom name="sis630.bin" size="32768" crc="f04ef9b0" sha1="2396a79cd4045362bfc511090b146daa85902b4d"/>
 	</machine>
+	<machine name="sis6326_agp">
+		<description>sis6326_agp</description>
+		<rom name="3dpro4mbedo.bin" size="65536" crc="f04b374c" sha1="6eb96f7517df6eb566c615c2ab9ec5567035b6a5"/>
+		<rom name="4mbsdr.vbi" size="49152" crc="a5f8c7f7" sha1="9e5cfcf8d34e0c5829343179c87fb2b97f7a7f9c"/>
+		<rom name="aopenpa50v.vbi" size="32768" crc="6c4c7518" sha1="36bb29a23d565e34d548701acc248d50c99d7da4"/>
+		<rom name="sis6326agp.bin" size="65536" crc="a671255c" sha1="332ab9499142e8f7a235afe046e8e8d21a28580d"/>
+	</machine>
 	<machine name="sis900_eth">
 		<description>sis900_eth</description>
 		<rom name="pxe_m.19" size="40960" crc="c8da34a6" sha1="f11b4f5398176b7d924c63c77a1951cb83020e48"/>
@@ -4453,6 +4463,10 @@
 		<rom name="sigbug__2.bin" size="16384" crc="e39bd1db" sha1="2f610170f118c74477f4586e19aee0fc63803e17"/>
 		<rom name="sigbug__3.bin" size="16384" crc="182998ef" sha1="ecf980b7dd8bd0286f002b31cd726798f84a2267"/>
 		<rom name="sigbug__4.bin" size="16384" crc="f0e25380" sha1="78427f7b9a6f676945c2cdb90632a16a619c83f9"/>
+	</machine>
+	<machine name="sn74s262">
+		<description>sn74s262</description>
+		<rom name="sn74s262" size="1280" crc="6896d319" sha1="1234558418a5c7a9823d54a93d0c7f63bd8a490a"/>
 	</machine>
 	<machine name="sn74s263">
 		<description>sn74s263</description>
@@ -4950,6 +4964,10 @@
 		<description>tek410x_kbd</description>
 		<rom name="473_8748.bin" size="1024" crc="371553a8" sha1="165ffc2c0775c1a3c2cc3ec86fb05adc8e8bb3eb"/>
 	</machine>
+	<machine name="tek_msu_fdc">
+		<description>tek_msu_fdc</description>
+		<rom name="160_2149_02__u_130_v1.2.u130" size="4096" crc="2c11a3f1" sha1="b29b3705692d50f15f7e8bbba12a24c69817d52e"/>
+	</machine>
 	<machine name="tetriskr_cga">
 		<description>tetriskr_cga</description>
 		<rom name="b-1.u59" size="65536" crc="4719d986" sha1="6e0499944b968d96fbbfa3ead6237d69c769d634"/>
@@ -5145,6 +5163,10 @@
 		<description>v102_kbd</description>
 		<rom name="150.kbd" size="2048" crc="afe55cff" sha1="b26ebdde63ec0e94c08780285def39a282e128b3"/>
 	</machine>
+	<machine name="v50_kbd">
+		<description>v50_kbd</description>
+		<rom name="241.bin" size="1024" crc="244ee196" sha1="5224887097004894ab9f4876f3217f3da08801da"/>
+	</machine>
 	<machine name="v550_kbd">
 		<description>v550_kbd</description>
 		<rom name="v550kb.bin" size="2048" crc="d11d19a3" sha1="2d88202d0548e934800f07667c8d13a3762b12fa"/>
@@ -5194,6 +5216,21 @@
 	<machine name="virgedx_pci">
 		<description>virgedx_pci</description>
 		<rom name="s3virgedx.bin" size="32768" crc="0da83bd3" sha1="228a2d644e1732cb5a2eb1291608c7050cf39229"/>
+		<rom name="virgedxdiamond.bin" size="32768" crc="58b0dcda" sha1="b13ae6b04db6fc05a76d924ddf2efe150b823029"/>
+	</machine>
+	<machine name="vision864">
+		<description>vision864</description>
+		<rom name="bios.bin" size="65536" crc="791c9e0d" sha1="340a64402958d2ee734d929dfce147d9afcf23f4"/>
+	</machine>
+	<machine name="vision964">
+		<description>vision964</description>
+		<rom name="mirocrystal.vbi" size="32768" crc="d0b0aa1c" sha1="004e2432c4783f1539a7989e7d9ee422df09e695"/>
+	</machine>
+	<machine name="vision968">
+		<description>vision968</description>
+		<rom name="elsaw20008m.bin" size="65536" crc="47563211" sha1="f51a40956c3e6e7c86851d81f81ba5f77509d361"/>
+		<rom name="no9motionfx771.bin" size="65536" crc="7732e382" sha1="9ec2fe056712cef39bd8380d406be3c874ea5ec9"/>
+		<rom name="spea.bin" size="65536" crc="2caeadaf" sha1="236829f1e6065a2f0ebee91f71891d8402f0ab5a"/>
 	</machine>
 	<machine name="voicebox">
 		<description>voicebox</description>

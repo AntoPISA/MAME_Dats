@@ -3,10 +3,10 @@
 <datafile>
 	<header>
 		<name>MAME CHDs</name>
-		<description>MAME CHDs 0.263</description>
+		<description>MAME CHDs 0.264</description>
 		<category>Emulation</category>
-		<version>0.263</version>
-		<date>28/02/2024</date>
+		<version>0.264</version>
+		<date>27/03/2024</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -2448,6 +2448,12 @@
 		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<disk name="fruit" sha1="df250ff06a97fa141a4144034f7035ac2947c53c"/>
 	</game>
+	<game name="fstgfish">
+		<description>Festival: Goldfish Scoop</description>
+		<year>2008</year>
+		<manufacturer>Cave</manufacturer>
+		<disk name="x11_15305" sha1="67bce99fb55760d0c06d698e68656eebbda8a28f"/>
+	</game>
 	<game name="fundr200">
 		<description>Funderdome Video Game Entertainment System 200+ Games (FUN-GAME32-1)</description>
 		<year>2015</year>
@@ -3207,7 +3213,7 @@
 		<year>2008</year>
 		<manufacturer>Sega</manufacturer>
 		<disk name="mda-c0004a_revb_lindyellow_v2.4.20_mvl31a_boot_2.01" merge="mda-c0004a_revb_lindyellow_v2.4.20_mvl31a_boot_2.01" sha1="e13da5f827df852e742b594729ee3f933b387410"/>
-		<disk name="hotdex" status="nodump"/>
+		<disk name="dvp-0063" status="nodump"/>
 	</game>
 	<game name="hotgmkmp">
 		<description>Taisen Hot Gimmick Mix Party</description>
@@ -3232,6 +3238,7 @@
 		<year>2009</year>
 		<manufacturer>Sega</manufacturer>
 		<disk name="mda-c0004a_revb_lindyellow_v2.4.20_mvl31a_boot_2.01" merge="mda-c0004a_revb_lindyellow_v2.4.20_mvl31a_boot_2.01" sha1="e13da5f827df852e742b594729ee3f933b387410"/>
+		<disk name="dvp-0079" status="nodump"/>
 	</game>
 	<game name="hydrthnd">
 		<description>Hydro Thunder</description>
@@ -3538,7 +3545,7 @@
 		<disk name="b41c02" merge="b41c02" sha1="fb6b0b43a6f818041d644bcd711f6a727348d3aa"/>
 	</game>
 	<game name="jppyex98" romof="sys573">
-		<description>Jikkyou Powerful Pro Yakyuu EX &apos;98 (GC811 VER. JAA)</description>
+		<description>Jikkyou Pawafuru Puro Yakyu EX &apos;98 (GC811 VER. JAA)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
 		<disk name="811jaa02" sha1="e9580172d58b38841f643651ae0bcaf24fd5f118" status="baddump"/>
@@ -3845,7 +3852,7 @@
 	</game>
 	<game name="lindbios" isbios="yes">
 		<description>Sega Lindbergh BIOS</description>
-		<year>1999</year>
+		<year>2005</year>
 		<manufacturer>Sega</manufacturer>
 		<disk name="mda-c0004a_revb_lindyellow_v2.4.20_mvl31a_boot_2.01" sha1="e13da5f827df852e742b594729ee3f933b387410"/>
 	</game>
@@ -4752,7 +4759,7 @@
 		<description>Photo Play 2000 (v2.01)</description>
 		<year>2000</year>
 		<manufacturer>Funworld</manufacturer>
-		<disk name="pp201" sha1="23e1940d485d19401e7d0ad912ddad2cf2ea10b4"/>
+		<disk name="pp201" sha1="23e1940d485d19401e7d0ad912ddad2cf2ea10b4" status="baddump"/>
 	</game>
 	<game name="photoply2k1it">
 		<description>Photo Play 2001 (Italy)</description>
@@ -5054,7 +5061,7 @@
 		<disk name="powyak96" sha1="ebd0ea18ff9ce300ea1e30d66a739a96acfb0621" status="baddump"/>
 	</game>
 	<game name="powyakex" romof="sys573">
-		<description>Jikkyou Powerful Pro Yakyuu EX (GX802 VER. JAB)</description>
+		<description>Jikkyou Pawafuru Puro Yakyu EX (GX802 VER. JAB)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
 		<disk name="802jab02" sha1="460cc9f0b2514ec1da06b0a1d7b52fe43220d181"/>
@@ -5118,6 +5125,12 @@
 		<manufacturer>Atari</manufacturer>
 		<disk name="primrag2" sha1="bc615068ddf4fd967f770ee01c02f285c052c4c5"/>
 	</game>
+	<game name="przonegd">
+		<description>Prize Zone Gold (USA, v2.01)</description>
+		<year>1997</year>
+		<manufacturer>Lazer-Tron</manufacturer>
+		<disk name="prizezonegold_201" sha1="54eec0d7b8629f8e8a4c9b99184ece0be0e8eb06"/>
+	</game>
 	<game name="psattack">
 		<description>P&apos;s Attack</description>
 		<year>2004</year>
@@ -5154,6 +5167,12 @@
 		<year>2000</year>
 		<manufacturer>Success</manufacturer>
 		<disk name="psyvarrv" sha1="277c4f52502bcd7acc1889840962ec80d56465f3"/>
+	</game>
+	<game name="pullttrig">
+		<description>Pull The Trigger</description>
+		<year>2003</year>
+		<manufacturer>Digital Silkroad</manufacturer>
+		<disk name="pullthetrigger" sha1="438d57499e435e9e4e4a5980e9b1ca0df4f4ccca"/>
 	</game>
 	<game name="pumpit1" romof="pumpitup">
 		<description>Pump It Up: The 1st Dance Floor (ver 0.53.1999.9.31)</description>
