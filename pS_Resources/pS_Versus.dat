@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Versus</name>
-		<description>pS Versus 20240225</description>
+		<description>pS Versus 20240424</description>
 		<category>MAME Arts</category>
-		<version>0.262</version>
-		<date>25/02/2024</date>
+		<version>0.264</version>
+		<date>24/04/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>https://www.progettosnaps.net/</homepage>
@@ -187,6 +187,7 @@
 		<rom name="endless.png" size="11039" crc="7ee27aa9" sha1="d40002074a545bcc68859f848a7d6da237bd2578"/>
 		<rom name="endlessa.png" size="50930" crc="42587111" sha1="dcb09e6c9a254d62a444e4853e01a07150a9ef64"/>
 		<rom name="epo_epp3.png" size="12279" crc="24a6d43a" sha1="772f8c1d19521eae7afefeb5c55649479a57cff4"/>
+		<rom name="epo_tenn.png" size="10167" crc="8654a27b" sha1="8ea62c6acc11c876006e42696bfcc73be9f82c3b"/>
 		<rom name="epo_tfit.png" size="15115" crc="7cb4ee16" sha1="d7854e3498603d3845e6cc626e5678f1f7ec4759"/>
 		<rom name="evosocc.png" size="39884" crc="6689fcc8" sha1="98484ab2c0988e8128f52f356c7c4f70af0e4082"/>
 		<rom name="excthour.png" size="5122" crc="f170dc44" sha1="bdc6192058090dcfe14515282d512fac7db0c1ec"/>
@@ -554,6 +555,7 @@
 		<rom name="nbajamte3a.png" size="40057" crc="d525600d" sha1="2cc9b553e54bf3c19bdb41fed9a9fc8a6fdf6cce"/>
 		<rom name="nbajamte4.png" size="40930" crc="1660e138" sha1="36ef317bf3619b0c5bfc272ee6f7bf1f9cc4ced2"/>
 		<rom name="nbajamten.png" size="40877" crc="69d9aeb9" sha1="4b9421b46708af63e6e94fcfedb03da8eeeb1087"/>
+		<rom name="nbajamtep2.png" size="40068" crc="129dd809" sha1="7fddb11a6eaf5f17654c250ca3250ef0412a7a22"/>
 		<rom name="nbamht.png" size="69921" crc="57692ef9" sha1="496479dfd0686716ce771b5dab81294e6363a7f8"/>
 		<rom name="nbamhtl10.png" size="73171" crc="35e2aa7b" sha1="d3011ba8d69aca62a0fb72812e98537bf1c74893"/>
 		<rom name="nbamhtm10.png" size="72906" crc="4866fba8" sha1="1720c348b5d925033f61aab2c41e4a43137fc676"/>
@@ -1107,6 +1109,7 @@
 		<rom name="tehkanwcd.png" size="10925" crc="53f56df3" sha1="568103f96c1421eb97b75566bbd0c29226af9a29"/>
 		<rom name="tehkanwch.png" size="16178" crc="6ae9f9d1" sha1="ded839e2a4eea4339d0acf2e6aa75afcc74e1530"/>
 		<rom name="tekken.png" size="12708" crc="dbd854ae" sha1="7edd15817c0504181cddfb562b978035d28a8ff4"/>
+		<rom name="tekken2.png" size="46971" crc="17cc5f05" sha1="ef28bbd021141ce0244c9890eb75b59c94b34eb1"/>
 		<rom name="tekken2a.png" size="33048" crc="10de39a9" sha1="1cd0a817dc646cdff404bf7c4bcccae7263a6232"/>
 		<rom name="tekken2b.png" size="33947" crc="20b11ec1" sha1="24bf7979b3466da03f714bee61120b93b5e7fc0c"/>
 		<rom name="tekken2jb.png" size="33173" crc="ca0a078b" sha1="cf2e2719759d84c021573d0bd95a43bb910b7623"/>

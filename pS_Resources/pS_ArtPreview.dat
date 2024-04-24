@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Artwork Preview</name>
-		<description>pS ArtPreview 20240225</description>
+		<description>pS ArtPreview 20240424</description>
 		<category>MAME Arts</category>
-		<version>0.262</version>
-		<date>25/02/2024</date>
+		<version>0.264</version>
+		<date>24/04/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -1593,13 +1593,19 @@
 		<rom name="firebatl.png" size="207107" crc="8bb126bd" sha1="55c8bf604c695852be17bb279ae687745f0f2ce4"/>
 		<rom name="firebeas.png" size="142073" crc="9c3a555f" sha1="78dc629f80b73ff1c2c59a6acee4dfb4906dcfe0"/>
 		<rom name="firefox.png" size="1023738" crc="310503b1" sha1="010306d96df703d490f319c848124e2f0ed490b0"/>
+		<rom name="firehawk.png" size="447942" crc="d73ddcdb" sha1="a9906a1de6d8dea877f7a480bf4981df933af3ce"/>
 		<rom name="fireone.png" size="93969" crc="9704ae80" sha1="6d79ca2b4546183abf0b3036e6fdf995ace5e7b9"/>
 		<rom name="fireshrk.png" size="115206" crc="bb90049a" sha1="323b7339ec4fe9c9809c303db5170ca4aef9db29"/>
 		<rom name="firetrap.png" size="124432" crc="42e557c9" sha1="e2ffc0a4d93bbd51d1e275fad97344aae0e475c5"/>
 		<rom name="firetrapa.png" size="139102" crc="0e8f553a" sha1="4494437f2d83bcd5fcd3054dea85913be188beac"/>
 		<rom name="firetrk.png" size="232165" crc="ad8321c0" sha1="65850c5027f2f95877e43dfe5e67c6e5674e2ff7"/>
+		<rom name="fitegolf.png" size="127509" crc="ba078e0e" sha1="52657f9b71bb888140426edb877777ff0e0d1897"/>
+		<rom name="fitfight.png" size="334157" crc="7154bb40" sha1="2032e3aa222d9f17c2e10056de505bf67912b4a3"/>
 		<rom name="fitter.png" size="63282" crc="87982a01" sha1="a42a2945ee3afc7ab535fd1af2d87c966b40666d"/>
+		<rom name="fiveside.png" size="307609" crc="664ff9eb" sha1="2297c5469e0d5c7249c0c865e7af5f0f06a1b243"/>
+		<rom name="fixeight.png" size="186819" crc="e58cd161" sha1="55fb477713bfad6d4b1c5a17221665daaaed2933"/>
 		<rom name="flagrall.png" size="79827" crc="0a54c6f9" sha1="38cd7912ea7d55687c237f3e9b58892f35fd7936"/>
+		<rom name="flashgal.png" size="80496" crc="4b167263" sha1="a649773ed3036aa75549230864b129bcdbe0fcf4"/>
 		<rom name="flicky.png" size="14712" crc="22f08c19" sha1="72d37d4225cf05dc93615ca1bf45079c8105c25a"/>
 		<rom name="flickyo.png" size="11474" crc="8f785c62" sha1="94f70b6535af591a38868e7062c8b02f512bd782"/>
 		<rom name="flickys1.png" size="15289" crc="facb4508" sha1="e1ac4439d5fc2e0631c4b057b0a779292b4cd4ec"/>
@@ -1610,14 +1616,22 @@
 		<rom name="flyboy.png" size="232667" crc="11e9e80d" sha1="092e7db1b58d799b73778261d426f8a7cf4af4f2"/>
 		<rom name="flyboyb.png" size="271671" crc="cfcdf020" sha1="31da9c5167afb258151577d2570e768d810fe3c7"/>
 		<rom name="flytiger.png" size="265943" crc="f35df993" sha1="31618227b08765671abcef7ff9248ae2edffc633"/>
+		<rom name="fncywld.png" size="153606" crc="10421cc4" sha1="b717d2f151ef7b1dfb7fca55154c7bdd343b8b5a"/>
 		<rom name="foodf.png" size="127898" crc="e1dd4ad3" sha1="d4579e9b504da79eab3fdcaa215c6b43c026cdfe"/>
 		<rom name="foodf2.png" size="128111" crc="63a77016" sha1="86cf4161b1fc787099e342fb525fa5cb4ecc85cc"/>
 		<rom name="foodfc.png" size="128587" crc="e63629af" sha1="56962abc5457404c8eb049358168b2a31f9b6a30"/>
+		<rom name="footchmp.png" size="156241" crc="cf613b33" sha1="c697a3564fc10a986d1ddc467c460224c91dec6d"/>
 		<rom name="forgottn.png" size="87922" crc="e2bded7d" sha1="2e0f074673e8e4af976321eed1e205d9e9871c22"/>
+		<rom name="formatz.png" size="104656" crc="9c169fac" sha1="d6ecda48e03840d01c275fe0b4a8e41236bd83a0"/>
+		<rom name="fort2b.png" size="419594" crc="d9ac058f" sha1="deb7d9bd298860c250987aa117ae62a6efa4b771"/>
 		<rom name="fortecrd.png" size="17914" crc="e57c15d7" sha1="ba859e978b6382bb7d735dd4fd7133d7cc52db6e"/>
 		<rom name="fortune1.png" size="166701" crc="6ba1efc0" sha1="6cf14fdd98809387bca380d2d5b72ee0b1ee7370"/>
+		<rom name="fourtrax.png" size="147505" crc="21df4a59" sha1="3d88050326dd92663ef0c06b5beca9ab18aa3227"/>
+		<rom name="fpoint.png" size="173241" crc="cef9893f" sha1="5764f4de8ebb5e64fcaa9fa73fb61c4df7ad00c2"/>
 		<rom name="fredmem.png" size="205666" crc="e0289cfa" sha1="574f54e22bab5d01ebf91b541e44e685c88d1da3"/>
+		<rom name="freekick.png" size="196773" crc="98d02b30" sha1="ccef319e24f3e490b97cbca72c52c8e9060e25d0"/>
 		<rom name="freeze.png" size="75819" crc="1f167bdf" sha1="f23e0d2921aa5094df4a3a17e22e86de597df454"/>
+		<rom name="freezeat.png" size="357648" crc="8d8a3e5a" sha1="cdc481a62955491595adc532f71bac009ebb78d8"/>
 		<rom name="frenzy.png" size="40455" crc="98943092" sha1="373a26cb98fc0153fce24111767c472ac1be00ee"/>
 		<rom name="friskyt.png" size="79312" crc="f6ac2cdd" sha1="e1db432b4366057907ff8b40d1a9625b51c4d258"/>
 		<rom name="friskyta.png" size="78491" crc="b2ddc699" sha1="63ba25dffc1779fd278966766e5b9933e2c286ce"/>
@@ -1628,11 +1642,18 @@
 		<rom name="frogs.png" size="482229" crc="a100748c" sha1="178768431767c2582800fbecb6af03b901b613df"/>
 		<rom name="frontlin.png" size="118530" crc="c2cefa95" sha1="7655e9b11ce971982da88d9a91affb9e7254aaa7"/>
 		<rom name="frontlina.png" size="24401" crc="36c8b671" sha1="578436807db3a2735198f0bedb1242622a6d08b8"/>
+		<rom name="fround.png" size="182037" crc="bba313c1" sha1="ed70e99db3bb9a8f6b7a7276e05678a833ff81a7"/>
+		<rom name="fruitstb.png" size="114474" crc="8c933ea3" sha1="5d1c52796efaa1d5812913e6acb18e9377824607"/>
 		<rom name="fruitstba.png" size="78434" crc="c36b2c28" sha1="c6a08e87b94388ffb2a9bc1dadc78b8b9ba16821"/>
 		<rom name="fshark.png" size="114213" crc="c13420c9" sha1="dc4dc9209e516551be85b70934507568ac6c9122"/>
+		<rom name="fsoccerb.png" size="144833" crc="30df5583" sha1="d20561f1c474a836db05390580ab59681540e5be"/>
 		<rom name="fspiderb.png" size="53817" crc="4bb70aad" sha1="9abbc8caeec51ac7f55d0397ee5989518d7cdb46"/>
 		<rom name="fstarfrc.png" size="50216" crc="7136447e" sha1="55830ab6c7448a24a7c36260e683718f6bd79e7f"/>
 		<rom name="fts2in1.png" size="222249" crc="ebae582a" sha1="c0f953abceabe0adaf15e9722384a5f0b3515d91"/>
+		<rom name="funkybee.png" size="196219" crc="6705ef07" sha1="9d11ef9c024358432ed61de8b35ffd7c2ae34c80"/>
+		<rom name="funkyfig.png" size="228337" crc="8485e43f" sha1="2fbb1479a36a380b4fb969c298e71d61f1ee22e5"/>
+		<rom name="funkyjet.png" size="211310" crc="29d257b7" sha1="6ecb629616db5a7cfaef075b0a368702538ea918"/>
+		<rom name="funriver.png" size="253108" crc="31c41965" sha1="e8d61ae1f69cc2f280612284255eb56715d86c23"/>
 		<rom name="funybubl.png" size="197046" crc="614b7523" sha1="2be4038cce9a2ea9a548ca259eff5280346fc5e3"/>
 		<rom name="futari15.png" size="400974" crc="d05f6b77" sha1="bfb109b052b14946f0db3d588192e23207bfa861"/>
 		<rom name="futaribl.png" size="384699" crc="8d378b8a" sha1="63b682b528e975d9bbf6dd05277c05e6d8e5455a"/>
@@ -3546,8 +3567,8 @@
 		<rom name="shuuz.png" size="160424" crc="e0170117" sha1="4925ca4755811669eccc796392087031d0165ec1"/>
 		<rom name="sicv.png" size="354035" crc="5b512eaf" sha1="2c31b92bdd4599bd1fc5b7a53388f86a20b367f7"/>
 		<rom name="sidearms.png" size="157197" crc="b80c86ec" sha1="2e33b12130289eabb39de9f11cbd79f0145e45b3"/>
-		<rom name="sidebs.png" size="173035" crc="a8f4e984" sha1="7e066033241d450809eb94268d506e2f9f41908b"/>
 		<rom name="sidebs2.png" size="160450" crc="5b86f1aa" sha1="83bb07356140d5021e185d0d586a32bf90e169e1"/>
+		<rom name="sidebsj.png" size="173035" crc="a8f4e984" sha1="7e066033241d450809eb94268d506e2f9f41908b"/>
 		<rom name="sidetrac.png" size="524486" crc="841ccfd7" sha1="9547a52fa0c9c6a3510c16a58abd546deac825e2"/>
 		<rom name="sidewndr.png" size="514744" crc="3e588125" sha1="6cf937256b89ff53ba6bcfe1327830d560e0091e"/>
 		<rom name="sigma2k.png" size="80829" crc="58855938" sha1="b231b814b9331ec07066574690cdbeddc62ebd76"/>
@@ -4122,9 +4143,13 @@
 		<rom name="wjammers.png" size="145556" crc="c6b5eb7d" sha1="dab86e08847756f96b3fc72cba6b23ff01f10444"/>
 		<rom name="wldangel.png" size="151820" crc="c297c53d" sha1="8ee3691a58390e8c3cdabe952e68cfc46f36ae8c"/>
 		<rom name="wldwitch.png" size="103858" crc="943b89ee" sha1="e08f31f8c748c5baca99635108a1b2c060722533"/>
+		<rom name="wlstar.png" size="232306" crc="98bae0bd" sha1="1dba3df1eea32f1bcb19bbc69558fd378284847c"/>
 		<rom name="wmatch.png" size="59965" crc="9274cdfb" sha1="1c3d94f3168980ba8df18c665985478a08380502"/>
 		<rom name="wmg.png" size="86001" crc="aaa380a5" sha1="6c8c90aeeda0819bad80afa07d5a3cfaec385db1"/>
 		<rom name="wndrmomo.png" size="56755" crc="9076308a" sha1="31420c955531518e1590cb553bfe901bce78b796"/>
+		<rom name="wndrplnt.png" size="280835" crc="c4e168ee" sha1="91e44e67b4cce6151be7a7dba81ebdc3fb240233"/>
+		<rom name="wofa.png" size="294650" crc="43be5471" sha1="38851dee9b75ebee5176f231561e191af7d78157"/>
+		<rom name="wofch.png" size="353118" crc="b4a8cac7" sha1="ef553b729671b2b7f481e8234d66207e0bd2473f"/>
 		<rom name="wondstck.png" size="127478" crc="93e71d60" sha1="e854c268f9c9583bb41466fd5f4d424a7e69ea0c"/>
 		<rom name="woodpeck.png" size="56675" crc="22fba4f4" sha1="eba15979f10ce476cda807e393b84327bb1218d4"/>
 		<rom name="wotw.png" size="632708" crc="891166fc" sha1="b84ea461b6e802b49d348c085b888efc53166cd4"/>

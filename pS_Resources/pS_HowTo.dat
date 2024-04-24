@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - How To</name>
-		<description>pS HowTo 20240225</description>
+		<description>pS HowTo 20240424</description>
 		<category>MAME Arts</category>
-		<version>0.262</version>
-		<date>25/02/2024</date>
+		<version>0.264</version>
+		<date>24/04/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>https://www.progettosnaps.net/</homepage>
@@ -780,6 +780,8 @@
 		<rom name="freezeat3.png" size="24954" crc="5f2eb4f2" sha1="5fc64401f256f69980fe3dad77a0705e2ed1e776"/>
 		<rom name="freezeat4.png" size="17934" crc="08ac28e1" sha1="a9347266bbea15c16e38111e80e670fff33bd5a6"/>
 		<rom name="freezeat5.png" size="18317" crc="164be435" sha1="69befb7abebb16a2d88eb10d26d2278b1f7f8c37"/>
+		<rom name="freezeat6.png" size="23992" crc="77638f3e" sha1="5291ec92b917fc38410d9dd9f9c5bcc5da023e5f"/>
+		<rom name="freezeatjp.png" size="21704" crc="798d242b" sha1="8e299cebb79f843e6e72be4a10ca7811bcd2fb07"/>
 		<rom name="froggert.png" size="4427" crc="43fb0952" sha1="a8b0435580e8da588c69b2b30a47e1d67947e78c"/>
 		<rom name="fsoccer.png" size="6920" crc="8f1ba104" sha1="14698907e238474830c4c084b6e372cba15d38ff"/>
 		<rom name="fsoccerb.png" size="6934" crc="dc37d2b1" sha1="68ac58a5fd014be05292650b64d0afc20e29b510"/>
@@ -850,10 +852,13 @@
 		<rom name="glass.png" size="8125" crc="99e9189e" sha1="afef3dcacbc053506275599a8450d3fc6c4d036e"/>
 		<rom name="glass10.png" size="8189" crc="b6495d9a" sha1="f8c0db0399ccb42eaeb47312b5c33e57b1d71ec4"/>
 		<rom name="glass10a.png" size="8125" crc="f202dc24" sha1="3c55f13745bbfccbf665bb65ec79b17690331103"/>
+		<rom name="glasskr.png" size="8065" crc="a8777218" sha1="b1da071b0e62ac7c3f70b95b631a2bd006d2a045"/>
 		<rom name="glfgreatj.png" size="21735" crc="79486b72" sha1="0a1e10e159b30e020ff5cd0525b89cbcc2653fbf"/>
 		<rom name="glfgreatu.png" size="24419" crc="4350a3c7" sha1="1bfe47419d11248ae5c43f31cf8f8f04871889a5"/>
 		<rom name="gloc.png" size="25558" crc="4805233b" sha1="72609a695371b8209f4c253691f2c0e8c4d42cb4"/>
 		<rom name="glocr360.png" size="10169" crc="9582b3f0" sha1="64bcf6ceb1e8a5641f4db86df647b900bbc9d58b"/>
+		<rom name="glocr360j.png" size="24469" crc="0d39b036" sha1="fe48d859d4c6f60509d8be8701f2c657635aded0"/>
+		<rom name="glocu.png" size="24731" crc="7debfe02" sha1="e898bea452c6909f437c734b55fb976b5efff6a1"/>
 		<rom name="gnome.png" size="213668" crc="929e1e11" sha1="91517196d2799c027fdd145d876438e6ab7cb1be"/>
 		<rom name="gnome_10.png" size="143048" crc="43c42329" sha1="eb25890fbc040104242f0292db08fc416d2b3620"/>
 		<rom name="gnome_13.png" size="141616" crc="761b2102" sha1="2fd5426d54e260cde13966e3662f39783573f7a1"/>
@@ -893,6 +898,7 @@
 		<rom name="grudgei.png" size="3067" crc="9884d382" sha1="ec11871ef5d6d6e96ee74a47ac1189ea046bc659"/>
 		<rom name="grudgep.png" size="2563" crc="2bfe9911" sha1="9530f2c71b00f64acdc41d39977014410c6b9289"/>
 		<rom name="gs4002.png" size="3895" crc="b5f9d709" sha1="5deebc612e69925e19547da85eb8370e691e1e34"/>
+		<rom name="gs4002a.png" size="4019" crc="c3fc5a8c" sha1="55ca290824cc52f5ea0aa47854ae1afc65291968"/>
 		<rom name="gseeker.png" size="38095" crc="f62b9a6b" sha1="8958e8f4db27a0f4bc6afeba7843262069fa3b86"/>
 		<rom name="gseekerj.png" size="40633" crc="9ff52c95" sha1="c30e8e6a1b2f75b0ef6774e7e25cb5da83ef3327"/>
 		<rom name="gseekeru.png" size="44020" crc="2d4fe602" sha1="e89479c6655e74c593fe9ceb65a40b0f3d215542"/>
@@ -933,6 +939,7 @@
 		<rom name="gunlocko.png" size="20592" crc="37872743" sha1="51728b2e828551453aa885c8f025de28e5319140"/>
 		<rom name="gunpey.png" size="37487" crc="e525fab6" sha1="f862cea1614bf7534f89f6aee53097628661a7f0"/>
 		<rom name="gururin.png" size="13300" crc="442f99cf" sha1="3bce9ae9e9e0a95cdd7966bcb6f35d99cf3ab5c6"/>
+		<rom name="gussun.png" size="12519" crc="d02f2e3d" sha1="d92a05e4873f218ad2c06e8418fd61aabb59477a"/>
 		<rom name="guttangt.png" size="2423" crc="caeac954" sha1="c08da63e4246bb82a17e7456e1783244d50a9f0b"/>
 		<rom name="guttangts3.png" size="2521" crc="ad9022d0" sha1="58f542a2029729ff650f59d389a79a64fcf41e62"/>
 		<rom name="guwange.png" size="61642" crc="edbd1589" sha1="a279805e5b99dbd281dd21ad9c438c6c3f97dc61"/>
@@ -998,7 +1005,7 @@
 		<rom name="ichirjbl.png" size="7153" crc="411e3476" sha1="d69adccf05bc4d24ac31fe4055c59f9d865b74b1"/>
 		<rom name="ichirk.png" size="7858" crc="131060e2" sha1="eb5cd6be71c742275a1563478058e246af6f9f94"/>
 		<rom name="inca.png" size="3493" crc="a0dbf272" sha1="431584c92f6f07ad187ca0eff44519a891f9e396"/>
-		<rom name="intrgirl.png" size="3958" crc="6d4a4857" sha1="6ad90e0f67699ce67ddaf073cb9d2ce5acbf283e"/>
+		<rom name="intrgirl.png" size="3620" crc="0adb00b7" sha1="729f029937d400f7184db7737364be0a1e8caaa5"/>
 		<rom name="inttoote.png" size="4810" crc="cbf2e829" sha1="b8065fef25bb0d6c6f6bdb524aeb24badc705ada"/>
 		<rom name="invcarht.png" size="3275" crc="05337431" sha1="3cb10e1c38a59f50fd9a41e2ea2bf1edc62a958a"/>
 		<rom name="invds.png" size="2259" crc="3d0ee1d6" sha1="e55050f528bbc678d3cd921faa70d82ca62a2e24"/>
@@ -1256,6 +1263,7 @@
 		<rom name="mgnumber.png" size="65681" crc="9bff8e7e" sha1="881d4af43cf77b17942c1e0edd7cc71c2ff281d7"/>
 		<rom name="mgprem11.png" size="107953" crc="663fb778" sha1="a6ff2562b3c80c2943580e5fea7ae3c8c935ccca"/>
 		<rom name="miexchng.png" size="33425" crc="af71727e" sha1="63a0a971d2da634b8dee7bf80ead47a860c0c6ba"/>
+		<rom name="minferno.png" size="1444" crc="cce309f7" sha1="a0f6c22c55b9b9c01d8052092529201cae88c4f9"/>
 		<rom name="mj_130.png" size="522" crc="8586391f" sha1="96ca4d8782c88ca3d5377ba807c73fd4ae6a7a99"/>
 		<rom name="mlanding.png" size="5034" crc="4dc45b72" sha1="12552f9a059e62afb0a792d8ccdd691a58622470"/>
 		<rom name="mlandingj.png" size="5488" crc="b4b014c0" sha1="a1627c1dc63231c5fc16af5f53398c5a72a12b0c"/>
@@ -1647,6 +1655,7 @@
 		<rom name="prosport.png" size="3605" crc="df141a05" sha1="7dd7df1dea7907c97ff63bca916da4a1432a5a40"/>
 		<rom name="prosporta.png" size="2898" crc="8aa51b58" sha1="716b63b2c2e2430b351a4090d37d21b9b603895f"/>
 		<rom name="prtytime.png" size="28664" crc="7cbfa63c" sha1="3d7588feb8e7a4c41f674121b646a0951fe0d9bb"/>
+		<rom name="przonegd.png" size="135569" crc="3859a317" sha1="a2763cc9aab140e965289e035e4ba852058bc118"/>
 		<rom name="pspikes.png" size="9691" crc="754b55d2" sha1="df4e2b21aca7f77e98ea7f4f708244afd848dffa"/>
 		<rom name="pspikes2.png" size="5461" crc="2ac0a3b3" sha1="a46f7529952c9fdb0c35c34373f49237865bac2d"/>
 		<rom name="pspikesb.png" size="4845" crc="e835c786" sha1="54e3b824950dea574a6053be5333cddbf2e24d82"/>
@@ -1882,7 +1891,7 @@
 		<rom name="shootbul.png" size="3268" crc="e8d9cb08" sha1="ba2b90e07cc7b41e76f626e334970f02f2f4b873"/>
 		<rom name="shufshot135.png" size="88818" crc="d8538cd4" sha1="58104c624bb1e3fb81a1ea8d28cdc276e95f9b7a"/>
 		<rom name="shufshot138.png" size="82109" crc="53671435" sha1="96eda9f462f8986ddc2d032cd1ce1c47a3327794"/>
-		<rom name="sidebs.png" size="113291" crc="cb8e63a1" sha1="59805feb32a2117448d37ab480e24942ae463b0f"/>
+		<rom name="sidebsj.png" size="113291" crc="cb8e63a1" sha1="59805feb32a2117448d37ab480e24942ae463b0f"/>
 		<rom name="sidetrac.png" size="1923" crc="86d93a3f" sha1="a5e7728fc448368076f166ec1cd4b9e0e33a7449"/>
 		<rom name="silkroad.png" size="46436" crc="fd3315e0" sha1="a2d8fdca69841ecde094cd272452496d8161f559"/>
 		<rom name="skullfng.png" size="46574" crc="7a11a41c" sha1="640a0c599dbaf2183a6864c19ecc100aa9d8abfc"/>
@@ -1955,7 +1964,8 @@
 		<rom name="spookyo.png" size="23532" crc="59c787c3" sha1="d7ca30b0cbe01f5ce2bc4901f092a37347d1f539"/>
 		<rom name="spool99a.png" size="9818" crc="3a14053e" sha1="8dbe4b11c883ff419d868e35c7692668c1a0ac47"/>
 		<rom name="sprglobp.png" size="3965" crc="01dda6ec" sha1="d680b85ba68fdd593db3680f504f168f4094002e"/>
-		<rom name="sprtauth.png" size="3588" crc="95d2e99f" sha1="6e5a7d0c05a00fc99be8e48a1322761a6c2af18f"/>
+		<rom name="sprtauth.png" size="4787" crc="10c43496" sha1="81cf99d2b88f1e8516f93cc6b4c308818e252193"/>
+		<rom name="sprtauth1.png" size="3588" crc="95d2e99f" sha1="6e5a7d0c05a00fc99be8e48a1322761a6c2af18f"/>
 		<rom name="sprtjam.png" size="225559" crc="3190b5dd" sha1="82a29b9176c80508edac6f064df0c448e42bbd10"/>
 		<rom name="spuzbobl.png" size="27215" crc="49ea5d26" sha1="45a4397574073fd50d8f4305a72a0febbbab02d4"/>
 		<rom name="spyhunt.png" size="11191" crc="83dd4943" sha1="f891ca3ad1eaf0e69e36d80645d9d736552d4f44"/>

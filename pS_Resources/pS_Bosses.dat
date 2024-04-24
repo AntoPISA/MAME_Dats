@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Bosses</name>
-		<description>pS Bosses 20240225</description>
+		<description>pS Bosses 20240424</description>
 		<category>MAME Arts</category>
-		<version>0.262</version>
-		<date>25/02/2024</date>
+		<version>0.264</version>
+		<date>24/04/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -935,6 +935,10 @@
 		<rom name="kodu.png" size="32390" crc="2787a86e" sha1="2b5871f9ce44665cc09b9c5e6e6fc4f453f6167e"/>
 		<rom name="konek.png" size="4934" crc="1283d4c1" sha1="f9452cec08ada7149d6c2faf8e9080beca0c7f44"/>
 		<rom name="korokoro.png" size="44840" crc="612560d7" sha1="374e5193e987215b5d9202cf342044b95e864397"/>
+		<rom name="kov.png" size="39222" crc="f219fca7" sha1="966a70aa2ce2af1b1ce1eb3c267f6640991b6222"/>
+		<rom name="kov111.png" size="27741" crc="333d5355" sha1="a707e199f927b455fcb84eeaa6d4c42b6036e577"/>
+		<rom name="kov114.png" size="31355" crc="371254f6" sha1="a3309614b63e4bcad21fedad3a43bb1eb516c1c7"/>
+		<rom name="kov115.png" size="39796" crc="b4b70dd9" sha1="342a0f4b6423c85c4fb52a92cc51a18eb432eb2d"/>
 		<rom name="kov2.png" size="50732" crc="66a8b276" sha1="94a23ed958b99f1f95809f64d851b7968cd2e8f5"/>
 		<rom name="kov2100.png" size="50557" crc="0080816e" sha1="70bbfdfc5e503513c1ba83496874b68a8a446ecd"/>
 		<rom name="kov2102.png" size="58873" crc="9403def7" sha1="01e54062c08f6d63c57ffd66eb7e8be783fd89c2"/>
@@ -1003,7 +1007,8 @@
 		<rom name="lohtb3.png" size="20104" crc="55ce44cb" sha1="9580f1a725b809ada08fa636da1cb56ee27de66b"/>
 		<rom name="lohtj.png" size="37433" crc="b6b06ef8" sha1="d181ec75ba4895f632db1af12d30d664c7b41590"/>
 		<rom name="lomakai.png" size="19056" crc="1da73b1b" sha1="66f46c6e14be1b11a5682530b2bb2d5be1481e38"/>
-		<rom name="lordgun.png" size="24940" crc="2471fb21" sha1="708fa64115025531a11d62be4f5940a29bb78cd8"/>
+		<rom name="lordgun.png" size="41193" crc="30ac3039" sha1="520f248998bc9b7febc891c48376a6c6e5c40aa3"/>
+		<rom name="lordgunu.png" size="24940" crc="2471fb21" sha1="708fa64115025531a11d62be4f5940a29bb78cd8"/>
 		<rom name="lordofk.png" size="23083" crc="bb47b373" sha1="d2b44336fb5436dd6853f973eac0133530a81072"/>
 		<rom name="lostwrld.png" size="20861" crc="91dc3b2e" sha1="6a6adf1ad587b4064d82235a43a283e24ee040bb"/>
 		<rom name="lostwrldo.png" size="19823" crc="c01c90a1" sha1="1aa7c53d335e07ef8e50ff6148970347cc96eddd"/>
