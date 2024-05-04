@@ -3,10 +3,10 @@
 <datafile>
 	<header>
 		<name>MAME CHDs</name>
-		<description>MAME CHDs 0.264</description>
+		<description>MAME CHDs 0.265</description>
 		<category>Emulation</category>
-		<version>0.264</version>
-		<date>27/03/2024</date>
+		<version>0.265</version>
+		<date>25/04/2024</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -1396,6 +1396,12 @@
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
 		<disk name="706jaa02" sha1="10101952fad80b7a10b1299158081bf86ce8cbe6"/>
+	</game>
+	<game name="dawg">
+		<description>Dawg Gone Fun</description>
+		<year>2009</year>
+		<manufacturer>Pace-O-Matic</manufacturer>
+		<disk name="dawg" sha1="0ada23b43c9fb0d2d8393edfb569a7c5c431775f" status="baddump"/>
 	</game>
 	<game name="dcfish">
 		<description>Fish Life Amazon Playful Edition (Japan)</description>
@@ -3138,7 +3144,7 @@
 		<description>Heat of Eleven &apos;98 (ver EAA)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
-		<disk name="heatof11" sha1="5a0a2782cd8676d3f6dfad4e0f805b309e230d8b" status="baddump"/>
+		<disk name="703eaa02" sha1="f8a87eacfdbbd22659f39c7a72e3895f0a7697b7"/>
 	</game>
 	<game name="hellngt" cloneof="evilngt" romof="evilngt">
 		<description>Hell Night (ver EAA)</description>
@@ -3612,7 +3618,7 @@
 		<description>Dead Eye (GV054 UAA01)</description>
 		<year>1996</year>
 		<manufacturer>Konami</manufacturer>
-		<disk name="kdeadeye" sha1="3c737c51717925be724dcb93d30769649029b8ce" status="baddump"/>
+		<disk name="054uaa01" sha1="a05079e4e5024ca66b7f6b81de74695d86c62dd8"/>
 	</game>
 	<game name="keyboard" romof="naomigd">
 		<description>La Keyboard (GDS-0017)</description>
@@ -4265,7 +4271,7 @@
 		<disk name="gds-0008" sha1="91d28f2e304d390f27f3b8a651d53ddd48d6169d"/>
 	</game>
 	<game name="motogp" romof="sys256">
-		<description>Moto GP (MGP1004-NA-B)</description>
+		<description>MotoGP (MGP1004-NA-B)</description>
 		<year>2007</year>
 		<manufacturer>Namco</manufacturer>
 		<disk name="mgp1004-na-hdd0-a" sha1="599940b9fe7fc8e46fd80a32c7e795ae143ee645"/>
@@ -7256,28 +7262,34 @@
 		<manufacturer>Picmatic</manufacturer>
 		<disk name="zortonbr" status="nodump"/>
 	</game>
-	<game name="aa3010">
-		<description>AA3010</description>
+	<game name="chihiro">
+		<description>Chihiro BIOS</description>
 	</game>
-	<game name="bingogal">
-		<description>BINGOGAL</description>
+	<game name="dragchrn">
+		<description>Dragon Chronicles (DC001 Ver. A)</description>
 	</game>
-	<game name="jojoba">
-		<description>JOJOBA</description>
+	<game name="kpython">
+		<description>Konami Python BIOS</description>
 	</game>
-	<game name="kingyo">
-		<description>KINGYO</description>
+	<game name="kpython2">
+		<description>Konami Python 2 BIOS</description>
 	</game>
-	<game name="maski">
-		<description>MASKI</description>
+	<game name="nichidvd">
+		<description>Nichibutsu High Rate DVD BIOS</description>
 	</game>
-	<game name="mkartagp">
-		<description>MKARTAGP</description>
+	<game name="simldv1000">
+		<description>Pioneer LDV-1000 Simulator</description>
 	</game>
-	<game name="tetgiant">
-		<description>TETGIANT</description>
+	<game name="simpr8210">
+		<description>Pioneer PR-8210 Simulator</description>
 	</game>
-	<game name="bbcb">
-		<description>BBCB</description>
+	<game name="sys246">
+		<description>System 246 BIOS</description>
+	</game>
+	<game name="sys256">
+		<description>System 256 BIOS</description>
+	</game>
+	<game name="taitotz">
+		<description>Type Zero BIOS</description>
 	</game>
 </datafile>
