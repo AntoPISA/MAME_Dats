@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official BIOS Roms (dir2dat)</name>
-		<description>pS MAME Official BIOS Roms 20240425</description>
+		<description>pS MAME Official BIOS Roms 20240829</description>
 		<category>MAME System Files</category>
-		<version>0.265</version>
-		<date>25/04/2024</date>
+		<version>0.269</version>
+		<date>29/08/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -371,8 +371,8 @@
 	</machine>
 	<machine name="gts1">
 		<description>gts1</description>
-		<rom name="u4_ce.bin" size="2048" crc="4cd312dd" sha1="31245daa9972ef8652caee69986585bb8239e86e"/>
-		<rom name="u5_cf.bin" size="2048" crc="e0d4b405" sha1="17aadd79c0dcbb336aadd5d203bc6ca866492345"/>
+		<rom name="a1752cf.u5" size="2048" crc="614a3bd9" sha1="febca18fb6f96037ca82e515dd161dfcb0e4c776"/>
+		<rom name="a1753ce.u4" size="2048" crc="4cd312dd" sha1="31245daa9972ef8652caee69986585bb8239e86e"/>
 	</machine>
 	<machine name="hikaru">
 		<description>hikaru</description>
@@ -641,6 +641,7 @@
 	</machine>
 	<machine name="sammymdl">
 		<description>Sammy Medal Game System BIOS</description>
+		<rom name="mt201l04.u012" size="524288" crc="c8c6d25f" sha1="5be39fa72b65f2e455ccc146dbab58d24ab46505"/>
 		<rom name="vm1211l01.u2" size="524288" crc="c3c74dc5" sha1="07352e6dba7514214e778ba39e1ca773e4698858"/>
 	</machine>
 	<machine name="segasp">
