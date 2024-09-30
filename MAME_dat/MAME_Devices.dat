@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Devices (dir2dat)</name>
-		<description>pS MAME Official Devices 20240829</description>
+		<description>pS MAME Official Devices 20240926</description>
 		<category>MAME System Files</category>
-		<version>0.269</version>
-		<date>29/08/2024</date>
+		<version>0.270</version>
+		<date>26/09/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -16,11 +16,11 @@
 		<clrmamepro/>
 	</header>
 	<machine name="22vp931">
-		<description>Philips 22VP931</description>
+		<description>22vp931</description>
 		<rom name="at-6-1_a.bin" size="2048" crc="e11b3c8d" sha1="ea2d7f6a044ed085ce5e09d8b1b1a21c37f0e9b8"/>
 	</machine>
 	<machine name="3c505">
-		<description>3Com EtherLink Plus</description>
+		<description>3c505</description>
 		<rom name="0729-12_a.3h" size="8192" crc="5415fccd" sha1="6a42d7f3acdb3e0213e1037fee1864819ac33991"/>
 		<rom name="0729-62_a.3f" size="8192" crc="4240bd9d" sha1="015d2f7282def85681bcf1a7c5a7f501a16d5a6c"/>
 		<rom name="3000_3c505_010728-00.bin" size="8192" crc="69b77ec6" sha1="7ac36cc6fc90b90ddfc56c45303b514cbe18ae58"/>
@@ -28,7 +28,7 @@
 		<rom name="apollo.9h" size="16" crc="490f283e" sha1="fe4c26b6a41e643f4397990b066fdc04b6f4c5ae"/>
 	</machine>
 	<machine name="3xtwin">
-		<description>Emerald Technology 3XTwin Twinax Emulation Card</description>
+		<description>3xtwin</description>
 		<rom name="370906502.u2" size="8192" crc="d4157bc4" sha1="359428ce0047f9192a44790c8670af956cf6ed70"/>
 	</machine>
 	<machine name="4dparprn">
@@ -36,11 +36,11 @@
 		<rom name="rom.bin" size="2048" crc="189262c9" sha1="d6179664d6860df5ed26fce72f253e28f933b01a"/>
 	</machine>
 	<machine name="a1000kbd_us">
-		<description>Amiga 1000 Keyboard (U.S./Canada)</description>
+		<description>a1000kbd_us</description>
 		<rom name="6500-1" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
 	</machine>
 	<machine name="a1200kbd_rb">
-		<description>Amiga 1200 Keyboard Rev B</description>
+		<description>a1200kbd_rb</description>
 		<rom name="dfa_rev_b_a1200_hc705.bin" size="8192" crc="2a77eec4" sha1="301ec6a69404457d912c89e3fc54095eda9f0e93"/>
 	</machine>
 	<machine name="a1cass">
@@ -49,11 +49,11 @@
 		<rom name="apple-a4.4" size="256" crc="94efa977" sha1="851f3bd6863859a1a6909179a5e5bf744b3d807e"/>
 	</machine>
 	<machine name="a2000kbd_g80_us">
-		<description>Amiga 2000 Keyboard (Cherry - U.S./Canada)</description>
+		<description>a2000kbd_g80_us</description>
 		<rom name="467.u4" size="2048" crc="fb92a773" sha1="e787dc05de227f30a47ac5b9ee7a355c2e9e693b"/>
 	</machine>
 	<machine name="a2000kbd_us">
-		<description>Amiga 2000/3000/4000 Keyboard (U.S./Canada)</description>
+		<description>a2000kbd_us</description>
 		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
 	</machine>
 	<machine name="a2aevm80">
@@ -422,7 +422,7 @@
 		<rom name="t80 1.3" size="2048" crc="f20ff827" sha1="a1c4af1c374184a14872d7253d6f9e470603117f"/>
 	</machine>
 	<machine name="acb2072">
-		<description>ACB-2072 RLL Drive Controller</description>
+		<description>acb2072</description>
 		<rom name="adaptec_acb2072_bios_408100_h_411503-00a.u11" size="8192" crc="5ca303cf" sha1="82800005d532f0dc35cbf9ea6af75a97cb8b2e71"/>
 		<rom name="adaptec_inc_408100k_bios_1987_411503_00b.u11" size="8192" crc="1b1a854e" sha1="3550ae7a94e03e77f40bff91024dfc9aed8f6c2f"/>
 	</machine>
@@ -491,12 +491,12 @@
 		<rom name="teac.rom" size="256" crc="94266928" sha1="5d369bad6cdd6a70b0bb16480eba69640de87a2e"/>
 	</machine>
 	<machine name="aha1542a">
-		<description>AHA-1542A SCSI Controller</description>
+		<description>aha1542a</description>
 		<rom name="b_9700.bin" size="16384" crc="35f546e9" sha1="f559b08f52044f53836021a83f56f628e32216bd"/>
 		<rom name="m_e7bc.bin" size="16384" crc="985b7a31" sha1="bba0d84fa1b67ea71905953c25201fa2020cf465"/>
 	</machine>
 	<machine name="aha1542b">
-		<description>AHA-1542B SCSI Controller</description>
+		<description>aha1542b</description>
 		<rom name="154xp334.bin" size="16384" crc="4911f232" sha1="2e24ce380c6f7694c45484019857cb919e2a9965"/>
 		<rom name="154xp334_v31b.bin" size="16384" crc="c7115ccb" sha1="e552efdbefb3c9b94649204a60eff25f0f5d8025"/>
 		<rom name="adaptec_inc_420412-00_b_bios_bc00_1990.u13" size="16384" crc="bd3f74e7" sha1="c38d82fd50e5439812fa093e0d4f5fd136c63844"/>
@@ -510,14 +510,14 @@
 		<rom name="m_5d98.bin" size="16384" crc="f7d51536" sha1="5ad1bb4bde3e8c30380b05d32ac273c781ab12a8"/>
 	</machine>
 	<machine name="aha1542c">
-		<description>AHA-1542C SCSI Controller</description>
+		<description>aha1542c</description>
 		<rom name="adaptec_inc_534001-00_d_mcode_a3c2_1993.u5" size="32768" crc="220dd5a2" sha1="4fc51c9dd63b45a50edcd56baa706d61decbef38"/>
 		<rom name="adaptec_inc_534201-00_d_bios_144c_1993.u15" size="32768" crc="35178004" sha1="2b38f2e40cd02a1b32966ead7b202b0fca130cb8"/>
 		<rom name="b_91c5.bin" size="32768" crc="076ac252" sha1="d640b980e85d07029d8ce11a52fa26ba0f93c5de"/>
 		<rom name="m_866a.bin" size="32768" crc="ef09053a" sha1="ae7900653357d5f32a2734bc13d9ec63bd805597"/>
 	</machine>
 	<machine name="aha1542cf">
-		<description>AHA-1542CF SCSI Controller</description>
+		<description>aha1542cf</description>
 		<rom name="adaptec_inc_553601-00_c_bios_c38d_1993.u16" size="32768" crc="ab22fc02" sha1="f9f783e0272fc14ba3de32316997f1f6cadc67d0"/>
 		<rom name="adaptec_inc_553601-00_e_bios_7600_1994.u16" size="32768" crc="8f3a2692" sha1="b9dbd49baeec55098195131d0ed1a9bfe8463640"/>
 		<rom name="adaptec_inc_553601-00_g_bios_b402_1995.u16" size="32768" crc="fddd0b83" sha1="aabd227cb338d8812e0bb5c17c08ea06c5aedd36"/>
@@ -526,18 +526,18 @@
 		<rom name="adaptec_inc_553801-00_g_mcode_2cde_1995.u15" size="32768" crc="896873cd" sha1="6edbdd9b0b15ef31ca0741cac31556d2d5266b6e"/>
 	</machine>
 	<machine name="aha1542cp">
-		<description>AHA-1542CP SCSI Controller</description>
+		<description>aha1542cp</description>
 		<rom name="908301-00_f_mcode_17c9.u12" size="32768" crc="04494022" sha1="431dfc26312556ddd24fccc429b2b3e93bac5c2f"/>
 		<rom name="adaptec_inc_908501-00_d_bios_a91e_1995.u7" size="32768" crc="0646c35e" sha1="3a7c2731abd8295438cfa1f2a525be53e9512b1a"/>
 	</machine>
 	<machine name="aha1740">
-		<description>AHA-1740 Fast SCSI Host Adapter</description>
+		<description>aha1740</description>
 		<rom name="b_dc00.bin" size="16384" crc="056d75ec" sha1="8ca143adfc7d20ad5d49f14dedabc8276454bf9e"/>
 		<rom name="enhanced.bin" size="32768" crc="84b3df89" sha1="a718c3ea5443a609b4b20bfe48be18193737ad25"/>
 		<rom name="standard.bin" size="32768" crc="8c15c6a2" sha1="77e15b0244e3a814f53f957270e6474a8a839955"/>
 	</machine>
 	<machine name="aha1742a">
-		<description>AHA-1742A Fast SCSI Host Adapter</description>
+		<description>aha1742a</description>
 		<rom name="adaptec_inc_450113-00_d_mcode_b7d6_1992.u10" size="32768" crc="0a55a555" sha1="ff400f56b33f0ad94e34564d7715a0773b335844"/>
 		<rom name="adaptec_inc_450214-00_a_bios_8800_1991.u47" size="16384" crc="6cf06151" sha1="0da45634b12b33fc886920d065cc8ffb2cf376b8"/>
 		<rom name="adaptec_inc_450216-00_a_bios_dc00_1992.u47" size="16384" crc="056d75ec" sha1="8ca143adfc7d20ad5d49f14dedabc8276454bf9e"/>
@@ -545,7 +545,7 @@
 		<rom name="m_c7b8.bin" size="32768" crc="21282e86" sha1="18cb3960dc47f2c14beb88f9680c1f66c4652b04"/>
 	</machine>
 	<machine name="aha2940au">
-		<description>Adaptec AHA-2940AU SCSI controller</description>
+		<description>aha2940au</description>
 		<rom name="589247-00.u3" size="32768" crc="de00492b" sha1="a6015bcd51e51015a5710d7ac1929e28bf033db4"/>
 		<rom name="93c46.u1" size="128" crc="c82242ce" sha1="93311b8c02e87492a40c1df6ea4eb60628bb2825"/>
 	</machine>
@@ -605,11 +605,11 @@
 		<rom name="3515245-05.u1" size="1024" crc="f8133738" sha1="46953d6b511ee37ca0aa2316af39c875b22ee2a7"/>
 	</machine>
 	<machine name="ap2000">
-		<description>Epson ActionPrinter 2000</description>
+		<description>ap2000</description>
 		<rom name="ap2k.ic3c" size="32768" crc="ee7294b7" sha1="219ffa6ff661ce95d5772c9fc1967093718f04e9"/>
 	</machine>
 	<machine name="aplcd150">
-		<description>AppleCD 150</description>
+		<description>aplcd150</description>
 		<rom name="apl_1.8g_1289.ic303" size="32768" crc="54ebf81f" sha1="e4cd656e2a433229543e874a29f1567758170fc6"/>
 	</machine>
 	<machine name="aprissi">
@@ -843,7 +843,7 @@
 		<rom name="acorn_0280,022-01_philips_8051ah-2.bin" size="4096" crc="95095d38" sha1="b9fd0000d77987f76fd48348fe2c6988818f40cb"/>
 	</machine>
 	<machine name="asc88">
-		<description>ASC-88 SCSI Adapter</description>
+		<description>asc88</description>
 		<rom name="asc88_rev._4.0n_14-nov-91.u14" size="8192" crc="8657d1bf" sha1="49c44aafbb3f28478e4b5eeaa208b147fdf253b9"/>
 	</machine>
 	<machine name="ascsasi">
@@ -851,13 +851,13 @@
 		<rom name="asc_sasi.bin" size="2048" crc="aac84077" sha1="e94b39875e29daff199d120c4e79dfb1adbedab2"/>
 	</machine>
 	<machine name="at_keybc">
-		<description>PC/AT Keyboard Controller</description>
+		<description>at_keybc</description>
 		<rom name="1503033.bin" size="2048" crc="5a81c0d2" sha1="0100f8789fb4de74706ae7f9473a12ec2b9bd729"/>
 		<rom name="keyboard_1.5.bin" size="2048" crc="f86ba0f7" sha1="1ad475451db35a76d929824c035d582279fbe3a3"/>
 		<rom name="yan25d05.bin" size="2048" crc="70c798f1" sha1="ae9a79c7184a17331b70a50035ff63c757df094c"/>
 	</machine>
 	<machine name="atari1050">
-		<description>Atari 1050 Dual Density Disk Drive</description>
+		<description>atari1050</description>
 		<rom name="1050-revh.rom" size="4096" crc="6d9d589b" sha1="fe0b289adf746d00dd3af780f363377f75eb584f"/>
 		<rom name="1050-revj.rom" size="4096" crc="91ba303d" sha1="82f103e9026359587eb4ee2239e36d9cb291e3c9"/>
 		<rom name="1050-revk.rom" size="4096" crc="3abe7ef4" sha1="f281b64a4d8bd91127776b631313785c6886d963"/>
@@ -865,7 +865,7 @@
 		<rom name="wstr5.bin" size="4096" crc="dffb4b47" sha1="2e735fe1973000219dc81c463ca0d3fd90690d4a"/>
 	</machine>
 	<machine name="atari810">
-		<description>Atari 810 Disk Drive</description>
+		<description>atari810</description>
 		<rom name="810rom_b.bin" size="2048" crc="19227d33" sha1="075b1948a5736599d5501f0125c745b1b9fcced4"/>
 		<rom name="8229_c68168_c011299c-03.bin" size="2048" crc="0896f03d" sha1="b676b2a46ac3903a6729b92650c5faf0111ba8b6"/>
 	</machine>
@@ -882,7 +882,7 @@
 		<rom name="mask208.bin" size="8192" crc="52396183" sha1="b119000f93251894a352ecf675ee42f2e5c347bd"/>
 	</machine>
 	<machine name="banshee_x86">
-		<description>Voodoo Banshee PCI (x86)</description>
+		<description>banshee_x86</description>
 		<rom name="a-trend.vbi" size="32768" crc="117a9e6f" sha1="48b0bc08d142be3aa0d937ee56afd299b3b20386"/>
 		<rom name="gainward.bin" size="65536" crc="a53df538" sha1="679f94619eac11c59effb89fe44bb74f589e3050"/>
 	</machine>
@@ -1358,7 +1358,7 @@
 		<rom name="epr-12648.ic25" size="131072" crc="a34737e5" sha1="76feec0091afb92af8ced99af61495f28f981120"/>
 	</machine>
 	<machine name="bluechip">
-		<description>Amtech Blue Chip Disk Drive</description>
+		<description>bluechip</description>
 		<rom name="amtech_bluechip_rom.bin" size="16384" crc="3733ccea" sha1="c11317cb9370e722950579a610a3effda313aeee"/>
 		<rom name="bluechip_fd_stockrom.bin" size="16384" crc="d4293619" sha1="18b3dc4c2f919ac8f288d0199e29993a0b53a9bd"/>
 	</machine>
@@ -1375,21 +1375,21 @@
 		<rom name="mp1805.rom" size="2048" crc="b532d8d9" sha1="6f1160356d5bf64b5926b1fdb60db414edf65f22"/>
 	</machine>
 	<machine name="bsmt2000">
-		<description>BSMT2000</description>
+		<description>bsmt2000</description>
 		<rom name="bsmt2000.bin" size="8192" crc="c2a265af" sha1="6ec9eb038fb8eb842c5482aebe1d149daf49f2e6"/>
 	</machine>
 	<machine name="bt542b">
-		<description>BusTek BT-542B SCSI Host Adapter</description>
+		<description>bt542b</description>
 		<rom name="1000005-2.21_bustek.u2" size="32768" crc="c2c66653" sha1="054ba1ea71b2aaab31ab9dd5aca955d861f5333b"/>
 		<rom name="1000006-2.41_bustek.u15" size="16384" crc="5eb00d0f" sha1="74a8bbae1c2b42f0c605b0ac98660f1e16ac5c4e"/>
 	</machine>
 	<machine name="bt542bh">
-		<description>BusLogic BT-542B SCSI Host Adapter (Rev. H)</description>
+		<description>bt542bh</description>
 		<rom name="5000005-3.35_buslogic.u2" size="32768" crc="181966c3" sha1="b9b327d50cd13f3e5b5b53892b18f233aff065b7"/>
 		<rom name="5000006-4.70_buslogic.u15" size="32768" crc="f5a5e116" sha1="d7b73015532838dc694edf24308ebbab6f4dd5bb"/>
 	</machine>
 	<machine name="bt545s">
-		<description>BusLogic BT-545S Fast SCSI Host Adapter</description>
+		<description>bt545s</description>
 		<rom name="u15_27128_5002026-4.50.bin" size="16384" crc="1bd3247b" sha1="9d46a99f4b3057e94ef422f387218de2c4553c1a"/>
 		<rom name="u2_27256_5002005-3.31.bin" size="32768" crc="20473714" sha1="797a8dba182049949f7a5c14d8bef4b4e908305b"/>
 	</machine>
@@ -1403,19 +1403,19 @@
 		<rom name="bw2_525-1124-01.bin" size="2048" crc="e37a3314" sha1="78761bd2369cb0c58ef1344c697a47d3a659d4bc"/>
 	</machine>
 	<machine name="c1526">
-		<description>Commodore 1526/MPS-802 Dot Matrix Printer</description>
+		<description>c1526</description>
 		<rom name="325341-05.u8d" size="8192" crc="3ef63c59" sha1="a71be83a476d2777d33dddb0103c036a047975ba"/>
 		<rom name="325341-08.u8d" size="8192" crc="38f85b4a" sha1="25880091979b21fdaf713b53ef2f1cb8063a3505"/>
 		<rom name="cbm 1526 vers. 1.0 skand.gen.u8d" size="8192" crc="21051f69" sha1="7e622fc39985ebe9333d2b546b3c85fd6ab17a53"/>
 		<rom name="mps802 grafikrom ii v60.12.u8d" size="8192" crc="9f5e6b18" sha1="8b7f620a8f85e250b142d72b812a67fd0e292d68"/>
 	</machine>
 	<machine name="c1540">
-		<description>Commodore 1540 Disk Drive</description>
+		<description>c1540</description>
 		<rom name="325302-01.uab4" size="8192" crc="29ae9752" sha1="8e0547430135ba462525c224e76356bd3d430f11"/>
 		<rom name="325303-01.uab5" size="8192" crc="10b39158" sha1="56dfe79b26f50af4e83fd9604857756d196516b9"/>
 	</machine>
 	<machine name="c1541">
-		<description>Commodore 1541 Disk Drive</description>
+		<description>c1541</description>
 		<rom name="325302-01.uab4" size="8192" crc="29ae9752" sha1="8e0547430135ba462525c224e76356bd3d430f11"/>
 		<rom name="901229-01.uab5" size="8192" crc="9a48d3f0" sha1="7a1054c6156b51c25410caec0f609efb079d3a77"/>
 		<rom name="901229-02.uab5" size="8192" crc="b29bab75" sha1="91321142e226168b1139c30c83896933f317d000"/>
@@ -1429,27 +1429,27 @@
 		<rom name="ttd34.uab5" size="32768" crc="518d34a1" sha1="4d6ffdce6ab122e9627b0a839861687bcd4e03ec"/>
 	</machine>
 	<machine name="c1541c">
-		<description>Commodore 1541C Disk Drive</description>
+		<description>c1541c</description>
 		<rom name="251968-01.ua2" size="16384" crc="1b3ca08d" sha1="8e893932de8cce244117fcea4c46b7c39c6a7765"/>
 		<rom name="251968-02.ua2" size="16384" crc="2d862d20" sha1="38a7a489c7bbc8661cf63476bf1eb07b38b1c704"/>
 	</machine>
 	<machine name="c1541dd">
-		<description>Commodore 1541 Dolphin-DOS 2.0 Disk Drive</description>
+		<description>c1541dd</description>
 		<rom name="dd20.bin" size="32768" crc="94c7fe19" sha1="e4d5b9ad6b719dd988276214aa4536d3525d313c"/>
 	</machine>
 	<machine name="c1541ii">
-		<description>Commodore 1541-II Disk Drive</description>
+		<description>c1541ii</description>
 		<rom name="251968-03.u4" size="16384" crc="899fa3c5" sha1="d3b78c3dbac55f5199f33f3fe0036439811f7fb3"/>
 		<rom name="355640-01.u4" size="16384" crc="57224cde" sha1="ab16f56989b27d89babe5f89c5a8cb3da71a82f0"/>
 		<rom name="jiffydos 1541-ii.u4" size="16384" crc="dd409902" sha1="b1a5b826304d3df2a27d7163c6a81a532e040d32"/>
 	</machine>
 	<machine name="c1541pd">
-		<description>Commodore 1541 Professional-DOS v1 Disk Drive</description>
+		<description>c1541pd</description>
 		<rom name="325302-01.uab4" size="8192" crc="29ae9752" sha1="8e0547430135ba462525c224e76356bd3d430f11"/>
 		<rom name="professionaldos-v1-floppy-expansion-eprom-27128.bin" size="16384" crc="c9abf072" sha1="2b26adc1f4192b6ca1514754f73c929087b24426"/>
 	</machine>
 	<machine name="c1541pdc">
-		<description>Commodore 1541 ProLogic-DOS Classic Disk Drive</description>
+		<description>c1541pdc</description>
 		<rom name="325302-01.uab4" size="8192" crc="29ae9752" sha1="8e0547430135ba462525c224e76356bd3d430f11"/>
 		<rom name="901229-06 aa.uab5" size="8192" crc="3a235039" sha1="c7f94f4f51d6de4cdc21ecbb7e57bb209f0530c0"/>
 		<rom name="kernal.bin" size="16384" crc="79032ed5" sha1="0ca4d5ef41c7e3d18d8945476d1481573af3e27c"/>
@@ -1460,58 +1460,58 @@
 		<rom name="318001-01.u4" size="16384" crc="6d16d024" sha1="fae3c788ad9a6cc2dbdfbcf6c0264b2ca921d55e"/>
 	</machine>
 	<machine name="c1563">
-		<description>Commodore 1563 3.5&quot; Disk Drive</description>
+		<description>c1563</description>
 		<rom name="1563-rom.bin" size="32768" crc="1d184687" sha1="2c5111a9c15be7b7955f6c8775fea25ec10c0ca0"/>
 	</machine>
 	<machine name="c1570">
-		<description>Commodore 1570 Disk Drive</description>
+		<description>c1570</description>
 		<rom name="315090-01.u2" size="32768" crc="5a0c7937" sha1="5fc06dc82ff6840f183bd43a4d9b8a16956b2f56"/>
 	</machine>
 	<machine name="c1571">
-		<description>Commodore 1571 Disk Drive</description>
+		<description>c1571</description>
 		<rom name="310654-03.u2" size="32768" crc="3889b8b8" sha1="e649ef4419d65829d2afd65e07d31f3ce147d6eb"/>
 		<rom name="310654-05.u2" size="32768" crc="5755bae3" sha1="f1be619c106641a685f6609e4d43d6fc9eac1e70"/>
 		<rom name="jiffydos 1571.u2" size="32768" crc="fe6cac6d" sha1="d4b79b60cf1eaa399d0932200eb7811e00455249"/>
 	</machine>
 	<machine name="c1571cr">
-		<description>Commodore 1571CR Disk Drive</description>
+		<description>c1571cr</description>
 		<rom name="318047-01.u102" size="32768" crc="f24efcc4" sha1="14ee7a0fb7e1c59c51fbf781f944387037daa3ee"/>
 		<rom name="jiffydos 1571d.u102" size="32768" crc="9cba146d" sha1="823b178561302b403e6bfd8dd741d757efef3958"/>
 	</machine>
 	<machine name="c1581">
-		<description>Commodore 1581 3.5&quot; Disk Drive</description>
+		<description>c1581</description>
 		<rom name="318045-01.u2" size="32768" crc="113af078" sha1="3fc088349ab83e8f5948b7670c866a3c954e6164"/>
 		<rom name="318045-02.u2" size="32768" crc="a9011b84" sha1="01228eae6f066bd9b7b2b6a7fa3f667e41dad393"/>
 		<rom name="beta.u2" size="32768" crc="ecc223cd" sha1="a331d0d46ead1f0275b4ca594f87c6694d9d9594"/>
 		<rom name="jiffydos 1581.u2" size="32768" crc="98873d0f" sha1="65bbf2be7bcd5bdcbff609d6c66471ffb9d04bfe"/>
 	</machine>
 	<machine name="c2031">
-		<description>Commodore 2031</description>
+		<description>c2031</description>
 		<rom name="901484-03.u5f" size="8192" crc="ee4b893b" sha1="54d608f7f07860f24186749f21c96724dd48bc50"/>
 		<rom name="901484-05.u5h" size="8192" crc="6a629054" sha1="ec6b75ecfdd4744e5d57979ef6af990444c11ae1"/>
 	</machine>
 	<machine name="c2040">
-		<description>Commodore 2040</description>
+		<description>c2040</description>
 		<rom name="901466-01.uk3" size="1024" crc="9d1e25ce" sha1="d539858f839f96393f218307df7394362a84a26a"/>
 		<rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 	</machine>
 	<machine name="c2040_fdc">
-		<description>Commodore 2040 FDC</description>
+		<description>c2040_fdc</description>
 		<rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 	</machine>
 	<machine name="c3040">
-		<description>Commodore 3040</description>
+		<description>c3040</description>
 		<rom name="901466-02.uk3" size="1024" crc="9d1e25ce" sha1="d539858f839f96393f218307df7394362a84a26a"/>
 		<rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 		<rom name="901468-06.ul1" size="4096" crc="25b5eed5" sha1="4d9658f2e6ff3276e5c6e224611a66ce44b16fc7"/>
 		<rom name="901468-07.uh1" size="4096" crc="9b09ae83" sha1="6a51c7954938439ca8342fc295bda050c06e1791"/>
 	</machine>
 	<machine name="c4023">
-		<description>Commodore 4023 Printer</description>
+		<description>c4023</description>
 		<rom name="325360-03.u8d" size="8192" crc="c6bb0977" sha1="7a8c43d2e205f58d83709c04bc7795602a892ddd"/>
 	</machine>
 	<machine name="c4040">
-		<description>Commodore 4040</description>
+		<description>c4040</description>
 		<rom name="901466-04.uk3" size="1024" crc="0ab338dc" sha1="6645fa40b81be1ff7d1384e9b52df06a26ab0bfb"/>
 		<rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 		<rom name="901468-11.uj1" size="4096" crc="b7157458" sha1="8415f3159dea73161e0cef7960afa6c76953b6f8"/>
@@ -1539,7 +1539,7 @@
 		<rom name="2 cr" size="4096" crc="76a9ac6d" sha1="87e7335e626bdb73498b46c28c7baab72df38d1f"/>
 	</machine>
 	<machine name="c64_nl10">
-		<description>Star NL-10 C64 Interface Cartridge</description>
+		<description>c64_nl10</description>
 		<rom name="nlc 1.5.ic2" size="32768" crc="748840b6" sha1="5b3b9e8a93d5d77a49160b3d0c2489ba7be99c9a"/>
 	</machine>
 	<machine name="c64_supercpu">
@@ -1555,7 +1555,7 @@
 		<rom name="c68297 vid pak cg.u18" size="2048" crc="9edf5e58" sha1="4b244e6d94a7653a2e52c351589f0b469119fb04"/>
 	</machine>
 	<machine name="c8050">
-		<description>Commodore 8050</description>
+		<description>c8050</description>
 		<rom name="901482-03.ul1" size="8192" crc="09a609b9" sha1="166d8bfaaa9c4767f9b17ad63fc7ae77c199a64e"/>
 		<rom name="901482-04.uh1" size="8192" crc="1bcf9df9" sha1="217f4a8b348658bb365f4a1de21ecbaa6402b1c0"/>
 		<rom name="901482-06.ul1" size="8192" crc="3cbd2756" sha1="7f5fbed0cddb95138dd99b8fe84fddab900e3650"/>
@@ -1570,11 +1570,11 @@
 		<rom name="901888-01.uh1" size="8192" crc="de9b6132" sha1="2e6c2d7ca934e5c550ad14bd5e9e7749686b7af4"/>
 	</machine>
 	<machine name="c8050fdc">
-		<description>Commodore 8050 FDC</description>
+		<description>c8050fdc</description>
 		<rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 	</machine>
 	<machine name="c8250">
-		<description>Commodore 8250</description>
+		<description>c8250</description>
 		<rom name="901482-03.ul1" size="8192" crc="09a609b9" sha1="166d8bfaaa9c4767f9b17ad63fc7ae77c199a64e"/>
 		<rom name="901482-04.uh1" size="8192" crc="1bcf9df9" sha1="217f4a8b348658bb365f4a1de21ecbaa6402b1c0"/>
 		<rom name="901482-06.ul1" size="8192" crc="3cbd2756" sha1="7f5fbed0cddb95138dd99b8fe84fddab900e3650"/>
@@ -1589,7 +1589,7 @@
 		<rom name="901888-01.uh1" size="8192" crc="de9b6132" sha1="2e6c2d7ca934e5c550ad14bd5e9e7749686b7af4"/>
 	</machine>
 	<machine name="c8250lp">
-		<description>Commodore 8250LP</description>
+		<description>c8250lp</description>
 		<rom name="251474-01b" size="1024" crc="9e9a9f90" sha1="39498d7369a31ea7527b5044071acf35a84ea2ac"/>
 		<rom name="dos-2.7b.bin" size="16384" crc="96e3b209" sha1="9849300be9f2e0143c2ed2564d26a4ba3b27526c"/>
 		<rom name="fdc-2.7b.bin" size="2048" crc="13a24482" sha1="1cfa52d2ed245a95e6369b46a36c6c7aa3929931"/>
@@ -1598,7 +1598,7 @@
 		<rom name="speeddos-fdc-f800.bin" size="2048" crc="253e760f" sha1="3f7892a9bab84b633f45686bbbbe66bc2948c8e5"/>
 	</machine>
 	<machine name="c8280">
-		<description>Commodore 8280</description>
+		<description>c8280</description>
 		<rom name="300541-001.3c" size="2048" crc="cb07b2db" sha1="a1f9c5a7bd3798f5a97dc0b465c3bf5e3513e148"/>
 		<rom name="300541-revb.3c" size="2048" crc="403e632c" sha1="a0994c80025240d2b49ffd209dbfe8a4de3975b0"/>
 		<rom name="300542-001.10c" size="8192" crc="3c6eee1e" sha1="0726f6ab4de4fc9c18707fe87780ffd9f5ed72ab"/>
@@ -1636,16 +1636,16 @@
 		<rom name="pet_hsg-ud12 on 8032 9000,2532.bin" size="4096" crc="d651bf72" sha1="d3d68228a5a8ec73fb39be860c00edb0d21bd1a9"/>
 	</machine>
 	<machine name="cbm_interpod">
-		<description>Oxford Computer Systems Interpod</description>
+		<description>cbm_interpod</description>
 		<rom name="1.4.u2" size="2048" crc="c5b71982" sha1="614d677b7c6273f6b84fa61affaf91cfdaeed6a6"/>
 		<rom name="1.6.u2" size="2048" crc="67bb0436" sha1="7659c45b73f577233f7657c4da9141dcfe8b6d97"/>
 	</machine>
 	<machine name="cbm_serbox">
-		<description>Serial Box</description>
+		<description>cbm_serbox</description>
 		<rom name="serialbx.bin" size="4096" crc="d0e0218c" sha1="9b922f1e9f9b71e771361c52d4df2aa5695488a5"/>
 	</machine>
 	<machine name="cchip">
-		<description>Taito TC0030CMD (C-Chip)</description>
+		<description>cchip</description>
 		<rom name="cchip_upd78c11.bin" size="4096" crc="43021521" sha1="73bc4b46cd2d6805ec926f39f22af00e38a3f822"/>
 	</machine>
 	<machine name="ccs7710">
@@ -1677,43 +1677,43 @@
 		<rom name="cd90-640.rom" size="1984" crc="5114c0a5" sha1="5c72566c22d8160ef0c75959e1863a1309bbbe49"/>
 	</machine>
 	<machine name="cdd2000">
-		<description>Philips CDD2000 CD-R</description>
+		<description>cdd2000</description>
 		<rom name="cdd2_125.bin" size="262144" crc="17f1c04a" sha1="882be4ed5daf70a686929fffcb66fa95b431bbe2"/>
 		<rom name="cdd2_126.bin" size="262144" crc="8a9f0f85" sha1="efc6c696b12af7d29fcc37c641bc5879517d6fd8"/>
 	</machine>
 	<machine name="cdr4210">
-		<description>Creative Technology Blaster CD-R 4210</description>
+		<description>cdr4210</description>
 		<rom name="cr113.bin" size="262144" crc="fd2faff9" sha1="6aafdedf12240ad347427287c0db289f90bd064d"/>
 	</machine>
 	<machine name="cdrn820s">
-		<description>Caravelle CDR-N820s</description>
+		<description>cdrn820s</description>
 		<rom name="cdr_120.bin" size="131072" crc="8cac6862" sha1="e498dcd9006d257ced6cd0b50c76608e9a8023f7"/>
 	</machine>
 	<machine name="cdu415">
-		<description>Sony CDU415 CD-R</description>
+		<description>cdu415</description>
 		<rom name="cdu415.bin" size="65536" crc="9873b898" sha1="72d0b192efc32f7c8985dd96df3e346c57a236e7"/>
 	</machine>
 	<machine name="cdu561_25">
-		<description>Sony CDU561-25</description>
+		<description>cdu561_25</description>
 		<rom name="apl1.8f_d905.ic302" size="131072" crc="3ea92e48" sha1="2f409fd59c5f09d22e00b39f4b0b57e16316090d"/>
 		<rom name="apl1.9a_83fb.ic302" size="131072" crc="0efc50eb" sha1="8bfd6ebc0863017914808e8282a5914cdc828f56"/>
 		<rom name="apl_1.7w.bin" size="131072" crc="12ba5843" sha1="70aa550693020431ccbd374ff85e4de8809431df"/>
 	</machine>
 	<machine name="cdu75s">
-		<description>Sony/Apple CDU75S CD-R</description>
+		<description>cdu75s</description>
 		<rom name="cdu-75s_1.0j_95.03.14_apple.bin" size="65536" crc="f4ad4d48" sha1="7d674116304bc6948fe4a52d9859b4eb5d40b914"/>
 		<rom name="ic201.bin" size="65536" crc="8781ad49" sha1="abdfb2561f2420a7f462e3bd5c8bd4d6eb0a9dfb"/>
 	</machine>
 	<machine name="centennial_sl01m_15_11194">
-		<description>Centennial 1 MB SRAM</description>
+		<description>centennial_sl01m_15_11194</description>
 		<rom name="eeprom.bin" size="8192" crc="2caacff3" sha1="8141459dccf63a64f4bdf4e2171b0884f2cc390d"/>
 	</machine>
 	<machine name="centennial_sl02m_15_11194">
-		<description>Centennial 2 MB SRAM</description>
+		<description>centennial_sl02m_15_11194</description>
 		<rom name="eeprom.bin" size="8192" crc="0d094f14" sha1="a542a7395b306b9e34fd0be42d895b7b30013390"/>
 	</machine>
 	<machine name="centennial_sl04m_15_11194">
-		<description>Centennial 4 MB SRAM</description>
+		<description>centennial_sl04m_15_11194</description>
 		<rom name="eeprom.bin" size="8192" crc="ce38fc21" sha1="155edb39e554cb78547d3b9934a049ee46edc424"/>
 	</machine>
 	<machine name="cffa1">
@@ -1721,36 +1721,36 @@
 		<rom name="cffaromv1.1.bin" size="8160" crc="bf6b55ad" sha1="6a290be18485a06f243a3561c4e01be5aafa4bfe"/>
 	</machine>
 	<machine name="cfp1080s">
-		<description>Conner CFP1080S</description>
+		<description>cfp1080s</description>
 		<rom name="conner_cfp1080s.bin" size="131072" crc="3254150a" sha1="605be871e75ff775554fc8ce4e09bc2e35a6db09"/>
 	</machine>
 	<machine name="cga">
-		<description>IBM Color/Graphics Monitor Adapter</description>
+		<description>cga</description>
 		<rom name="5788005.u33" size="8192" crc="0bf56d70" sha1="c2a8b10808bf51a3c123ba3eb1e9dd608231916f"/>
 	</machine>
 	<machine name="cga_iskr1030m">
-		<description>Iskra-1030M CGA</description>
+		<description>cga_iskr1030m</description>
 		<rom name="iskra-1030m.chr" size="8192" crc="50b162eb" sha1="5bd7cb1705a69bd16115a4c9ed1c2748a5c8ad51"/>
 	</machine>
 	<machine name="cga_iskr1031">
-		<description>Iskra-1031 CGA</description>
+		<description>cga_iskr1031</description>
 		<rom name="iskra-1031_font.bin" size="8192" crc="f4d62e80" sha1="ad7e81a0c9abc224671422bbcf6f6262da92b510"/>
 	</machine>
 	<machine name="cga_m24">
-		<description>Olivetti M24 CGA</description>
+		<description>cga_m24</description>
 		<rom name="m24 graphics board go380 258 pqbq.bin" size="4096" crc="04495786" sha1="ea34ee527c5632d049ec11a7ae0fde9e6dee545f"/>
 		<rom name="m24 graphics board go380 gi 9433-0088.bin" size="4096" crc="5725e660" sha1="634c2d165d401883a955e144a0abfa2078a47013"/>
 	</machine>
 	<machine name="cga_mc1502">
-		<description>MC1502 CGA</description>
+		<description>cga_mc1502</description>
 		<rom name="symgen.rom" size="8192" crc="b2747a52" sha1="6766d275467672436e91ac2997ac6b77700eba1e"/>
 	</machine>
 	<machine name="cga_poisk2">
-		<description>ISA8_CGA_POISK2</description>
+		<description>cga_poisk2</description>
 		<rom name="p2_ecga.rf4" size="8192" crc="d537f665" sha1="d70f085b9b0cbd53df7c3122fbe7592998ba8fed"/>
 	</machine>
 	<machine name="cga_superimpose">
-		<description>ISA8_CGA_SUPERIMPOSE</description>
+		<description>cga_superimpose</description>
 		<rom name="5788005.u33" size="8192" crc="0bf56d70" sha1="c2a8b10808bf51a3c123ba3eb1e9dd608231916f"/>
 	</machine>
 	<machine name="cgenie_fdc">
@@ -1765,7 +1765,7 @@
 		<rom name="sunw,501-1415.bin" size="2048" crc="d1eb6f4d" sha1="9bef98b2784b6e70167337bb27cd07952b348b5a"/>
 	</machine>
 	<machine name="chessmachine">
-		<description>Tasc ChessMachine</description>
+		<description>chessmachine</description>
 		<rom name="74s288.1" size="32" crc="284114e2" sha1="df4037536d505d7240bb1d70dc58f59a34ab77b4"/>
 		<rom name="74s288.2" size="32" crc="9f239c75" sha1="aafaf30dac90f36b01f9ee89903649fc4ea0480d"/>
 		<rom name="74s288.3" size="32" crc="0455360b" sha1="f1486142330f2c39a4d6c479646030d31443d1c8"/>
@@ -1784,7 +1784,7 @@
 		<rom name="v00_kbd.bin" size="4096" crc="f9d24190" sha1="c4e9ef8188afb18de373f2a537ca9b7a315bfb76"/>
 	</machine>
 	<machine name="clgd542x">
-		<description>Generic Cirrus Logic CD542 Graphics Card (BIOS v1.20)</description>
+		<description>clgd542x</description>
 		<rom name="5429.vbi" size="32768" crc="a2d81c5b" sha1="8060cd4b49052572bb5ec929f8ad21e2addce237"/>
 		<rom name="boca_gd5428_1.30b.bin" size="32768" crc="6cc8f318" sha1="2cac4bf2537626cff41aa81ad4627ec6c40dcf99"/>
 		<rom name="cl-gd5422_bios_rom_ver_1.00d.bin" size="32768" crc="c63b1eb8" sha1="01782fdef5c22fa6418bc881ee9781bf273c389b"/>
@@ -1802,20 +1802,20 @@
 		<rom name="techyosd-isa-bios-v1.2.u8" size="32768" crc="6adf7e71" sha1="2b07d964cc7c2c0aa560625b7c12f38d4537d652"/>
 	</machine>
 	<machine name="clgd5446_pci">
-		<description>Cirrus Logic GD5446 card</description>
+		<description>clgd5446_pci</description>
 		<rom name="cl-gd5446_pci_vga_bios_version_1.25.u2" size="32768" crc="7a859659" sha1="ff667218261969c48082ec12aa91088a01b0cb2a"/>
 		<rom name="cl-gd5446_pci_vga_bios_version_1.31.u2" size="32768" crc="61f8cac7" sha1="6e54aadfe10dfa5c7e417a054e9a64499a99083c"/>
 	</machine>
 	<machine name="clgd5465_laguna">
-		<description>Cirrus Logic GD-5465 &quot;Laguna 3D&quot;</description>
+		<description>clgd5465_laguna</description>
 		<rom name="chaintech.vbi" size="32768" crc="8afa1afb" sha1="251a953d442dc34738f80371cfbd0fd9f1097635"/>
 	</machine>
 	<machine name="cmdhd">
-		<description>CMD HD</description>
+		<description>cmdhd</description>
 		<rom name="cmd_hd_bootrom_v280.bin" size="32768" crc="da68435d" sha1="defd8bc04a52904b8a3560f11c82126619513a10"/>
 	</machine>
 	<machine name="cmdrc2">
-		<description>Commander C-II Disk Drive</description>
+		<description>cmdrc2</description>
 		<rom name="commander_c-ii_8k_rom1.bin" size="8192" crc="cb19daf3" sha1="9fab414451af54d0bed9d4c9fd5fab1b8720c269"/>
 		<rom name="commander_c-ii_8k_rom2.bin" size="8192" crc="ed85a390" sha1="eecf92fb8cc20a6c86e30f897d09d427509dd3d3"/>
 	</machine>
@@ -1929,7 +1929,7 @@
 		<rom name="d.o.s. v1.2.f4" size="8192" crc="cf4ecd2e" sha1="290e19bdc89e3c8059e63d5ae3cca4daa194e1fe"/>
 	</machine>
 	<machine name="comx_pl80">
-		<description>COMX PL-80</description>
+		<description>comx_pl80</description>
 		<rom name="it.em.ou.bin" size="8192" crc="1b4a3198" sha1="138ff6666a31c2d18cd63e609dd94d9cd1529931"/>
 		<rom name="pl80.pt6" size="3584" crc="ae059e5b" sha1="f25812606b0082d32eb603d0a702a2187089d332"/>
 		<rom name="tiny.bin" size="1024" crc="940ec1ed" sha1="ad83a3b57e2f0fbaa1e40644cd999b3f239635e8"/>
@@ -1944,8 +1944,12 @@
 		<description>comx_thm</description>
 		<rom name="thermal.bin" size="4096" crc="41a72ba8" sha1="3a8760c78bd8c7bec2dbf26657b930c9a6814803"/>
 	</machine>
+	<machine name="concept_kbd">
+		<description>concept_kbd</description>
+		<rom name="112.z1" size="1024" crc="b3d37000" sha1="fc58d77919739b66b85eb52b084af9716cd7f260"/>
+	</machine>
 	<machine name="cp2024">
-		<description>Conner Peripherals CP-2024 hard disk</description>
+		<description>cp2024</description>
 		<rom name="27c256.bin" size="32768" crc="574b5904" sha1="79bccc33835ba01fc4eb33fb4d412a691e7790c2"/>
 	</machine>
 	<machine name="cp31">
@@ -2045,7 +2049,7 @@
 		<rom name="cq90-028.rom" size="1984" crc="ca4dba3d" sha1="949c1f777c892da62c242215d79757d61e71e62b"/>
 	</machine>
 	<machine name="crd254sh">
-		<description>Sanyo CRD-254SH CD-ROM</description>
+		<description>crd254sh</description>
 		<rom name="crd-254s_1.02.bin" size="65536" crc="539df5f0" sha1="edb1f7d96f351ef70b8ade03449fb63e0e0a652b"/>
 	</machine>
 	<machine name="crvfdc01">
@@ -2057,7 +2061,7 @@
 		<rom name="bfc00.bin" size="32" crc="98d1a765" sha1="d27c3c6921e1bb3778a3f78decf106275bc0add1"/>
 	</machine>
 	<machine name="csd1">
-		<description>CSD-1 Disk Drive</description>
+		<description>csd1</description>
 		<rom name="ic14" size="8192" crc="adb6980e" sha1="13051587dfe43b04ce1bf354b89438ddf6d8d76b"/>
 		<rom name="ic15" size="8192" crc="b0cecfa1" sha1="c67e79a7ffefc9e9eafc238cb6ff6bb718f19afb"/>
 	</machine>
@@ -2084,7 +2088,7 @@
 		<rom name="8lc_prototype.bin" size="32768" crc="6f47e0f2" sha1="a8552315d9127aee92416aa22893551851f42e5c"/>
 	</machine>
 	<machine name="cw7501">
-		<description>Panasonic CW-7501 CD-R</description>
+		<description>cw7501</description>
 		<rom name="mk200.bin" size="262144" crc="12efd802" sha1="2986ee5eedbe0cb662a9a7e7fa4e6ca7ccd8c539"/>
 	</machine>
 	<machine name="d2fdc">
@@ -2092,7 +2096,7 @@
 		<rom name="341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4"/>
 	</machine>
 	<machine name="d9060">
-		<description>Commodore D9060</description>
+		<description>d9060</description>
 		<rom name="300515-001.4c" size="2048" crc="99e096f7" sha1="a3d1deb27bf5918b62b89c27fa3e488eb8f717a4"/>
 		<rom name="300515-002.4c" size="2048" crc="49adf4fb" sha1="59dafbd4855083074ba8dc96a04d4daa5b76e0d6"/>
 		<rom name="300516-002.7c" size="8192" crc="2d758a14" sha1="c959cc9dde84fc3d64e95e58a0a096a26d8107fd"/>
@@ -2107,7 +2111,7 @@
 		<rom name="44_5.9b" size="1024" crc="85743073" sha1="95a48835bc2bd1c79fb1a63778de3807fb731ac6"/>
 	</machine>
 	<machine name="d9090">
-		<description>Commodore D9090</description>
+		<description>d9090</description>
 		<rom name="300515-001.4c" size="2048" crc="99e096f7" sha1="a3d1deb27bf5918b62b89c27fa3e488eb8f717a4"/>
 		<rom name="300515-002.4c" size="2048" crc="49adf4fb" sha1="59dafbd4855083074ba8dc96a04d4daa5b76e0d6"/>
 		<rom name="300516-002.7c" size="8192" crc="2d758a14" sha1="c959cc9dde84fc3d64e95e58a0a096a26d8107fd"/>
@@ -2134,31 +2138,31 @@
 		<rom name="xr560b0.ic7" size="524288" crc="d9cad989" sha1="d17e4ac0fc0e50a06d9d505bc87af155356436eb"/>
 	</machine>
 	<machine name="dc320b">
-		<description>Tekram DC-320B SCSI Controller</description>
+		<description>dc320b</description>
 		<rom name="rev_1.07.u2" size="32768" crc="591bd878" sha1="0418c34a75ee4c8e6ddff2c184c6a263abb0a39d"/>
 		<rom name="rev_1.07.u28" size="32768" crc="2f796842" sha1="2a98ff5205ba9ab166aedf354f0cb2b5d59ff0ee"/>
 		<rom name="rev_1.07.u3" size="32768" crc="f3a7a363" sha1="f4e3c8d7d12c394247c7ac82dedb895c88b9a907"/>
 	</machine>
 	<machine name="dc320e">
-		<description>Tekram DC-320E SCSI Controller</description>
+		<description>dc320e</description>
 		<rom name="rev_1.11.u1" size="32768" crc="07070fba" sha1="b0847e442cae61da658e9041ad9fe3737e67a0ce"/>
 		<rom name="rev_1.11.u19" size="32768" crc="45cdc4f6" sha1="aa782220066685dc34db39a943f28127c02e34d4"/>
 		<rom name="rev_1.11.u2" size="32768" crc="51cf5044" sha1="5aee942b0169b4913cb000fca1a247a0e1da75d4"/>
 	</machine>
 	<machine name="dc820">
-		<description>Tekram DC-820 SCSI Cache Controller</description>
+		<description>dc820</description>
 		<rom name="rev_1.07.u46" size="32768" crc="2f796842" sha1="2a98ff5205ba9ab166aedf354f0cb2b5d59ff0ee"/>
 		<rom name="rev_1.07.u5" size="32768" crc="2b7bad09" sha1="20871220b82994c6ac41357c33d5e18ab1c2f425"/>
 		<rom name="rev_1.07.u6" size="32768" crc="62e65545" sha1="523a3e3258f07a7f9445620294934bcbe62cd912"/>
 	</machine>
 	<machine name="dc820b">
-		<description>Tekram DC-820B SCSI Cache Controller</description>
+		<description>dc820b</description>
 		<rom name="rev_1.11.u11" size="32768" crc="07070fba" sha1="b0847e442cae61da658e9041ad9fe3737e67a0ce"/>
 		<rom name="rev_1.11.u12" size="32768" crc="51cf5044" sha1="5aee942b0169b4913cb000fca1a247a0e1da75d4"/>
 		<rom name="rev_1.12.u14" size="32768" crc="1f0fc01b" sha1="bd789dc0fb66f7fcfdc4dfd9f3d4b7c6ed32cc6a"/>
 	</machine>
 	<machine name="dectalk_isa">
-		<description>DECTalk-PC</description>
+		<description>dectalk_isa</description>
 		<rom name="pc_boot_hxh.am27c64.d8.e27" size="8192" crc="1fe7fe40" sha1="6e89c237f01aa22e0d21ff4d6fdf8137c6ace374"/>
 		<rom name="pc_boot_hxl.am27c64.d6.e26" size="8192" crc="7492f1e3" sha1="fe6946a227f01c94f2b99220320a616445c96ee0"/>
 		<rom name="spc_034c__2-1-92.tms320p15nl.d3.bin" size="8192" crc="d8b1201e" sha1="4b873a5e882205fcac79a27562054b5c4d1a117c"/>
@@ -2177,19 +2181,19 @@
 		<rom name="mc114_rev-a.bin" size="4096" crc="950542e3" sha1="d1e87c8ccd17e4e2249fe89f13111ec881b7ebae"/>
 	</machine>
 	<machine name="dio98543">
-		<description>HP98543 medium-res color DIO video card</description>
+		<description>dio98543</description>
 		<rom name="1818-3907.bin" size="8192" crc="5e2bf02a" sha1="9ba9391cf39624ef8027ce42c84e100344b2a2b8"/>
 	</machine>
 	<machine name="dio98544">
-		<description>HP98544 high-res monochrome DIO video card</description>
+		<description>dio98544</description>
 		<rom name="98544_1818-1999.bin" size="8192" crc="8c7d6480" sha1="d2bcfd39452c38bc652df39f84c7041cfdf6bd51"/>
 	</machine>
 	<machine name="dio98550">
-		<description>HP98550A high-res color DIO video card</description>
+		<description>dio98550</description>
 		<rom name="98550a.bin" size="32768" crc="9d639233" sha1="d6b23a34850f24525ca5fb36de3deb91196d2dc5"/>
 	</machine>
 	<machine name="dio98603a">
-		<description>HP98603A BASIC 4.0 ROM card</description>
+		<description>dio98603a</description>
 		<rom name="98603_80001.bin" size="32768" crc="5d8c9657" sha1="f5d89e7f8a61072f362532d1b5e05f5b5e3f42b3"/>
 		<rom name="98603_80002.bin" size="32768" crc="7e4e0ca8" sha1="3230c7825f5058a1e1a06776da6064b049417b50"/>
 		<rom name="98603_80003.bin" size="32768" crc="b5da5f81" sha1="69578ee197531e9474a0edb4c2f068b20118d25f"/>
@@ -2208,7 +2212,7 @@
 		<rom name="98603_80016.bin" size="32768" crc="d887acab" sha1="a9cbbaa5f053f374d6cbda614b727df35a61ace1"/>
 	</machine>
 	<machine name="dio98603b">
-		<description>HP98603 BASIC ROM card</description>
+		<description>dio98603b</description>
 		<rom name="u1.bin" size="65536" crc="ba50d9e0" sha1="064e3cbbc7ee01f279a289684616ae3b8744a7c9"/>
 		<rom name="u10.bin" size="65536" crc="84f90a1d" sha1="9358aa7fa83ed9617d318936cbab79002853b0ce"/>
 		<rom name="u11.bin" size="65536" crc="e486e0f3" sha1="66b5dd6c2c277156ad6c3ee5b99c34e243d897be"/>
@@ -2227,7 +2231,7 @@
 		<rom name="341-0009.bin" size="256" crc="d34eb2ff" sha1="afd060e6f35faf3bb0146fa889fc787adf56330a"/>
 	</machine>
 	<machine name="dm_clgd5430">
-		<description>Diamond Speedstar Pro SE ISA Graphics Card (BIOS v1.00)</description>
+		<description>dm_clgd5430</description>
 		<rom name="speedstar_pro_se_v1.00.u2" size="65536" crc="ed79572c" sha1="15131e2b2db7a34971083a250e4a21ab7bd64a9d"/>
 	</machine>
 	<machine name="dmv_k220">
@@ -2279,7 +2283,7 @@
 		<rom name="sprites.rom" size="8192" crc="b8f54eaf" sha1="f1288653a12ba9a17ef721d0f4867160c3ca341f"/>
 	</machine>
 	<machine name="ds1001">
-		<description>Yamaha DS1001 / Konami 053982</description>
+		<description>ds1001</description>
 		<rom name="ds1001_instruments.bin" size="144" crc="9d699efc" sha1="7adf1d77bab12c50ebfa9921774f9aea1e74dd7b"/>
 	</machine>
 	<machine name="dsd4432">
@@ -2295,11 +2299,11 @@
 		<rom name="4333923_kb_8048.bin" size="1024" crc="7850e3a0" sha1="3183d93e34707f4b24f4f71db658c3cf317a631a"/>
 	</machine>
 	<machine name="ec1840_0002">
-		<description>EC1840.0002 (MDA)</description>
+		<description>ec1840_0002</description>
 		<rom name="5788005.u33" size="8192" crc="0bf56d70" sha1="c2a8b10808bf51a3c123ba3eb1e9dd608231916f"/>
 	</machine>
 	<machine name="ec1841_0002">
-		<description>EC 1841.0002 (CGA)</description>
+		<description>ec1841_0002</description>
 		<rom name="5788005.u33" size="8192" crc="0bf56d70" sha1="c2a8b10808bf51a3c123ba3eb1e9dd608231916f"/>
 	</machine>
 	<machine name="ecb_grip21">
@@ -2325,7 +2329,7 @@
 		<rom name="charset_ef9365.rom" size="480" crc="8d3053be" sha1="0f9a64d217a0f7f04ee0720d49c5b680ad0ae359"/>
 	</machine>
 	<machine name="ega">
-		<description>IBM Enhanced Graphics Adapter</description>
+		<description>ega</description>
 		<rom name="143-02.bin" size="8192" crc="c8c18ebb" sha1="fd6dac76d43ab8b582e70f1d5cc931d679036fb9"/>
 		<rom name="143-03.bin" size="8192" crc="d0706345" sha1="e04bb40d944426a4ae2e3a614d3f4953d7132ede"/>
 		<rom name="6277356.u44" size="16384" crc="dc146448" sha1="dc0794499b3e499c5777b3aa39554bbf0f2cc19b"/>
@@ -2430,7 +2434,7 @@
 		<rom name="sp0256a-al2.bin" size="2048" crc="b504ac15" sha1="e60fcb5fa16ff3f3b69d36c7a6e955744d3feafc"/>
 	</machine>
 	<machine name="enh2000">
-		<description>Enhancer 2000 Disk Drive</description>
+		<description>enh2000</description>
 		<rom name="enhancer 2000 comtel 2.6.bin" size="16384" crc="20353d3b" sha1="473dd2e06037799e6f562c443165d9b2b9f4a368"/>
 	</machine>
 	<machine name="enp10">
@@ -2462,12 +2466,12 @@
 		<rom name="mcg_21_1035.ic10" size="4096" crc="cde2417e" sha1="8a2e1a894fda3e92fd760b8523121ba171281206"/>
 	</machine>
 	<machine name="et4000">
-		<description>SVGA Tseng ET4000AX Graphics Card</description>
+		<description>et4000</description>
 		<rom name="cvet4kax.bin" size="32768" crc="a3ab496c" sha1="8644b4178cd0e841139bfa06c9da493dd74d22e8"/>
 		<rom name="et4000.bin" size="32768" crc="f1e817a8" sha1="945d405b0fb4b8f26830d495881f8587d90e5ef9"/>
 	</machine>
 	<machine name="et4000_kasan16">
-		<description>SVGA Kasan Hangulmadang-16 ET4000AX Graphics Card</description>
+		<description>et4000_kasan16</description>
 		<rom name="et4000_kasan16.bin" size="32768" crc="57bcc3ad" sha1="a55e7eb27ef2b4f118ea2028835e88988f07cf57"/>
 		<rom name="kasan_ksc5601.rom" size="524288" crc="a547c5ec" sha1="1358feb2ccaca040a176bedc7c256ec481351b41"/>
 	</machine>
@@ -2476,16 +2480,16 @@
 		<rom name="zc86115p-mc6805u2.bin" size="4096" crc="d90c1fab" sha1="ddb7060abddee7294723833c303090de35c1e79c"/>
 	</machine>
 	<machine name="ev346">
-		<description>Everex EV-346 disk controller</description>
+		<description>ev346</description>
 		<rom name="everex_ev346_vers_3.2.bin" size="8192" crc="49b10ca7" sha1="ef31b62f5ac38db7cacfc4d30e203a4cc1414913"/>
 	</machine>
 	<machine name="ex1280">
-		<description>Vectrix EX1280</description>
+		<description>ex1280</description>
 		<rom name="hbv10hi.bin" size="16384" crc="b87caa0c" sha1="88c19cf36cb98e59810dad2a2f1f0e6c884cd7eb"/>
 		<rom name="hbv10lo.bin" size="16384" crc="4de578b8" sha1="cd7bc7859dd44f978adca7506afb0a1a73cb1121"/>
 	</machine>
 	<machine name="ex800">
-		<description>Epson EX-800</description>
+		<description>ex800</description>
 		<rom name="w8_pe9.9b" size="32768" crc="6dd41e9b" sha1="8e30ead727b9317154742efd881206e9f9bbf95b"/>
 	</machine>
 	<machine name="executive10_102_kbd">
@@ -2511,29 +2515,29 @@
 		<rom name="rp2c33a-01a.bin" size="8192" crc="5e607dcf" sha1="57fe1bdee955bb48d357e463ccbf129496930b62"/>
 	</machine>
 	<machine name="fd148">
-		<description>Rapid Access FD-148 Disk Drive</description>
+		<description>fd148</description>
 		<rom name="rapid access fd148.bin" size="16384" crc="3733ccea" sha1="c11317cb9370e722950579a610a3effda313aeee"/>
 	</machine>
 	<machine name="fd2000">
-		<description>FD-2000 Disk Drive</description>
+		<description>fd2000</description>
 		<rom name="cmd fd-2000 dos v1.34 fd-350026.bin" size="32768" crc="859a5edc" sha1="487fa82a7977e5208d5088f3580f34e8c89560d1"/>
 		<rom name="cmd fd-2000 dos v1.40 cs 33cc6f.bin" size="32768" crc="4e6ca15c" sha1="0c61ba58269baf2b8aadf3bbc4648c7a5a6d2128"/>
 	</machine>
 	<machine name="fd4000">
-		<description>FD-4000 Disk Drive</description>
+		<description>fd4000</description>
 		<rom name="cmd fd-4000 dos v1.34 fd-350022.bin" size="32768" crc="1f4820c1" sha1="7a2966662e7840fd9377549727ccba62e4349c6f"/>
 		<rom name="cmd fd-4000 dos v1.40 fd-350022.bin" size="32768" crc="b563ef10" sha1="d936d76fd8b50ce4c65f885703653d7c1bd7d3c9"/>
 	</machine>
 	<machine name="fdc344">
-		<description>Ably-Tech FDC-344</description>
+		<description>fdc344</description>
 		<rom name="fdc344_42.u2" size="16384" crc="3e02567c" sha1="b639d92435ecf2a6d4aefd3576a6955028f6bde7"/>
 	</machine>
 	<machine name="fdcmag">
-		<description>Magitronic Multi Floppy Controller Card</description>
+		<description>fdcmag</description>
 		<rom name="magitronic_40.u2" size="8192" crc="41a5371b" sha1="9c4443169a0b104395404274470e62b8b65efcf4"/>
 	</machine>
 	<machine name="filetto_cga">
-		<description>ISA8_CGA_FILETTO</description>
+		<description>filetto_cga</description>
 		<rom name="u67.bin" size="8192" crc="09710122" sha1="de84bdd9245df287bbd3bb808f0c3531d13a3545"/>
 	</machine>
 	<machine name="freedom220_kbd">
@@ -2541,11 +2545,11 @@
 		<rom name="121.bin" size="2048" crc="ee491f39" sha1="477eb9f3d3abc89cfc9b5f9a924a794ca48750c4"/>
 	</machine>
 	<machine name="fsd1">
-		<description>FSD-1 Disk Drive</description>
+		<description>fsd1</description>
 		<rom name="fsd1.bin" size="16384" crc="57224cde" sha1="ab16f56989b27d89babe5f89c5a8cb3da71a82f0"/>
 	</machine>
 	<machine name="fsd2">
-		<description>FSD-2 Disk Drive</description>
+		<description>fsd2</description>
 		<rom name="fsd2a.u3" size="16384" crc="edf18265" sha1="47a7c4bdcc20ecc5e59d694b151f493229becaea"/>
 		<rom name="fsd2b.u3" size="16384" crc="b39e4600" sha1="991132fcc6e70e9a428062ae76055a150f2f7ac6"/>
 		<rom name="jiffydos v5.0.u3" size="16384" crc="46c3302c" sha1="e3623658cb7af30c9d3bce2ba3b6ad5ee89ac1b8"/>
@@ -2556,19 +2560,19 @@
 		<rom name="nm27c256q_635-0945 index 05.bin" size="32768" crc="223714f4" sha1="009fc939f86bf70d288523446e292095d9706ab2"/>
 	</machine>
 	<machine name="geforce256">
-		<description>nVidia GeForce 256 SDR (NV10)</description>
+		<description>geforce256</description>
 		<rom name="nv10.bin" size="44032" crc="3525816d" sha1="6fef6773dd1b18148890f8c3d45f988e5e06b50d"/>
 	</machine>
 	<machine name="geforce256ddr">
-		<description>nVidia GeForce 256 DDR (NV10)</description>
+		<description>geforce256ddr</description>
 		<rom name="creative.rom" size="38912" crc="fd956e0b" sha1="aaac61e99193221280c5913cf3ca503e5b5ea408"/>
 	</machine>
 	<machine name="gfxultra">
-		<description>ATi Graphics Ultra Card</description>
+		<description>gfxultra</description>
 		<rom name="113-11504-002.bin" size="65536" crc="f498b36a" sha1="117cfc972ce4645538ba7262222d8ff38bc2c58c"/>
 	</machine>
 	<machine name="gfxultrap">
-		<description>ATi Graphics Ultra Pro Card</description>
+		<description>gfxultrap</description>
 		<rom name="gfxultrapro.bin" size="32768" crc="4e5effd7" sha1="84ad3abf7653e4734bf39f5d5c8b88e74527e8ce"/>
 		<rom name="gfxultrapro_vlb.bin" size="32768" crc="5018f71e" sha1="61321dfecf1bcdd8043836fabbe41786dbf3001b"/>
 	</machine>
@@ -2577,13 +2581,13 @@
 		<rom name="ay-3-8800-1.bin" size="512" crc="d9f11d2b" sha1="60ef45d51d102cd3af78787008d9aed848137bee"/>
 	</machine>
 	<machine name="gunsense">
-		<description>Sega 838-13143 Gun Sense Board</description>
+		<description>gunsense</description>
 		<rom name="epr-20006a.ic2" size="65536" crc="45f310dc" sha1="b7cf40a1671dc351b607d8d6bba0d51ea128eb75"/>
 		<rom name="epr-21262.ic2" size="65536" crc="c9adf9b6" sha1="fc2a331430ef2f009f653b242220599c824cd1d2"/>
 		<rom name="tg12.ic2" size="65536" crc="2c9600b1" sha1="91813a43851c48d400fde41b1198dabf55bade2d"/>
 	</machine>
 	<machine name="hardbox">
-		<description>SSE HardBox</description>
+		<description>hardbox</description>
 		<rom name="289.ic3" size="4096" crc="c39e058f" sha1="45b390d7125a40f84c7b411a479218baff079746"/>
 		<rom name="290.ic4" size="4096" crc="62f51405" sha1="fdfa0d7b7e8d0182f2df0aa8163c790506104dcf"/>
 		<rom name="295-2.3.ic3" size="4096" crc="a3eb5fc2" sha1="39941b45b0696db928615c41c7eae18d951d9ada"/>
@@ -2596,16 +2600,16 @@
 		<rom name="hcpu30.27c256.dat" size="32768" crc="d24da66e" sha1="5431b0559b168a995e725b35e1465a0b8ee8aa72"/>
 	</machine>
 	<machine name="hd44780">
-		<description>Hitachi HD44780 LCD Controller</description>
+		<description>hd44780</description>
 		<rom name="hd44780_a00.bin" size="4096" crc="e459877c" sha1="65cf075a988cdcbb316b9afdd0529b374a1a65ec"/>
 	</machine>
 	<machine name="hd44780u">
-		<description>Hitachi HD44780U LCD Controller</description>
+		<description>hd44780u</description>
 		<rom name="hd44780u_a00.bin" size="4096" crc="8494cb6b" sha1="2d4f9cf5ff81f20d2f4e4640f5b8a697a3781eef"/>
 		<rom name="hd44780u_a02.bin" size="4096" crc="6d522b42" sha1="db8f59573c81933cfc9d3232d419406f0896e60b"/>
 	</machine>
 	<machine name="hd61830">
-		<description>Hitachi HD61830B LCD Controller</description>
+		<description>hd61830</description>
 		<rom name="hd61830.bin" size="1472" crc="06a934da" sha1="bf3f074db5dc92e6f530cb18d6c013563099a87d"/>
 	</machine>
 	<machine name="he191_3425">
@@ -2701,11 +2705,11 @@
 		<rom name="1820-2438.bin" size="2048" crc="3a2f42a2" sha1="0f6a70eb8981a8a87c7514ce8226ff1af3ac1668"/>
 	</machine>
 	<machine name="hp9122c">
-		<description>HP9122C Dual High density disk drive</description>
+		<description>hp9122c</description>
 		<rom name="09122-15515.bin" size="16384" crc="d385e488" sha1="93b2015037d76cc68b6252df03d6f184104605b9"/>
 	</machine>
 	<machine name="hp9133">
-		<description>HP9133 Floppy/Fixed disk drive</description>
+		<description>hp9133</description>
 		<rom name="09133-89110_9133.bin" size="16384" crc="d7ff6b3e" sha1="aeeae063fa43c3b163ba5c176f31df6ec1b73d0d"/>
 		<rom name="09133-89210_9133.bin" size="16384" crc="08f825e2" sha1="61766b1f64473c17f01cbc97bd817f6076827d6a"/>
 	</machine>
@@ -2726,16 +2730,16 @@
 		<rom name="1818-2687.bin" size="2048" crc="cce64de8" sha1="1dfabd32f4bdef85f88a514bd1978b80b25a6e80"/>
 	</machine>
 	<machine name="hp9895">
-		<description>HP9895</description>
+		<description>hp9895</description>
 		<rom name="1818-1391a.bin" size="8192" crc="b50dbfb5" sha1="96edf9af78be75fbad2a0245b8af43958ba32752"/>
 	</machine>
 	<machine name="hpblp">
-		<description>HP Basic Language Coprocessor</description>
+		<description>hpblp</description>
 		<rom name="1818-4576.bin" size="32768" crc="8beb6bdb" sha1="9b620c577aea54841608d0d46f7e8077eef607c6"/>
 		<rom name="1818-4577.bin" size="32768" crc="e8a5c071" sha1="9e13c0ef2aed6565c33795780b7102f2647cf2a0"/>
 	</machine>
 	<machine name="human_interface">
-		<description>HP human interface card</description>
+		<description>human_interface</description>
 		<rom name="1820-4784.bin" size="2048" crc="e929044a" sha1="90849a10bdb8c6e38e73ce027c9c0ad8b3956b1b"/>
 	</machine>
 	<machine name="i8244">
@@ -2743,11 +2747,11 @@
 		<rom name="charset_i8244.bin" size="512" crc="b46a3f31" sha1="415382715455b47b69401b3d60bd8f0036dd7fef"/>
 	</machine>
 	<machine name="ibm_mfc">
-		<description>IBM PC Music Feature Card</description>
+		<description>ibm_mfc</description>
 		<rom name="xc215 c 0.bin" size="32768" crc="28c58a4f" sha1="e7edf28d20e6c146e3144526c89cd6beea64663b"/>
 	</machine>
 	<machine name="ibm_vga">
-		<description>IBM VGA Graphics Card</description>
+		<description>ibm_vga</description>
 		<rom name="ibm-vga.bin" size="32768" crc="74e3fadb" sha1="dce6491424f1726203776dfae9a967a98a4ba7b5"/>
 	</machine>
 	<machine name="idpart_video">
@@ -2756,13 +2760,13 @@
 		<rom name="video.e4" size="2048" crc="5fe52e0d" sha1="c6067e3fdda84e673aaa74ae6561b535157a8281"/>
 	</machine>
 	<machine name="ie15_device">
-		<description>IE15</description>
+		<description>ie15_device</description>
 		<rom name="chargen-15ie.bin" size="2048" crc="ed16bf6b" sha1="6af9fb75f5375943d5c0ce9ed408e0fb4621b17e"/>
 		<rom name="dump1.bin" size="4096" crc="14b82284" sha1="5ac4159fbb1c3b81445605e26cd97a713ae12b5f"/>
 		<rom name="dump5.bin" size="4096" crc="01f2e065" sha1="2b72dc0594e38a528400cd25aed0c47e0c432895"/>
 	</machine>
 	<machine name="ie15kbd">
-		<description>15WWW-97-006 Keyboard</description>
+		<description>ie15kbd</description>
 		<rom name="15bbb.rt5" size="512" crc="e6a4226e" sha1="0ee46f5be1b01fa917a6d483bb51463106ae441f"/>
 	</machine>
 	<machine name="imds2ioc">
@@ -2792,7 +2796,7 @@
 		<rom name="c 7.63.u62" size="4096" crc="822aac68" sha1="ab3ad7726ab20dd1041cb754d266e2f191fa3ec3"/>
 	</machine>
 	<machine name="indusgt">
-		<description>Indus GT Disk Drive</description>
+		<description>indusgt</description>
 		<rom name="u17 v1.1.u17" size="8192" crc="575ad906" sha1="f48837b024add84f888acd83a9cf9eb7d2379172"/>
 		<rom name="u18 v1.1.u18" size="8192" crc="e401ce56" sha1="9878053bdff7a036f57285c2c4974459df2602d8"/>
 		<rom name="u19 v1.1.u19" size="8192" crc="8f83e7a5" sha1="5bceaad520dac9d0527723b3b454e8ec99748e5b"/>
@@ -2829,41 +2833,41 @@
 		<rom name="iq151_video64font.rom" size="2048" crc="cb6f43c0" sha1="4b2c1d41838d569228f61568c1a16a8d68b3dadf"/>
 	</machine>
 	<machine name="isa_aga">
-		<description>AGA</description>
+		<description>isa_aga</description>
 		<rom name="50146 char d1.0 euro.u16" size="8192" crc="1305dcf5" sha1="aca488a16ae4ff05a1f4d14574379ff49cd48343"/>
 	</machine>
 	<machine name="isa_aga_pc200">
-		<description>AGA PC200</description>
+		<description>isa_aga_pc200</description>
 		<rom name="40109.ic159" size="32768" crc="a8b67639" sha1="99663bfb61798526e092205575370c2ad34249a1"/>
 	</machine>
 	<machine name="isa_epc_mda">
-		<description>Ericsson PC Monochrome HR Graphics Board 1070</description>
+		<description>isa_epc_mda</description>
 		<rom name="8363_65_14_80_cg_50821_a64.bin" size="8192" crc="be709786" sha1="38ab26224bbe66bbe2bb2ccac29b41cbf78bdbf8"/>
 	</machine>
 	<machine name="isa_finalchs">
-		<description>The Final ChessCard</description>
+		<description>isa_finalchs</description>
 		<rom name="fcc_v20.bin" size="32768" crc="c8e72dff" sha1="f422b19a806cef4fadd580caefaaf8c32b644098"/>
 		<rom name="fcc_v36.bin" size="32768" crc="70800e6c" sha1="fa8170606313adeaadad3bbf1ca18cae567e4207"/>
 	</machine>
 	<machine name="isa_hdc">
-		<description>Fixed Disk Controller Card</description>
+		<description>isa_hdc</description>
 		<rom name="wdbios.rom" size="8192" crc="8e9e2bd4" sha1="601d7ceab282394ebab50763c267e915a6a2166a"/>
 	</machine>
 	<machine name="isa_hdc_ec1841">
-		<description>EC1841 HDC Card</description>
+		<description>isa_hdc_ec1841</description>
 		<rom name="wdbios.rom" size="8192" crc="8e9e2bd4" sha1="601d7ceab282394ebab50763c267e915a6a2166a"/>
 	</machine>
 	<machine name="isa_hercules">
-		<description>Hercules Graphics Card</description>
+		<description>isa_hercules</description>
 		<rom name="hgc_mzv_2301.bin" size="4096" crc="9431b9e0" sha1="3279dfeed4a0f5daa7b57d455c96eafdcbb6bf41"/>
 		<rom name="um2301.bin" size="4096" crc="0827bdac" sha1="15f1aceeee8b31f0d860ff420643e3c7f29b5ffc"/>
 	</machine>
 	<machine name="isa_ibm_mda">
-		<description>IBM Monochrome Display and Printer Adapter</description>
+		<description>isa_ibm_mda</description>
 		<rom name="5788005.u33" size="8192" crc="0bf56d70" sha1="c2a8b10808bf51a3c123ba3eb1e9dd608231916f"/>
 	</machine>
 	<machine name="isa_ibm_pgc">
-		<description>IBM Professional Graphics Controller</description>
+		<description>isa_ibm_pgc</description>
 		<rom name="ibm_6137322_pgc_card_27256.bin" size="32768" crc="5e6cc82f" sha1="45b3ffb5a9c51986862f8d47b3e03dcaaf4073d5"/>
 		<rom name="ibm_6137323_pgc_card_27256.bin" size="32768" crc="f564f342" sha1="c5ef17fd1569043cb59f61faf828ea8b0ee95526"/>
 		<rom name="pgc_u27.bin" size="4096" crc="6be256cc" sha1="deb1195886268dcddce10459911e020f7a9f74f7"/>
@@ -2871,11 +2875,11 @@
 		<rom name="pgc_u44.bin" size="32768" crc="71280241" sha1="7042ccd4ebd03f576a256a433b8aa38d1b4fefa8"/>
 	</machine>
 	<machine name="isa_ibm_speech">
-		<description>IBM PS/2 Speech Adapter</description>
+		<description>isa_ibm_speech</description>
 		<rom name="68x2838.zm10" size="32768" crc="98ddf27f" sha1="0cb41d490db2ed59989d2eae14a002ad0382e7ad"/>
 	</machine>
 	<machine name="isa_pcmidi">
-		<description>Music Quest PC MIDI Card (IHQMQ9)</description>
+		<description>isa_pcmidi</description>
 		<rom name="ih9mq9_firmware_v010.bin" size="65536" crc="d4cab098" sha1="9446c4939de557f839a74ca6fe7f41df46752e25"/>
 	</machine>
 	<machine name="isbc202">
@@ -2896,15 +2900,15 @@
 		<rom name="174581.002.bin" size="8192" crc="6190fa67" sha1="295dd4e75f699aaf93227cc4876cee8accae383a"/>
 	</machine>
 	<machine name="jaleco_vj_pc">
-		<description>Jaleco VJ PC</description>
+		<description>jaleco_vj_pc</description>
 		<rom name="m55-04ns.rom" size="131072" crc="0116b2b0" sha1="19b0203decfd4396695334517488d488aec3ccde"/>
 	</machine>
 	<machine name="jc1310">
-		<description>Joincom JC-1310 disk controller</description>
+		<description>jc1310</description>
 		<rom name="jc-1310 - apr-c 89.u3" size="8192" crc="e044f5e1" sha1="5a32d2001bb1a489657f9488136b5d621f803703"/>
 	</machine>
 	<machine name="jvs13551">
-		<description>Sega 837-13551 I/O Board</description>
+		<description>jvs13551</description>
 		<rom name="315-6215.bin" size="16384" crc="98202738" sha1="8c4dc85438298e31e25f69542804a78ff0e20962"/>
 		<rom name="sp5001-a.bin" size="16384" crc="b52d3777" sha1="eb882a0d4fde5d8a9fb118cb6e3547b0e9f7bfea"/>
 		<rom name="sp5001-b.bin" size="16384" crc="28b5fb84" sha1="8784024548d24b6a43057f06de1d53ce3a34eb12"/>
@@ -2912,19 +2916,19 @@
 		<rom name="sp5002-a.bin" size="16384" crc="72983a0f" sha1="aa13276347bc643ef93e81e9ab7c905deb16c415"/>
 	</machine>
 	<machine name="k573_dio">
-		<description>Konami 573 digital I/O board</description>
+		<description>k573_dio</description>
 		<rom name="digital-id.bin" size="8" crc="2b977f4d" sha1="2b108a56653f91cb3351718c45dfcf979bc35ef1"/>
 	</machine>
 	<machine name="k573kara">
-		<description>Konami 573 karaoke I/O board</description>
+		<description>k573kara</description>
 		<rom name="digital-id.bin" size="8" crc="2b977f4d" sha1="2b108a56653f91cb3351718c45dfcf979bc35ef1"/>
 	</machine>
 	<machine name="k573mcr">
-		<description>Konami 573 Memory Card Reader</description>
+		<description>k573mcr</description>
 		<rom name="885a01.bin" size="524288" crc="e22d093f" sha1="927f62f63b5caa7899392decacd12fea0e6fdbea"/>
 	</machine>
 	<machine name="k573msu">
-		<description>Konami 573 Multi Session Unit</description>
+		<description>k573msu</description>
 		<rom name="flash.20t" size="524288" crc="b70c65b0" sha1="d3b2bf9d3f8b1caf70755a0d7fa50ef8bbd758b8"/>
 		<rom name="m48t58y.6t" size="8192" crc="609ef020" sha1="71b87c8b25b9613b4d4511c53d0a3a3aacf1499d"/>
 	</machine>
@@ -2999,7 +3003,7 @@
 		<rom name="km035.rf2" size="2048" crc="881a67e1" sha1="cfbf54f7e831b3fc0b8502a5eeb03b8618bb32b0"/>
 	</machine>
 	<machine name="ks0066">
-		<description>Samsung KS0066 LCD Controller</description>
+		<description>ks0066</description>
 		<rom name="ks0066_f05.bin" size="4096" crc="af9e7bd6" sha1="0196e871584ee5d370856e7307c0f9d1466e3e51"/>
 	</machine>
 	<machine name="labtam_3232">
@@ -3037,7 +3041,7 @@
 		<rom name="z80_boot__c85_1.u53" size="8192" crc="8cb2374d" sha1="20f6ec9ba9c8fb453f6497ffa0fb1dc3611e7d7f"/>
 	</machine>
 	<machine name="lba_enhancer">
-		<description>VS Systems LBA Enhancer BIOS 1995</description>
+		<description>lba_enhancer</description>
 		<rom name="lbaenhancer.bin" size="16384" crc="39d4566d" sha1="d275193a870250f212dc29768d4e68fb43770e95"/>
 	</machine>
 	<machine name="lc7985">
@@ -3058,7 +3062,7 @@
 		<rom name="lm24014w_0101.bin" size="1024" crc="ba5f0719" sha1="4680d3ae99102369b4145604ee7c25fa83760784"/>
 	</machine>
 	<machine name="lrk331">
-		<description>Lark Associates LRK-331 ESDI Controller</description>
+		<description>lrk331</description>
 		<rom name="63307-08.bin" size="16384" crc="6d2e8b26" sha1="1a33462a29b306b01960cf2ac0b209b2adf58dbe"/>
 		<rom name="63308-10.bin" size="8192" crc="f16d4f25" sha1="437664ff9723c8036a40f1e504899b7cacd21ad0"/>
 	</machine>
@@ -3087,15 +3091,15 @@
 		<rom name="rodi202.bin" size="2048" crc="337b4dcf" sha1="791ebeb4521ddc11fb9742114018e161e1849bdf"/>
 	</machine>
 	<machine name="lx800">
-		<description>Epson LX-800</description>
+		<description>lx800</description>
 		<rom name="lx800.ic3c" size="32768" crc="da06c45b" sha1="9618c940dd10d5b43cd1edd5763b90e6447de667"/>
 	</machine>
 	<machine name="lx810l">
-		<description>Epson LX-810L</description>
+		<description>lx810l</description>
 		<rom name="lx810l.ic3c" size="32768" crc="a66454e1" sha1="8e6f2f98abcbd8af6e34b9ba746edf0d18aef843"/>
 	</machine>
 	<machine name="m1comm">
-		<description>Model-1 Communication Board</description>
+		<description>m1comm</description>
 		<rom name="epr-15112.17" size="131072" crc="4950e771" sha1="99014124e0324dd114cb22f55159d18b597a155a"/>
 		<rom name="epr-15624.17" size="131072" crc="9b3ba315" sha1="0cd0983cc8b2f2d6b41617d0d0a24cc6c188e62a"/>
 	</machine>
@@ -3112,24 +3116,24 @@
 		<rom name="m24apb.bin" size="16384" crc="3b3d2895" sha1="ff048cf61b090b147be7e29a929a0be7b3ac8409"/>
 	</machine>
 	<machine name="m50458">
-		<description>Mitsubishi M50458 OSD</description>
+		<description>m50458</description>
 		<rom name="m50458-001sp" size="4608" crc="444f597d" sha1="96beda6aba3d9f7bb781a3cd0352ed6ae45e2ebe"/>
 		<rom name="m50458_char.bin" size="4608" crc="011cc342" sha1="d5b9f32d6e251b4b25945267d7c68c099bd83e96"/>
 	</machine>
 	<machine name="m68705p3">
-		<description>Motorola MC68705P3</description>
+		<description>m68705p3</description>
 		<rom name="bootstrap.bin" size="115" crc="696e1383" sha1="45104fe1dbd683d251ed2b9411b1f4befbb5aff4"/>
 	</machine>
 	<machine name="m68705p5">
-		<description>Motorola MC68705P5</description>
+		<description>m68705p5</description>
 		<rom name="bootstrap.bin" size="115" crc="f70a8620" sha1="c154f78c23f10bb903a531cb19e99121d5f7c19c"/>
 	</machine>
 	<machine name="m68705r3">
-		<description>Motorola MC68705R3</description>
+		<description>m68705r3</description>
 		<rom name="bootstrap.bin" size="120" crc="5946479b" sha1="834ea00aef5de12dbcd6421a6e21d5ea96cfbf37"/>
 	</machine>
 	<machine name="mach64isa">
-		<description>ATi mach64 Card</description>
+		<description>mach64isa</description>
 		<rom name="mach64.bin" size="32768" crc="1300aa8f" sha1="dfc7f817900f125b89b0bda16fcb205f066a47fc"/>
 		<rom name="mach64_vlb_dram.bin" size="32768" crc="f2a24699" sha1="580401a8bdfc379180a8d7d77305fc529b2a8374"/>
 		<rom name="mach64_vlb_vram.bin" size="32768" crc="47779d8f" sha1="87b01b7a16d9c79dfc6c5aa8a39455c725d2e455"/>
@@ -3166,7 +3170,7 @@
 		<rom name="2716.z4" size="2048" crc="ae325c37" sha1="c6e90b10241fa61e12124ef9a5cea15212d5866c"/>
 	</machine>
 	<machine name="mga2064w">
-		<description>Matrox Millennium &quot;IS-STORM / MGA-2064W&quot;</description>
+		<description>mga2064w</description>
 		<rom name="matrox2064wr2.bin" size="65536" crc="79920e74" sha1="d62d6a57c75f2266e3d0f85916f366d62ad56ce4"/>
 		<rom name="matroxisstormr2.bin" size="65536" crc="0cfceda4" sha1="26a4fe291c738b4b138b522beb37b7db1b639634"/>
 		<rom name="rev2_2mb.bin" size="65536" crc="253c352b" sha1="a5cd7e1c4903fcc89ea04cc1911b8d010e6513d1"/>
@@ -3178,21 +3182,21 @@
 		<rom name="ascii_v1.bin" size="2048" crc="17a03a82" sha1="89dcc0712745ed9ba876a78eefd55e9a54fc4fad"/>
 	</machine>
 	<machine name="microtouch">
-		<description>Microtouch Touchscreen</description>
+		<description>microtouch</description>
 		<rom name="microtouch_5603920_rev_5.5.u1" size="32768" crc="5cc164e7" sha1="753277ce54e8be1b759c37ae760fe4a6846d1fae"/>
 		<rom name="microtouch_5604010_rev_5.6.u1" size="65536" crc="d19ee080" sha1="c695405ec8c2ac4408a63bacfc68a5a4b878928c"/>
 		<rom name="microtouch_5604340_rev_2.2.u1" size="65536" crc="110f312f" sha1="5a60d7d1f8a0b3898aabcabe43dc51e9f90306f7"/>
 	</machine>
 	<machine name="midcsd">
-		<description>Cheap Squeak Deluxe Sound Board</description>
+		<description>midcsd</description>
 		<rom name="0304-00803-0052.u15" size="74" crc="8b401aee" sha1="360f3f59877f0bc25b4154782a2011963dd80a52"/>
 	</machine>
 	<machine name="midssio">
-		<description>Midway SSIO Sound Board</description>
+		<description>midssio</description>
 		<rom name="82s123.12d" size="32" crc="e1281ee9" sha1="9ac9b01d24affc0ee9227a4364c4fd8f8290343a"/>
 	</machine>
 	<machine name="mie">
-		<description>Sega 315-6146 MIE</description>
+		<description>mie</description>
 		<rom name="315-6146.bin" size="2048" crc="9b197e35" sha1="864d14d58732dd4e2ee538ccc71fa8df7013ba06"/>
 	</machine>
 	<machine name="mindset_sound_module">
@@ -3200,7 +3204,7 @@
 		<rom name="253006-001.u16" size="2048" crc="7bea5edd" sha1="30cdc0dedaa5246f4952df452a99ca22e3cd0636"/>
 	</machine>
 	<machine name="minichif">
-		<description>ICT Mini Chief Disk Drive</description>
+		<description>minichif</description>
 		<rom name="ictdos710.u2" size="32768" crc="aaacf7e9" sha1="c1296995238ef23f18e7fec70a144a0566a25a27"/>
 	</machine>
 	<machine name="mm1kb">
@@ -3212,17 +3216,17 @@
 		<rom name="mm5740aac.ic1" size="450" crc="aed404d3" sha1="e7b9feba5f789f388d27820b5f3fa591d41b4ab1"/>
 	</machine>
 	<machine name="mockingboardd">
-		<description>Sweet Micro Systems Mockingboard D</description>
+		<description>mockingboardd</description>
 		<rom name="mockingboard d rom.bin" size="2048" crc="277b1813" sha1="e8d20f4b59fe867ff76434d35a14d2cbdc8533e3"/>
 	</machine>
 	<machine name="model1io">
-		<description>Sega Model 1 I/O Board</description>
+		<description>model1io</description>
 		<rom name="epr-14869.25" size="65536" crc="6187cd7a" sha1="b65fdd0ad31794a565a0ca4dc67a3f16b329fd71"/>
 		<rom name="epr-14869b.25" size="65536" crc="2d093304" sha1="af0fe245eb9fa3c3c60e4b685f1e779f83d894f9"/>
 		<rom name="epr-14869c.25" size="65536" crc="24b68e64" sha1="c19d044d4c2fe551474492aa51922587394dd371"/>
 	</machine>
 	<machine name="model1io2">
-		<description>Sega Model 1 I/O Board (Advanced)</description>
+		<description>model1io2</description>
 		<rom name="epr-16891.6" size="65536" crc="a33f84d1" sha1="3079397c7241c1a6f494fa310faff0989dfa04a0"/>
 		<rom name="epr-17181.6" size="65536" crc="1add2b82" sha1="81892251d466f630a96af25bde652c20e47d7ede"/>
 		<rom name="epr-18021.6" size="65536" crc="5551837e" sha1="bf5b9aad99c0f8f5e262e0855796f39119d11a97"/>
@@ -3289,15 +3293,15 @@
 		<rom name="vidmon_v20.bin" size="2048" crc="3a2293a0" sha1="281092d82a272383b584b31064421296add20c46"/>
 	</machine>
 	<machine name="mps1200">
-		<description>Commodore MPS-1200 Dot Matrix Printer</description>
+		<description>mps1200</description>
 		<rom name="mps1200-k405-0202.bin" size="65536" crc="87aa884a" sha1="0ceb753c17599bc69458cfbb1cb3e81c2b60d107"/>
 	</machine>
 	<machine name="mps1250">
-		<description>Commodore MPS-1250 Dot Matrix Printer</description>
+		<description>mps1250</description>
 		<rom name="mps1250_k111_0201.bin" size="65536" crc="f2de9b69" sha1="bb7357e83497b333e3f95548d94970003b2dfa9d"/>
 	</machine>
 	<machine name="mpu401">
-		<description>Roland MPU-401 I/O box</description>
+		<description>mpu401</description>
 		<rom name="roland__6801v0b55p__15179222.bin" size="4096" crc="65d3a151" sha1="00efbfb96aeb997b69bb16981c6751d3c784bb87"/>
 	</machine>
 	<machine name="ms7004">
@@ -3305,17 +3309,17 @@
 		<rom name="mc7004_keyboard_original.rom" size="2048" crc="69fcab53" sha1="2d7cc7cd182f2ee09ecf2c539e33db3c2195f778"/>
 	</machine>
 	<machine name="msdsd1">
-		<description>MSD SD-1 Disk Drive</description>
+		<description>msdsd1</description>
 		<rom name="sd-1-1.3-c000.bin" size="8192" crc="f399778d" sha1="c0d939c354d84018038c60a231fc43fb9279d8a4"/>
 		<rom name="sd-1-1.3-e000.bin" size="8192" crc="7ac80da4" sha1="99dd15c6d97938eba73880b18986a037e90742ab"/>
 	</machine>
 	<machine name="msdsd2">
-		<description>MSD SD-2 Disk Drive</description>
+		<description>msdsd2</description>
 		<rom name="sd-2-2.3-c000.bin" size="8192" crc="2207560e" sha1="471e9b4a4ac09ceee9acc1774534510396f98b9a"/>
 		<rom name="sd-2-2.3-e000.bin" size="8192" crc="4efd87a2" sha1="4beec0b7ce2349add3b0a5bceee60826637df8d9"/>
 	</machine>
 	<machine name="mshark">
-		<description>Mator SHARK</description>
+		<description>mshark</description>
 		<rom name="micro p3450 v1.3" size="2048" crc="0e69202e" sha1="3b384951ff54c4b45a3a778a88966d13e2c9d57a"/>
 		<rom name="pch488 3450 v22.1 @1" size="4096" crc="03bff9d7" sha1="ac506df6509e1b2185a69f9f8f44b8b456aa9834"/>
 		<rom name="pch488 3450 v22.1 @2" size="4096" crc="c14fa5fe" sha1="bcfd1dd65d692c76b90e6134b85f22c39c049430"/>
@@ -3474,6 +3478,13 @@
 		<rom name="5527c29a.u34" size="65536" crc="2ef4cc9a" sha1="0e80e208756995cb34c006d2f1e84a5978ad17d6"/>
 		<rom name="5527c30a.u42" size="65536" crc="7be983d0" sha1="ec5fc0709d8e91119d39231ace66f4fcbdb457e9"/>
 	</machine>
+	<machine name="mvme328">
+		<description>mvme328</description>
+		<rom name="0770k0801t.uk8" size="32768" crc="22f0440e" sha1="37d8039778ec7ef0cb24940eabd45992920975a1"/>
+		<rom name="0770k1001t.uk10" size="32768" crc="d7d0d4c3" sha1="5756719bf005e3e26be7bbc8cb1c2f771d260a02"/>
+		<rom name="0774e1501s__9348.ue15" size="32768" crc="e614ef1f" sha1="8bc56ad49989e78682a6d69351e8cf0f2557b311"/>
+		<rom name="0774f1501s__9348.uf15" size="32768" crc="3c6e8016" sha1="0a39873b5a17f71db86afcd361141e5b9f6786e9"/>
+	</machine>
 	<machine name="mvme350">
 		<description>mvme350</description>
 		<rom name="mvme350u40v2.3.bin" size="16384" crc="bcef82ef" sha1="e6fdf26e4714cbaeb3e97d7b5acf02d64d8ad744"/>
@@ -3489,59 +3500,59 @@
 		<rom name="nabukeyboard-90020070-reva-2716.bin" size="2048" crc="eead3abc" sha1="2f6ff63ca2f2ac90f3e03ef4f2b79883205e8a4e"/>
 	</machine>
 	<machine name="namco50">
-		<description>Namco 50xx</description>
+		<description>namco50</description>
 		<rom name="50xx.bin" size="2048" crc="a0acbaf7" sha1="f03c79451e73b3a93c1591cdb27fedc9f130508d"/>
 	</machine>
 	<machine name="namco51">
-		<description>Namco 51xx</description>
+		<description>namco51</description>
 		<rom name="51xx.bin" size="1024" crc="c2f57ef8" sha1="50de79e0d6a76bda95ffb02fcce369a79e6abfec"/>
 	</machine>
 	<machine name="namco52">
-		<description>Namco 52xx</description>
+		<description>namco52</description>
 		<rom name="52xx.bin" size="1024" crc="3257d11e" sha1="4883b2fdbc99eb7b9906357fcc53915842c2c186"/>
 	</machine>
 	<machine name="namco53">
-		<description>Namco 53xx</description>
+		<description>namco53</description>
 		<rom name="53xx.bin" size="1024" crc="b326fecb" sha1="758d8583d658e4f1df93184009d86c3eb8713899"/>
 	</machine>
 	<machine name="namco54">
-		<description>Namco 54xx</description>
+		<description>namco54</description>
 		<rom name="54xx.bin" size="1024" crc="ee7357e0" sha1="01bdf984a49e8d0cc8761b2cc162fd6434d5afbe"/>
 	</machine>
 	<machine name="namco62">
-		<description>Namco 62xx</description>
+		<description>namco62</description>
 		<rom name="62xx.bin" size="2048" crc="308dc115" sha1="fe0a60fc339ac2eeed4879a64c1aab130f9d4cfe"/>
 	</machine>
 	<machine name="namcoc65">
-		<description>Namco C65 I/O</description>
+		<description>namcoc65</description>
 		<rom name="sys2mcpu.bin" size="8192" crc="a342a97e" sha1="2c420d34dba21e409bf78ddca710fc7de65a6642"/>
 	</machine>
 	<machine name="namcoc67">
-		<description>Namco C67 (TMS320C25)</description>
+		<description>namcoc67</description>
 		<rom name="c67.bin" size="8192" crc="6bd8988e" sha1="c9ec18d5f88d53976b94444eedc64d5568155958"/>
 	</machine>
 	<machine name="namcoc68">
-		<description>Namco C68 I/O</description>
+		<description>namcoc68</description>
 		<rom name="c68.bin" size="32768" crc="ca64550a" sha1="38d1ad1b1287cadef0c999aff9357927315f8e6b"/>
 	</machine>
 	<machine name="namcoc69">
-		<description>Namco C69 (M37702)</description>
+		<description>namcoc69</description>
 		<rom name="c69.bin" size="16384" crc="349134d9" sha1="61a4981fc2716c228b6121fedcbf1ed6f34dc2de"/>
 	</machine>
 	<machine name="namcoc70">
-		<description>Namco C70 (M37702)</description>
+		<description>namcoc70</description>
 		<rom name="c70.bin" size="16384" crc="b4015f23" sha1="7ce91eda76e86b5cab625e2b67c463b7d143832e"/>
 	</machine>
 	<machine name="namcoc74">
-		<description>Namco C74 (M37702)</description>
+		<description>namcoc74</description>
 		<rom name="c74.bin" size="16384" crc="a3dce360" sha1="8f3248b1890abb2e649927240ae46f73bb171e3b"/>
 	</machine>
 	<machine name="namcoc75">
-		<description>Namco C75 (M37702)</description>
+		<description>namcoc75</description>
 		<rom name="c75.bin" size="16384" crc="42f539a5" sha1="3103e5a0a2867620309fd4fe478a2be0effbeff8"/>
 	</machine>
 	<machine name="namcoc76">
-		<description>Namco C76 (M37702)</description>
+		<description>namcoc76</description>
 		<rom name="c76.bin" size="16384" crc="399faac7" sha1="ceb184ef0486caf715dd997101999785f67a40b8"/>
 	</machine>
 	<machine name="nanoreseau_mo">
@@ -3624,11 +3635,15 @@
 		<rom name="341-0732.bin" size="4096" crc="ddc35b78" sha1="ce2bf2374bb994c17962dba8f3d11bc1260e2644"/>
 	</machine>
 	<machine name="ncr53c825_pci">
-		<description>NCR/Symbios Logic/LSI Logic 53C825A PCI</description>
+		<description>ncr53c825_pci</description>
 		<rom name="tms28f512a.u4" size="65536" crc="0d5a8054" sha1="ed22a726976fdc34db6176a1384609f93d50f27a"/>
 	</machine>
+	<machine name="neon250">
+		<description>neon250</description>
+		<rom name="n0020331.bin" size="131072" crc="e76008f5" sha1="1ddda1494d5b32148e2c9e7a6557f00ee9cffea6"/>
+	</machine>
 	<machine name="nes_rob">
-		<description>Nintendo R.O.B. / Family Computer Robot</description>
+		<description>nes_rob</description>
 		<rom name="rfc-cpu10.ic1" size="512" crc="f9c96b9c" sha1="a87e2f0f5e454c093d1352ac368aa9e82e9f6790"/>
 	</machine>
 	<machine name="newbrain_eim">
@@ -3645,24 +3660,24 @@
 		<rom name="d417-2.rom" size="8192" crc="e8bda8b9" sha1="c85a76a5ff7054f4ef4a472ce99ebaed1abd269c"/>
 	</machine>
 	<machine name="nlq401">
-		<description>Schneider NLQ 401 Matrix Printer</description>
+		<description>nlq401</description>
 		<rom name="schneider_nlq401_rev004.bin" size="16384" crc="5c331aed" sha1="b6374abaebb8e484e573caa21b1cc87f1554c8d6"/>
 	</machine>
 	<machine name="nmk004">
-		<description>NMK004</description>
+		<description>nmk004</description>
 		<rom name="nmk004.bin" size="8192" crc="8ae61a09" sha1="f55f9e6bb55bfa56f9f797518dca032aaa3f6a32"/>
 	</machine>
 	<machine name="novell_dcb">
-		<description>Novell Disk Coprocessor Board (#738-133-001)</description>
+		<description>novell_dcb</description>
 		<rom name="817-186-001_rev_e_5800_11-04-86.bin" size="8192" crc="2e2037f4" sha1="a13c0aab46084a0805256f1d2b8b8beaccc9e253"/>
 	</machine>
 	<machine name="np600a3">
-		<description>InterLan NP600A-3 Intelligent Protocol Processor</description>
+		<description>np600a3</description>
 		<rom name="258-0032-00_rev_ba.u38" size="8192" crc="84ccb317" sha1="3ecc8e265336f5d3b0f276f18dd1b7001778f2c3"/>
 		<rom name="258-0033-00_rev_ba.u39" size="8192" crc="0e0f726c" sha1="520773e235a826438b025381cd3861df86d4965d"/>
 	</machine>
 	<machine name="nss_tvinterface">
-		<description>Novag Super System TV Interface</description>
+		<description>nss_tvinterface</description>
 		<rom name="cg_930" size="8192" crc="98287b9d" sha1="b20d7856e4739bafcd66434adf9881824f8a611b"/>
 		<rom name="tvgr_011091" size="8192" crc="0ff64cec" sha1="d35881111cdf8e85a843e3b085447d07244d8d70"/>
 	</machine>
@@ -3671,7 +3686,7 @@
 		<rom name="ks0174-1m04.bin" size="1048576" crc="3cabaa2f" sha1="1e894c0345eaf0ea713f36a75b065f7ee419c63c"/>
 	</machine>
 	<machine name="omti8621isa">
-		<description>OMTI 8621 ESDI/floppy controller (ISA)</description>
+		<description>omti8621isa</description>
 		<rom name="omti_8621_102640-b.bin" size="16384" crc="e6f20dbb" sha1="cf1990ad72eac6b296485410f5fa3309a0d6d078"/>
 	</machine>
 	<machine name="oric_jasmin">
@@ -3722,7 +3737,7 @@
 		<rom name="sm16b_518.u5" size="65536" crc="cee97a8f" sha1="541d9d3ee469bacb5a4c537f443836a684e5d168"/>
 	</machine>
 	<machine name="oti64111_pci">
-		<description>OTI-64111 &quot;Spitfire&quot;</description>
+		<description>oti64111_pci</description>
 		<rom name="ot64111spitfire.vbi" size="32768" crc="fb031e98" sha1="16826d93bc2a09d91b52cca3f72447501daee2d2"/>
 	</machine>
 	<machine name="p1_fdc">
@@ -3746,7 +3761,7 @@
 		<rom name="p1_t_ram.rf4" size="8192" crc="e42f5a61" sha1="ce2554eae8f0d2b6d482890dd198cf7e2d29c655"/>
 	</machine>
 	<machine name="p72">
-		<description>NEC PinWriter P72</description>
+		<description>p72</description>
 		<rom name="p72.2c" size="1048576" crc="2bc6846f" sha1="10430f1d3b73ad413d77053515d9d53831a1341b"/>
 	</machine>
 	<machine name="pa7246">
@@ -3847,7 +3862,7 @@
 		<rom name="procolor_ver60590.bin" size="32768" crc="ebef6168" sha1="e41ecc7d12fc13bc74f9223ca02920e8a7eb072b"/>
 	</machine>
 	<machine name="pdc20262">
-		<description>Promise PDC20262 FastTrak66 EIDE controller</description>
+		<description>pdc20262</description>
 		<rom name="ul114b0728.bin" size="16384" crc="a71f0c3d" sha1="ace4872c6060e9dd8458540c0f3193d1a9b4321a"/>
 		<rom name="ul200b18.bin" size="16384" crc="71e48d73" sha1="84d8c72118a3e26181573412e2cbb859691672de"/>
 	</machine>
@@ -3870,7 +3885,7 @@
 		<rom name="asante_maccon_lc_mcilc_1.1.bin" size="16384" crc="b95940be" sha1="317255bcb552ef43f43f85109706ed860baaf6dc"/>
 	</machine>
 	<machine name="pet_softbox">
-		<description>SSE SoftBox</description>
+		<description>pet_softbox</description>
 		<rom name="375.ic3" size="2048" crc="177580e7" sha1="af6a97495de825b80cdc9fbf72329d5440826177"/>
 		<rom name="376.ic4" size="2048" crc="edfee5be" sha1="5662e9071cc622a1c071d89b00272fc6ba122b9a"/>
 		<rom name="379.ic3" size="2048" crc="7b5a737c" sha1="2348590884b026b7647f6864af8c9ba1c6f8746b"/>
@@ -3906,7 +3921,7 @@
 		<rom name="6571.bin" size="2048" crc="5a25144b" sha1="7b9fee0c8ef2605b85d12b6d9fe8feb82418c63a"/>
 	</machine>
 	<machine name="pr8210">
-		<description>Pioneer PR-8210</description>
+		<description>pr8210</description>
 		<rom name="pr-8210_mcu_ud6005a.bin" size="2048" crc="120fa83b" sha1="b514326ca1f52d6d89056868f9d17eabd4e3f31d"/>
 	</machine>
 	<machine name="premier_fdc">
@@ -3965,11 +3980,11 @@
 		<rom name="pfx ver1.20.u3" size="65536" crc="04635d41" sha1="e2765907d03f62329db224c6570d65aea5df5154"/>
 	</machine>
 	<machine name="promotion3210">
-		<description>Alliance Semiconductor ProMotion 3210</description>
+		<description>promotion3210</description>
 		<rom name="mirovideo12pd.vbi" size="32768" crc="46041709" sha1="bd43f05ae7ddb4bbf515132b72b32719b60e6950"/>
 	</machine>
 	<machine name="ps2_keybc">
-		<description>PS/2 Keyboard/Mouse Controller</description>
+		<description>ps2_keybc</description>
 		<rom name="128251-001.u3" size="2048" crc="da968f1e" sha1="ac45a4d0f30b046ada300f1d105bcf0fb2db318a"/>
 		<rom name="72x8455.zm82" size="2048" crc="7da223d3" sha1="54c52ff6c6a2310f79b2c7e6d1259be9de868f0e"/>
 	</machine>
@@ -4004,7 +4019,7 @@
 		<rom name="game booster.rom" size="262144" crc="c8e459b8" sha1="c20ab073f61242f37665f12199b95cfa3a83e9fc"/>
 	</machine>
 	<machine name="pvga1a">
-		<description>Paradise Systems PVGA1A Graphics Card</description>
+		<description>pvga1a</description>
 		<rom name="bios.bin" size="65536" crc="2be5d405" sha1="5e3b4ebae221b7ad02f3eaa052178cb39d1d9bbe"/>
 		<rom name="par_u35.bin" size="16384" crc="afa802a4" sha1="33ee89248d945869206aee3d9cb63bd375e51ed7"/>
 		<rom name="par_u36.bin" size="16384" crc="c51ab2e3" sha1="d53d2a9aeffc7c41199fe91bc3d6d2e4d90173c8"/>
@@ -4012,7 +4027,7 @@
 		<rom name="pvga1a.bin" size="32768" crc="ffb5aa30" sha1="4f785702744ac7565e4ec659b9841e750948e8cb"/>
 	</machine>
 	<machine name="pvga1a_jk">
-		<description>Paradise Systems PVGA1A-JK Graphics Card</description>
+		<description>pvga1a_jk</description>
 		<rom name="bios.bin" size="65536" crc="2bfe8adb" sha1="afd8c33f24e28b025e43ae68d95fd6811659013b"/>
 		<rom name="epson_pvga1a_cvga_a02.bin" size="16384" crc="5b94c843" sha1="c2c70c03097a36bf1c6de687d228bcfec5bd4b2d"/>
 		<rom name="epson_pvga1a_cvga_b02.bin" size="16384" crc="e7c297c3" sha1="f60802a8271c437df26eca57ed61cab75e5c0618"/>
@@ -4025,7 +4040,7 @@
 		<rom name="vga_paradaise_pvga1a-jk_lo_27c128.bin" size="16384" crc="a00bd1e8" sha1="545d0bacfa5bab9208685fc880509827ae527d84"/>
 	</machine>
 	<machine name="px320a">
-		<description>PleXCombo PX-320A CD-RW/DVD-ROM Drive</description>
+		<description>px320a</description>
 		<rom name="sap1032.bin" size="524288" crc="9ff1c729" sha1="6ed44bf8decaac2ee9127bdd66e0ff1fd52969c3"/>
 		<rom name="sapp102.bin" size="524288" crc="9f96bea4" sha1="5b70f32e83d8c19d2895d38d0f7e15f2eee326fd"/>
 		<rom name="sapp104.bin" size="524288" crc="7197425f" sha1="0b02508d668439a78ea8e3d97eddf5a3de6e2ba5"/>
@@ -4149,7 +4164,7 @@
 		<rom name="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501"/>
 	</machine>
 	<machine name="qsound_hle">
-		<description>QSound (HLE)</description>
+		<description>qsound_hle</description>
 		<rom name="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501"/>
 	</machine>
 	<machine name="qts1">
@@ -4158,7 +4173,7 @@
 		<rom name="tti_10012000_rev2.3.bin" size="32768" crc="95a5bce8" sha1="46d7c99e37ca5598aec2062dfd9759853a237c14"/>
 	</machine>
 	<machine name="quadro">
-		<description>nVidia Quadro (NV10)</description>
+		<description>quadro</description>
 		<rom name="elsagloriaii.bin" size="44032" crc="78a6fbad" sha1="5517fefc314bd34de7839fb8077aeb252689595d"/>
 		<rom name="elsagloriaiipro.bin" size="44032" crc="b4ef6426" sha1="006b72eb2bcb549686e4e39f8ca17972435178e4"/>
 	</machine>
@@ -4171,7 +4186,7 @@
 		<rom name="mbl8049h.5a" size="2048" crc="8615e159" sha1="26b7f447acfe2c605dbe0fc98e6c777f0fa8a94d"/>
 	</machine>
 	<machine name="rageiidvd">
-		<description>ATI Rage II+ DVD PCI</description>
+		<description>rageiidvd</description>
 		<rom name="2mbsgr.vbi" size="32768" crc="d800adfd" sha1="17492b51b5ec158db618f2851ce8beca91d12aa8"/>
 		<rom name="4mbedo.vbi" size="34816" crc="0c344b72" sha1="a068ef73d56b5fc200076283d32676b818404f1b"/>
 		<rom name="4mbsgr.vbi" size="49152" crc="e974821f" sha1="185557cec469f54e15cbe30241bd1af56ed303d2"/>
@@ -4213,31 +4228,31 @@
 		<rom name="r0001009.bin" size="65536" crc="074a2d70" sha1="0077ab5e669da6e95ed2f66c9e759067c4236e36"/>
 	</machine>
 	<machine name="riva128">
-		<description>SGS-Thompson/nVidia Riva 128 (NV3)</description>
+		<description>riva128</description>
 		<rom name="diamond_v330_rev-e.vbi" size="32768" crc="68686ddc" sha1="cd2e299acd79624c7d82ce3317004c96bd4e36f7"/>
 		<rom name="riva128_asus.vbi" size="32768" crc="cc57586f" sha1="5e6ec14c66ec38b21013ee6b7582f6b6a4586e2e"/>
 		<rom name="riva128_stb.vbi" size="32768" crc="80da0245" sha1="894c855c6d676de0d04d396f7e93a0e6cb98a4b3"/>
 	</machine>
 	<machine name="riva128zx">
-		<description>SGS-Thompson/nVidia Riva 128 ZX (NV3T)</description>
+		<description>riva128zx</description>
 		<rom name="asus_agp-v3000zx.vbi" size="32768" crc="8319de18" sha1="837fe8afdf03196550c51ff4987e7f25cc75222c"/>
 		<rom name="creative_ct6730.vbi" size="32768" crc="72f03a0e" sha1="7126c4c4d20c48848defc5dd05f0d5b698948015"/>
 		<rom name="elsa.vbi" size="32768" crc="8dd4627a" sha1="cfb10d9a370a951f9ed23719b2c5fa79c9e49668"/>
 	</machine>
 	<machine name="rivatnt">
-		<description>nVidia Riva TNT (NV4)</description>
+		<description>rivatnt</description>
 		<rom name="nv4_creative.rom" size="32768" crc="fe527a82" sha1="2bb22bbaa7d2b61bce403f3163197abef85abdaa"/>
 		<rom name="nv4_diamond_reva.rom" size="34816" crc="333ca8e3" sha1="602ba5812e608bb7275336e9abab4b822f7b1b98"/>
 		<rom name="nv4_diamond_revb.rom" size="34816" crc="8d860d99" sha1="12b183cacc29cf8229da1b84b5f640f2f0722828"/>
 		<rom name="nv4_stb_velocity.rom" size="32768" crc="d5251dc9" sha1="eac26ac45e1cdcf020041586fb4216fd8166c2da"/>
 	</machine>
 	<machine name="rivatnt2">
-		<description>nVidia Riva TNT2 (NV5)</description>
+		<description>rivatnt2</description>
 		<rom name="nv5diamond.bin" size="39936" crc="ac6c48ff" sha1="709632adf1e156fab3af0723b73a1e6c2c39e987"/>
 		<rom name="rivatnt2leadteks320ii.bin" size="65536" crc="f1379a55" sha1="1ea0216df1fee9ee1bcd66c26adafbbdb6a0f1f1"/>
 	</machine>
 	<machine name="rivatnt2_m64">
-		<description>nVidia Riva TNT2 Model 64 (NV5)</description>
+		<description>rivatnt2_m64</description>
 		<rom name="62090211.rom" size="45056" crc="5669135b" sha1="b704ce0d20b71e40563d12bcc45bd1240227be74"/>
 		<rom name="asus_125-143mhz32mb.rom" size="45056" crc="be95dc0c" sha1="35c367b4f9d2db1bfca6d829744d9ffbd2db6e8a"/>
 		<rom name="cm64a_120-125mhz.rom" size="43008" crc="d087e5fa" sha1="230475f5385feda97c29d52723ec96bad2be6e08"/>
@@ -4251,7 +4266,7 @@
 		<rom name="w2137.rom" size="65536" crc="3b7986ff" sha1="529a79296c914a2dcdd568221b9aac914869bade"/>
 	</machine>
 	<machine name="rivatnt2_ultra">
-		<description>nVidia Riva TNT2 Ultra (NV5)</description>
+		<description>rivatnt2_ultra</description>
 		<rom name="creative.bin" size="65536" crc="cf3828ce" sha1="733d8c3f179f89f0e238ffb95717c0fafd1053aa"/>
 	</machine>
 	<machine name="robotron_k7070">
@@ -4325,7 +4340,7 @@
 		<rom name="104788e" size="4096" crc="40a7195d" sha1="bf68e99dad182bfcbb5d488aeb440cba572a6ef8"/>
 	</machine>
 	<machine name="s3_764">
-		<description>Number Nine 9FX Vision 330 (S3 764)</description>
+		<description>s3_764</description>
 		<rom name="pci_9503-62_s3.bin" size="32768" crc="0e9d79d8" sha1="274b5b98cc998f2783567000cdb12b14308bc290"/>
 		<rom name="pci_elsa_winner_1000-t2d_6.01.00.bin" size="32768" crc="1c9532b8" sha1="d27d60b9a3566aa42a01ad497046af16eaa2ed87"/>
 		<rom name="s3_764.bin" size="65536" crc="4f10aac7" sha1="c77b3f11cc15679121314823588887dd547cd715"/>
@@ -4333,45 +4348,45 @@
 		<rom name="utd88a.bin" size="32768" crc="8df4524d" sha1="e652dd2cec49d5edf3cb207e410233963efa22b8"/>
 	</machine>
 	<machine name="s97269pb">
-		<description>N-Sub Daughterboard 97269-P-B</description>
+		<description>s97269pb</description>
 		<rom name="pr-02.a1" size="256" crc="8e633b5c" sha1="7ee40abe0e8a56aae2cc5f1102fa8c334a19e075"/>
 		<rom name="pr-56.b2" size="1024" crc="f79c8e91" sha1="eafff661e2aa1a6ef64f51faa9b1dac7af843557"/>
 		<rom name="pr-57.a3" size="1024" crc="00d52430" sha1="5f4de97cfe6fe39da75761e0f434de28d30f3e3b"/>
 	</machine>
 	<machine name="s_smp">
-		<description>Nintendo/Sony S-SMP</description>
+		<description>s_smp</description>
 		<rom name="spc700.rom" size="64" crc="44bb3a40" sha1="97e352553e94242ae823547cd853eecda55c20f0"/>
 	</machine>
 	<machine name="saa5050">
-		<description>SAA5050 Teletext Character Generator</description>
+		<description>saa5050</description>
 		<rom name="saa5050" size="960" crc="201490f3" sha1="6c8daba70374e5aa3a6402f24cdc5f8677d58a0f"/>
 	</machine>
 	<machine name="saa5051">
-		<description>SAA5051 Teletext Character Generator</description>
+		<description>saa5051</description>
 		<rom name="saa5051" size="960" crc="0e55088b" sha1="07cd9b7edbed6ef7b527622533d6957f5d56aa91"/>
 	</machine>
 	<machine name="saa5052">
-		<description>SAA5052 Teletext Character Generator</description>
+		<description>saa5052</description>
 		<rom name="saa5052" size="960" crc="2eb76737" sha1="ec4bc515e28e851a6433f7ca0a11ede0f1d21a68"/>
 	</machine>
 	<machine name="saa5053">
-		<description>SAA5053 Teletext Character Generator</description>
+		<description>saa5053</description>
 		<rom name="saa5053" size="960" crc="46288c33" sha1="1e471a1b5670d7163e9f62d31be7cab0330a07cd"/>
 	</machine>
 	<machine name="saa5054">
-		<description>SAA5054 Teletext Character Generator</description>
+		<description>saa5054</description>
 		<rom name="saa5054" size="960" crc="56298472" sha1="7a273ad7270507dca4ce621fc1e6b51a1ac25085"/>
 	</machine>
 	<machine name="saa5055">
-		<description>SAA5055 Teletext Character Generator</description>
+		<description>saa5055</description>
 		<rom name="saa5055" size="960" crc="f95b9c8c" sha1="c5ce7fe84df6de6a317fa0e87bda413c82c04618"/>
 	</machine>
 	<machine name="saa5056">
-		<description>SAA5056 Teletext Character Generator</description>
+		<description>saa5056</description>
 		<rom name="saa5056" size="960" crc="86ab8b85" sha1="2d1ff08b4dda15cf70832881750a962189455f41"/>
 	</machine>
 	<machine name="saa5057">
-		<description>SAA5057 Teletext Character Generator</description>
+		<description>saa5057</description>
 		<rom name="saa5057" size="960" crc="d6664fb3" sha1="5a93445dde03066073e2909a935900e5f8439d81"/>
 	</machine>
 	<machine name="saa5240a">
@@ -4387,7 +4402,7 @@
 		<rom name="saa5243e" size="3840" crc="a74402e7" sha1="48123c9bb0377e417a147f5a68088c1ed7bee12d"/>
 	</machine>
 	<machine name="sad8852">
-		<description>SAD8852 IBM mainframe terminal adapter</description>
+		<description>sad8852</description>
 		<rom name="ron_1020044_r2a_d500_ic31.bin" size="16384" crc="cbdd042a" sha1="7a3d43e6b1f6fcd4402c54aaacf169ac74141cd2"/>
 	</machine>
 	<machine name="satcdb">
@@ -4397,7 +4412,7 @@
 		<rom name="ygr022.bin" size="65536" crc="1c8b9f38" sha1="f4f6c2aac68c352814d396ae41f81f54ad228e68"/>
 	</machine>
 	<machine name="sb16">
-		<description>SoundBlaster 16 Audio Adapter LLE</description>
+		<description>sb16</description>
 		<rom name="ct1741_v413@80c52.bin" size="8192" crc="5181892f" sha1="5b42f1c34c4e9c8dbbdcffa0a36c178ca4f1aa77"/>
 		<rom name="ct1741_v413_xor.bin" size="64" crc="5243d15a" sha1="c7637c92828843f47e6e2f956af639b07aee4571"/>
 	</machine>
@@ -4420,7 +4435,7 @@
 		<rom name="rcz180_nat_3_0_1.rom" size="524288" crc="a6cb0d80" sha1="cf4ad058931f0297fd2f8f81d15eb83ecbd29376"/>
 	</machine>
 	<machine name="scorpion_ic">
-		<description>Micro-Robotics Scorpion Intelligent Controller</description>
+		<description>scorpion_ic</description>
 		<rom name="scorpion_61203.bin" size="32768" crc="4ff495d1" sha1="91c273c94cd0dbca655e192dd01ac6dc3a4f60a8"/>
 	</machine>
 	<machine name="sdtandy_fdc">
@@ -4444,11 +4459,11 @@
 		<rom name="sed1200-b.bin" size="2048" crc="d0741f51" sha1="c8c856f1357286a2c8c806af81724a828345357e"/>
 	</machine>
 	<machine name="sed1278">
-		<description>Epson SED1278 LCD Controller</description>
+		<description>sed1278</description>
 		<rom name="sed1278_0b.bin" size="4096" crc="962498b7" sha1="41866836ab4ed7bd4c3539bc8df492ba7d7ff42a"/>
 	</machine>
 	<machine name="sega837_14438">
-		<description>Sega 837-14438 SH I/O BD</description>
+		<description>sega837_14438</description>
 		<rom name="6372a.ic3" size="131072" crc="f30839ad" sha1="ea1a32c4da1ed9745300bcdd7964a7c0964e3221"/>
 		<rom name="fpr-24150.ic6" size="2097152" crc="3845c34c" sha1="027b17bac64482ee152773d5fab30fcbc6e2bcb7"/>
 	</machine>
@@ -4457,11 +4472,11 @@
 		<rom name="ai-snd-2002-cecb.bin" size="65536" crc="ef2dabc0" sha1="b60cd9f6f46b6c77dba8610df6fd83368569e713"/>
 	</machine>
 	<machine name="segabill">
-		<description>Sega Billboard</description>
+		<description>segabill</description>
 		<rom name="epr-18022.ic2" size="65536" crc="0ca70f80" sha1="edf5ade72d9fa2f4d5f83f9f89e6cecfadd77f56"/>
 	</machine>
 	<machine name="segadimm">
-		<description>Sega DIMM Board</description>
+		<description>segadimm</description>
 		<rom name="203_203.bin" size="2097152" crc="a738ea1c" sha1="6f55f1ae0606816a4eca6645ed36eb7f9c7ad9cf"/>
 		<rom name="213_203.bin" size="2097152" crc="a738ea1c" sha1="17131f318632610b87bc095156ffad4597fed4ca"/>
 		<rom name="217_203.bin" size="2097152" crc="a738ea1c" sha1="e5a229ae7ed48b2955cad63529fd938c6db555e5"/>
@@ -4484,7 +4499,7 @@
 		<rom name="ver1305.bin" size="2097152" crc="a738ea1c" sha1="45d94d0c39be1cb3db9fab6610a88a550adda4e9"/>
 	</machine>
 	<machine name="sente6vb">
-		<description>Bally Sente 6VB Audio Board</description>
+		<description>sente6vb</description>
 		<rom name="8002-10 9-25-84.5" size="8192" crc="4dd0a525" sha1="f0c447adc5b67917851a9df978df851247e75c43"/>
 	</machine>
 	<machine name="serad">
@@ -4492,7 +4507,7 @@
 		<rom name="361d0279d031__e00422_tex.d31" size="8192" crc="369f5fd1" sha1="6a1c2d351d5552d54d835b7726b3f9b921605d0e"/>
 	</machine>
 	<machine name="sfd1001">
-		<description>Commodore SFD-1001</description>
+		<description>sfd1001</description>
 		<rom name="251257-02a.u2" size="2048" crc="b51150de" sha1="3b954eb34f7ea088eed1d33ebc6d6e83a3e9be15"/>
 		<rom name="901467-01.5c" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 		<rom name="901885-04.u1" size="1024" crc="bab998c9" sha1="0dc9a3b60f1b866c63eebd882403532fc59fe57f"/>
@@ -4511,11 +4526,11 @@
 		<rom name="17159__1987__key_tronic.z6" size="8192" crc="5502cb77" sha1="a000a2b29e8629c686b29a5af22beedcc94710dc"/>
 	</machine>
 	<machine name="side116">
-		<description>Acculogic sIDE-1/16 IDE Disk Controller</description>
+		<description>side116</description>
 		<rom name="bios12.u2" size="8192" crc="c202a0e6" sha1="a5b130a6d17c972d6c378cb2cd8113a4039631fe"/>
 	</machine>
 	<machine name="simutrek">
-		<description>Simutrek Modified PR-8210</description>
+		<description>simutrek</description>
 		<rom name="laser_player_interface_d8748_a308.bin" size="1024" crc="eed3e728" sha1="1eb3467f1c41553375b2c21952cd593b167f5416"/>
 		<rom name="pr-8210_mcu_ud6005a.bin" size="2048" crc="120fa83b" sha1="b514326ca1f52d6d89056868f9d17eabd4e3f31d"/>
 	</machine>
@@ -4525,7 +4540,7 @@
 		<rom name="sis630.bin" size="32768" crc="f04ef9b0" sha1="2396a79cd4045362bfc511090b146daa85902b4d"/>
 	</machine>
 	<machine name="sis6326_agp">
-		<description>SiS 6326 AGP card</description>
+		<description>sis6326_agp</description>
 		<rom name="3dpro4mbedo.bin" size="65536" crc="f04b374c" sha1="6eb96f7517df6eb566c615c2ab9ec5567035b6a5"/>
 		<rom name="4mbsdr.vbi" size="49152" crc="a5f8c7f7" sha1="9e5cfcf8d34e0c5829343179c87fb2b97f7a7f9c"/>
 		<rom name="aopenpa50v.vbi" size="32768" crc="6c4c7518" sha1="36bb29a23d565e34d548701acc248d50c99d7da4"/>
@@ -4536,7 +4551,7 @@
 		<rom name="pxe_m.19" size="40960" crc="c8da34a6" sha1="f11b4f5398176b7d924c63c77a1951cb83020e48"/>
 	</machine>
 	<machine name="smoc501">
-		<description>Sony SMO-C501 MO Disk Controller</description>
+		<description>smoc501</description>
 		<rom name="c501-00.rom" size="65536" crc="0ae04500" sha1="96c73a3a2ecdc8c903e920f2afba5b4edd5cdba6"/>
 	</machine>
 	<machine name="sms_diypaddle">
@@ -4838,7 +4853,7 @@
 		<rom name="keyboard.u1" size="4096" crc="0296915d" sha1="1102f20d38f333234041c13687d82528b7cde2e1"/>
 	</machine>
 	<machine name="stereo_fx">
-		<description>ATi Stereo F/X Audio Adapter</description>
+		<description>stereo_fx</description>
 		<rom name="ati_stereo_fx.bin" size="32768" crc="1bebffa6" sha1="e66c2619a6c05199554b5702d67877ae3799d415"/>
 	</machine>
 	<machine name="stic">
@@ -4855,7 +4870,7 @@
 		<rom name="sv806se.ic27" size="4096" crc="daea8956" sha1="3f16d5513ad35692488ae7d864f660e76c6e8ed3"/>
 	</machine>
 	<machine name="sw1000xg">
-		<description>Yamaha SW1000XG</description>
+		<description>sw1000xg</description>
 		<rom name="1.00.00_xv561a0.ic102" size="1048576" crc="9b6d8700" sha1="0bb6c60572b9ed1628fa9e6678e03bd1e47f2a06"/>
 		<rom name="1.04.00_xv561d0.ic102" size="1048576" crc="9f5bfec8" sha1="4ced122c8cac7a9c022d86fffe121042ad4be6a2"/>
 		<rom name="1.05.00_xv561d0.ic102" size="1048576" crc="36e199df" sha1="efe2d3000b49a4a93705fee5ffd5456953ef5a22"/>
@@ -4868,14 +4883,14 @@
 		<rom name="xv390a0.ic121" size="8388608" crc="cbc80585" sha1="1903ed7f1292e6117a448fec19e2b712f3815964"/>
 	</machine>
 	<machine name="swtpc8212_device">
-		<description>SWTPC8212</description>
+		<description>swtpc8212_device</description>
 		<rom name="8224g_ver.1.1_6oct80.ic1" size="2048" crc="7d7f3c21" sha1="f7e6e20b36a1c724a4e348bc784d0b7b5fb462a3"/>
 		<rom name="8224g_ver.1.1_6oct80.ic2" size="2048" crc="2b118c22" sha1="5fa031c834c7c582d5715764941499fcef51f477"/>
 		<rom name="grafix_8x12_22aug80.bin" size="2048" crc="a525ed65" sha1="813d2e85ddb258c5b032b959e695ad33200cbcc4"/>
 		<rom name="mcm66750.rom" size="2048" crc="aedc2830" sha1="49ce17d5b5cefb24e89ed3fd59887a652501b919"/>
 	</machine>
 	<machine name="sx1541">
-		<description>SX1541 Disk Drive</description>
+		<description>sx1541</description>
 		<rom name="1541 flash.uab5" size="8192" crc="22f7757e" sha1="86a1e43d3d22b35677064cca400a6bd06767a3dc"/>
 		<rom name="325302-01.uab4" size="8192" crc="29ae9752" sha1="8e0547430135ba462525c224e76356bd3d430f11"/>
 		<rom name="901229-05 ae.uab5" size="8192" crc="361c9f37" sha1="f5d60777440829e46dc91285e662ba072acd2d8b"/>
@@ -4996,7 +5011,7 @@
 		<rom name="isio-1_v2.1_u.bin" size="16384" crc="67986768" sha1="215f7ff90d9dbe2bea54510e3722fb33d4e54193"/>
 	</machine>
 	<machine name="t5182">
-		<description>T5182 MCU</description>
+		<description>t5182</description>
 		<rom name="t5182.rom" size="8192" crc="d354c8fc" sha1="a1c9e1ac293f107f69cc5788cf6abc3db1646e33"/>
 	</machine>
 	<machine name="tanbus_ra32krom">
@@ -5043,7 +5058,7 @@
 		<rom name="prom.82s147.z17" size="512" crc="5455d48e" sha1="b85021efbfc794c0c21c1919333c2bf08785c330"/>
 	</machine>
 	<machine name="technica">
-		<description>Westfalia Technica Disk Drive</description>
+		<description>technica</description>
 		<rom name="technica dos plus.bin" size="16384" crc="6a1ef3ff" sha1="1aaa52ed4a3f120ec8664bcefec890c7f9aaecf2"/>
 	</machine>
 	<machine name="tek410x_kbd">
@@ -5059,7 +5074,7 @@
 		<rom name="ix44_ver1.1.u57" size="4096" crc="5c11b89c" sha1="4911332709a8dcda12e72bcdf7a0acd58d65cbfd"/>
 	</machine>
 	<machine name="tetriskr_cga">
-		<description>ISA8_CGA_TETRISKR</description>
+		<description>tetriskr_cga</description>
 		<rom name="b-1.u59" size="65536" crc="4719d986" sha1="6e0499944b968d96fbbfa3ead6237d69c769d634"/>
 		<rom name="b-2.u58" size="65536" crc="599e1154" sha1="14d99f90b4fedeab0ac24ffa9b1fd9ad0f0ba699"/>
 		<rom name="b-3.u36" size="8192" crc="1a636f9a" sha1="a356cc57914d0c9b9127670b55d1f340e64b1ac9"/>
@@ -5071,7 +5086,7 @@
 		<rom name="b-9.u43" size="65536" crc="4ea22349" sha1="14dfd3dbd51f8bd6f3290293b8ea1c165e8cf7fd"/>
 	</machine>
 	<machine name="tgui9680">
-		<description>Trident TGUI9680 Graphics Card (BIOS X5.5 (02) 02/13/96)</description>
+		<description>tgui9680</description>
 		<rom name="trident_tgui9680_bios.bin" size="32768" crc="1eebde64" sha1="67896a854d43a575037613b3506aea6dae5d6a19"/>
 	</machine>
 	<machine name="ti99_bwg">
@@ -5161,19 +5176,19 @@
 		<rom name="tk02-v100.bin" size="8192" crc="ad3c4346" sha1="cd57e630371b4d0314e3f15693753fb195c7257d"/>
 	</machine>
 	<machine name="tms32030">
-		<description>Texas Instruments TMS320C30</description>
+		<description>tms32030</description>
 		<rom name="c30boot.bin" size="16384" crc="bddc2763" sha1="96b2170ecee5bec5abaa1741bb2d3b6096ecc262"/>
 	</machine>
 	<machine name="tms32031">
-		<description>Texas Instruments TMS320C31</description>
+		<description>tms32031</description>
 		<rom name="c31boot.bin" size="16384" crc="bddc2763" sha1="96b2170ecee5bec5abaa1741bb2d3b6096ecc262"/>
 	</machine>
 	<machine name="tms32032">
-		<description>Texas Instruments TMS320C32</description>
+		<description>tms32032</description>
 		<rom name="c32boot.bin" size="16384" crc="ecf84729" sha1="4d32ead450f921f563514b061ea561a222283616"/>
 	</machine>
 	<machine name="tms32033">
-		<description>Texas Instruments TMS320VC33</description>
+		<description>tms32033</description>
 		<rom name="c31boot.bin" size="16384" crc="bddc2763" sha1="96b2170ecee5bec5abaa1741bb2d3b6096ecc262"/>
 	</machine>
 	<machine name="tp881v">
@@ -5209,36 +5224,40 @@
 		<rom name="hbf.rom" size="16384" crc="ae34982b" sha1="96c4154c04086c537ae1272fe051a256d2f5be3f"/>
 	</machine>
 	<machine name="tvga9000">
-		<description>Trident/Quadtel TVGA9000B SVGA card</description>
+		<description>tvga9000</description>
 		<rom name="quadtel_tvga_bios_software_1991_ver_d3_0_lh.bin" size="65536" crc="d35a8ce9" sha1="9cff3cb86a85dcbd34234bc4fd1dd0011f3d48fd"/>
 		<rom name="trident_quadtel_tvga9000_isa16.bin" size="65536" crc="ad0e7351" sha1="eb525460a80e1c1baa34642b93d54caf2607920d"/>
 	</machine>
 	<machine name="ultra12f">
-		<description>Ultra 12F ESDI Caching Disk Controller</description>
+		<description>ultra12f</description>
 		<rom name="28001-009_uc_89.u1" size="32768" crc="0b6c74a1" sha1="1a9eb5866f2104e94295d0915fe10c4c1745665b"/>
 		<rom name="28001-012.bin" size="32768" crc="62fd2f69" sha1="48d6e65001a262b3e99d373fa59e0672c5ec4284"/>
 		<rom name="38001-009_ultrastor_corp_89_otp.u15" size="16384" crc="b96c4839" sha1="4e601c4ff1deae959c0807479d25de6db4e6cf3e"/>
 		<rom name="38001-010.bin" size="16384" crc="aa80d74e" sha1="b507e6ead79e836969b8b6f2fa88ca99d6b354ad"/>
 	</machine>
 	<machine name="ultra12f32">
-		<description>Ultra 12F/32 ESDI Caching Disk Controller</description>
+		<description>ultra12f32</description>
 		<rom name="28001-005_usc_89_beeb.u1" size="32768" crc="e28640ac" sha1="110e724b4116fc2cbd050d9f2e541d2366fd9f4c"/>
 		<rom name="38001-006_usc_89_4cf3.u15" size="16384" crc="f09faeca" sha1="b9e4edd5b16089c07d87b0c07a927c2d741b1f5e"/>
 	</machine>
 	<machine name="ultra14f">
-		<description>Ultra-14F SCSI Host Adapter</description>
+		<description>ultra14f</description>
 		<rom name="28004.006" size="32768" crc="489a872e" sha1="692faaf945856b3888be5d8778f5643e51711ee2"/>
 		<rom name="38004.005" size="16384" crc="0d9d831d" sha1="9c1539f8473f8330be323e728e7aabccc77542d0"/>
 	</machine>
 	<machine name="ultra24f">
-		<description>Ultra-24F SCSI Host Adapter</description>
+		<description>ultra24f</description>
 		<rom name="28110008.bin" size="32768" crc="3f26d927" sha1="4ab98840e3af72bf08adfcf478e708fad309f4b7"/>
 		<rom name="28111008.bin" size="32768" crc="fcced531" sha1="2ebcf57c4aea56eb2646e826d9cb3370ebef042e"/>
 		<rom name="38110005.bin" size="16384" crc="498f2aa5" sha1="8405a91bb445cb99059c65a2e711d425fc69f5d6"/>
 		<rom name="38111005.bin" size="16384" crc="826d5ad1" sha1="052602e4788b7364670f7c0b5fe0bb0eacc4d9ac"/>
 	</machine>
+	<machine name="umc6650">
+		<description>umc6650</description>
+		<rom name="umc6650.bin" size="16" crc="0ba78597" sha1="f94805457976d60b91e8df18f9f49cccec77be78"/>
+	</machine>
 	<machine name="upd7220">
-		<description>NEC uPD7220</description>
+		<description>upd7220</description>
 		<rom name="upd7220.bin" size="256" crc="3c92b218" sha1="e154b3106a80c9c98d9f2ee18efcd7f4b4aa7d49"/>
 	</machine>
 	<machine name="uts_400kbd">
@@ -5262,7 +5281,7 @@
 		<rom name="v550kb.bin" size="2048" crc="d11d19a3" sha1="2d88202d0548e934800f07667c8d13a3762b12fa"/>
 	</machine>
 	<machine name="vanta">
-		<description>nVidia Vanta (NV5)</description>
+		<description>vanta</description>
 		<rom name="inno3d_nv5.bin" size="43008" crc="9574114f" sha1="f0e684bca6cc9c1e51a91dccdd5f216b16ea4fe1"/>
 		<rom name="nv5_compaq_vantalt.rom" size="38912" crc="64800741" sha1="b28a56bcf466fcd9308541acaa1c7c94f493149a"/>
 		<rom name="pine_pci_nv5.rom" size="43008" crc="9c24202a" sha1="417644f744b2cd54c0b81e8982e81336907f355e"/>
@@ -5272,11 +5291,11 @@
 		<rom name="v4_kbd_10.bin" size="2048" crc="3166e57b" sha1="0023f0639e2f1d9e8860c6c4244e25fd8bf82331"/>
 	</machine>
 	<machine name="vic1515">
-		<description>VIC-1515 Graphic Printer</description>
+		<description>vic1515</description>
 		<rom name="805-5.p4" size="4096" crc="05a99a5a" sha1="035c23dc83923eea34feea260445356a909fbd98"/>
 	</machine>
 	<machine name="vic1520">
-		<description>VIC-1520 Color Printer Plotter</description>
+		<description>vic1520</description>
 		<rom name="325340-01.u1" size="2048" crc="3757da6f" sha1="8ab43603f74b0f269bbe890d1939a9ae31307eb1"/>
 		<rom name="325340-03.u1" size="2048" crc="f72ea2b6" sha1="74c15b2cc1f7632bffa37439609cbdb50b82ea92"/>
 	</machine>
@@ -5299,25 +5318,25 @@
 		<rom name="20-8021-139.z3" size="1024" crc="0fe9d53d" sha1="61d92ba90f98f8978bbd9303c1ac3134cde8cdcb"/>
 	</machine>
 	<machine name="virge_pci">
-		<description>S3 86C325 ViRGE</description>
+		<description>virge_pci</description>
 		<rom name="pci_m-v_virge-4s3.bin" size="32768" crc="d0a0f1de" sha1="b7b41081974762a199610219bdeab149b7c7143d"/>
 		<rom name="s3virge.bin" size="65536" crc="a7983a85" sha1="e885371816d3237f7badd57ccd602cd863c9c9f8"/>
 	</machine>
 	<machine name="virgedx_pci">
-		<description>S3 86C375 ViRGE/DX</description>
+		<description>virgedx_pci</description>
 		<rom name="s3virgedx.bin" size="32768" crc="0da83bd3" sha1="228a2d644e1732cb5a2eb1291608c7050cf39229"/>
 		<rom name="virgedxdiamond.bin" size="32768" crc="58b0dcda" sha1="b13ae6b04db6fc05a76d924ddf2efe150b823029"/>
 	</machine>
 	<machine name="vision864">
-		<description>S3 86C864 Vision864</description>
+		<description>vision864</description>
 		<rom name="bios.bin" size="65536" crc="791c9e0d" sha1="340a64402958d2ee734d929dfce147d9afcf23f4"/>
 	</machine>
 	<machine name="vision964">
-		<description>S3 86C964 Vision964</description>
+		<description>vision964</description>
 		<rom name="mirocrystal.vbi" size="32768" crc="d0b0aa1c" sha1="004e2432c4783f1539a7989e7d9ee422df09e695"/>
 	</machine>
 	<machine name="vision968">
-		<description>S3 86C968 Vision968</description>
+		<description>vision968</description>
 		<rom name="elsaw20008m.bin" size="65536" crc="47563211" sha1="f51a40956c3e6e7c86851d81f81ba5f77509d361"/>
 		<rom name="no9motionfx771.bin" size="65536" crc="7732e382" sha1="9ec2fe056712cef39bd8380d406be3c874ea5ec9"/>
 		<rom name="spea.bin" size="65536" crc="2caeadaf" sha1="236829f1e6065a2f0ebee91f71891d8402f0ab5a"/>
@@ -5327,11 +5346,11 @@
 		<rom name="sp0256a-al2.bin" size="2048" crc="b504ac15" sha1="e60fcb5fa16ff3f3b69d36c7a6e955744d3feafc"/>
 	</machine>
 	<machine name="votrsc01">
-		<description>Votrax SC-01</description>
+		<description>votrsc01</description>
 		<rom name="sc01.bin" size="512" crc="528d1c57" sha1="268b5884dce04e49e2376df3e2dc82e852b708c1"/>
 	</machine>
 	<machine name="votrsc01a">
-		<description>Votrax SC-01-A</description>
+		<description>votrsc01a</description>
 		<rom name="sc01a.bin" size="512" crc="fc416227" sha1="1d6da90b1807a01b5e186ef08476119a862b5e6d"/>
 	</machine>
 	<machine name="vp700">
@@ -5381,15 +5400,15 @@
 		<rom name="20-8051-225.z5" size="4096" crc="82d2999f" sha1="2bb34a1de2d94b2885d9e8fcd4964296f6276c5c"/>
 	</machine>
 	<machine name="wd1002a_wx1">
-		<description>WD1002A-WX1</description>
+		<description>wd1002a_wx1</description>
 		<rom name="600693-001 type 5.u12" size="8192" crc="f3daf85f" sha1="3bd29538832d3084cbddeec92593988772755283"/>
 	</machine>
 	<machine name="wd1007a">
-		<description>WD1007A ESDI HDC</description>
+		<description>wd1007a</description>
 		<rom name="wd1007a_8753_cs8074.bin" size="8192" crc="099c2c03" sha1="5ff6a70b1b44962654d02f85916c1b09bc4ebc96"/>
 	</machine>
 	<machine name="wd90c00_jk">
-		<description>Western Digital WD90C00-JK Graphics Card</description>
+		<description>wd90c00_jk</description>
 		<rom name="90c00jk-lh6673.vbi" size="24576" crc="595eda15" sha1="a3d4a978f30a0669bcb4a74ce196fd7a798d456f"/>
 		<rom name="wd90c00h.bin" size="16384" crc="b3279a8d" sha1="d531c5e3d2c083190477b8d799dc5205c9357181"/>
 		<rom name="wd90c00l.bin" size="16384" crc="a4fdc1db" sha1="9680ab2049a0fd49bb23eb0a08487518cb9fa861"/>
@@ -5397,43 +5416,43 @@
 		<rom name="wdl.bin" size="16384" crc="6916523e" sha1="a4024e8a71b310fc95a37743bc255212c7dd73a5"/>
 	</machine>
 	<machine name="wd90c11_lr">
-		<description>Western Digital WD90C11-LR Graphics Card &quot;1024 CX&quot;</description>
+		<description>wd90c11_lr</description>
 		<rom name="wd90c11.vbi" size="32768" crc="9c1296d7" sha1="10fd263ab0187d8960d4cb2954254732ac29472f"/>
 	</machine>
 	<machine name="wd90c30_lr">
-		<description>Western Digital WD90C30-LR Graphics Card &quot;1024 DX&quot;</description>
+		<description>wd90c30_lr</description>
 		<rom name="90c30-lr.vbi" size="32768" crc="3356ad43" sha1="6cd56cf274b3c9262b7ca12d49bae63afc331c58"/>
 		<rom name="u24.bin" size="32768" crc="797ec96d" sha1="902418504a446f0a484fd3da6f65d3cff3987280"/>
 		<rom name="u25.bin" size="32768" crc="f3ba68ae" sha1="a072c9f8bd465c18fc75b9f8890061587abda1f2"/>
 	</machine>
 	<machine name="wd90c31_lr">
-		<description>Western Digital WD90C31-LR Graphics Card</description>
+		<description>wd90c31_lr</description>
 		<rom name="62-003259-800.bin" size="16384" crc="e71090bd" sha1="f784ebc14801a0944271aab9ba4746dd9d0e001d"/>
 		<rom name="62-003260-800.bin" size="16384" crc="1e66af70" sha1="7f236d6acb34d07480584d51f6bb57836ff262c4"/>
 	</machine>
 	<machine name="wd90c31a_lr">
-		<description>Western Digital WD90C31A-LR Graphics Card</description>
+		<description>wd90c31a_lr</description>
 		<rom name="bios.bin" size="65536" crc="cdc4c32e" sha1="52ed7b8301ec5ebab0d87bab8cddd9cc8612e2ab"/>
 		<rom name="wd90c31alrdiamondspeedstar24x2.bin" size="32768" crc="578cb3c3" sha1="ca7d871f9589eb06ace8075dd2d87a59bd191744"/>
 	</machine>
 	<machine name="wd90c31a_zs">
-		<description>Western Digital WD90C31A-ZS Graphics Card</description>
+		<description>wd90c31a_zs</description>
 		<rom name="wd90c31azs.bin" size="32768" crc="521db1dd" sha1="52cefcc9a1b7374c7414bb93a7805207ba5b7fe3"/>
 	</machine>
 	<machine name="wd90c33_zz">
-		<description>Western Digital WD90C33-ZZ Graphics Card</description>
+		<description>wd90c33_zz</description>
 		<rom name="bios.bin" size="65536" crc="b719d557" sha1="0f93213ed439059d23e0793478793ffd6188ce12"/>
 	</machine>
 	<machine name="wd90c90_jk">
-		<description>Western Digital WD90C90-JK Graphics Card</description>
+		<description>wd90c90_jk</description>
 		<rom name="bios.bin" size="65536" crc="a7f0e81c" sha1="578ee0e8f9a5e56df6c05386978d0f41c638ddcf"/>
 	</machine>
 	<machine name="wd9710_pci">
-		<description>Western Digital WD9710-MZ</description>
+		<description>wd9710_pci</description>
 		<rom name="bios.bin" size="65536" crc="98338249" sha1="b5dbb28d60adf53c711ec16bc45eab102e40b6a2"/>
 	</machine>
 	<machine name="wdxt_gen">
-		<description>Western Digital WDXT-GEN (Amstrad PC1512/1640)</description>
+		<description>wdxt_gen</description>
 		<rom name="3.u13" size="8192" crc="fbcb5f91" sha1="8c22bd664177eb6126f3011eda8c5655fffe0ef2"/>
 		<rom name="wd1015-pl-54-02.u6" size="2048" crc="116e0608" sha1="bcbd6b39c5a7e16e3bae9372b53d54d6761ba6bc"/>
 	</machine>
@@ -5442,7 +5461,7 @@
 		<rom name="romsxgm.bin" size="2097152" crc="c392cf89" sha1="93ebe213ea7a085c67d88974ed39ac3e9bf8059b"/>
 	</machine>
 	<machine name="wyse700">
-		<description>Wyse 700</description>
+		<description>wyse700</description>
 		<rom name="250211-03.e5" size="8192" crc="58b61f63" sha1="29ecb7cf7d07d692f0fc54e2dea8389f17a65f1a"/>
 		<rom name="250212-03.f5" size="8192" crc="6930d741" sha1="1beeb133c5e39eee9914bdc5924039d70b5edcad"/>
 	</machine>
@@ -5455,7 +5474,7 @@
 		<rom name="820iikey.bin" size="1024" crc="8ea3b39b" sha1="3f05959f54a558b273567b1b4f0c7cdf46d8d9bf"/>
 	</machine>
 	<machine name="xt446">
-		<description>Yamaha XT446 synth (embedded MU100B)</description>
+		<description>xt446</description>
 		<rom name="sx518b0.ic34" size="4194304" crc="2550d44f" sha1="fd3cce228c7d389a2fde25c808a5b26080588cba"/>
 		<rom name="sx743b0.ic35" size="4194304" crc="a9109a6c" sha1="a67bb49378a38a2d809bd717d286e18bc6496db0"/>
 		<rom name="xt445a0-828.ic36" size="2097152" crc="225c2280" sha1="23b5e046fd2e2ac01af3e6dc6357c5c6547b286b"/>
@@ -5465,7 +5484,7 @@
 		<rom name="xu50710-m27c160.bin" size="2097152" crc="4b10bd27" sha1="12d7c6e1bce7974b34916e1bfa5057ab55867476"/>
 	</machine>
 	<machine name="xtide">
-		<description>XT-IDE Fixed Drive Adapter</description>
+		<description>xtide</description>
 		<rom name="ide_at.bin,v1.1.0" size="8192" crc="673ebf69" sha1="3960c0be39a787e740d14c8667fc09437bd56ff7"/>
 		<rom name="ide_at.bin,v1.1.1" size="8192" crc="c808b718" sha1="215903c68784c886a3117662c735a84d203b7858"/>
 		<rom name="ide_at.bin,v1.1.3" size="8192" crc="14ce1ced" sha1="3eea39ffcb9a796c30f48d12ec8ff13572b3b9dc"/>
@@ -5493,31 +5512,31 @@
 		<rom name="oprom.bin,v0.11" size="8192" crc="c5fee6c5" sha1="cc3a015d8d36208d99de8500c962828d2daea939"/>
 	</machine>
 	<machine name="ym2413">
-		<description>YM2413 OPLL</description>
+		<description>ym2413</description>
 		<rom name="ym2413_instruments.bin" size="144" crc="6f582d01" sha1="bb5537717e0b34849456b5ca7d405403dc3f8fda"/>
 	</machine>
 	<machine name="ym2423">
-		<description>YM2423 OPLL-X</description>
+		<description>ym2423</description>
 		<rom name="ym2423_instruments.bin" size="144" crc="cc51dd1b" sha1="59c51918f02891d6a0e917f7ebc27e42f7eadd15"/>
 	</machine>
 	<machine name="ym2608">
-		<description>YM2608 OPNA</description>
+		<description>ym2608</description>
 		<rom name="ym2608_adpcm_rom.bin" size="8192" crc="23c9e0d8" sha1="50b6c3e288eaa12ad275d4f323267bb72b0445df"/>
 	</machine>
 	<machine name="ymf281">
-		<description>YMF281 OPLLP</description>
+		<description>ymf281</description>
 		<rom name="ymf281_instruments.bin" size="144" crc="1c68abba" sha1="5242d7b9c677c48e156ba5753db1a73db627a1a9"/>
 	</machine>
 	<machine name="z8671">
-		<description>Zilog Z8671</description>
+		<description>z8671</description>
 		<rom name="z8671.bin" size="2048" crc="3fceeb76" sha1="290a24c77debd2e280fe31380287838c5fb7cabd"/>
 	</machine>
 	<machine name="z8682">
-		<description>Zilog Z8682</description>
+		<description>z8682</description>
 		<rom name="testrom.bin" size="56" crc="b2239f28" sha1="9d27957ba0f15657eac5a7295157af6ee51cb261"/>
 	</machine>
 	<machine name="zip100_ide">
-		<description>Iomega Zip 100MB IDE Drive</description>
+		<description>zip100_ide</description>
 		<rom name="nm27c520m.u1" size="65536" crc="67a04459" sha1="b8df2a733838db5116982a7295484b77b272287c"/>
 	</machine>
 	<machine name="zorba_kbd">
@@ -5525,7 +5544,7 @@
 		<rom name="8999-1 3-28-83" size="1920" crc="79fe6c0d" sha1="4b6fca9379d5199d1347ad1187cbfdebfc4c73e7"/>
 	</machine>
 	<machine name="zorro_a2091">
-		<description>CBM A2091 HD Controller</description>
+		<description>zorro_a2091</description>
 		<rom name="390333-03.u5" size="260" crc="dc4a8d9b" sha1="761a1318106e49057f95258699076ec1079967ad"/>
 		<rom name="390388-03.u12" size="8192" crc="b0b8cf24" sha1="fcf4017505f4d441814b45d559c19eab43816b30"/>
 		<rom name="390389-03.u13" size="8192" crc="2e77bbff" sha1="8a098845068f32cfa4d34a278cd290f61d35a52c"/>
@@ -5540,7 +5559,7 @@
 		<rom name="gururom_v614.bin" size="32768" crc="04e52f93" sha1="6da21b6f5e8f8837d64507cd8a4d5cdcac4f426b"/>
 	</machine>
 	<machine name="zorro_a590">
-		<description>CBM A590 HD Controller</description>
+		<description>zorro_a590</description>
 		<rom name="390333-03.u5" size="260" crc="dc4a8d9b" sha1="761a1318106e49057f95258699076ec1079967ad"/>
 		<rom name="390388-03.u12" size="8192" crc="b0b8cf24" sha1="fcf4017505f4d441814b45d559c19eab43816b30"/>
 		<rom name="390389-03.u13" size="8192" crc="2e77bbff" sha1="8a098845068f32cfa4d34a278cd290f61d35a52c"/>
@@ -5555,24 +5574,24 @@
 		<rom name="gururom_v614.bin" size="32768" crc="04e52f93" sha1="6da21b6f5e8f8837d64507cd8a4d5cdcac4f426b"/>
 	</machine>
 	<machine name="zorro_ar1">
-		<description>Datel Action Replay MK-I</description>
+		<description>zorro_ar1</description>
 		<rom name="ar1_v100.bin" size="65536" crc="2d921771" sha1="1ead9dda2dad29146441f5ef7218375022e01248"/>
 		<rom name="ar1_v150.bin" size="65536" crc="f82c4258" sha1="843b433b2c56640e045d5fdc854dc6b1a4964e7c"/>
 	</machine>
 	<machine name="zorro_ar2">
-		<description>Datel Action Replay MK-II</description>
+		<description>zorro_ar2</description>
 		<rom name="ar2_v205.bin" size="131072" crc="4051eef8" sha1="9df22b1d3285b522c223697c83d144d04e961a4a"/>
 		<rom name="ar2_v212.bin" size="131072" crc="d29bdd86" sha1="76c2900457badf22b742f0af48b78937e8b67694"/>
 		<rom name="ar2_v214.bin" size="131072" crc="1bb3d0a8" sha1="14b1f5a69efb6f4e2331970e6ca0f33c0f04ac91"/>
 	</machine>
 	<machine name="zorro_ar3">
-		<description>Datel Action Replay MK-III</description>
+		<description>zorro_ar3</description>
 		<rom name="ar3_v309.evn" size="131072" crc="2b84519f" sha1="7841873bf009d8341dfa2794b3751bacf86adcc8"/>
 		<rom name="ar3_v309.odd" size="131072" crc="1d35bd56" sha1="6464be1626b519499e76e4e3409e8016515d48b6"/>
 		<rom name="ar3_v314.bin" size="262144" crc="009f7768" sha1="0439d6ccc2a0e5c2e83fcf2389dc4d4a440a4c62"/>
 	</machine>
 	<machine name="zorro_buddha">
-		<description>Buddha IDE controller</description>
+		<description>zorro_buddha</description>
 		<rom name="buddha_103-17.rom" size="32768" crc="2b7b24e0" sha1="ec17a58962c373a2892090ec9b1722d2c326d631"/>
 		<rom name="buddha_103-8.rom" size="32768" crc="44f81426" sha1="95555c6690b5c697e1cdca2726e47c1c6c194d7c"/>
 	</machine>

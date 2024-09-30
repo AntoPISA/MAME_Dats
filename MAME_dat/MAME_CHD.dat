@@ -3,16 +3,14 @@
 
 <datafile>
 	<header>
-		<name>-not specified-</name>
-		<description>-not specified-</description>
-		<category>-not specified-</category>
-		<version>-not specified-</version>
-		<date>-not specified-</date>
-		<author>-not specified-</author>
-		<email>-not specified-</email>
-		<homepage>-not specified-</homepage>
-		<url>-not specified-</url>
-		<comment>-not specified-</comment>
+		<name>MAME CHDs</name>
+		<description>MAME CHDs 0.270</description>
+		<category>Emulation</category>
+		<version>0.270</version>
+		<date>26/09/2024</date>
+		<author>AntoPISA</author>
+		<homepage>https://www.progettosnaps.net/</homepage>
+		<url>https://www.progettosnaps.net/dats/MAME/</url>
 		<clrmamepro/>
 	</header>
 	<machine name="2spicy" sourcefile="sega/lindbergh.cpp" romof="lindbios">
