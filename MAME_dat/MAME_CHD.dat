@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>MAME CHDs</name>
-		<description>MAME CHDs 0.270</description>
+		<description>MAME CHDs 0.271</description>
 		<category>Emulation</category>
-		<version>0.270</version>
-		<date>26/09/2024</date>
+		<version>0.271</version>
+		<date>31/10/2024</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -27267,7 +27267,7 @@
 		<disk name="jg7420" sha1="214a1686c7eefdb4cb5d723e98957600c8cb138d" region="sdcard"/>
 		<device_ref name="arm9"/>
 		<device_ref name="screen"/>
-		<device_ref name="spi_sdhccard"/>
+		<device_ref name="spi_sdcard"/>
 		<device_ref name="harddisk_image"/>
 		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
@@ -27808,6 +27808,28 @@
 		<device_ref name="k573fpga"/>
 		<device_ref name="mas3507d"/>
 		<device_ref name="ds2401"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="maquinati" sourcefile="cirsa/cirsa2080606.cpp">
+		<description>La Máquina del Tiempo</description>
+		<year>2015</year>
+		<manufacturer>Unidesa/Cirsa</manufacturer>
+		<rom name="bbox_m27w401-80k6.u6" size="524288" status="nodump"/>
+		<rom name="la_maquina_del_tiempo_graf-es_1-3.u1" size="33554432" crc="aafeeda9" sha1="48bcae57d7f4ad6eff1c90bc41bc98ca4ad3b5a5"/>
+		<rom name="la_maquina_del_tiempo_graf-es_1-3.u2" size="33554432" crc="6d44e979" sha1="cfed68cd9a64701977b2be4cf99f2b4717374c66"/>
+		<rom name="la_maquina_del_tiempo_graf-es_bg1-3-3_g-3f119.u1" size="33554432" crc="067cf5f6" sha1="3094d1b6f508def383b52a77007efd7a09c90ce1"/>
+		<rom name="la_maquina_del_tiempo_graf-es_bg1-3-3_g-3f119.u2" size="33554432" crc="c017126c" sha1="7ba628037da96874894317e72f62bc7b1878520d"/>
+		<rom name="la_maquina_del_tiempo_graf-es_bg2-2-3_g-2f119.u1" size="33554432" crc="4d76a943" sha1="f8819b509c416a29f6f3d41561e74c62ca7448e1"/>
+		<rom name="la_maquina_del_tiempo_graf-es_bg2-2-3_g-2f119.u2" size="33554432" crc="19d3040e" sha1="c174dce45755d918d62f116aaee06cabef8021f8"/>
+		<rom name="pic18f258.u2" size="32768" status="nodump"/>
+		<rom name="pic24hj64gp502-i-sp.u1" size="8192" status="nodump"/>
+		<rom name="programa_js28f128j3c120.u5" size="16777234" status="nodump"/>
+		<rom name="sn_2.00_22-09-15_stm32f103rct6.u1" size="262144" status="nodump"/>
+		<disk name="maquinati_sdcard" sha1="5e13eeb7bca6c8445de161de35c5ffc1f40b6e53" region="sdcard"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="arm9"/>
+		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="marvice" sourcefile="amiga/alg.cpp" romof="alg_bios">
@@ -42625,7 +42647,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="starridr" sourcefile="midway/starrider.cpp">
-		<description>Star Rider</description>
+		<description>Star Rider (REV 1)</description>
 		<year>1984</year>
 		<manufacturer>Williams</manufacturer>
 		<rom name="rom_1.u4" size="16384" crc="9655db83" sha1="50406ea8a4e20dbc7d4ff3ca60d41d142e3d593e"/>
@@ -42659,6 +42681,61 @@
 		<rom name="u11.82s137" size="1024" crc="917e35ca" sha1="676e2d211c81dbbf911f99a672eac1fd29553a2b"/>
 		<rom name="u114.82s123" size="32" crc="27a6d555" sha1="988d55092d7d0243a867986873dfd12be67280c7"/>
 		<rom name="u74.6349" size="512" crc="362ec0f9" sha1="0304a36d038436e9f5e817dfc2c40b6421953cad"/>
+		<disk name="starrider" region="ld_pr8210a" status="nodump"/>
+		<device_ref name="mc6809e"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="nvram"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="ipt_merge_any_hi"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="palette"/>
+		<device_ref name="mc6809e"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="mc6809e"/>
+		<device_ref name="ptm6840"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="fifo2812"/>
+		<device_ref name="fifo2812"/>
+		<device_ref name="ipt_merge_any_hi"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="starridrp3" sourcefile="midway/starrider.cpp" cloneof="starridr" romof="starridr">
+		<description>Star Rider (PROTO 3)</description>
+		<year>1984</year>
+		<manufacturer>Williams</manufacturer>
+		<rom name="rom_1.u4" merge="rom_1.u4" size="16384" crc="9655db83" sha1="50406ea8a4e20dbc7d4ff3ca60d41d142e3d593e"/>
+		<rom name="rom_10.u23" merge="rom_10.u23" size="16384" crc="2fc10697" sha1="205476c13348140a92254d0998d740f18bff7187"/>
+		<rom name="rom_11.u9" merge="rom_11.u9" size="16384" crc="665a4b07" sha1="3c57839f65070e2b63b33eaa833370203993dc51"/>
+		<rom name="rom_12.u24" merge="rom_12.u24" size="16384" crc="e117c9b3" sha1="0500e6723b973ab672f4479bf1ce45579ef9a9f2"/>
+		<rom name="rom_13.u10" merge="rom_13.u10" size="16384" crc="3e8cdea4" sha1="554ddd87d5a5de1b04b81ca6a730682d90f334a1"/>
+		<rom name="rom_14.u25" merge="rom_14.u25" size="16384" crc="d8260022" sha1="6eb60d512f6bee3a74950145ab52a6c8bb7054c4"/>
+		<rom name="rom_15.u11" merge="rom_15.u11" size="16384" crc="bac9b2b4" sha1="0700debb88f7e001c78407f69d804c4340d602e2"/>
+		<rom name="rom_16.u26" merge="rom_16.u26" size="16384" crc="111e2f28" sha1="96904f08d66fed87fcfc0c59be50546f42e27687"/>
+		<rom name="rom_17.u12" merge="rom_17.u12" size="16384" crc="eb5f96dd" sha1="2ccd3b1ea12e201306707d8ed95c000c06766b48"/>
+		<rom name="rom_18.u27" merge="rom_18.u27" size="16384" crc="b87eeeee" sha1="37d6c360c7557d28bb7cc109ac6617569d7afb18"/>
+		<rom name="rom_19.u13" merge="rom_19.u13" size="16384" crc="67ffe21b" sha1="ebfc8f963e852cf5adb14f7f76f60fd738ddbc18"/>
+		<rom name="rom_2.u19" merge="rom_2.u19" size="16384" crc="8903afe2" sha1="dce09ab66ad96422e426b8f0eb7bedaad1596be2"/>
+		<rom name="rom_25.u46" merge="rom_25.u46" size="8192" crc="2812097e" sha1="793ed5ec8b1d1689e856fc2008f46faf963f5045"/>
+		<rom name="rom_26.u3" merge="rom_26.u3" size="4096" crc="2afef78c" sha1="467d9441927ded3b6dceb9da10917620dfb58a3c"/>
+		<rom name="rom_27.u11" merge="rom_27.u11" size="8192" crc="ffacb56d" sha1="e6f7984e014a5ace50b0b1428a386ae645b972f5"/>
+		<rom name="rom_3.u5" merge="rom_3.u5" size="16384" crc="ac1bdd83" sha1="a635714d814fea7728e3d62003069873d00536b2"/>
+		<rom name="rom_30p3.u8" size="16384" crc="ad9a3a2e" sha1="95fcf776e6410a7f8081622f0176e5f17732b975"/>
+		<rom name="rom_31p3.u15" size="16384" crc="5ce07944" sha1="edf98693d880ccebeb770f9e093a67392589ba35"/>
+		<rom name="rom_32p3.u26" size="16384" crc="f31f2faa" sha1="61413681a308dd0cb2c2d0c70181c15fc9a31403"/>
+		<rom name="rom_34p3.u45" size="8192" crc="6521c9bc" sha1="2273d9efe12a6a6d40c14ffb39c32ae1d2296956"/>
+		<rom name="rom_35p3.u52" size="8192" crc="5ac61ca1" sha1="027a20cff95d9d444ead5fe7ca9823fc0c1aeff3"/>
+		<rom name="rom_4.u20" merge="rom_4.u20" size="16384" crc="3bef2dc3" sha1="60e8c794d706ea6ef7b4c25f11fd9850f992bafd"/>
+		<rom name="rom_5.u6" merge="rom_5.u6" size="16384" crc="18470b9c" sha1="5cf7bbf8c1dfeff9ee570b86d7d02bf7126ad01f"/>
+		<rom name="rom_6.u21" merge="rom_6.u21" size="16384" crc="3d345e8b" sha1="77a1faa1b2e48bc51b20b3015007d399f72c5fc9"/>
+		<rom name="rom_7.u7" merge="rom_7.u7" size="16384" crc="c2f624db" sha1="f57c6c16a7cf5a03cb1bee7fba841d70fe6a25d9"/>
+		<rom name="rom_8.u22" merge="rom_8.u22" size="16384" crc="089cc4dd" sha1="ef15cf517da6ffae9e1063f3fda854ad2ef16e66"/>
+		<rom name="rom_9.u8" merge="rom_9.u8" size="16384" crc="360938be" sha1="632194a3d398a7f670bfb05f58c1afd8c17ec288"/>
+		<rom name="u10.82s137" merge="u10.82s137" size="1024" crc="917e35ca" sha1="676e2d211c81dbbf911f99a672eac1fd29553a2b"/>
+		<rom name="u11.82s137" merge="u10.82s137" size="1024" crc="917e35ca" sha1="676e2d211c81dbbf911f99a672eac1fd29553a2b"/>
+		<rom name="u114.82s123" merge="u114.82s123" size="32" crc="27a6d555" sha1="988d55092d7d0243a867986873dfd12be67280c7"/>
+		<rom name="u74.6349" merge="u74.6349" size="512" crc="362ec0f9" sha1="0304a36d038436e9f5e817dfc2c40b6421953cad"/>
 		<disk name="starrider" region="ld_pr8210a" status="nodump"/>
 		<device_ref name="mc6809e"/>
 		<device_ref name="pia6821"/>
@@ -44939,6 +45016,16 @@
 		<rom name="tkk2vera.2l" size="2097152" crc="321344e0" sha1="0273284d05707b76ca38fd160ef6f17572314a8b"/>
 		<rom name="tkk2vera.2p" size="2097152" crc="a7b5e4ea" sha1="f11eefd80559b4d42318a920088b77bd67b70cc3"/>
 		<disk name="tkk2-a" sha1="6b7c3686b22a508c44f67295b188504b757dd482" region="cdxa_pcb:ata:0:cdrom"/>
+		<device_ref name="cxd8661r"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8654q"/>
+		<device_ref name="screen"/>
 		<device_ref name="h83002"/>
 		<device_ref name="h8h_intc"/>
 		<device_ref name="h8_adc_3337"/>
@@ -44961,22 +45048,13 @@
 		<device_ref name="h8_sci"/>
 		<device_ref name="h8_sci"/>
 		<device_ref name="h8_watchdog"/>
+		<device_ref name="jvs_port"/>
 		<device_ref name="namco_settings"/>
 		<device_ref name="rtc4543"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="c352"/>
-		<device_ref name="cxd8661r"/>
-		<device_ref name="psxirq"/>
-		<device_ref name="psxdma"/>
-		<device_ref name="psxmdec"/>
-		<device_ref name="psxrcnt"/>
-		<device_ref name="psxsio0"/>
-		<device_ref name="psxsio1"/>
-		<device_ref name="ram"/>
-		<device_ref name="cxd8654q"/>
-		<device_ref name="screen"/>
 		<device_ref name="namcos12_cdxa"/>
 		<device_ref name="sh7014"/>
 		<device_ref name="sh7014sci"/>
@@ -45220,6 +45298,16 @@
 		<rom name="ul1wave0.ic2" size="8388608" crc="4efbff5d" sha1="add4caf9aa9443707bcb6cf9ebad0a5a59900ca9"/>
 		<rom name="ul1wave1.ic1" size="8388608" crc="ad512f4c" sha1="cfbecaad13a2239be0e697f3f9856401f11a1bc5"/>
 		<disk name="ul1-a" sha1="676f2c530f8d422ab9895ea04a43b2e9272fb8f8" region="cdxa_pcb:ata:0:cdrom"/>
+		<device_ref name="cxd8661r"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8654q"/>
+		<device_ref name="screen"/>
 		<device_ref name="h83002"/>
 		<device_ref name="h8h_intc"/>
 		<device_ref name="h8_adc_3337"/>
@@ -45242,22 +45330,13 @@
 		<device_ref name="h8_sci"/>
 		<device_ref name="h8_sci"/>
 		<device_ref name="h8_watchdog"/>
+		<device_ref name="jvs_port"/>
 		<device_ref name="namco_settings"/>
 		<device_ref name="rtc4543"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="c352"/>
-		<device_ref name="cxd8661r"/>
-		<device_ref name="psxirq"/>
-		<device_ref name="psxdma"/>
-		<device_ref name="psxmdec"/>
-		<device_ref name="psxrcnt"/>
-		<device_ref name="psxsio0"/>
-		<device_ref name="psxsio1"/>
-		<device_ref name="ram"/>
-		<device_ref name="cxd8654q"/>
-		<device_ref name="screen"/>
 		<device_ref name="namcos12_cdxa"/>
 		<device_ref name="sh7014"/>
 		<device_ref name="sh7014sci"/>

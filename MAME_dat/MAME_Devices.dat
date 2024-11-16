@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Devices (dir2dat)</name>
-		<description>pS MAME Official Devices 20240926</description>
+		<description>pS MAME Official Devices 20241031</description>
 		<category>MAME System Files</category>
-		<version>0.270</version>
-		<date>26/09/2024</date>
+		<version>0.271</version>
+		<date>31/10/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -1356,6 +1356,12 @@
 		<rom name="epr-12646.ic20" size="131072" crc="c52e31a2" sha1="901e84f3c9b65f207f7614d64e685e762b23987e"/>
 		<rom name="epr-12647.ic24" size="131072" crc="33198811" sha1="6fb9db294a7f40303f22f68c3822e67cbd3560fa"/>
 		<rom name="epr-12648.ic25" size="131072" crc="a34737e5" sha1="76feec0091afb92af8ced99af61495f28f981120"/>
+	</machine>
+	<machine name="bk_kmd">
+		<description>bk_kmd</description>
+		<rom name="disk_253.rom" size="4096" crc="7a21b887" sha1="f2c08147558816c59f0ef59e7c40ccb4b555e887"/>
+		<rom name="disk_326.rom" size="4096" crc="fde7583d" sha1="14f29dcb0fa81f7f1a8efade0bda66b042e47aba"/>
+		<rom name="disk_327.rom" size="4096" crc="ed8a43ae" sha1="28eefbb63047b26e4aec104aeeca74e2f9d0276c"/>
 	</machine>
 	<machine name="bluechip">
 		<description>bluechip</description>
@@ -3523,6 +3529,69 @@
 		<description>namco62</description>
 		<rom name="62xx.bin" size="2048" crc="308dc115" sha1="fe0a60fc339ac2eeed4879a64c1aab130f9d4cfe"/>
 	</machine>
+	<machine name="namco_amc">
+		<description>namco_amc</description>
+		<rom name="mg1prog0a.3a" size="131072" crc="b2b5be8f" sha1="803652b7b8fde2196b7fb742ba8b9843e4fcd2de"/>
+	</machine>
+	<machine name="namco_asca1">
+		<description>namco_asca1</description>
+		<rom name="asc1_io-a.ic13" size="262144" crc="77cdf69a" sha1="497af1059f85c07bea2dd0d303481623f6019dcf"/>
+	</machine>
+	<machine name="namco_asca3">
+		<description>namco_asca3</description>
+		<rom name="asc3_io-c.ic14" size="131072" crc="2f272a7b" sha1="9d7ebe274c0d26f5f38747224d42d0375e2ed14c"/>
+	</machine>
+	<machine name="namco_asca3a">
+		<description>namco_asca3a</description>
+		<rom name="asca-3a.ic14" size="262144" crc="8e9266e5" sha1="ffa8782ca641d71d57df23ed1c5911db05d3df97"/>
+	</machine>
+	<machine name="namco_asca5">
+		<description>namco_asca5</description>
+		<rom name="asc5_io-a.ic14" size="131072" crc="5964767f" sha1="320db5e78ae23c5f94e368432d51573b409995db"/>
+	</machine>
+	<machine name="namco_csz1">
+		<description>namco_csz1</description>
+		<rom name="csz1prg0a.8f" size="131072" crc="8edc36b3" sha1="b5df211988d856572fcc313480e693c8561784e4"/>
+	</machine>
+	<machine name="namco_cyberlead">
+		<description>namco_cyberlead</description>
+		<rom name="cl1-iob.ic5" size="262144" crc="abb90360" sha1="d938b1e1ae596d0ab1007352f61b0b800363c762"/>
+	</machine>
+	<machine name="namco_cyberlead_led">
+		<description>namco_cyberlead_led</description>
+		<rom name="cl1-leda.ic5" size="262144" crc="5717e05f" sha1="61d61338e1bb414af32dbdc1e24d54c02fb9196e"/>
+	</machine>
+	<machine name="namco_cyberleada">
+		<description>namco_cyberleada</description>
+		<rom name="cl1-iob.ic5" size="262144" crc="abb90360" sha1="d938b1e1ae596d0ab1007352f61b0b800363c762"/>
+	</machine>
+	<machine name="namco_emio102">
+		<description>namco_emio102</description>
+		<rom name="th1io-a.4f" size="262144" crc="1cbbce27" sha1="71d61d9218543e1b0b2a6c550a8ff2b7c6267257"/>
+	</machine>
+	<machine name="namco_fca10">
+		<description>namco_fca10</description>
+		<rom name="asc3_io-c.ic14" size="131072" crc="2f272a7b" sha1="9d7ebe274c0d26f5f38747224d42d0375e2ed14c"/>
+	</machine>
+	<machine name="namco_fca11">
+		<description>namco_fca11</description>
+		<rom name="asc3_io-c.ic14" size="131072" crc="2f272a7b" sha1="9d7ebe274c0d26f5f38747224d42d0375e2ed14c"/>
+		<rom name="fcaf11.ic4" size="65536" crc="13d936df" sha1="fbb2191263b2b326f1f49729767ee6fae2db21f7"/>
+		<rom name="fcap11.ic2" size="16400" crc="1b2592ce" sha1="a1a487361053af564f6ec67e545413e370a3b38c"/>
+	</machine>
+	<machine name="namco_fcb">
+		<description>namco_fcb</description>
+		<rom name="asc3_io-c.ic14" size="131072" crc="2f272a7b" sha1="9d7ebe274c0d26f5f38747224d42d0375e2ed14c"/>
+		<rom name="fcb1_io-0b.ic4" size="49152" crc="5e25b73f" sha1="fa805a422ff8793989b0ce901cc868ec1a87c7ac"/>
+	</machine>
+	<machine name="namco_tssio">
+		<description>namco_tssio</description>
+		<rom name="tssioprog.ic3" size="262144" crc="edad4538" sha1="1330189184a636328d956c0e435f8d9ad2e96a80"/>
+	</machine>
+	<machine name="namco_xmiu1">
+		<description>namco_xmiu1</description>
+		<rom name="csz1prg0a.8f" size="262144" crc="bb112fe0" sha1="6fa5dc81d258137c1b1ad427d49d136d0bbf53fa"/>
+	</machine>
 	<machine name="namcoc65">
 		<description>namcoc65</description>
 		<rom name="sys2mcpu.bin" size="8192" crc="a342a97e" sha1="2c420d34dba21e409bf78ddca710fc7de65a6642"/>
@@ -4268,6 +4337,10 @@
 	<machine name="rivatnt2_ultra">
 		<description>rivatnt2_ultra</description>
 		<rom name="creative.bin" size="65536" crc="cf3828ce" sha1="733d8c3f179f89f0e238ffb95717c0fafd1053aa"/>
+	</machine>
+	<machine name="rm_mq2">
+		<description>rm_mq2</description>
+		<rom name="idc3-1i.rom" size="8192" crc="39e2cdf0" sha1="ba523af357b61bbe6192727139850f36597d79f1"/>
 	</machine>
 	<machine name="robotron_k7070">
 		<description>robotron_k7070</description>
@@ -5170,6 +5243,10 @@
 		<rom name="8088_pal16l2.u38.jed" size="799" crc="d7f6abfe" sha1="df58cecf1f99182820bcbf24c58b44d205668963"/>
 		<rom name="8088_pal16r6a-2.u47.jed" size="2822" crc="ecd32454" sha1="b6d4a7a3eb29d97971443b8a31ec5a4ce5ced0d8"/>
 		<rom name="boot 1.0.u3" size="4096" crc="436974aa" sha1="837087b3ab982d047e4f15799fef3daa37dd6c01"/>
+	</machine>
+	<machine name="tim011_kbd">
+		<description>tim011_kbd</description>
+		<rom name="keyb_tim011.bin" size="4096" crc="a99c40a6" sha1="d6d505271d91df4e079ec3c0a4abbe75ae9d649b"/>
 	</machine>
 	<machine name="tk02">
 		<description>tk02</description>
