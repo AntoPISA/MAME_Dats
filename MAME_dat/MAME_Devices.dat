@@ -4,13 +4,13 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Devices (dir2dat)</name>
-		<description>pS MAME Official Devices 20241031</description>
+		<description>pS MAME Official Devices 20241130</description>
 		<category>MAME System Files</category>
-		<version>0.271</version>
-		<date>31/10/2024</date>
+		<version>0.272</version>
+		<date>30/11/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
-		<homepage>http://www.progettosnaps.net/</homepage>
+		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>http://www.progettosnaps.net/</url>
 		<comment>-</comment>
 		<clrmamepro/>
@@ -2461,6 +2461,12 @@
 	</machine>
 	<machine name="epson_qx_option_multifont">
 		<description>epson_qx_option_multifont</description>
+		<rom name="hn43128.1a" size="16384" crc="0ba54615" sha1="d718e9b3b6cab29a17c2d4d72a7b397121d96ffd"/>
+		<rom name="hn43128.1b" size="16384" crc="e4ed0fb1" sha1="77e825061f9af77d3f1963aa9cbbb46f49e86f92"/>
+		<rom name="hn43128.2a" size="16384" crc="968a8848" sha1="e19ef2bd46c7471ed682a6d456be9cb1db5ce321"/>
+		<rom name="hn43128.2b" size="16384" crc="27e9c1da" sha1="926985f0fec6b00960acd616bc73596bcb3d3884"/>
+		<rom name="hn43128.3a" size="16384" crc="3e5dd796" sha1="ffa6eb775545833b8e7647c450595fab6d6aa341"/>
+		<rom name="hn43128.3b" size="16384" crc="adc569bf" sha1="19246af07d6728ccd74a021265df827ecc6fe2b5"/>
 		<rom name="m12020a.3e" size="2048" crc="fa27f333" sha1="73d27084ca7b002d5f370220d8da6623a6e82132"/>
 	</machine>
 	<machine name="epson_tf20">
@@ -2480,6 +2486,10 @@
 		<description>et4000_kasan16</description>
 		<rom name="et4000_kasan16.bin" size="32768" crc="57bcc3ad" sha1="a55e7eb27ef2b4f118ea2028835e88988f07cf57"/>
 		<rom name="kasan_ksc5601.rom" size="524288" crc="a547c5ec" sha1="1358feb2ccaca040a176bedc7c256ec481351b41"/>
+	</machine>
+	<machine name="et4kw32i">
+		<description>et4kw32i</description>
+		<rom name="et4kw32i.vbi" size="32768" crc="14542962" sha1="d5aee7205af8bd1fef0ecf1db2c07308a2b10b17"/>
 	</machine>
 	<machine name="europc_kbd">
 		<description>europc_kbd</description>
@@ -2591,6 +2601,12 @@
 		<rom name="epr-20006a.ic2" size="65536" crc="45f310dc" sha1="b7cf40a1671dc351b607d8d6bba0d51ea128eb75"/>
 		<rom name="epr-21262.ic2" size="65536" crc="c9adf9b6" sha1="fc2a331430ef2f009f653b242220599c824cd1d2"/>
 		<rom name="tg12.ic2" size="65536" crc="2c9600b1" sha1="91813a43851c48d400fde41b1198dabf55bade2d"/>
+	</machine>
+	<machine name="h89bus">
+		<description>h89bus</description>
+		<rom name="444-43.bin" size="256" crc="3e0315f4" sha1="11da9a9145de07f1f3bf1270a10e059dff30c693"/>
+		<rom name="444-61.bin" size="256" crc="0b3c129f" sha1="92da6484d1339160400d6bc75578a977c5e4d23e"/>
+		<rom name="444-61c.bin" size="256" crc="e7122061" sha1="33c124f44c0f9cb99c9b17ad15411b4bc6407eae"/>
 	</machine>
 	<machine name="hardbox">
 		<description>hardbox</description>
@@ -3213,6 +3229,10 @@
 		<description>minichif</description>
 		<rom name="ictdos710.u2" size="32768" crc="aaacf7e9" sha1="c1296995238ef23f18e7fec70a144a0566a25a27"/>
 	</machine>
+	<machine name="mks3">
+		<description>mks3</description>
+		<rom name="xr951a0.ic1" size="4096" crc="01c80e83" sha1="fee3628ac49556a60a597ee6ea71fb48646c6229"/>
+	</machine>
 	<machine name="mm1kb">
 		<description>mm1kb</description>
 		<rom name="mmi6349-1j.bin" size="512" crc="4ab3bf03" sha1="925c9ee22db13566416cdbc505c03d4116ff8d5f"/>
@@ -3612,6 +3632,10 @@
 		<description>namcoc70</description>
 		<rom name="c70.bin" size="16384" crc="b4015f23" sha1="7ce91eda76e86b5cab625e2b67c463b7d143832e"/>
 	</machine>
+	<machine name="namcoc71">
+		<description>namcoc71</description>
+		<rom name="c71.bin" size="8192" crc="47c623ab" sha1="e363ac50f5556f83308d4cc191b455e9b62bcfc8"/>
+	</machine>
 	<machine name="namcoc74">
 		<description>namcoc74</description>
 		<rom name="c74.bin" size="16384" crc="a3dce360" sha1="8f3248b1890abb2e649927240ae46f73bb171e3b"/>
@@ -3858,7 +3882,6 @@
 		<description>pc80s31k</description>
 		<rom name="m2mr_disk.rom" size="8192" crc="2447516b" sha1="1492116f15c426f9796dc2bb6fcccf2656c0ca75"/>
 		<rom name="ma_disk.rom" size="8192" crc="a222ecf0" sha1="79e9c0786a14142f7a83690bf41fb4f60c5c1004"/>
-		<rom name="mh_disk.rom" size="8192" crc="a222ecf0" sha1="79e9c0786a14142f7a83690bf41fb4f60c5c1004"/>
 	</machine>
 	<machine name="pc88va2_fd_if">
 		<description>pc88va2_fd_if</description>
@@ -5267,6 +5290,10 @@
 	<machine name="tms32033">
 		<description>tms32033</description>
 		<rom name="c31boot.bin" size="16384" crc="bddc2763" sha1="96b2170ecee5bec5abaa1741bb2d3b6096ecc262"/>
+	</machine>
+	<machine name="tp880v">
+		<description>tp880v</description>
+		<rom name="880-v__v4.2.1.bin" size="131072" crc="c5e64026" sha1="724f54573b1b0c79f20250fdb6434bb2248c5e04"/>
 	</machine>
 	<machine name="tp881v">
 		<description>tp881v</description>

@@ -4,13 +4,13 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Samples (dir2dat)</name>
-		<description>pS MAME Official Samples 20241031</description>
+		<description>pS MAME Official Samples 20241130</description>
 		<category>MAME System Files</category>
-		<version>0.271</version>
-		<date>31/10/2024</date>
+		<version>0.272</version>
+		<date>30/11/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
-		<homepage>http://www.progettosnaps.net/</homepage>
+		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>http://www.progettosnaps.net/samples/</url>
 		<comment>-</comment>
 		<clrmamepro/>
@@ -49,7 +49,7 @@
 		<rom name="explo2.wav" size="298264" crc="afb249b3" sha1="e308a2c1cad9f49b00f8016139177a6a5ad9ec45"/>
 	</machine>
 	<machine name="bbc">
-		<description>bbc</description>
+		<description>BBC Micro Model B</description>
 		<rom name="motoroff.wav" size="5154" crc="4a760270" sha1="c6352bc892262e533aabed7ff947248bfda2a1ad"/>
 		<rom name="motoron.wav" size="4480" crc="e3faf622" sha1="3dda60aa72f2db293ea9b46be04be60639bf661c"/>
 	</machine>
@@ -104,7 +104,7 @@
 		<rom name="miss.wav" size="46012" crc="9f5348f3" sha1="85ce80b3ac4ff5d189cee7205501298d3f6eabad"/>
 	</machine>
 	<machine name="congo">
-		<description>Congo Bongo (Rev C, 2 board stack)</description>
+		<description>congo</description>
 		<rom name="bass.wav" size="16092" crc="125f7a71" sha1="7fc1985eadb2562c057316f222ecbdbb50035522"/>
 		<rom name="congah.wav" size="15816" crc="31c9f720" sha1="92410d33d5783e6338cd59a718136bbce83ee2a3"/>
 		<rom name="congal.wav" size="16080" crc="662cee03" sha1="60dbfae118e259d09e6595445a6b7c3d8ad92a87"/>
@@ -146,7 +146,7 @@
 		<rom name="cg_m7.wav" size="7376" crc="71f56c1e" sha1="78cbff404362a2d4f2c0c8c66001273271eba724"/>
 	</machine>
 	<machine name="crash">
-		<description>Crash (set 1)</description>
+		<description>Crash</description>
 		<rom name="crash.wav" size="19858" crc="ba3a7450" sha1="60a11a28cd65b668f661d72043bfd0cecd8d579c"/>
 	</machine>
 	<machine name="dai3wksi">
@@ -175,7 +175,7 @@
 		<rom name="bongo3.wav" size="16492" crc="964fdf19" sha1="5a66655cb2df690e48da2a935619732714abd151"/>
 	</machine>
 	<machine name="fantasy">
-		<description>fantasy</description>
+		<description>Fantasy</description>
 		<rom name="ft_voi-0.wav" size="208428" crc="624622b2" sha1="7de4d8881b109864e38aa06afeb2ec6bdf36495c"/>
 		<rom name="ft_voi-1.wav" size="188460" crc="0ed69a0d" sha1="9e812ab9c6158369d6d6b356d5ebe5c0b9893388"/>
 		<rom name="ft_voi-2.wav" size="224300" crc="f153f6fc" sha1="ef67c69109acf408988987d99fddf37954e402ea"/>
@@ -190,7 +190,7 @@
 		<rom name="ft_voi-b.wav" size="29740" crc="ba412c06" sha1="2796eeb864eca9d8afc6a2ae1d78322e42af49e6"/>
 	</machine>
 	<machine name="fruitsamples">
-		<description>fruitsamples</description>
+		<description>Fruit-Machine Mechanical samples</description>
 		<rom name="buzzer.wav" size="103834" crc="f8a445ca" sha1="0446962c89c3b17cff4bc966c83cb332ab511a71"/>
 		<rom name="em_reel_start.wav" size="133616" crc="3c596c94" sha1="7c87783dded429cc85ebec4434be1c5b092fd75b"/>
 		<rom name="em_reel_stop.wav" size="177586" crc="31bd8107" sha1="33d2e39cba70944cb23a60432f3076b8d33ad268"/>
@@ -198,7 +198,7 @@
 		<rom name="payout.wav" size="574732" crc="e514211a" sha1="ed059268b52df7ff152692250151d08f0695c83e"/>
 	</machine>
 	<machine name="ftaerobi">
-		<description>ftaerobi</description>
+		<description>Bandai PT-554</description>
 		<rom name="00.wav" size="378030" crc="d2375f08" sha1="06bf992519d72743dc507e6ee2568110513457e5"/>
 		<rom name="01.wav" size="145582" crc="861d5594" sha1="17243274babc5cb3b880e0cf1946a0654d956e01"/>
 		<rom name="02.wav" size="114606" crc="d7cafbbd" sha1="e4cb2172905fe415c7452aa8dd1d520d314f6c0c"/>
@@ -213,7 +213,7 @@
 		<rom name="bang.wav" size="116982" crc="5ee62d76" sha1="7ebc688424f9a966964d3a96e5224c24fd036c09"/>
 	</machine>
 	<machine name="genpin">
-		<description>genpin</description>
+		<description>Generic Pinball sounds</description>
 		<rom name="bumper.wav" size="27302" crc="b9cf6e37" sha1="c8e02b9e3f69a98af6cf4aa7b4b22cfa9cb3d88f"/>
 		<rom name="chime1.wav" size="102568" crc="7bb6c77c" sha1="10033625b884814b34912d9586f8789da9dec1bd"/>
 		<rom name="chime2.wav" size="102258" crc="884c4656" sha1="87779e74f2a2656267e342bbf8fb2242fa44d93f"/>
@@ -263,7 +263,7 @@
 		<rom name="15.wav" size="262990" crc="ea6ed113" sha1="31491d85712db9e5988136ee94332d3c74f681bf"/>
 	</machine>
 	<machine name="ifslots">
-		<description>ifslots</description>
+		<description>Interflip Slot Sounds</description>
 		<rom name="coin_in.wav" size="99956" crc="28c8d953" sha1="c1e08be92a7386af6fabe9d8cf29075a9dc18c83"/>
 		<rom name="fade_ring.wav" size="541362" crc="d476ce27" sha1="e6d5cf46493d41227ba026e357e0ea4b7d391ecc"/>
 		<rom name="rattle_back.wav" size="56130" crc="3a8701e5" sha1="2cadacffff0ac4a0b2cb67ed85269c91d8b3b17a"/>
@@ -382,7 +382,7 @@
 		<rom name="2.wav" size="7797" crc="45de95cd" sha1="30f70dbe18c832f66aa0d00aeed788d08fe10136"/>
 	</machine>
 	<machine name="MM1_keyboard">
-		<description>MM1_keyboard</description>
+		<description>MM1 Keyboard</description>
 		<rom name="beep.wav" size="16758" crc="38559139" sha1="5c5e562d93da3497a37e6c69123ba8278980dc06"/>
 		<rom name="power_switch.wav" size="74492" crc="58ba98ff" sha1="fa8ee29eead1b5b6270ab1ada86fbd5b42a77504"/>
 	</machine>
@@ -398,7 +398,7 @@
 		<rom name="6.wav" size="91908" crc="fe03755f" sha1="20999c85bc93b657e2de385d8f809f8ae8d406b9"/>
 	</machine>
 	<machine name="moepro">
-		<description>moepro</description>
+		<description>Jaleco JF-13</description>
 		<rom name="00.wav" size="60848" crc="edc36901" sha1="1b74c4bb6e9cc837899c4ea52fc15bf80eeb0f95"/>
 		<rom name="01.wav" size="37296" crc="48c88ce4" sha1="52fab1fdb4a55d97ddb0401f176fafc84943e57a"/>
 		<rom name="02.wav" size="45742" crc="729c1316" sha1="0c9428d948926c3aa482a428078a60db3f7ef91e"/>
@@ -417,7 +417,7 @@
 		<rom name="15.wav" size="267952" crc="6ede7af3" sha1="4f8256764b5d41ef3a7385dcd1aa872efc337d80"/>
 	</machine>
 	<machine name="moepro88">
-		<description>moepro88</description>
+		<description>Moero!! Pro Yakyuu 88</description>
 		<rom name="00.wav" size="25132" crc="fc9dfa6c" sha1="f8b567102356e811ec6e2bc7597d3a824ba56094"/>
 		<rom name="01.wav" size="29874" crc="6ae4424a" sha1="0857f5f60907b6c0f74e750c56955f9329299958"/>
 		<rom name="02.wav" size="25454" crc="fbaeeec5" sha1="a15c041a9fec99b7ca573a497dc9c534c7ccfc42"/>
@@ -440,7 +440,7 @@
 		<rom name="19.wav" size="269490" crc="38416af8" sha1="07ba02cbee4e065a7b2100c8288e954ec42ddc56"/>
 	</machine>
 	<machine name="moepro90">
-		<description>moepro90</description>
+		<description>Moe Pro! '90</description>
 		<rom name="00.wav" size="30640" crc="e4bab6a3" sha1="c79afb06a3acc5981ec2094447705673b5b3f372"/>
 		<rom name="01.wav" size="26032" crc="cc6adc33" sha1="9696e7dce577cdef136da29fc6381de70e151993"/>
 		<rom name="02.wav" size="27500" crc="b355fc94" sha1="27e7a567694742bfc4c2d4acc0aec63ff41993b4"/>
@@ -468,7 +468,7 @@
 		<rom name="zap.wav" size="10558" crc="8028a187" sha1="602d8f3729bc7112c045c3d1cf4f160643a50697"/>
 	</machine>
 	<machine name="mpsaikyo">
-		<description>mpsaikyo</description>
+		<description>Moe Pro! Saikyou-hen</description>
 		<rom name="00.wav" size="27824" crc="4ebf5a27" sha1="19c1328d4f20b0de506afdbee90b536fbd33b1c9"/>
 		<rom name="01.wav" size="29872" crc="10dc55ee" sha1="6d3eb283e7456876aa9e930e1a13e01ba4710f1b"/>
 		<rom name="02.wav" size="26668" crc="74c07b20" sha1="9dee1d495b13939e6dd605f415c48aa654d6d9da"/>
@@ -491,7 +491,7 @@
 		<rom name="19.wav" size="285874" crc="f330a7ce" sha1="09ef81055d2957bec2c9e5521a2bf5700297373b"/>
 	</machine>
 	<machine name="mptennis">
-		<description>mptennis</description>
+		<description>Moero!! Pro Tennis</description>
 		<rom name="00.wav" size="44" crc="44a894f9" sha1="b8000eada705cf56630266b151564d054d3e2a06"/>
 		<rom name="01.wav" size="44" crc="44a894f9" sha1="b8000eada705cf56630266b151564d054d3e2a06"/>
 		<rom name="02.wav" size="58796" crc="b74f99ba" sha1="fe31302c9ea88867b695b98bfaf9eefefdabd55c"/>
@@ -661,7 +661,7 @@
 		<rom name="talk.wav" size="1977024" crc="076efcfb" sha1="1d4fe1e593771a01c4552eed1aa767d4d9141f9e"/>
 	</machine>
 	<machine name="smoepro">
-		<description>smoepro</description>
+		<description>Shin Moero Pro Yakyuu</description>
 		<rom name="00.wav" size="20942" crc="fc98b490" sha1="5e9ac5a002eb39b38494bfd6b581b078fb14e8ab"/>
 		<rom name="01.wav" size="22446" crc="e2eb3e50" sha1="403ccd51bc9839c2a8d2fd738948aacbcf7f52ab"/>
 		<rom name="02.wav" size="29228" crc="83ada297" sha1="4e031f02b6c2d0755621ce13d9bf65ad4556ab3d"/>
@@ -734,7 +734,7 @@
 		<rom name="win_bgm.wav" size="937486" crc="66c5455a" sha1="cc2e92db252e8428589c6bbdc5cee1ddc7090de5"/>
 	</machine>
 	<machine name="terao">
-		<description>terao</description>
+		<description>Terao no Dosukoi Oozumou</description>
 		<rom name="00.wav" size="90798" crc="d20356bb" sha1="20b7b3e2323e69e693070b468ecd155e72c8d137"/>
 		<rom name="01.wav" size="54700" crc="6f6be103" sha1="bbf5de2ba467281dc81f836d04be8b347dcbdec5"/>
 		<rom name="02.wav" size="48044" crc="3d708021" sha1="d10e446d888c759fb7481957b6d448802885de88"/>

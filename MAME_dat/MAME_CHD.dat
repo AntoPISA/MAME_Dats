@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>MAME CHDs</name>
-		<description>MAME CHDs 0.271</description>
+		<description>MAME CHDs 0.272</description>
 		<category>Emulation</category>
-		<version>0.271</version>
-		<date>31/10/2024</date>
+		<version>0.272</version>
+		<date>30/11/2024</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -2775,6 +2775,7 @@
 		<description>NFL Blitz (ver 1.21, Dec 5 1997)</description>
 		<year>1997</year>
 		<manufacturer>Midway Games</manufacturer>
+		<rom name="444_blitz.u96" size="8192" crc="240c4f08" sha1="a12b53995679e4ac8bbc8248ed446bf99bbb4ea1"/>
 		<rom name="blitz1_1.u32" size="524288" crc="8163ce02" sha1="89b432d8879052f6c5534ee49599f667f50a010f"/>
 		<rom name="blitz1_2.u32" size="524288" crc="38dbecf5" sha1="7dd5a5b3baf83a7f8f877ff4cd3f5e8b5201b36f"/>
 		<rom name="blitz1__.u32" size="524288" crc="4fd0559f" sha1="f1b7ab162b327b7acd81b605d0245ad9ffa3d886"/>
@@ -2821,6 +2822,7 @@
 		<description>NFL Blitz 2000 Gold Edition (ver 1.2, Sep 22 1999)</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
+		<rom name="494_blitz_2000.u96" size="8192" crc="f27b38a4" sha1="919a772d69d888738dd56c96ed443ccea67049aa"/>
 		<rom name="bltz2k14.u32" size="524288" crc="ac4f0051" sha1="b8125c17370db7bfd9b783230b4ef3d5b22a2025"/>
 		<rom name="sound102.u95" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d"/>
 		<disk name="blitz2k" sha1="e89b7fbd4b4a9854d47ae97493e0afffbd1f69e7" region="pci:09.0:ide:0:hdd"/>
@@ -5296,6 +5298,7 @@
 		<description>California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
+		<rom name="329_calif_speed_31.u96" size="8192" crc="8b470160" sha1="4e4cc431432f07423cff2d711ae03de0a4e22f97"/>
 		<rom name="caspd1_2.u32" size="524288" crc="0a235e4e" sha1="b352f10fad786260b58bd344b5002b6ea7aaf76d"/>
 		<rom name="sound102.u95" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d"/>
 		<disk name="calspeed" sha1="08d411c591d4b8bbdd6437ea80d01c4cec8516f8" region="pci:09.0:ide:0:hdd"/>
@@ -5341,6 +5344,7 @@
 		<description>California Speed (Version 1.0r8 Mar 10 1998, GUTS Mar 10 1998 / MAIN Mar 10 1998)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
+		<rom name="329_calif_speed_31.u96" merge="329_calif_speed_31.u96" size="8192" crc="8b470160" sha1="4e4cc431432f07423cff2d711ae03de0a4e22f97"/>
 		<rom name="cal speed update  u32 boot ver, 1,4 5ef6" size="524288" crc="fd627637" sha1="b0c2847cbecfc00344e402386d13240d55a0814e"/>
 		<rom name="caspd1_2.u32" merge="caspd1_2.u32" size="524288" crc="0a235e4e" sha1="b352f10fad786260b58bd344b5002b6ea7aaf76d"/>
 		<rom name="eprom @1 2.1a 90a7" size="1048576" crc="bc0f373e" sha1="bf53f1953ccab8da9ce784e4d20dd2ec0d0eff6a"/>
@@ -5390,6 +5394,7 @@
 		<description>California Speed (Version 1.0r7a Mar 4 1998, GUTS Mar 3 1998 / MAIN Jan 19 1998)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
+		<rom name="329_calif_speed_31.u96" merge="329_calif_speed_31.u96" size="8192" crc="8b470160" sha1="4e4cc431432f07423cff2d711ae03de0a4e22f97"/>
 		<rom name="caspd1_2.u32" merge="caspd1_2.u32" size="524288" crc="0a235e4e" sha1="b352f10fad786260b58bd344b5002b6ea7aaf76d"/>
 		<rom name="sound102.u95" merge="sound102.u95" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d"/>
 		<disk name="calspeda" sha1="6b1c3a7530195ef7309b06a651b01c8b3ece92c6" region="pci:09.0:ide:0:hdd"/>
@@ -36628,14 +36633,1357 @@
 		<device_ref name="pci_root"/>
 		<driver status="preliminary"/>
 	</machine>
+	<machine name="pumpipx2" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The PREX 2 (Premiere 2/2003)</description>
+		<year>2002</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpipx2.cat702" size="8" crc="aa6e4b97" sha1="909ee86dcedd4e19b90cf2570446837e5000632a"/>
+		<disk name="20021014 the prex 2" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpipx2p" sourcefile="misc/xtom3d.cpp" cloneof="pumpipx2" romof="pumpipx2">
+		<description>Pump it Up EXTRA + Plus (Premiere 2/2003)</description>
+		<year>2002</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpipx2.cat702" merge="pumpipx2.cat702" size="8" crc="aa6e4b97" sha1="909ee86dcedd4e19b90cf2570446837e5000632a"/>
+		<disk name="20021014 extra" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpipx3" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The PREX 3: The International 4th Dance Floor (X3.2MK3)</description>
+		<year>2003</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpipx3.cat702" size="8" crc="38bab3dd" sha1="716e16303bfff05370bebf217f78e7664941c30b"/>
+		<disk name="20031014 the prex 3" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpipx3a" sourcefile="misc/xtom3d.cpp" cloneof="pumpipx3" romof="pumpipx3">
+		<description>Pump it Up The PREX 3: The International 4th Dance Floor (INT X3.1MK3)</description>
+		<year>2003</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpipx3.cat702" merge="pumpipx3.cat702" size="8" crc="38bab3dd" sha1="716e16303bfff05370bebf217f78e7664941c30b"/>
+		<disk name="20030801 the prex 3 int" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpipx3b" sourcefile="misc/xtom3d.cpp" cloneof="pumpipx3" romof="pumpipx3">
+		<description>Pump it Up The PREX 3: The International 4th Dance Floor (Korea X3.1MK3)</description>
+		<year>2003</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpipx3.cat702" merge="pumpipx3.cat702" size="8" crc="38bab3dd" sha1="716e16303bfff05370bebf217f78e7664941c30b"/>
+		<disk name="20030801 the prex 3 korea" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
 	<machine name="pumpit1" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
 		<description>Pump It Up: The 1st Dance Floor (ver 0.53.1999.9.31)</description>
 		<year>1999</year>
 		<manufacturer>Andamiro</manufacturer>
-		<rom name="bios.u22" merge="bios.u22" size="131072" crc="f7c58044" sha1="fd967d009e0d3c8ed9dd7be852946f2b9dee7671"/>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
 		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
 		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
 		<disk name="19990930" sha1="a848061806c56ba30c75a24233300f175fb3eb9d" region="pci:07.1:ide1:0:cdrom" status="baddump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpit2" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up: The 2nd Dance Floor (Feb 28 2000)</description>
+		<year>1999</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<disk name="20000228 the 2nd dancefloor" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpit2a" sourcefile="misc/xtom3d.cpp" cloneof="pumpit2" romof="pumpit2">
+		<description>Pump it Up: The 2nd Dance Floor (Dec 27 1999)</description>
+		<year>2000</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<disk name="19991228 the 2nd dancefloor" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpit3" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The O.B.G: The 3rd Dance Floor (v3.04 - Jun 02 2000)</description>
+		<year>2000</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpit3.cat702" size="8" crc="d389a56b" sha1="5a7c12842f474e01c4fc561887d98b6f1a1622a7"/>
+		<disk name="20000603 the o-b-g" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpit3a" sourcefile="misc/xtom3d.cpp" cloneof="pumpit3" romof="pumpit3">
+		<description>Pump it Up The O.B.G: The 3rd Dance Floor (v3.03 - May 07 2000)</description>
+		<year>2000</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpit3.cat702" merge="pumpit3.cat702" size="8" crc="d389a56b" sha1="5a7c12842f474e01c4fc561887d98b6f1a1622a7"/>
+		<disk name="20000508 the o-b-g" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpit8" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The Rebirth: The 8th Dance Floor (Rebirth/2002)</description>
+		<year>2002</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpit8.cat702" size="8" crc="432fb331" sha1="4e3265ba4964a1fe486464615b553a20b6946201"/>
+		<disk name="20020311 the rebirth" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitc" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up: The Collection (R5/v3.43 - Nov 14 2000)</description>
+		<year>2000</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpitc.cat702" size="8" crc="d389a56b" sha1="5a7c12842f474e01c4fc561887d98b6f1a1622a7"/>
+		<disk name="20001114 the collection" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpite" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up Extra (Mar 21 2001)</description>
+		<year>2001</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpite.cat702" size="8" crc="49183f5a" sha1="7f7a569efe042e3f8501d4108f25ee37efda9993"/>
+		<disk name="20010221 extra" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitea" sourcefile="misc/xtom3d.cpp" cloneof="pumpite" romof="pumpite">
+		<description>Pump it Up Extra (Mar 08 2001)</description>
+		<year>2001</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpite.cat702" merge="pumpite.cat702" size="8" crc="49183f5a" sha1="7f7a569efe042e3f8501d4108f25ee37efda9993"/>
+		<disk name="20010209 extra" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpito" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The O.B.G: The Season Evolution Dance Floor (R4/v3.25 - Aug 27 2000)</description>
+		<year>2000</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpito.cat702" size="8" crc="d389a56b" sha1="5a7c12842f474e01c4fc561887d98b6f1a1622a7"/>
+		<disk name="20000827 the o-b-g" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitp2" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The Premiere 2: The International 2nd Dance Floor (Premiere 2/2002)</description>
+		<year>2002</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpitp2.cat702" size="8" crc="1d28419e" sha1="7f27cc202a3e1a80f98cd1887b275ac6853ad05c"/>
+		<disk name="20020311 the premiere 2" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitp3" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The Premiere 3: The International 3rd Dance Floor (Premiere 3/2003 - 28th Mar 2003)</description>
+		<year>2003</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpitp3.cat702" size="8" crc="75f80a89" sha1="0216dd982e3e013d7a934cd8d3cb52ca6695800a"/>
+		<disk name="20030328 the premiere 3" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitp3a" sourcefile="misc/xtom3d.cpp" cloneof="pumpitp3" romof="pumpitp3">
+		<description>Pump it Up The Premiere 3: The International 3rd Dance Floor (Premiere 3/2003 - 17th Mar 2003)</description>
+		<year>2003</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpitp3.cat702" merge="pumpitp3.cat702" size="8" crc="75f80a89" sha1="0216dd982e3e013d7a934cd8d3cb52ca6695800a"/>
+		<disk name="20030317 the premiere 3" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitpc" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up: The Perfect Collection (R5/v3.52 - Dec 18 2000)</description>
+		<year>2000</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpitpc.cat702" size="8" crc="d389a56b" sha1="5a7c12842f474e01c4fc561887d98b6f1a1622a7"/>
+		<disk name="20001219 the perfect collection" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitpr" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The Premiere: The International Dance Floor (R6/v4.01 - Feb 22 2001)</description>
+		<year>2001</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpitpr.cat702" size="8" crc="1f039c12" sha1="8248e62d9992635986671695a641c832f4e71f4a"/>
+		<disk name="20010222 the premiere" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitpru" sourcefile="misc/xtom3d.cpp" cloneof="pumpitpr" romof="pumpitpr">
+		<description>Pump it Up The Premiere: The International Dance Floor (R6/v4.01 - Feb 22 2001 USA)</description>
+		<year>2001</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpitpr.cat702" merge="pumpitpr.cat702" size="8" crc="1f039c12" sha1="8248e62d9992635986671695a641c832f4e71f4a"/>
+		<disk name="20010305 the premiere" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="pumpitpx" sourcefile="misc/xtom3d.cpp" romof="pumpitup">
+		<description>Pump it Up The PREX: The International Dance Floor (REV2 / 101)</description>
+		<year>2001</year>
+		<manufacturer>Andamiro</manufacturer>
+		<rom name="mk3_1.0_bios.u22" merge="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
+		<rom name="mk3_1.1_bios.u22" merge="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
+		<rom name="piu10.u8" merge="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
+		<rom name="piu10.u9" merge="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<rom name="pumpitpx.cat702" size="8" crc="1f039c12" sha1="8248e62d9992635986671695a641c832f4e71f4a"/>
+		<disk name="20010901 the prex" region="pci:07.1:ide1:0:cdrom" status="nodump"/>
 		<device_ref name="pentium2"/>
 		<device_ref name="pci_root"/>
 		<device_ref name="i82443bx_host"/>
@@ -38458,6 +39806,7 @@
 		<description>Road Burners (ver 1.04)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
+		<rom name="325_road_burners.u37" size="8192" crc="146c1ea1" sha1="4bfda77f2ea6a421f59bbbd251b193a4e7743691"/>
 		<rom name="rbmain.bin" size="524288" crc="060e1aa8" sha1="2a1027d209f87249fe143500e721dfde7fb5f3bc"/>
 		<disk name="road burners v1.04" sha1="30567241c000ee572a9cfb1b080c02a51a2b12d2" region="pci:05.0:ide:0:hdd"/>
 		<device_ref name="r5000le"/>
@@ -38504,6 +39853,7 @@
 		<description>Road Burners (ver 1.0)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
+		<rom name="325_road_burners.u37" merge="325_road_burners.u37" size="8192" crc="146c1ea1" sha1="4bfda77f2ea6a421f59bbbd251b193a4e7743691"/>
 		<rom name="rbmain.bin" merge="rbmain.bin" size="524288" crc="060e1aa8" sha1="2a1027d209f87249fe143500e721dfde7fb5f3bc"/>
 		<disk name="roadburn" sha1="a62870cceafa6357d7d3505aca250c3f16087566" region="pci:05.0:ide:0:hdd"/>
 		<device_ref name="r5000le"/>
