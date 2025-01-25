@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Samples (dir2dat)</name>
-		<description>pS MAME Official Samples 20241130</description>
+		<description>pS MAME Official Samples 20241231</description>
 		<category>MAME System Files</category>
-		<version>0.272</version>
-		<date>30/11/2024</date>
+		<version>0.273</version>
+		<date>31/12/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>https://www.progettosnaps.net/</homepage>

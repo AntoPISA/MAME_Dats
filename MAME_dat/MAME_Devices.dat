@@ -4,13 +4,13 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Devices (dir2dat)</name>
-		<description>pS MAME Official Devices 20241130</description>
+		<description>pS MAME Official Devices 20241231</description>
 		<category>MAME System Files</category>
-		<version>0.272</version>
-		<date>30/11/2024</date>
+		<version>0.273</version>
+		<date>31/12/2024</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
-		<homepage>https://www.progettosnaps.net/</homepage>
+		<homepage>http://www.progettosnaps.net/</homepage>
 		<url>http://www.progettosnaps.net/</url>
 		<comment>-</comment>
 		<clrmamepro/>
@@ -2607,6 +2607,7 @@
 		<rom name="444-43.bin" size="256" crc="3e0315f4" sha1="11da9a9145de07f1f3bf1270a10e059dff30c693"/>
 		<rom name="444-61.bin" size="256" crc="0b3c129f" sha1="92da6484d1339160400d6bc75578a977c5e4d23e"/>
 		<rom name="444-61c.bin" size="256" crc="e7122061" sha1="33c124f44c0f9cb99c9b17ad15411b4bc6407eae"/>
+		<rom name="cdr86.bin" size="256" crc="d35e4063" sha1="879f9d265d77f8a74c70febd9a80d6896ab8ec7e"/>
 	</machine>
 	<machine name="hardbox">
 		<description>hardbox</description>
@@ -5698,6 +5699,10 @@
 		<description>zorro_buddha</description>
 		<rom name="buddha_103-17.rom" size="32768" crc="2b7b24e0" sha1="ec17a58962c373a2892090ec9b1722d2c326d631"/>
 		<rom name="buddha_103-8.rom" size="32768" crc="44f81426" sha1="95555c6690b5c697e1cdca2726e47c1c6c194d7c"/>
+	</machine>
+	<machine name="zorro_ripple">
+		<description>zorro_ripple</description>
+		<rom name="lide_40-8.rom" size="32768" crc="3f021472" sha1="83762ef5a883e5c43ad321eaa03fde7454f70785"/>
 	</machine>
 	<machine name="zxbus_neogs">
 		<description>zxbus_neogs</description>
