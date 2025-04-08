@@ -3,54 +3,167 @@
 
 <datafile>
 	<header>
-		<name>progetto-SNAPS - Official BIOS Roms (dir2dat)</name>
-		<description>pS MAME Official BIOS Roms 20241231</description>
-		<category>MAME System Files</category>
-		<version>0.273</version>
-		<date>31/12/2024</date>
+		<name>MAME BIOS</name>
+		<description>MAME BIOS 0.276</description>
+		<category>Emulation</category>
+		<version>0.276</version>
+		<date>31/03/2025</date>
 		<author>AntoPISA</author>
-		<email>progettosnaps@gmail.com</email>
-		<homepage>http://www.progettosnaps.net/</homepage>
-		<url>http://www.progettosnaps.net/</url>
-		<comment>-</comment>
+		<homepage>https://www.progettosnaps.net/</homepage>
+		<url>https://www.progettosnaps.net/dats/MAME/</url>
 		<clrmamepro/>
 	</header>
-	<machine name="3dobios">
-		<description>3dobios</description>
+	<machine name="3dobios" sourcefile="misc/3do.cpp" isbios="yes" runnable="no">
+		<description>3DO BIOS</description>
+		<year>1993</year>
+		<manufacturer>The 3DO Company</manufacturer>
+		<biosset name="panafz10" description="Panasonic FZ-10 R.E.A.L. 3DO Interactive Multiplayer"/>
+		<biosset name="goldstar" description="Goldstar 3DO Interactive Multiplayer v1.01m"/>
+		<biosset name="panafz1" description="Panasonic FZ-1 R.E.A.L. 3DO Interactive Multiplayer"/>
+		<biosset name="sanyotry" description="Sanyo TRY 3DO Interactive Multiplayer"/>
 		<rom name="goldstar.bin" size="1048576" crc="b6f5028b" sha1="c4a2e5336f77fb5f743de1eea2cda43675ee2de7"/>
 		<rom name="panafz1.bin" size="1048576" crc="c8c8ff89" sha1="34bf189111295f74d7b7dfc1f304d98b8d36325a"/>
 		<rom name="panafz10.bin" size="1048576" crc="58242cee" sha1="3c912300775d1ad730dc35757e279c274c0acaad"/>
 		<rom name="sanyotry.bin" size="1048576" crc="d5cbc509" sha1="b01c53da256dde43ffec4ad3fc3adfa8d635e943"/>
+		<device_ref name="arm7_be"/>
+		<device_ref name="nvram"/>
+		<device_ref name="timer"/>
+		<device_ref name="screen"/>
+		<device_ref name="cdrom_image"/>
 	</machine>
-	<machine name="airlbios">
-		<description>airlbios</description>
+	<machine name="airlbios" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
+		<description>NAOMI Airline Pilots (deluxe) BIOS</description>
+		<year>1999</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="Airline Pilots Deluxe (Export)"/>
+		<biosset name="bios1" description="Airline Pilots Deluxe (USA)"/>
 		<rom name="epr-21801.ic27" size="2097152" crc="a21bef24" sha1="c6c6ed09772b63a9a84ef0678fc1b7527484038a"/>
 		<rom name="epr-21802.ic27" size="2097152" crc="a77c6b1c" sha1="bd50a6bb8fa9bac121b076e21ea048a83a240a48"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="mie"/>
+		<device_ref name="z80"/>
+		<device_ref name="mie_jvs"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="m3comm"/>
+		<device_ref name="m68000"/>
+		<device_ref name="ram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="naomi_rom_board"/>
 	</machine>
-	<machine name="aleck64">
-		<description>aleck64</description>
+	<machine name="aleck64" sourcefile="nintendo/aleck64.cpp" isbios="yes" runnable="no">
+		<description>Aleck64 PIF BIOS</description>
+		<year>1998</year>
+		<manufacturer>Nintendo / Seta</manufacturer>
 		<rom name="normpnt.rom" size="128" crc="e7f2a005" sha1="c27b4a364a24daeee6e99fd286753fd6216362b4"/>
 		<rom name="normslp.rom" size="128" crc="4f2ae525" sha1="eab43f8cc52c8551d9cff6fced18ef80eaba6f05"/>
 		<rom name="pifdata.bin" size="2048" crc="5ec82be9" sha1="9174eadc0f0ea2654c95fd941406ab46b9dc9bdd"/>
+		<device_ref name="vr4300be"/>
+		<device_ref name="rsp"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="n64_periphs"/>
 	</machine>
-	<machine name="alg3do">
-		<description>alg3do</description>
+	<machine name="alg3do" sourcefile="misc/3do.cpp" isbios="yes" runnable="no">
+		<description>ALG 3DO BIOS</description>
+		<year>1993</year>
+		<manufacturer>American Laser Games / The 3DO Company</manufacturer>
 		<rom name="saot_rom2.bin" size="524288" crc="b832da9a" sha1="520d3d1b5897800af47f92efd2444a26b7a7dead"/>
+		<device_ref name="arm7_be"/>
+		<device_ref name="nvram"/>
+		<device_ref name="timer"/>
+		<device_ref name="screen"/>
+		<device_ref name="cdrom_image"/>
 	</machine>
-	<machine name="alg_bios">
-		<description>alg_bios</description>
+	<machine name="alg_bios" sourcefile="amiga/alg.cpp" isbios="yes" runnable="no">
+		<description>American Laser Games BIOS</description>
+		<year>199?</year>
+		<manufacturer>American Laser Games</manufacturer>
+		<biosset name="kick13" description="Kickstart 1.3 (34.5)"/>
 		<rom name="315093-02.u2" size="262144" crc="c4f0f55f" sha1="891e9a547772fe0c6c19b610baf8bc4ea7fcb785"/>
+		<device_ref name="m68000"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="nvram"/>
+		<device_ref name="screen"/>
+		<device_ref name="agnus_copper"/>
+		<device_ref name="ldp1450"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="paula_8364"/>
+		<device_ref name="mos8520"/>
+		<device_ref name="mos8520"/>
+		<device_ref name="paula_fdc"/>
 	</machine>
-	<machine name="allied">
-		<description>allied</description>
+	<machine name="allied" sourcefile="pinball/allied.cpp" sampleof="genpin" isbios="yes" runnable="no">
+		<description>Allied System</description>
+		<year>1977</year>
+		<manufacturer>Allied Leisure</manufacturer>
 		<rom name="6530-009.u5" size="1024" crc="e4fb64fb" sha1="a3d9de7cbfb42180a860e0bbbeaeba96d8bd1e20"/>
 		<rom name="6530-010.u6" size="1024" crc="dca980dd" sha1="3817d75413854d889fc1ce4fd6a51d820d1e0534"/>
 		<rom name="6530-011.u3" size="1024" crc="13f42789" sha1="baa0f73fda08a3c5d6f1423fb329e4febb07ef97"/>
+		<device_ref name="m6504"/>
+		<device_ref name="ipt_merge_any_hi"/>
+		<device_ref name="speaker"/>
+		<device_ref name="samples"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="mos6530"/>
+		<device_ref name="mos6530"/>
+		<device_ref name="mos6530"/>
+		<device_ref name="timer"/>
+		<sample name="bumper"/>
+		<sample name="chime1"/>
+		<sample name="chime2"/>
+		<sample name="chime3"/>
+		<sample name="chime4"/>
+		<sample name="coil_coinlockout_engage"/>
+		<sample name="coil_coinlockout_release"/>
+		<sample name="coinin"/>
+		<sample name="drop_target_reset"/>
+		<sample name="hole"/>
+		<sample name="kickback"/>
+		<sample name="knocker"/>
+		<sample name="outhole"/>
+		<sample name="relay_engage"/>
+		<sample name="relay_release"/>
+		<sample name="sling"/>
+		<sample name="solenoid_engage"/>
+		<sample name="solenoid_release"/>
 	</machine>
-	<machine name="ar_bios">
-		<description>ar_bios</description>
+	<machine name="ar_bios" sourcefile="amiga/arsystems.cpp" isbios="yes" runnable="no">
+		<description>Arcadia System BIOS</description>
+		<year>1988</year>
+		<manufacturer>Arcadia Systems</manufacturer>
+		<biosset name="onep300" description="OnePlay 3.00"/>
+		<biosset name="onep220" description="OnePlay 2.20"/>
+		<biosset name="onep211" description="OnePlay 2.11"/>
+		<biosset name="tenp211" description="TenPlay 2.11"/>
+		<biosset name="tenp311" description="TenPlay 3.11"/>
+		<biosset name="tenp400" description="TenPlay 4.00"/>
 		<rom name="315093-01.u2" size="262144" crc="a6ce1636" sha1="11f9e62cf299f72184835b7b2a70a16333fc0d88"/>
 		<rom name="gcp-1-hi" size="65536" crc="67d44523" sha1="f3e3699132cdf741518accb890c04d17374c4049"/>
 		<rom name="gcp-1-lo" size="65536" crc="65d9b9cf" sha1="5c60a0dd4a0a7d9b938ce6b0446a6ad2ecaf07ec"/>
@@ -72,9 +185,24 @@
 		<rom name="scpa_01-lo_v2.11.u16" size="65536" crc="95b84504" sha1="99999fc40909001b37aa1b543918118becc81800"/>
 		<rom name="scpa_01-lo_v2.20.u16" size="65536" crc="d2825511" sha1="747a37c6073224472bf261ae376ac9abfbe07554"/>
 		<rom name="scpa_01-lo_v3.0.u16" size="65536" crc="e4f38fab" sha1="01c2eb5965070893be6734eb1372576727716476"/>
+		<device_ref name="m68000"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="agnus_copper"/>
+		<device_ref name="nvram"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="paula_8364"/>
+		<device_ref name="mos8520"/>
+		<device_ref name="mos8520"/>
+		<device_ref name="paula_fdc"/>
 	</machine>
-	<machine name="aristmk5">
-		<description>aristmk5</description>
+	<machine name="aristmk5" sourcefile="acorn/aristmk5.cpp" isbios="yes" runnable="no">
+		<description>MKV Set-Clear Chips (US)</description>
+		<year>1995</year>
+		<manufacturer>Aristocrat</manufacturer>
 		<rom name="a562837.u36" size="343" crc="1f269234" sha1="29940dd50fb55c632935f62ff44ca724379c7a43"/>
 		<rom name="a562838.u65" size="343" crc="f2f3c40a" sha1="b795dfa5cc4e8127c3f3a0906664910d1325ec92"/>
 		<rom name="a562840.u22" size="343" crc="941d4cdb" sha1="1ca091fba69e92f262dbb3d40f515703c8981793"/>
@@ -90,7 +218,7 @@
 		<rom name="setchip v4.03.07.u7" size="524288" crc="5cf56036" sha1="ff11deb6f76627f4fb5a7ec789e4071887e3eae9"/>
 		<rom name="setchip v4.04.00.u11" size="524288" crc="82dfa12a" sha1="86fd0f0ad8d5d1bc503392a40bbcdadb055b2765"/>
 		<rom name="setchip v4.04.00.u7" size="524288" crc="2453137e" sha1="b59998e75ae3924da16faf47b9cfe9afd60d810c"/>
-		<rom name="setchip v4.04.01 cs 1358.u7" size="524288" crc="1d564c2c" sha1="2e47917138c682393a61676da6fccba90463229a"/>
+		<rom name="setchip v4.04.01 cs 1358.u7" size="524288" crc="1d564c2c" sha1="2e47917138c682393a61676da6fccba90463229a" status="baddump"/>
 		<rom name="setchip v4.04.01 cs ed54.u11" size="524288" crc="199bacff" sha1="a2ef556b42d505af077a2db983caebdd611d98fd"/>
 		<rom name="setchip v4.04.05.u11" size="524288" crc="2fc9b2a0" sha1="89191f02c4ec8089e26989430806650d14e13e5a"/>
 		<rom name="setchip v4.04.05.u7" size="524288" crc="e7b39a73" sha1="e826d717a0871383394e15634896fcb2e2bdeb75"/>
@@ -98,9 +226,87 @@
 		<rom name="setchip v4.04.08.u7" size="524288" crc="7c4b7fe4" sha1="39dd39c794c0cb6abc1b7503650643a8131468d1"/>
 		<rom name="setchip v4.04.09.u11" size="524288" crc="ff7a9035" sha1="4352c4336e61947c555fdc80c61f944076f64b64"/>
 		<rom name="setchip v4.04.09.u7" size="524288" crc="e8e8dc75" sha1="201fe95256459ce34fdb6f7498135ab5016d07f3"/>
+		<device_ref name="arm_cpu"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="memc"/>
+		<device_ref name="ioc"/>
+		<device_ref name="screen"/>
+		<device_ref name="acorn_vidc1a"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="93c56_16"/>
+		<device_ref name="93c56_16"/>
+		<device_ref name="nvram"/>
+		<device_ref name="ns16450"/>
+		<device_ref name="ns16450"/>
+		<device_ref name="ns16450"/>
+		<device_ref name="ns16450"/>
+		<device_ref name="ns16450"/>
+		<device_ref name="ns16450"/>
+		<device_ref name="ns16450"/>
+		<device_ref name="ns16450"/>
+		<device_ref name="ipt_merge_any_hi"/>
+		<device_ref name="ds1302"/>
+		<device_ref name="coin_hopper"/>
+		<device_ref name="rs232"/>
 	</machine>
-	<machine name="aristmk6">
-		<description>aristmk6</description>
+	<machine name="aristmk6" sourcefile="aristocrat/aristmk6.cpp" isbios="yes" runnable="no">
+		<description>MK6 System Software-Setchips</description>
+		<year>2000</year>
+		<manufacturer>Aristocrat</manufacturer>
+		<biosset name="au-nsw1" description="Aristocrat MK6 Base (24013001, NSW/ACT)"/>
+		<biosset name="au-nsw2" description="Aristocrat MK6 Base (21012901, NSW/ACT)"/>
+		<biosset name="au-nsw3" description="Aristocrat MK6 Base (19012801, NSW/ACT)"/>
+		<biosset name="au-nsw4" description="Aristocrat MK6 Base (13012001, NSW/ACT)"/>
+		<biosset name="au-nsw5" description="Aristocrat MK6 Base (11011901, NSW/ACT)"/>
+		<biosset name="au-nsw6" description="Aristocrat MK6 Base (11011501, NSW/ACT)"/>
+		<biosset name="au-nsw7" description="Aristocrat MK6 Base (09011001, NSW/ACT)"/>
+		<biosset name="au-nsw8" description="Aristocrat MK6 Base (07010801, NSW/ACT)"/>
+		<biosset name="au-nsw9" description="Aristocrat MK6 Base (05010601, NSW/ACT)"/>
+		<biosset name="au-nsw10" description="Aristocrat MK6 Base (04010501, NSW/ACT)"/>
+		<biosset name="au-nsw11" description="Aristocrat MK6 Base (03010301, NSW/ACT)"/>
+		<biosset name="au-nsw12" description="Aristocrat MK6 Base (02010201, NSW/ACT)"/>
+		<biosset name="au-nsw13" description="Aristocrat MK6 Base (02010114, NSW/ACT)"/>
+		<biosset name="au-qld1" description="Aristocrat MK6 Base (25012805, Queensland)"/>
+		<biosset name="au-qld2" description="Aristocrat MK6 Base (20012605, Queensland)"/>
+		<biosset name="au-qld3" description="Aristocrat MK6 Base (20012305, Queensland)"/>
+		<biosset name="au-qld4" description="Aristocrat MK6 Base (14011605, Queensland)"/>
+		<biosset name="au-qld5" description="Aristocrat MK6 Base (04041205, Queensland)"/>
+		<biosset name="au-qld6" description="Aristocrat MK6 Base (03130334, Queensland)"/>
+		<biosset name="au-qld7" description="Aristocrat MK6 Base (01040505, Queensland)"/>
+		<biosset name="au-sa1" description="Aristocrat MK6 Base (03030708, South Australia)"/>
+		<biosset name="nz1" description="Aristocrat MK6 Base (14011913, New Zealand)"/>
+		<biosset name="nz2" description="Aristocrat MK6 Base (14010152, New Zealand)"/>
+		<biosset name="nz3" description="Aristocrat MK6 Base (02061013, New Zealand)"/>
+		<biosset name="nz4" description="Aristocrat MK6 Base (02060913, New Zealand)"/>
+		<biosset name="my" description="Aristocrat MK6 Base (15011025, Malaysia)"/>
+		<biosset name="afr" description="Aristocrat MK6 Base (24010467, Africa)"/>
+		<biosset name="us1" description="Aristocrat MK6 Base (01.04.11, US)"/>
+		<biosset name="us2" description="Aristocrat MK6 Base (01.04.10, US)"/>
+		<biosset name="us3" description="Aristocrat MK6 Base (01.04.08, US)"/>
+		<biosset name="us4" description="Aristocrat MK6 Base (01.04.07, US)"/>
+		<biosset name="us5" description="Aristocrat MK6 Base (01.04.04, US)"/>
+		<biosset name="us6" description="Aristocrat MK6 Base (01.03.17, US)"/>
+		<biosset name="us7" description="Aristocrat MK6 Base (01.03.14, US)"/>
+		<biosset name="us8" description="Aristocrat MK6 Base (01.03.07, US)"/>
+		<biosset name="us9" description="Aristocrat MK6 Base (01.03.06, US)"/>
+		<biosset name="us10" description="Aristocrat MK6 Base (01.03.05, US)"/>
+		<biosset name="us11" description="Aristocrat MK6 Base (01.03.03e, US)"/>
+		<biosset name="us12" description="Aristocrat MK6 Base (01.03.03a, US)"/>
+		<biosset name="us13" description="Aristocrat MK6 Base (01.02.08, US)"/>
+		<biosset name="us14" description="Aristocrat MK6 Base (01.02.02, US)"/>
+		<biosset name="set-us1" description="Aristocrat MK6 Set Chips (06.03.04, US)"/>
+		<biosset name="set-us2" description="Aristocrat MK6 Set Chips (06.03.03, US)"/>
+		<biosset name="set-us3" description="Aristocrat MK6 Set Chips (06.02.20, US)"/>
+		<biosset name="set-us4" description="Aristocrat MK6 Set Chips (06.02.04, US)"/>
 		<rom name="01.02.02_left.u3" size="1048576" crc="1d0f4093" sha1="17d6328dba9826b58f39393ca2f2daac1b7161ef"/>
 		<rom name="01.02.02_right.u2" size="1048576" crc="e920e940" sha1="52e28d4765a3e953bb70dc4ed13d96d4180be996"/>
 		<rom name="01.02.08_left.u3" size="1048576" crc="f29fd1bf" sha1="33e043d2616e10a1c7a0936c3d208f9bcc2ca6f3"/>
@@ -199,13 +405,28 @@
 		<rom name="24013001_right.u83" size="2097152" crc="e97afedf" sha1="10ca3b015afaff5d7812f0f5207b2535602136a5"/>
 		<rom name="25012805_left.u70" size="2097152" crc="996f32ce" sha1="cf21bef745986fcbd298167453c7b8e5945ce602"/>
 		<rom name="25012805_right.u83" size="2097152" crc="2ecd8da8" sha1="389e9668b2ba4fffed5d2721b2ce70d502fb9f67"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="93c56_16"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
 	</machine>
-	<machine name="aristmk7">
-		<description>aristmk7</description>
+	<machine name="aristmk7" sourcefile="aristocrat/aristmk7.cpp" isbios="yes" runnable="no">
+		<description>Aristocrat MK-7 BIOS</description>
+		<year>2006?</year>
+		<manufacturer>Aristocrat</manufacturer>
 		<rom name="mk7-bios_590176_01_1.00.7.u1" size="1048576" crc="f2fea07e" sha1="285038473fbe3a5708045e2f8b14562f3c24b203"/>
+		<device_ref name="pentium3"/>
+		<device_ref name="pci_root"/>
 	</machine>
-	<machine name="atarisy1">
-		<description>atarisy1</description>
+	<machine name="atarisy1" sourcefile="atari/atarisy1.cpp" isbios="yes" runnable="no">
+		<description>Atari System 1 BIOS</description>
+		<year>1984</year>
+		<manufacturer>Atari Games</manufacturer>
+		<biosset name="ttl" description="TTL Motherboard (Rev 2)"/>
+		<biosset name="ttl1" description="TTL Motherboard (Rev 1)"/>
+		<biosset name="lsi" description="LSI Motherboard"/>
 		<rom name="136032.101.e3" size="256" crc="7e84972a" sha1="84d422b53547271e3a07342704a05ef481db3f99"/>
 		<rom name="136032.102.e5" size="256" crc="ebf1e0ae" sha1="2d327e78832edd67ca3909c25b8c8c839637a1ed"/>
 		<rom name="136032.103.f7" size="235" crc="92d6a0b4" sha1="0a42a4816c89447b16e1f3245409591efea98a4a"/>
@@ -217,32 +438,164 @@
 		<rom name="136032.115.j10" size="16384" crc="7275b4dc" sha1="0896ab37ea832a1335046353612c1b4c86d8d040"/>
 		<rom name="136032.205.l13" size="16384" crc="88d0be26" sha1="d124045eccc562ff0423b23a240e27ad740fa0c9"/>
 		<rom name="136032.206.l12" size="16384" crc="3c79ef05" sha1="20fdca7131478e1ee12691bdafd2d5bb74cbd16f"/>
+		<device_ref name="m68010"/>
+		<device_ref name="m6502"/>
+		<device_ref name="2804"/>
+		<device_ref name="ls259"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="palette"/>
+		<device_ref name="tilemap"/>
+		<device_ref name="tilemap"/>
+		<device_ref name="atarimo"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="ym2151"/>
+		<device_ref name="pokey"/>
+		<device_ref name="adc0809"/>
+		<device_ref name="ipt_merge_all_hi"/>
+		<device_ref name="slapstic"/>
 	</machine>
-	<machine name="awbios">
-		<description>awbios</description>
+	<machine name="awbios" sourcefile="sega/dc_atomiswave.cpp" isbios="yes" runnable="no">
+		<description>Atomiswave BIOS</description>
+		<year>2001</year>
+		<manufacturer>Sammy</manufacturer>
+		<biosset name="bios0" description="Sammy BIOS"/>
+		<biosset name="bios1" description="Sega BIOS"/>
 		<rom name="bios0.ic23" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa"/>
 		<rom name="bios1.ic23" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959"/>
 		<rom name="fpr-24363.ic48" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="macronix_29l001mc"/>
+		<device_ref name="aw_rom_board"/>
+		<device_ref name="nvram"/>
+		<device_ref name="dcctrl"/>
+		<device_ref name="dcctrl"/>
 	</machine>
-	<machine name="bubsys">
-		<description>bubsys</description>
+	<machine name="bubsys" sourcefile="konami/nemesis.cpp" isbios="yes" runnable="no">
+		<description>Bubble System BIOS</description>
+		<year>1985</year>
+		<manufacturer>Konami</manufacturer>
 		<rom name="400a1.2b" size="256" crc="5827b1e8" sha1="fa8cf5f868cfb08bce203baaebb6c4055ee2a000"/>
 		<rom name="400a2.1b" size="256" crc="2f44f970" sha1="7ab46f9d5d587665782cefc623b8de0124a6d38a"/>
 		<rom name="400b03.8g" size="8192" crc="85c2afc5" sha1="387842d02d50d0d78a27270e7267af19555b9e63"/>
 		<rom name="boot.bin" size="480" crc="f0774fc2" sha1="84fade54e025f170d983200a86c1ed96ef1a9ed3"/>
+		<rom name="mcu" size="4096" status="nodump"/>
+		<device_ref name="m68000"/>
+		<device_ref name="timer"/>
+		<device_ref name="z80"/>
+		<device_ref name="ls259"/>
+		<device_ref name="ls259"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="screen"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="ay8910"/>
+		<device_ref name="ay8910"/>
+		<device_ref name="filter_rc"/>
+		<device_ref name="filter_rc"/>
+		<device_ref name="filter_rc"/>
+		<device_ref name="filter_rc"/>
+		<device_ref name="k005289"/>
+		<device_ref name="vlm5030"/>
 	</machine>
-	<machine name="cdibios">
-		<description>cdibios</description>
+	<machine name="cdibios" sourcefile="philips/cdi.cpp" isbios="yes" runnable="no">
+		<description>CD-i (Mono-I) (PAL) BIOS</description>
+		<year>1995</year>
+		<manufacturer>Philips</manufacturer>
+		<biosset name="mcdi200" description="Magnavox CD-i 200"/>
+		<biosset name="pcdi220" description="Philips CD-i 220 F2"/>
 		<rom name="cdi200.rom" size="524288" crc="40c4e6b9" sha1="d961de803c89b3d1902d656ceb9ce7c02dccb40a"/>
 		<rom name="cdi220b.rom" size="524288" crc="279683ca" sha1="53360a1f21ddac952e95306ced64186a3fc0b93e"/>
-		<rom name="zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206" size="8192" crc="688cda63" sha1="56d0acd7caad51c7de703247cd6d842b36173079"/>
+		<rom name="zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206" size="8192" crc="688cda63" sha1="56d0acd7caad51c7de703247cd6d842b36173079" status="baddump"/>
+		<device_ref name="scc68070"/>
+		<device_ref name="mcd212"/>
+		<device_ref name="screen"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="cdicdic"/>
+		<device_ref name="cdislavehle"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="mk48t08"/>
+		<device_ref name="software_list"/>
+		<device_ref name="software_list"/>
 	</machine>
-	<machine name="cedmag">
-		<description>cedmag</description>
+	<machine name="cedmag" sourcefile="efo/cedar_magnet.cpp" isbios="yes" runnable="no">
+		<description>Magnet System</description>
+		<year>1987</year>
+		<manufacturer>EFO SA / Cedar</manufacturer>
 		<rom name="magnet-master-vid-e03.bin" size="8192" crc="86c4a4f0" sha1="6db1a006b2e0b2a7cc9748ade881debb098b6757"/>
+		<device_ref name="z80"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="gedmag_sound"/>
+		<device_ref name="z80"/>
+		<device_ref name="z80ctc"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="ipt_merge_any_hi"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ay8910"/>
+		<device_ref name="ay8910"/>
+		<device_ref name="cd40105"/>
+		<device_ref name="msm5205"/>
+		<device_ref name="cedmag_plane"/>
+		<device_ref name="z80"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="cedmag_plane"/>
+		<device_ref name="z80"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="cedmag_sprite"/>
+		<device_ref name="z80"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="z80pio"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="cedmag_flop"/>
+		<device_ref name="nvram"/>
 	</machine>
-	<machine name="chihiro">
-		<description>chihiro</description>
+	<machine name="chihiro" sourcefile="sega/chihiro.cpp" isbios="yes" runnable="no">
+		<description>Chihiro BIOS</description>
+		<year>2002</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="Chihiro BIOS"/>
 		<rom name="315-6351a_epc1pc8.ic2" size="130817" crc="488624ea" sha1="1a607337a186415ae90b48934ce2aae81639d4de"/>
 		<rom name="chihiro_xbox_bios.bin" size="524288" crc="66232714" sha1="b700b0041af8f84835e45d1d1250247bf7077188"/>
 		<rom name="fpr-23887_29lv160te.ic4" size="2097152" crc="13034372" sha1="77197fba2781ed1d81402c48bd743adb26d3161a"/>
@@ -250,73 +603,449 @@
 		<rom name="ic10_g24lc64.bin" size="8192" crc="cfc5e06f" sha1="3ababd4334d8d57abb22dd98bd2d347df39648d9"/>
 		<rom name="ic11_24lc024.bin" size="128" crc="8dc8374e" sha1="cc03a0650bfac4bf6cb66e414bbef121cba53efe"/>
 		<rom name="pc20_g24lc64.bin" size="8192" crc="7742ab62" sha1="82dad6e2a75bab4a4840dc6939462f1fb9b95101"/>
+		<device_ref name="pentium3"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="nv2a_host"/>
+		<device_ref name="nv2a_ram"/>
+		<device_ref name="mcpx_isalpc"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="ds12885ext"/>
+		<device_ref name="superio_device"/>
+		<device_ref name="mcpx_smbus"/>
+		<device_ref name="pic16lc"/>
+		<device_ref name="cx25871"/>
+		<device_ref name="eeprom"/>
+		<device_ref name="mcpx_ohci"/>
+		<device_ref name="usb_connector"/>
+		<device_ref name="ohci_hlean2131qc"/>
+		<device_ref name="usb_connector"/>
+		<device_ref name="ohci_hlean2131sc"/>
+		<device_ref name="usb_connector"/>
+		<device_ref name="usb_connector"/>
+		<device_ref name="mcpx_ohci"/>
+		<device_ref name="mcpx_eth"/>
+		<device_ref name="mcpx_apu"/>
+		<device_ref name="mcpx_ac97_audio"/>
+		<device_ref name="mcpx_ac97_modem"/>
+		<device_ref name="pci_bridge"/>
+		<device_ref name="mcpx_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ide_baseboard"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="nv2a_agp"/>
+		<device_ref name="nv2a_gpu"/>
+		<device_ref name="screen"/>
+		<device_ref name="jvs_master"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
 	</machine>
-	<machine name="coh1000a">
-		<description>coh1000a</description>
+	<machine name="coh1000a" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Acclaim ZN-1</description>
+		<year>1995</year>
+		<manufacturer>Acclaim</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="ac01.ic652" size="8" crc="c425eaf5" sha1="decf77ab50f7f58c641c3214a11647924f3a8998"/>
 		<rom name="m534002c-15.ic353" size="524288" crc="8d8d0764" sha1="7ee83d317190bb1cef2f8f01c81eaaae47150ebb"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
 	</machine>
-	<machine name="coh1000c">
-		<description>coh1000c</description>
+	<machine name="coh1000c" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Capcom ZN-1</description>
+		<year>1995</year>
+		<manufacturer>Capcom</manufacturer>
+		<biosset name="j" description="japan"/>
+		<biosset name="e" description="english (debug)"/>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="cp01.ic652" size="8" crc="bb7ba033" sha1="966f3aee5d00e1312c455f855915d621e6cb0672"/>
 		<rom name="m534002c-13.ic353" size="524288" crc="50033af6" sha1="486d92ff6c7f1e54f8e0ef41cd9116eca0e10e1a"/>
 		<rom name="msm27c402zb.ic353" size="524288" crc="f20f7fe5" sha1="9aac7d3b3d0cc0bbbe4056164b73078dce41d91c"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
+		<device_ref name="z80"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="qsound_hle"/>
 	</machine>
-	<machine name="coh1000t">
-		<description>coh1000t</description>
+	<machine name="coh1000t" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Taito FX-1</description>
+		<year>1995</year>
+		<manufacturer>Taito</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="m534002c-14.ic353" size="524288" crc="e3f23b6e" sha1="e18907cf8c6ba54d96edba0a9a00487a90219e0d"/>
 		<rom name="tt01.ic652" size="8" crc="daac13e7" sha1="96d94f2b06fb7ecd91454969f4959a583ffb9d5a"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
+		<device_ref name="z80"/>
+		<device_ref name="ym2610b"/>
+		<device_ref name="mb3773"/>
+		<device_ref name="tc0140syt"/>
 	</machine>
-	<machine name="coh1000w">
-		<description>coh1000w</description>
+	<machine name="coh1000w" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Time Warner ZN-1</description>
+		<year>1995</year>
+		<manufacturer>Atari</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="msm27c402zb.ic353" size="524288" crc="45e8a4b4" sha1="815488d8563c85f97fbc3384ff21f08e4c88b7b7"/>
 		<rom name="tw01.ic652" size="8" crc="1cac067e" sha1="8e87941bfb374172628c8a37647e3a66b7166aa8"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="vt83c461"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
 	</machine>
-	<machine name="coh1001l">
-		<description>coh1001l</description>
+	<machine name="coh1001l" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Atlus ZN-1</description>
+		<year>1995</year>
+		<manufacturer>Atlus</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="at01.ic652" size="8" crc="181668b3" sha1="8d2fe1facb4473cc20b4b477aaf881f9280939cf"/>
 		<rom name="m534002c-17.ic353" size="524288" crc="6721146b" sha1="9511d24bfe25eb180fb2db0835b131cb4a12730e"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
+		<device_ref name="m68000"/>
+		<device_ref name="generic_latch_16"/>
+		<device_ref name="ymz280b"/>
 	</machine>
-	<machine name="coh1002e">
-		<description>coh1002e</description>
+	<machine name="coh1002e" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Eighting - Raizing ZN-1</description>
+		<year>1996</year>
+		<manufacturer>Eighting / Raizing</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="et01.ic652" size="8" crc="a7dd922e" sha1="1069c1d9015028a51a1b314cfacb014ea90aa425"/>
 		<rom name="m27c402cz-54.ic353" size="524288" crc="910f3a8b" sha1="cd68532967a25f476a6d73473ec6b6f4df2e1689"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
+		<device_ref name="m68000"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="ymf271"/>
 	</machine>
-	<machine name="coh1002m">
-		<description>coh1002m</description>
+	<machine name="coh1002m" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Tecmo TPS System</description>
+		<year>1997</year>
+		<manufacturer>Tecmo</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="m534002c-61.ic353" size="524288" crc="69ffbcb4" sha1="03eb2febfab3fcde716defff291babd9392de965"/>
 		<rom name="mg01.ic652" size="8" crc="50dc8322" sha1="cef4011c6c06d6fce546e1db5d9fbae155eabf57"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
 	</machine>
-	<machine name="coh1002v">
-		<description>coh1002v</description>
+	<machine name="coh1002t" sourcefile="sony/taitogn.cpp" isbios="yes" runnable="no">
+		<description>Taito G NET (COH-1002T)</description>
+		<year>1999</year>
+		<manufacturer>Taito</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
+		<rom name="flash.u30" size="2097152" crc="9100dbf2" sha1="9ce888bd2a7e575c8ca71d978cb85de22afb5660"/>
+		<rom name="m534002c-14.ic353" size="524288" crc="e3f23b6e" sha1="e18907cf8c6ba54d96edba0a9a00487a90219e0d"/>
+		<rom name="tt01.ic652" size="8" crc="daac13e7" sha1="96d94f2b06fb7ecd91454969f4959a583ffb9d5a"/>
+		<rom name="tt99.u17" size="8" crc="2989b6eb" sha1="89981ec68d30729c27d31f820cbfd0c23ed14a03"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
+		<device_ref name="rf5c296"/>
+		<device_ref name="pccard"/>
+		<device_ref name="mb3773"/>
+		<device_ref name="intel_te28f160"/>
+		<device_ref name="intel_e28f400b"/>
+		<device_ref name="intel_te28f160"/>
+		<device_ref name="intel_te28f160"/>
+		<device_ref name="intel_te28f160"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="taito_zoom"/>
+		<device_ref name="mn1020012a"/>
+		<device_ref name="tms57002"/>
+		<device_ref name="zsg2"/>
+	</machine>
+	<machine name="coh1002v" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Video System ZN-1</description>
+		<year>1996</year>
+		<manufacturer>Video System Co.</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="coh-1002v.ic353" size="524288" crc="5ff165f3" sha1="8f59314c1093446b9bcb06d232244da6df78e206"/>
 		<rom name="kn01.ic652" size="8" crc="1ce271df" sha1="b01479dc75a4a8a86bee7ac7cd10af2bda332544"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
 	</machine>
-	<machine name="coh3002c">
-		<description>coh3002c</description>
+	<machine name="coh3002c" sourcefile="sony/zn.cpp" isbios="yes" runnable="no">
+		<description>Capcom ZN-2</description>
+		<year>1997</year>
+		<manufacturer>Capcom</manufacturer>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="cp10.ic652" size="8" crc="7808fcef" sha1="3c3fb8227b05dace042dc1429b9f2355b1a15638"/>
 		<rom name="m534002c-59.ic353" size="524288" crc="e860ea8b" sha1="66e7e1d4e426466b8f48a2ba055a91b475569504"/>
+		<device_ref name="cxd8661r"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8654q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
+		<device_ref name="z80"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="qsound_hle"/>
 	</machine>
-	<machine name="coh3002t">
-		<description>coh3002t</description>
+	<machine name="coh3002t" sourcefile="sony/taitogn.cpp" isbios="yes" runnable="no">
+		<description>Taito G NET (COH-3002T)</description>
+		<year>1998</year>
+		<manufacturer>Taito</manufacturer>
+		<biosset name="v1" description="G NET BIOS v1 flasher"/>
+		<biosset name="v2" description="G NET BIOS v2 flasher"/>
+		<biosset name="mb2009" description="MB2009"/>
+		<biosset name="mb2011" description="MB2011"/>
+		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="f35-01_m27c800.bin" size="1048576" crc="6225ec11" sha1="047852d456b6ff85f8e640887caa03cf3e63ffad"/>
+		<rom name="f35-01_m27c800_modbios_mb-2009_dump_by_aje_fr.bin" size="1048576" crc="6367aedf" sha1="8400775e0c974c8b017e26ef9339144cad457c63"/>
+		<rom name="f35-01_m27c800_modbios_mb-2011.bin" size="1048576" crc="f98ae118" sha1="c6918dfbb6fcf686dde4b731e84f740177ab31f0"/>
 		<rom name="f35-01_m27c800_v1.bin" size="1048576" crc="cd15cc30" sha1="78361f46fa7186d5058937c86c66247a86b1257f"/>
 		<rom name="flash.u30" size="2097152" crc="c48c8236" sha1="c6dad60266ce2ff635696bc0d91903c543273559"/>
 		<rom name="m534002c-60.ic353" size="524288" crc="03967fa7" sha1="0e17fec2286e4e25deb23d40e41ce0986f373d49"/>
 		<rom name="tt10.ic652" size="8" crc="235510b1" sha1="2cc02113207a8f0b078152d31ce6503411750e70"/>
-		<rom name="tt16" size="8" crc="6bb167b3" sha1="9dcba08f10775a9adf2b1f382c947460edd3d239"/>
+		<rom name="tt16.u17" size="8" crc="6bb167b3" sha1="9dcba08f10775a9adf2b1f382c947460edd3d239"/>
+		<device_ref name="cxd8661r"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="cxd8654q"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="at28c16"/>
+		<device_ref name="znmcu"/>
+		<device_ref name="cat702"/>
+		<device_ref name="cat702"/>
+		<device_ref name="rf5c296"/>
+		<device_ref name="pccard"/>
+		<device_ref name="mb3773"/>
+		<device_ref name="intel_te28f160"/>
+		<device_ref name="intel_e28f400b"/>
+		<device_ref name="intel_te28f160"/>
+		<device_ref name="intel_te28f160"/>
+		<device_ref name="intel_te28f160"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="taito_zoom"/>
+		<device_ref name="mn1020012a"/>
+		<device_ref name="tms57002"/>
+		<device_ref name="zsg2"/>
 	</machine>
-	<machine name="crysbios">
-		<description>crysbios</description>
+	<machine name="crysbios" sourcefile="misc/crystal.cpp" isbios="yes" runnable="no">
+		<description>Crystal System BIOS</description>
+		<year>2001</year>
+		<manufacturer>BrezzaSoft</manufacturer>
+		<biosset name="amg0110b" description="AMG0110B PCB"/>
+		<biosset name="amg0110d" description="AMG0110D PCB"/>
 		<rom name="mx27l1000-alt.u14" size="131072" crc="1e8175c8" sha1="f60c016be2ff11e47b2192acddb92676043af501"/>
 		<rom name="mx27l1000.u14" size="131072" crc="beff39a9" sha1="b6f6dda58d9c82273f9422c1bd623411e58982cb"/>
+		<device_ref name="se3208"/>
+		<device_ref name="nvram"/>
+		<device_ref name="vrender0"/>
+		<device_ref name="vr0uart"/>
+		<device_ref name="vr0uart"/>
+		<device_ref name="screen"/>
+		<device_ref name="vr0video"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="vr0sound"/>
+		<device_ref name="ds1302"/>
 	</machine>
-	<machine name="cubo">
-		<description>cubo</description>
+	<machine name="cubo" sourcefile="amiga/cubo.cpp" isbios="yes" runnable="no">
+		<description>Cubo BIOS</description>
+		<year>1993</year>
+		<manufacturer>Commodore</manufacturer>
+		<biosset name="cd32" description="Kickstart v3.1 rev 40.60 with CD32 Extended-ROM"/>
 		<rom name="391640-03.u6a" size="1048576" crc="d3837ae4" sha1="06807db3181637455f4d46582d9972afec8956d9"/>
+		<device_ref name="m68ec020"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="agnus_copper"/>
+		<device_ref name="24c08"/>
+		<device_ref name="nvram"/>
+		<device_ref name="akiko"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="paula_8364"/>
+		<device_ref name="mos8520"/>
+		<device_ref name="mos8520"/>
+		<device_ref name="microtouch"/>
+		<device_ref name="paula_fdc"/>
 	</machine>
-	<machine name="decocass">
-		<description>decocass</description>
+	<machine name="decocass" sourcefile="dataeast/decocass.cpp" isbios="yes" runnable="no">
+		<description>DECO Cassette System</description>
+		<year>1981</year>
+		<manufacturer>Data East Corporation</manufacturer>
+		<biosset name="a" description="BIOS A (Japan)"/>
+		<biosset name="b" description="BIOS B (USA)"/>
+		<biosset name="c" description="BIOS C (UK)"/>
+		<biosset name="d" description="BIOS D (Europe)"/>
+		<biosset name="a0" description="BIOS A (Japan, older PCB)"/>
+		<biosset name="b0" description="BIOS B (USA, older PCB)"/>
+		<biosset name="c0" description="BIOS C (UK, older PCB)"/>
+		<biosset name="d0" description="BIOS D (Europe, older PCB)"/>
 		<rom name="cassmcu.1c" size="1024" crc="a6df18fd" sha1="1f9ea47e372d31767c936c15852b43df2b0ee8ff"/>
 		<rom name="dsp-3_p0-a.m9" size="2048" crc="2541e34b" sha1="4f983513dbae1350c83a433dea77a4465748b9c6"/>
 		<rom name="dsp-3_p0-b.m9" size="2048" crc="b67a91d9" sha1="681c040be0f0ed1ba0a50161b36d0ad8e1c8c5cb"/>
@@ -335,17 +1064,67 @@
 		<rom name="v2.3m" size="32" crc="238fdb40" sha1="b88e8fabb82092105c3828154608ea067acbf2e5"/>
 		<rom name="v3.3j" size="32" crc="51eef657" sha1="eaedce5caf55624ad6ae706aedf82c5717c60f1f"/>
 		<rom name="v4.10d" size="32" crc="3b5836b4" sha1="b630bb277d9ec09d46ef26b944014dd6165b35d8"/>
+		<device_ref name="deco222"/>
+		<device_ref name="m6502"/>
+		<device_ref name="timer"/>
+		<device_ref name="i8041a"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="decocass_tape"/>
+		<device_ref name="screen"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="ay8910"/>
+		<device_ref name="ay8910"/>
 	</machine>
-	<machine name="f355bios">
-		<description>f355bios</description>
+	<machine name="f355bios" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
+		<description>NAOMI Ferrari F355 Challenge (twin-deluxe) BIOS</description>
+		<year>1999</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="Ferrari F355 (Export)"/>
+		<biosset name="bios1" description="Ferrari F355 (USA)"/>
+		<biosset name="bios2" description="Ferrari F355 (Japan)"/>
 		<rom name="epr-22849.ic27" size="2097152" crc="121e009c" sha1="3beb91f660e60590491b209b6be8584b05a90548"/>
 		<rom name="epr-22850.ic27" size="2097152" crc="28aa539d" sha1="14485368656af80504b212da620179c49f84c1a2"/>
 		<rom name="epr-22851.ic27" size="2097152" crc="62483677" sha1="3e3bcacf5f972c376b569f45307ee7fd0b5031b7"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="mie"/>
+		<device_ref name="z80"/>
+		<device_ref name="mie_jvs"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="m3comm"/>
+		<device_ref name="m68000"/>
+		<device_ref name="ram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="naomi_rom_board"/>
 	</machine>
-	<machine name="f355dlx">
-		<description>f355dlx</description>
+	<machine name="f355dlx" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
+		<description>NAOMI Ferrari F355 Challenge (deluxe) BIOS</description>
+		<year>1999</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="Ferrari F355 Deluxe (Export)"/>
+		<biosset name="bios1" description="Ferrari F355 Deluxe (USA)"/>
+		<biosset name="bios2" description="Ferrari F355 Deluxe (Japan)"/>
+		<biosset name="bios3" description="Ferrari F355 Deluxe (Export, prototype)"/>
+		<biosset name="bios4" description="Ferrari F355 Deluxe (Japan, prototype)"/>
 		<rom name="epr-21862.ic27" size="2097152" crc="1f630716" sha1="8d157809770467c3e7618c6299f3b96b5f10518c"/>
 		<rom name="epr-21862p.ic27" size="2097152" crc="f0cd4aaa" sha1="9a9157992bf7a104c096efcdb8b02ceece186cbb"/>
 		<rom name="epr-21863.ic27" size="2097152" crc="0615a4d1" sha1="2c6986580b84278af75f396229fdd587bebc1768"/>
@@ -353,38 +1132,228 @@
 		<rom name="epr-21864p.ic27" size="2097152" crc="05128861" sha1="5bdb320d84015b8429527a8eb4524958031862aa"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="mie"/>
+		<device_ref name="z80"/>
+		<device_ref name="mie_jvs"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="m3comm"/>
+		<device_ref name="m68000"/>
+		<device_ref name="ram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="naomi_rom_board"/>
 	</machine>
-	<machine name="galgbios">
-		<description>galgbios</description>
+	<machine name="galgbios" sourcefile="ces/galgames.cpp" isbios="yes" runnable="no">
+		<description>Galaxy Games BIOS</description>
+		<year>1998</year>
+		<manufacturer>Creative Electronics &amp; Software</manufacturer>
+		<biosset name="1.90" description="v1.90 12/01/98"/>
+		<biosset name="1.80" description="v1.80 10/05/98"/>
+		<rom name="16v8h-blue.u24" size="279" status="nodump"/>
+		<rom name="16v8h-green.u27" size="279" status="nodump"/>
+		<rom name="16v8h-magenta.u26" size="279" status="nodump"/>
+		<rom name="16v8h-red.u45" size="279" status="nodump"/>
+		<rom name="16v8h-yellow.u25" size="279" status="nodump"/>
 		<rom name="galaxy_u1__v1.80_10-15-98.u1" size="1048576" crc="e3ae423c" sha1="66d1964845a99a5ed4b19b4135b55cde6b5fe295"/>
 		<rom name="galaxy_u1__v1.90_12-01-98.u1" size="1048576" crc="c6d7bc6d" sha1="93c032f9aa38cbbdda59a8a25ff9f38f7ad9c760"/>
 		<rom name="galaxy_u2__v1.80_10-15-98.u2" size="1048576" crc="73cff284" sha1="e6f7d92999cdb478c21c3b65a04eade84299ac12"/>
 		<rom name="galaxy_u2__v1.90_12-01-98.u2" size="1048576" crc="e51ff184" sha1="aaa795f2c15ec29b3ceeb5c917b643db0dbb7083"/>
+		<device_ref name="m68000"/>
+		<device_ref name="timer"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="starpak_slot"/>
+		<device_ref name="galgames_bios_cart"/>
+		<device_ref name="93c76_8"/>
+		<device_ref name="screen"/>
+		<device_ref name="cesblit"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="okim6295"/>
+		<device_ref name="starpak_cart"/>
+		<device_ref name="starpak_cart"/>
+		<device_ref name="starpak_cart"/>
+		<device_ref name="starpak_cart"/>
 	</machine>
-	<machine name="gp_110">
-		<description>gp_110</description>
+	<machine name="genpin">
+		<description>genpin</description>
+		<sample name="bumper"/>
+		<sample name="chime1"/>
+		<sample name="chime2"/>
+		<sample name="chime3"/>
+		<sample name="chime4"/>
+		<sample name="coil_coinlockout_engage"/>
+		<sample name="coil_coinlockout_release"/>
+		<sample name="coinin"/>
+		<sample name="drop_target_reset"/>
+		<sample name="hole"/>
+		<sample name="kickback"/>
+		<sample name="knocker"/>
+		<sample name="outhole"/>
+		<sample name="relay_engage"/>
+		<sample name="relay_release"/>
+		<sample name="sling"/>
+		<sample name="solenoid_engage"/>
+		<sample name="solenoid_release"/>
+	</machine>
+	<machine name="gp_110" sourcefile="pinball/gp_1.cpp" sampleof="genpin" isbios="yes" runnable="no">
+		<description>Model 110</description>
+		<year>1978</year>
+		<manufacturer>Game Plan</manufacturer>
 		<rom name="a-110.u12" size="2048" crc="ed0d518b" sha1="8f3ca8792ad907c660d9149a1aa3a3528c7573e3"/>
 		<rom name="b1-110.u13" size="2048" crc="a223f2e8" sha1="767e15e19e11399935c890c1d1034dccf1ad7f92"/>
+		<device_ref name="z80"/>
+		<device_ref name="nvram"/>
+		<device_ref name="speaker"/>
+		<device_ref name="samples"/>
+		<device_ref name="i8255"/>
+		<device_ref name="z80ctc"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="clock"/>
+		<sample name="bumper"/>
+		<sample name="chime1"/>
+		<sample name="chime2"/>
+		<sample name="chime3"/>
+		<sample name="chime4"/>
+		<sample name="coil_coinlockout_engage"/>
+		<sample name="coil_coinlockout_release"/>
+		<sample name="coinin"/>
+		<sample name="drop_target_reset"/>
+		<sample name="hole"/>
+		<sample name="kickback"/>
+		<sample name="knocker"/>
+		<sample name="outhole"/>
+		<sample name="relay_engage"/>
+		<sample name="relay_release"/>
+		<sample name="sling"/>
+		<sample name="solenoid_engage"/>
+		<sample name="solenoid_release"/>
 	</machine>
-	<machine name="gq863">
-		<description>gq863</description>
+	<machine name="gq863" sourcefile="konami/twinkle.cpp" isbios="yes" runnable="no">
+		<description>Twinkle System</description>
+		<year>1999</year>
+		<manufacturer>Konami</manufacturer>
 		<rom name="863a03.7b" size="524288" crc="81498f73" sha1="3599b40a5872eab3a00d345287635355fcb25a71"/>
 		<rom name="863a05.2x" size="524288" crc="6f42a09e" sha1="cab5209f90f47b9ee6e721479913ad74e3ba84b1"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="m68000"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="cy7c131"/>
+		<device_ref name="nscsi_bus"/>
+		<device_ref name="nscsi_connector"/>
+		<device_ref name="nxm5401"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="nscsi_connector"/>
+		<device_ref name="ncr53cf96"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="rtc65271"/>
+		<device_ref name="fdc37c665gt"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="pc_lpt"/>
+		<device_ref name="centronics"/>
+		<device_ref name="centronics_printer"/>
+		<device_ref name="printer_image"/>
+		<device_ref name="input_buffer"/>
+		<device_ref name="input_buffer"/>
+		<device_ref name="input_buffer"/>
+		<device_ref name="output_latch"/>
+		<device_ref name="output_latch"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="rf5c400"/>
 	</machine>
-	<machine name="gts1">
-		<description>gts1</description>
+	<machine name="gts1" sourcefile="pinball/gts1.cpp" sampleof="genpin" isbios="yes" runnable="no">
+		<description>System 1</description>
+		<year>1977</year>
+		<manufacturer>Gottlieb</manufacturer>
 		<rom name="a1752cf.u5" size="2048" crc="614a3bd9" sha1="febca18fb6f96037ca82e515dd161dfcb0e4c776"/>
 		<rom name="a1753ce.u4" size="2048" crc="4cd312dd" sha1="31245daa9972ef8652caee69986585bb8239e86e"/>
+		<device_ref name="pps4_2"/>
+		<device_ref name="nvram"/>
+		<device_ref name="ra17xx"/>
+		<device_ref name="ra17xx"/>
+		<device_ref name="r10696"/>
+		<device_ref name="r10696"/>
+		<device_ref name="r10788"/>
+		<device_ref name="speaker"/>
+		<device_ref name="samples"/>
+		<sample name="bumper"/>
+		<sample name="chime1"/>
+		<sample name="chime2"/>
+		<sample name="chime3"/>
+		<sample name="chime4"/>
+		<sample name="coil_coinlockout_engage"/>
+		<sample name="coil_coinlockout_release"/>
+		<sample name="coinin"/>
+		<sample name="drop_target_reset"/>
+		<sample name="hole"/>
+		<sample name="kickback"/>
+		<sample name="knocker"/>
+		<sample name="outhole"/>
+		<sample name="relay_engage"/>
+		<sample name="relay_release"/>
+		<sample name="sling"/>
+		<sample name="solenoid_engage"/>
+		<sample name="solenoid_release"/>
 	</machine>
-	<machine name="hikaru">
-		<description>hikaru</description>
+	<machine name="hikaru" sourcefile="sega/hikaru.cpp" isbios="yes" runnable="no">
+		<description>Hikaru BIOS</description>
+		<year>2000</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr23400a"/>
+		<biosset name="bios1" description="epr23400"/>
+		<biosset name="bios2" description="epr21904"/>
+		<biosset name="bios3" description="Development / prototype"/>
 		<rom name="epr-21904.ic94" size="2097152" crc="d96298b6" sha1="d10d837bc7d68eb7125c34beffe21a91305627b0"/>
 		<rom name="epr-23400.ic94" size="2097152" crc="3d557104" sha1="d39879f5a1acbd54ad8ee4fbd412f870c9ff4aa5"/>
 		<rom name="epr-23400a.ic94" size="2097152" crc="2aa906a7" sha1="098c9909b123ed6c338ac874f2ee90e3b2da4c02"/>
 		<rom name="prot_bot.ic94" size="2097152" crc="7cbf2fb6" sha1="7384e3c9314add7d61f93c9edd9fb7788d08f423"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
 	</machine>
-	<machine name="hng64">
-		<description>hng64</description>
+	<machine name="hng64" sourcefile="snk/hng64.cpp" isbios="yes" runnable="no">
+		<description>Hyper NeoGeo 64 BIOS</description>
+		<year>1997</year>
+		<manufacturer>SNK</manufacturer>
+		<biosset name="japan" description="Japan"/>
+		<biosset name="us" description="USA"/>
+		<biosset name="export" description="Export" default="yes"/>
+		<biosset name="korea" description="Korea"/>
 		<rom name="bios_export.bin" size="524288" crc="bbf07ec6" sha1="5656aa077f6a6d43953f15b5123eea102a9d5313"/>
 		<rom name="bios_korea.bin" size="524288" crc="ac953e2e" sha1="f502188ef252b7c9d04934c4b525730a116de48b"/>
 		<rom name="bios_us.bin" size="524288" crc="ab5948d6" sha1="f8b940c1ae5ce2d3b2cd0c9bfaf6e5b063cec06e"/>
@@ -395,9 +1364,45 @@
 		<rom name="lvs-jam-br9020f.u3" size="256" crc="dabec5d2" sha1="19c5be89c57387d6ea563b3dc55674d0692af98e"/>
 		<rom name="rom1.bin" size="130866" crc="4a6832dc" sha1="ae504f7733c2f40450157cd1d3b85bc83fac8569"/>
 		<rom name="tmp87ph40an.bin" size="32768" crc="b70df21f" sha1="5b742e8a0bbf4c0ae4f4398d34c7058fb24acc92"/>
+		<device_ref name="vr4300be"/>
+		<device_ref name="timer"/>
+		<device_ref name="nvram"/>
+		<device_ref name="rtc62423"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="palette"/>
+		<device_ref name="palette"/>
+		<device_ref name="palette"/>
+		<device_ref name="v53a"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="v5x_dmau"/>
+		<device_ref name="v5x_icu"/>
+		<device_ref name="v5x_scu"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="l7a1045"/>
+		<device_ref name="kl5c80a12"/>
+		<device_ref name="kp69"/>
+		<device_ref name="kp64"/>
+		<device_ref name="kp64"/>
+		<device_ref name="kp63_3channel"/>
+		<device_ref name="tmp87ph40an"/>
+		<device_ref name="idt71321"/>
+		<device_ref name="hng64_lamps"/>
 	</machine>
-	<machine name="hod2bios">
-		<description>hod2bios</description>
+	<machine name="hod2bios" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
+		<description>NAOMI The House of the Dead 2 BIOS</description>
+		<year>1998</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="HOTD2 (Export)"/>
+		<biosset name="bios1" description="HOTD2 (USA)"/>
+		<biosset name="bios2" description="HOTD2 (Japan)"/>
+		<biosset name="bios3" description="HOTD2 (Korea)"/>
+		<biosset name="bios4" description="HOTD2 (Proto)"/>
 		<rom name="epr-21329.ic27" size="2097152" crc="d99e5b9b" sha1="453ffb41b6197cac6d12e7814bb1d7281ccf1659"/>
 		<rom name="epr-21330.ic27" size="2097152" crc="9e3bfa1b" sha1="b539d38c767b0551b8e7956c1ff795de8bbe2fbc"/>
 		<rom name="epr-21331.ic27" size="2097152" crc="065f8500" sha1="49a3881e8d76f952ef5e887200d77b4a415d47fe"/>
@@ -405,13 +1410,69 @@
 		<rom name="hotd2biosproto.ic27" size="2097152" crc="ea74e967" sha1="e4d037480eb6555d335a8ab9cd6c56122335586d"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="mie"/>
+		<device_ref name="z80"/>
+		<device_ref name="mie_jvs"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="m3comm"/>
+		<device_ref name="m68000"/>
+		<device_ref name="ram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="naomi_rom_board"/>
 	</machine>
-	<machine name="isgsm">
-		<description>isgsm</description>
+	<machine name="isgsm" sourcefile="sega/segas16b_isgsm.cpp" isbios="yes" runnable="no">
+		<description>ISG Selection Master Type 2006 BIOS</description>
+		<year>2006</year>
+		<manufacturer>bootleg (ISG)</manufacturer>
 		<rom name="ism2006v00.u1" size="131072" crc="2292585c" sha1="97ba0e0f0be832a5114d95151e519bc027f6675b"/>
+		<device_ref name="z80"/>
+		<device_ref name="nvram"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="palette"/>
+		<device_ref name="screen"/>
+		<device_ref name="sega_sys16b_sprite"/>
+		<device_ref name="segaic16_video"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ym2151"/>
+		<device_ref name="upd7759"/>
+		<device_ref name="netlist_sound"/>
+		<device_ref name="nl_stream_in"/>
+		<device_ref name="nl_stream_in"/>
+		<device_ref name="nl_stream_in"/>
+		<device_ref name="nl_stream_out"/>
+		<device_ref name="m68000"/>
+		<device_ref name="generic_latch_8"/>
 	</machine>
-	<machine name="iteagle">
-		<description>iteagle</description>
+	<machine name="iteagle" sourcefile="itech/iteagle.cpp" isbios="yes" runnable="no">
+		<description>Eagle BIOS</description>
+		<year>2000</year>
+		<manufacturer>Incredible Technologies</manufacturer>
+		<biosset name="209" description="bootrom 2.09"/>
+		<biosset name="208" description="bootrom 2.08"/>
+		<biosset name="204" description="bootrom 2.04"/>
+		<biosset name="201" description="bootrom 2.01"/>
+		<biosset name="107" description="bootrom 1.07"/>
+		<biosset name="106a" description="bootrom 1.06a"/>
+		<biosset name="106" description="bootrom 1.06"/>
+		<biosset name="105" description="bootrom 1.05"/>
+		<biosset name="103" description="bootrom 1.03"/>
+		<biosset name="102" description="bootrom 1.02"/>
+		<biosset name="101" description="bootrom 1.01"/>
 		<rom name="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
@@ -428,80 +1489,448 @@
 		<rom name="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
 		<rom name="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
 		<rom name="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<device_ref name="vr4310le"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="vrc4373"/>
+		<device_ref name="iteagle_periph"/>
+		<device_ref name="nvram"/>
+		<device_ref name="ide_pci"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="iteagle_fpga"/>
+		<device_ref name="nvram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="scc85c30"/>
+		<device_ref name="z80scc_channel"/>
+		<device_ref name="z80scc_channel"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="es1373"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="voodoo_3_pci"/>
+		<device_ref name="voodoo_3"/>
+		<device_ref name="iteagle_eeprom"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="screen"/>
 	</machine>
-	<machine name="konamigv">
-		<description>konamigv</description>
+	<machine name="konamigv" sourcefile="konami/konamigv.cpp" isbios="yes" runnable="no">
+		<description>Baby Phoenix-GV System</description>
+		<year>1995</year>
+		<manufacturer>Konami</manufacturer>
 		<rom name="999a01.7e" size="524288" crc="ad498d2d" sha1="02a82a2fe1fba0404517c3602324bfa64e23e478"/>
+		<device_ref name="cxd8530bq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="mb89371"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="nscsi_bus"/>
+		<device_ref name="nscsi_connector"/>
+		<device_ref name="nxm5401"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="nscsi_connector"/>
+		<device_ref name="ncr53cf96"/>
+		<device_ref name="cxd8514q"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="psxspu"/>
 	</machine>
-	<machine name="konamigx">
-		<description>konamigx</description>
+	<machine name="konamigx" sourcefile="konami/konamigx.cpp" isbios="yes" runnable="no">
+		<description>System GX</description>
+		<year>1994</year>
+		<manufacturer>Konami</manufacturer>
 		<rom name="300a01.34k" size="131072" crc="d5fa95f5" sha1="c483aa98ff8ef40cdac359c19ad23fea5ecc1906"/>
+		<device_ref name="m68ec020"/>
+		<device_ref name="m68000"/>
+		<device_ref name="tms57002"/>
+		<device_ref name="k053252"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="k056832"/>
+		<device_ref name="k055555"/>
+		<device_ref name="k054338"/>
+		<device_ref name="k055673"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="k056800"/>
+		<device_ref name="k054539"/>
+		<device_ref name="k054539"/>
 	</machine>
-	<machine name="konendev">
-		<description>konendev</description>
+	<machine name="konendev" sourcefile="konami/konendev.cpp" isbios="yes" runnable="no">
+		<description>Konami Endeavour BIOS</description>
+		<year>200?</year>
+		<manufacturer>Konami</manufacturer>
 		<rom name="2v02s502_ifu.u190" size="524288" crc="36122a98" sha1="3d2c40c9d504358d890364e26c9562e40314d8a4"/>
+		<device_ref name="ppc403gcx"/>
+		<device_ref name="h83007"/>
+		<device_ref name="h8h_intc"/>
+		<device_ref name="h8_adc_3006"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8h_timer8_channel"/>
+		<device_ref name="h8h_timer8_channel"/>
+		<device_ref name="h8h_timer8_channel"/>
+		<device_ref name="h8h_timer8_channel"/>
+		<device_ref name="h8_timer16"/>
+		<device_ref name="h8h_timer16_channel"/>
+		<device_ref name="h8h_timer16_channel"/>
+		<device_ref name="h8h_timer16_channel"/>
+		<device_ref name="h8_sci"/>
+		<device_ref name="h8_sci"/>
+		<device_ref name="h8_sci"/>
+		<device_ref name="h8_watchdog"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="cy7c131"/>
+		<device_ref name="palette"/>
+		<device_ref name="screen"/>
+		<device_ref name="k057714"/>
+		<device_ref name="rtc62423"/>
+		<device_ref name="nvram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="93c56_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
 	</machine>
-	<machine name="kpython">
-		<description>kpython</description>
+	<machine name="kpython" sourcefile="konami/kpython.cpp" isbios="yes" runnable="no">
+		<description>Konami Python BIOS</description>
+		<year>2002</year>
+		<manufacturer>Konami</manufacturer>
 		<rom name="b22a01.u42" size="524288" crc="98de405e" sha1="4bc268a996825c1bdf6ae277d331fe7bdc0cc00c"/>
+		<rom name="hd64f3664" size="32768" status="nodump"/>
+		<device_ref name="r5900be"/>
+		<device_ref name="sonyvu0"/>
+		<device_ref name="sonyvu1"/>
+		<device_ref name="ps2vif1"/>
+		<device_ref name="ps2intc"/>
+		<device_ref name="ps2gs"/>
+		<device_ref name="ps2gif"/>
+		<device_ref name="ps2dmac"/>
+		<device_ref name="ps2sif"/>
+		<device_ref name="m48t58"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
 	</machine>
-	<machine name="kpython2">
-		<description>kpython2</description>
+	<machine name="kpython2" sourcefile="konami/kpython2.cpp" isbios="yes" runnable="no">
+		<description>Konami Python 2 BIOS</description>
+		<year>2005</year>
+		<manufacturer>Konami</manufacturer>
 		<rom name="ps2-0190j-20030822.bin" size="4194304" crc="79d60546" sha1="0ea98a25a32145dda514de2f0d4bfbbd806bd00c"/>
+		<device_ref name="r5900le"/>
+		<device_ref name="sonyvu0"/>
+		<device_ref name="sonyvu1"/>
+		<device_ref name="ps2vif1"/>
+		<device_ref name="ps2timer"/>
+		<device_ref name="ps2timer"/>
+		<device_ref name="ps2timer"/>
+		<device_ref name="ps2timer"/>
+		<device_ref name="ps2intc"/>
+		<device_ref name="ps2gs"/>
+		<device_ref name="ps2gif"/>
+		<device_ref name="ps2dmac"/>
+		<device_ref name="ps2sif"/>
+		<device_ref name="sonyiop"/>
+		<device_ref name="ps2pad"/>
+		<device_ref name="ps2pad"/>
+		<device_ref name="ps2mc"/>
+		<device_ref name="iopintc"/>
+		<device_ref name="iopsio2"/>
+		<device_ref name="iopcdvd"/>
+		<device_ref name="ioptimer"/>
+		<device_ref name="iopspu"/>
+		<device_ref name="iopdma"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="software_list"/>
 	</machine>
-	<machine name="kviper">
-		<description>kviper</description>
+	<machine name="kviper" sourcefile="konami/viper.cpp" isbios="yes" runnable="no">
+		<description>Konami Viper BIOS</description>
+		<year>1999</year>
+		<manufacturer>Konami</manufacturer>
+		<biosset name="bios0" description="GM941B01 (01/15/01)"/>
+		<biosset name="bios1" description="GM941A01 (03/10/00)"/>
 		<rom name="941a01.u25" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87"/>
 		<rom name="941b01.u25" size="262144" crc="233e5159" sha1="66ff268d5bf78fbfa48cdc3e1b08f8956cfd6cfb"/>
 		<rom name="ds2430.u3" size="40" crc="f1511505" sha1="ed7cd9b2763b3e377df9663943160f9871f65105"/>
+		<device_ref name="mpc8240"/>
+		<device_ref name="ds2430a"/>
+		<device_ref name="pci_bus_legacy"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="pc16552d"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="k056230_viper"/>
+		<device_ref name="voodoo_3"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="m48t58"/>
+		<device_ref name="timer"/>
 	</machine>
-	<machine name="lindbios">
-		<description>lindbios</description>
+	<machine name="lindbios" sourcefile="sega/lindbergh.cpp" isbios="yes" runnable="no">
+		<description>Sega Lindbergh BIOS</description>
+		<year>2005</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="6.0.0010 alternate version"/>
+		<biosset name="bios1" description="6.0.0009"/>
+		<biosset name="bios2" description="6.0.0010"/>
 		<rom name="6.0.0009.bin" size="1048576" crc="5ffdfbf8" sha1="605bc4967b749b4e6d13fc2ebb845ba956a259a7"/>
 		<rom name="6.0.0010.bin" size="1048576" crc="ea2bf888" sha1="c9c5b6f0d4f4f36620939b15dd2f128a74347e37"/>
 		<rom name="6.0.0010a.bin" size="1048576" crc="10dd9b76" sha1="1fdf1f921bc395846a7c3180fbdbc4ca287a9670"/>
 		<rom name="fpr-24370b.ic6" size="4194304" crc="c3b021a4" sha1="1b6938a50fe0e4ae813864649eb103838c399ac0"/>
 		<rom name="vid_bios.u504" size="65536" crc="f78d14d7" sha1="f129787e487984edd23bf344f2e9500c85052275"/>
+		<disk name="mda-c0004a_revb_lindyellow_v2.4.20_mvl31a_boot_2.01" sha1="e13da5f827df852e742b594729ee3f933b387410" region="cf"/>
+		<device_ref name="pentium4"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82875p_host"/>
+		<device_ref name="i82875p_agp"/>
+		<device_ref name="geforce_7600gs"/>
+		<device_ref name="screen"/>
+		<device_ref name="nvidia_nv3_vga"/>
+		<device_ref name="i82875p_overflow"/>
+		<device_ref name="pci_bridge"/>
+		<device_ref name="i82541_device"/>
+		<device_ref name="usb_uhci"/>
+		<device_ref name="usb_uhci"/>
+		<device_ref name="i6300esb_watchdog"/>
+		<device_ref name="apic"/>
+		<device_ref name="usb_ehci"/>
+		<device_ref name="pci_bridge"/>
+		<device_ref name="sb0400"/>
+		<device_ref name="lindbergh_baseboard"/>
+		<device_ref name="i6300esb_lpc"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="lpc_rpc"/>
+		<device_ref name="lpc_pit"/>
+		<device_ref name="sata"/>
+		<device_ref name="smbus"/>
+		<device_ref name="ac97"/>
 	</machine>
-	<machine name="macsbios">
-		<description>macsbios</description>
-		<rom name="macsos_h.u44" size="524288" crc="538b68e4" sha1="a0534147791e94e726f49451d0e95671ae0a87d5"/>
-		<rom name="macsos_l.u43" size="524288" crc="0b5aed5e" sha1="042e705017ee34656e2c6af45825bb2dd3447747"/>
+	<machine name="mac2bios" sourcefile="seta/macs.cpp" isbios="yes" runnable="no">
+		<description>Multi Amenity Cassette System 2 BIOS</description>
+		<year>1995</year>
+		<manufacturer>I'Max</manufacturer>
+		<rom name="macs2os_h.bin" size="524288" status="nodump"/>
+		<rom name="macs2os_l.bin" size="524288" status="nodump"/>
+		<device_ref name="st0016_cpu"/>
+		<device_ref name="palette"/>
+		<device_ref name="st0016"/>
+		<device_ref name="screen"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_rom_plain"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_rom_plain"/>
+		<device_ref name="speaker"/>
 	</machine>
-	<machine name="maxaflex">
-		<description>maxaflex</description>
+	<machine name="macsbios" sourcefile="seta/macs.cpp" isbios="yes" runnable="no">
+		<description>Multi Amenity Cassette System BIOS</description>
+		<year>1995</year>
+		<manufacturer>I'Max</manufacturer>
+		<rom name="am_macs_os_hi.u44" size="524288" crc="538b68e4" sha1="a0534147791e94e726f49451d0e95671ae0a87d5"/>
+		<rom name="am_macs_os_low.u43" size="524288" crc="0b5aed5e" sha1="042e705017ee34656e2c6af45825bb2dd3447747"/>
+		<rom name="sx011-01.bin" size="343" crc="669096c1" sha1="36f55a2e4865bdf0506746a4df51bfb1944f905e"/>
+		<device_ref name="st0016_cpu"/>
+		<device_ref name="palette"/>
+		<device_ref name="st0016"/>
+		<device_ref name="screen"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_rom_plain"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_rom_plain"/>
+		<device_ref name="speaker"/>
+	</machine>
+	<machine name="maxaflex" sourcefile="atari/maxaflex.cpp" isbios="yes" runnable="no">
+		<description>Max-A-Flex</description>
+		<year>1984</year>
+		<manufacturer>Exidy</manufacturer>
 		<rom name="atarixl.rom" size="16384" crc="1f9cd270" sha1="ae4f523ba08b6fd59f3cae515a2b2410bbd98f55"/>
 		<rom name="maxaflex.uc" size="2048" crc="fe9cf53c" sha1="4b02bc2f0c8a1eab799814fac82d5812c0160206"/>
 		<rom name="maxprom.prm" size="512" crc="edf5c950" sha1="9ad046ea41a61585dd8d2f2d4167a3cc39d2928f"/>
+		<device_ref name="m6502"/>
+		<device_ref name="timer"/>
+		<device_ref name="ipt_merge_any_hi"/>
+		<device_ref name="m68705p3"/>
+		<device_ref name="gtia"/>
+		<device_ref name="antic"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="pwm_display"/>
+		<device_ref name="speaker"/>
+		<device_ref name="pokey"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="ram"/>
 	</machine>
-	<machine name="megaplay">
-		<description>megaplay</description>
-		<rom name="315-5349a.ic54" size="260" crc="825ea316" sha1="f49edb6a3f9349330f7ff525ef60517ed276a663"/>
-		<rom name="315-5651.ic8" size="279" crc="55c6cddb" sha1="e1a968305ca7ea17e9021b31506ca087b84a8ab1"/>
-		<rom name="315-5653.ic56" size="279" crc="fd5c4fb3" sha1="6b2ba657836f3031d77602526416200e31d41a6e"/>
-		<rom name="315-5655.ic34" size="260" crc="4a2d27d1" sha1="ba79183e4b522d1b57a46a56fc7d9b85de24df36"/>
-		<rom name="315-5661.ic7" size="279" crc="d8289e31" sha1="a0e9134d9e8043a3660a2ce122cfd5d7f76773b9"/>
+	<machine name="megaplay" sourcefile="sega/megaplay.cpp" isbios="yes" runnable="no">
+		<description>Mega Play BIOS</description>
+		<year>1993</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="ver1" description="Mega Play BIOS (Ver. 1)"/>
+		<biosset name="ver2" description="Mega Play BIOS (Ver. 2)"/>
+		<rom name="315-5349a.ic54" size="260" crc="825ea316" sha1="f49edb6a3f9349330f7ff525ef60517ed276a663" status="baddump"/>
+		<rom name="315-5651.ic8" size="279" crc="55c6cddb" sha1="e1a968305ca7ea17e9021b31506ca087b84a8ab1" status="baddump"/>
+		<rom name="315-5653.ic56" size="279" crc="fd5c4fb3" sha1="6b2ba657836f3031d77602526416200e31d41a6e" status="baddump"/>
+		<rom name="315-5654.ic33" size="260" status="nodump"/>
+		<rom name="315-5655.ic34" size="260" crc="4a2d27d1" sha1="ba79183e4b522d1b57a46a56fc7d9b85de24df36" status="baddump"/>
+		<rom name="315-5661.ic7" size="279" crc="d8289e31" sha1="a0e9134d9e8043a3660a2ce122cfd5d7f76773b9" status="baddump"/>
 		<rom name="ep15294.ic2" size="131072" crc="aa8dc2d8" sha1="96771ad7b79dc9c83a1594243250d65052d23176"/>
 		<rom name="epr-a15294.ic2" size="131072" crc="f97c68aa" sha1="bcabc879950bca1ced11c550a484e697ec5706b2"/>
+		<device_ref name="m68000"/>
+		<device_ref name="timer"/>
+		<device_ref name="sega315_5313"/>
+		<device_ref name="palette"/>
+		<device_ref name="segapsg"/>
+		<device_ref name="palette"/>
+		<device_ref name="palette"/>
+		<device_ref name="palette"/>
+		<device_ref name="screen"/>
+		<device_ref name="z80"/>
+		<device_ref name="ipt_merge_any_hi"/>
+		<device_ref name="megadrive_io_port"/>
+		<device_ref name="megadrive_io_port"/>
+		<device_ref name="megadrive_io_port"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ym2612"/>
+		<device_ref name="z80"/>
+		<device_ref name="cxd1095"/>
+		<device_ref name="cxd1095"/>
+		<device_ref name="sega315_5246"/>
+		<device_ref name="palette"/>
+		<device_ref name="segapsg"/>
 	</machine>
-	<machine name="megatech">
-		<description>megatech</description>
+	<machine name="megatech" sourcefile="sega/megatech.cpp" isbios="yes" runnable="no">
+		<description>Mega-Tech</description>
+		<year>1989</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="ver1" description="Ver 1"/>
+		<biosset name="ver0a" description="Ver 0 Rev A"/>
+		<biosset name="ver0b" description="Ver 0 Rev B"/>
+		<biosset name="ver0aa" description="Ver 0 Rev B (alt?)"/>
 		<rom name="epr-12263a.20" size="32768" crc="07c3f423" sha1="50c28bbc2d4349c820d988ae3f20aae3f808545f"/>
 		<rom name="epr-12263b.20" size="32768" crc="ca26c87a" sha1="987a18bede6e54cd73c4434426eb6c302a37cdc5"/>
 		<rom name="epr-12604a.20" size="32768" crc="884e4aa5" sha1="c9008c431a937c084fb475273093ca0b434b5f47"/>
 		<rom name="epr-12664.20" size="32768" crc="f71e9526" sha1="1c7887541d02c41426992d17f8e3db9e03975953"/>
+		<device_ref name="m68000"/>
+		<device_ref name="timer"/>
+		<device_ref name="sega315_5313"/>
+		<device_ref name="palette"/>
+		<device_ref name="segapsg"/>
+		<device_ref name="palette"/>
+		<device_ref name="palette"/>
+		<device_ref name="palette"/>
+		<device_ref name="screen"/>
+		<device_ref name="z80"/>
+		<device_ref name="ipt_merge_any_hi"/>
+		<device_ref name="megadrive_io_port"/>
+		<device_ref name="megadrive_io_port"/>
+		<device_ref name="megadrive_io_port"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ym2612"/>
+		<device_ref name="z80"/>
+		<device_ref name="cxd1095"/>
+		<device_ref name="cxd1095"/>
+		<device_ref name="screen"/>
+		<device_ref name="sega315_5246"/>
+		<device_ref name="palette"/>
+		<device_ref name="segapsg"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="software_list"/>
 	</machine>
-	<machine name="naomi">
-		<description>naomi</description>
+	<machine name="naomi" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
+		<description>NAOMI BIOS</description>
+		<year>1998</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-21576h (Japan)"/>
+		<biosset name="bios1" description="epr-21576g (Japan)"/>
+		<biosset name="bios2" description="epr-21576e (Japan)"/>
+		<biosset name="bios3" description="epr-21576d (Japan)"/>
+		<biosset name="bios4" description="epr-21576c (Japan)"/>
+		<biosset name="bios5" description="epr-21576b (Japan)"/>
+		<biosset name="bios6" description="epr-21576a (Japan)"/>
+		<biosset name="bios7" description="epr-21576 (Japan)"/>
+		<biosset name="bios8" description="epr-21578h (Export)"/>
+		<biosset name="bios9" description="epr-21578g (Export)"/>
+		<biosset name="bios10" description="epr-21578f (Export)"/>
+		<biosset name="bios11" description="epr-21578e (Export)"/>
+		<biosset name="bios12" description="epr-21578d (Export)"/>
+		<biosset name="bios13" description="epr-21578a (Export)"/>
+		<biosset name="bios14" description="epr-21577h (USA)"/>
+		<biosset name="bios15" description="epr-21577g (USA)"/>
+		<biosset name="bios16" description="epr-21577e (USA)"/>
+		<biosset name="bios17" description="epr-21577d (USA)"/>
+		<biosset name="bios18" description="epr-21577a (USA)"/>
+		<biosset name="bios19" description="epr-21579d (Korea)"/>
+		<biosset name="bios20" description="epr-21579 (Korea)"/>
+		<biosset name="bios21" description="Set4 Dev BIOS"/>
+		<biosset name="bios22" description="Dev BIOS v1.10"/>
+		<biosset name="bios23" description="Dev BIOS (Nov 1998)"/>
+		<biosset name="bios24" description="Development ROM Board"/>
+		<biosset name="bios25" description="epr-21576h (multi-region hack)"/>
+		<biosset name="bios26" description="Dev BIOS v1.2"/>
+		<biosset name="bios27" description="Dev Naomi Boot 2491"/>
 		<rom name="315-6188.ic31" size="8244" crc="7c9fea46" sha1="f77c07ae65dfed18c1c4c632c8945be21d02ddaf"/>
 		<rom name="boot_rom_64b8.ic606" size="524288" crc="7a50fab9" sha1="ef79f448e0bf735d1264ad4f051d24178822110f"/>
 		<rom name="develop.ic27" size="2097152" crc="309a196a" sha1="409b50371feb648f10efd6b7ac420bf08d9a3b5a"/>
 		<rom name="develop110.ic27" size="2097152" crc="de7cfdb0" sha1="da16800edc4d49f70481c124d487f544c2fa8ce7"/>
-		<rom name="epr-21336a.ic27" size="2097152" crc="d3d57af8" sha1="0eb72c2a20ad8b86d442b77760eab5e89521d469"/>
+		<rom name="epr-21336a.ic27" size="2097152" crc="d3d57af8" sha1="0eb72c2a20ad8b86d442b77760eab5e89521d469" status="baddump"/>
 		<rom name="epr-21576.ic27" size="2097152" crc="9dad3495" sha1="5fb66f9a2b68d120f059c72758e65d34f461044a"/>
 		<rom name="epr-21576a.ic27" size="2097152" crc="cedfe439" sha1="f27798bf3d890863ef0c1d9dcb4e7782249dca27"/>
 		<rom name="epr-21576b.ic27" size="2097152" crc="755a6e07" sha1="7e8b8ccfc063144d89668e7224dcd8a36c54f3b3"/>
-		<rom name="epr-21576c.ic27" size="2097152" crc="4599ad13" sha1="7e730e9452a792d76f210c33a955d385538682c7"/>
+		<rom name="epr-21576c.ic27" size="2097152" crc="4599ad13" sha1="7e730e9452a792d76f210c33a955d385538682c7" status="baddump"/>
 		<rom name="epr-21576d.ic27" size="2097152" crc="3b2afa7b" sha1="d007e1d321c198a38c5baff86eb2ab84385d150a"/>
 		<rom name="epr-21576e.ic27" size="2097152" crc="08c0add7" sha1="e7c1a7673cb2ccb21748ef44105e46d1bad7266d"/>
 		<rom name="epr-21576g.ic27" size="2097152" crc="d2a1c6bf" sha1="6d27d71aec4dfba98f66316ae74a1426d567698a"/>
@@ -524,9 +1953,48 @@
 		<rom name="naomi_boot_2491.ic27" size="2097152" crc="5b28f868" sha1="d101f58c69d9835e87a969688e43dc9b699b89d0"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<rom name="zukinver0930.ic25" size="2097152" crc="58e17c23" sha1="19330f906accf1b859f56bbcedc2edff73747599"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="mie"/>
+		<device_ref name="z80"/>
+		<device_ref name="mie_jvs"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="m3comm"/>
+		<device_ref name="m68000"/>
+		<device_ref name="ram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="naomi_rom_board"/>
 	</machine>
-	<machine name="naomi2">
-		<description>naomi2</description>
+	<machine name="naomi2" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
+		<description>NAOMI 2 BIOS</description>
+		<year>2001</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-23605c (Japan)"/>
+		<biosset name="bios1" description="epr-23605b (Japan)"/>
+		<biosset name="bios2" description="epr-23605a (Japan)"/>
+		<biosset name="bios3" description="epr-23605 (Japan)"/>
+		<biosset name="bios4" description="epr-23608c (Export)"/>
+		<biosset name="bios5" description="epr-23608b (Export)"/>
+		<biosset name="bios6" description="epr-23608a (Export)"/>
+		<biosset name="bios7" description="epr-23608 (Export)"/>
+		<biosset name="bios8" description="epr-23607c (USA)"/>
+		<biosset name="bios9" description="epr-23607b (USA)"/>
+		<biosset name="bios10" description="epr-23607 (USA)"/>
+		<biosset name="bios11" description="epr-23609b (Korea)"/>
+		<biosset name="bios12" description="epr-23605c (multi-region hack)"/>
 		<rom name="epr-23605.ic27" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6"/>
 		<rom name="epr-23605a.ic27" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392"/>
 		<rom name="epr-23605b.ic27" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484"/>
@@ -542,9 +2010,44 @@
 		<rom name="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="mie"/>
+		<device_ref name="z80"/>
+		<device_ref name="mie_jvs"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="m3comm"/>
+		<device_ref name="m68000"/>
+		<device_ref name="ram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="naomi_rom_board"/>
 	</machine>
-	<machine name="naomigd">
-		<description>naomigd</description>
+	<machine name="naomigd" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
+		<description>NAOMI GD-ROM BIOS</description>
+		<year>2001</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="epr-21576e (Japan)"/>
+		<biosset name="bios1" description="epr-21576g (Japan)"/>
+		<biosset name="bios2" description="epr-21576h (Japan)"/>
+		<biosset name="bios3" description="epr-21578h (Export)"/>
+		<biosset name="bios4" description="epr-21578g (Export)"/>
+		<biosset name="bios5" description="epr-21578e (Export)"/>
+		<biosset name="bios6" description="epr-21577h (USA)"/>
+		<biosset name="bios7" description="epr-21577g (USA)"/>
+		<biosset name="bios8" description="epr-21577e (USA)"/>
 		<rom name="epr-21576e.ic27" size="2097152" crc="08c0add7" sha1="e7c1a7673cb2ccb21748ef44105e46d1bad7266d"/>
 		<rom name="epr-21576g.ic27" size="2097152" crc="d2a1c6bf" sha1="6d27d71aec4dfba98f66316ae74a1426d567698a"/>
 		<rom name="epr-21576h.ic27" size="2097152" crc="d4895685" sha1="91424d481ff99a8d3f4c45cea6d3f0eada049a6d"/>
@@ -556,9 +2059,66 @@
 		<rom name="epr-21578h.ic27" size="2097152" crc="7b452946" sha1="8e9f153bbada24b37066dc45b64a7bf0d4f26a9b"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="mie"/>
+		<device_ref name="z80"/>
+		<device_ref name="mie_jvs"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="m3comm"/>
+		<device_ref name="m68000"/>
+		<device_ref name="ram"/>
+		<device_ref name="nvram"/>
+		<device_ref name="naomi_rom_board"/>
 	</machine>
-	<machine name="neogeo">
-		<description>neogeo</description>
+	<machine name="neogeo" sourcefile="neogeo/neogeo.cpp" isbios="yes" runnable="no">
+		<description>Neo-Geo MV-6F</description>
+		<year>1990</year>
+		<manufacturer>SNK</manufacturer>
+		<biosset name="euro" description="Europe MVS (Ver. 2)"/>
+		<biosset name="euro-s1" description="Europe MVS (Ver. 1)"/>
+		<biosset name="asia-mv1c" description="Asia NEO-MVH MV1C"/>
+		<biosset name="asia-mv1b" description="Asia MV1B"/>
+		<biosset name="us" description="US MVS (Ver. 2?)"/>
+		<biosset name="us-e" description="US MVS (Ver. 1)"/>
+		<biosset name="us-v2" description="US MVS (4 slot, Ver 2)"/>
+		<biosset name="us-u4" description="US MVS (U4)"/>
+		<biosset name="us-u3" description="US MVS (U3)"/>
+		<biosset name="japan" description="Japan MVS (Ver. 3)"/>
+		<biosset name="japan-s2" description="Japan MVS (Ver. 2)"/>
+		<biosset name="japan-s1" description="Japan MVS (Ver. 1)"/>
+		<biosset name="japan-mv1b" description="Japan MV1B"/>
+		<biosset name="japan-j3a" description="Japan MVS (J3, alt)"/>
+		<biosset name="japan-mv1c" description="Japan NEO-MVH MV1C"/>
+		<biosset name="japan-hotel" description="Custom Japanese Hotel"/>
+		<biosset name="unibios40" description="Universe BIOS (Hack, Ver. 4.0)"/>
+		<biosset name="unibios33" description="Universe BIOS (Hack, Ver. 3.3)"/>
+		<biosset name="unibios32" description="Universe BIOS (Hack, Ver. 3.2)"/>
+		<biosset name="unibios31" description="Universe BIOS (Hack, Ver. 3.1)"/>
+		<biosset name="unibios30" description="Universe BIOS (Hack, Ver. 3.0)"/>
+		<biosset name="unibios23" description="Universe BIOS (Hack, Ver. 2.3)"/>
+		<biosset name="unibios23o" description="Universe BIOS (Hack, Ver. 2.3, older?)"/>
+		<biosset name="unibios22" description="Universe BIOS (Hack, Ver. 2.2)"/>
+		<biosset name="unibios21" description="Universe BIOS (Hack, Ver. 2.1)"/>
+		<biosset name="unibios20" description="Universe BIOS (Hack, Ver. 2.0)"/>
+		<biosset name="unibios13" description="Universe BIOS (Hack, Ver. 1.3)"/>
+		<biosset name="unibios12" description="Universe BIOS (Hack, Ver. 1.2)"/>
+		<biosset name="unibios12o" description="Universe BIOS (Hack, Ver. 1.2, older)"/>
+		<biosset name="unibios11" description="Universe BIOS (Hack, Ver. 1.1)"/>
+		<biosset name="unibios10" description="Universe BIOS (Hack, Ver. 1.0)"/>
 		<rom name="000-lo.lo" size="131072" crc="5a86cff2" sha1="5992277debadeb64d1c1c64b0a92d9293eaf7e4a"/>
 		<rom name="japan-j3.bin" size="131072" crc="dff6d41f" sha1="e92910e20092577a4523a6b39d578a71d4de7085"/>
 		<rom name="sfix.sfix" size="131072" crc="c2ea0cfd" sha1="fd4a618cdcdbf849374f0a50dd8efe9dbab706c3"/>
@@ -593,28 +2153,150 @@
 		<rom name="uni-bios_3_3.rom" size="131072" crc="24858466" sha1="0ad92efb0c2338426635e0159d1f60b4473d0785"/>
 		<rom name="uni-bios_4_0.rom" size="131072" crc="a7aab458" sha1="938a0bda7d9a357240718c2cec319878d36b8f72"/>
 		<rom name="vs-bios.rom" size="131072" crc="f0e8f27d" sha1="ecf01eda815909f1facec62abf3594eaa8d11075"/>
+		<device_ref name="m68000"/>
+		<device_ref name="z80"/>
+		<device_ref name="hc259"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="neosprite_opt"/>
+		<device_ref name="ipt_merge_all_hi"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="ym2610"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="upd4990a"/>
+		<device_ref name="nvram"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ng_memcard"/>
+		<device_ref name="neogeo_ctrl_edge"/>
+		<device_ref name="neogeo_joyac"/>
+		<device_ref name="neogeo_control_port"/>
+		<device_ref name="neogeo_control_port"/>
+		<device_ref name="neogeo_cart_slot"/>
+		<device_ref name="neogeo_cart_slot"/>
+		<device_ref name="neogeo_cart_slot"/>
+		<device_ref name="neogeo_cart_slot"/>
+		<device_ref name="neogeo_cart_slot"/>
+		<device_ref name="neogeo_cart_slot"/>
+		<device_ref name="software_list"/>
 	</machine>
-	<machine name="nichidvd">
-		<description>nichidvd</description>
+	<machine name="nichidvd" sourcefile="nichibutsu/hrdvd.cpp" isbios="yes" runnable="no">
+		<description>Nichibutsu High Rate DVD BIOS</description>
+		<year>1998</year>
+		<manufacturer>Nichibutsu</manufacturer>
+		<biosset name="vb102" description="va1b102"/>
+		<biosset name="vb101" description="va1b101"/>
+		<biosset name="va101" description="va1a101"/>
 		<rom name="va1a101.u2" size="131072" crc="36135792" sha1="1b9c50bd02df8227b228b35cc485efd5a13ec639"/>
 		<rom name="va1b101.u2" size="131072" crc="b92a83c8" sha1="bd6d9adaa74cf7512478838d1bd5a79dbd0c4aa1"/>
 		<rom name="va1b102.u2" size="131072" crc="67374715" sha1="8767cbd81614c2686a1adb70159f909e8ffd634d"/>
+		<device_ref name="tmp68301"/>
+		<device_ref name="h83002"/>
+		<device_ref name="h8h_intc"/>
+		<device_ref name="h8_adc_3337"/>
+		<device_ref name="h8h_dma"/>
+		<device_ref name="h8h_dma_channel"/>
+		<device_ref name="h8h_dma_channel"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_digital_port"/>
+		<device_ref name="h8_timer16"/>
+		<device_ref name="h8h_timer16_channel"/>
+		<device_ref name="h8h_timer16_channel"/>
+		<device_ref name="h8h_timer16_channel"/>
+		<device_ref name="h8h_timer16_channel"/>
+		<device_ref name="h8h_timer16_channel"/>
+		<device_ref name="h8_sci"/>
+		<device_ref name="h8_sci"/>
+		<device_ref name="h8_watchdog"/>
+		<device_ref name="hrdvd_atactrl"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="dvdrom"/>
+		<device_ref name="dvdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="tc9223"/>
+		<device_ref name="v9958"/>
+		<device_ref name="screen"/>
+		<device_ref name="zr36110"/>
+		<device_ref name="nn71003f"/>
+		<device_ref name="nichisnd"/>
+		<device_ref name="tmpz84c011"/>
+		<device_ref name="z80ctc"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="z80ctc_channel"/>
+		<device_ref name="speaker"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="ym3812"/>
+		<device_ref name="dac_8bit_r2r"/>
+		<device_ref name="dac_8bit_r2r"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
 	</machine>
-	<machine name="nss">
-		<description>nss</description>
+	<machine name="nss" sourcefile="nintendo/nss.cpp" isbios="yes" runnable="no">
+		<description>Nintendo Super System BIOS</description>
+		<year>199?</year>
+		<manufacturer>Nintendo</manufacturer>
+		<biosset name="single" description="Nintendo Super System (Single Cart BIOS)"/>
+		<biosset name="multi" description="Nintendo Super System (Multi Cart BIOS)"/>
+		<biosset name="single3" description="Nintendo Super System (Single Cart BIOS v3, hack?)"/>
 		<rom name="nss-c.ic14" size="32768" crc="a8e202b3" sha1="b7afcfe4f5cf15df53452dc04be81929ced1efb2"/>
 		<rom name="nss-ic14.02.ic14" size="32768" crc="e06cb58f" sha1="62f507e91a2797919a78d627af53f029c7d81477"/>
 		<rom name="nss-v3.ic14" size="32768" crc="ac385b53" sha1="e3942f9d508c3c8074c3c3941376c37ca68b8e54"/>
+		<device_ref name="5a22"/>
+		<device_ref name="s_smp"/>
+		<device_ref name="z80"/>
+		<device_ref name="m50458"/>
+		<device_ref name="s3520cf"/>
+		<device_ref name="rp5h01"/>
+		<device_ref name="m6m80011ap"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="s_dsp"/>
+		<device_ref name="screen"/>
+		<device_ref name="snes_ppu"/>
+		<device_ref name="screen"/>
 	</machine>
-	<machine name="pgm">
-		<description>pgm</description>
+	<machine name="pgm" sourcefile="igs/pgm.cpp" isbios="yes" runnable="no">
+		<description>PGM (Polygame Master) System BIOS</description>
+		<year>1997</year>
+		<manufacturer>IGS</manufacturer>
+		<biosset name="v2" description="PGM BIOS V2"/>
+		<biosset name="v1" description="PGM BIOS V1"/>
 		<rom name="pgm_m01s.rom" size="2097152" crc="45ae7159" sha1="d3ed3ff3464557fd0df6b069b2e431528b0ebfa8"/>
 		<rom name="pgm_p01s.u20" size="131072" crc="e42b166e" sha1="2a9df9ec746b14b74fae48b1a438da14973702ea"/>
 		<rom name="pgm_p02s.u20" size="131072" crc="78c15fa2" sha1="885a6558e022602cc6f482ac9667ba9f61e75092"/>
 		<rom name="pgm_t01s.rom" size="2097152" crc="1a7123a0" sha1="cc567f577bfbf45427b54d6695b11b74f2578af3"/>
+		<device_ref name="m68000"/>
+		<device_ref name="timer"/>
+		<device_ref name="z80"/>
+		<device_ref name="nvram"/>
+		<device_ref name="v3021"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="generic_latch_8"/>
+		<device_ref name="igs023"/>
+		<device_ref name="ics2115"/>
 	</machine>
-	<machine name="playch10">
-		<description>playch10</description>
+	<machine name="playch10" sourcefile="nintendo/playch10.cpp" isbios="yes" runnable="no">
+		<description>PlayChoice-10 BIOS</description>
+		<year>1986</year>
+		<manufacturer>Nintendo of America</manufacturer>
+		<biosset name="dual" description="Dual Monitor Version"/>
+		<biosset name="single" description="Single Monitor Version"/>
+		<biosset name="alt" description="Alternate BIOS"/>
+		<biosset name="singleb" description="Single Monitor Version (Newer?)"/>
+		<biosset name="dualb" description="Dual Monitor Version (alternate)"/>
 		<rom name="pch1-c-6d.82s129an.6d" size="256" crc="1213ebd4" sha1="0ad386fc3eab5e53c0288ad1de33639a9e461b7c"/>
 		<rom name="pch1-c-6e.82s129an.6e" size="256" crc="a2625c6e" sha1="a448b47c9289902e26a3d3c4c7d5a7968c385e81"/>
 		<rom name="pch1-c-6f.82s129an.6f" size="256" crc="e5414ca3" sha1="d2878411cda84ffe0afb2e538a67457f51bebffb"/>
@@ -629,26 +2311,147 @@
 		<rom name="pck1-c.8t" size="16384" crc="503ee8b1" sha1="3bd20bc71cac742d1b8c1430a6426d0a19db7ad0"/>
 		<rom name="pck1-c_fix.8t" size="16384" crc="0be8ceb4" sha1="45b127a537370226e6b30be2b5a92ad05673ca7f"/>
 		<rom name="rp2c0x.pal" size="192" crc="48de65dc" sha1="d10acafc8da9ff479c270ec01180cca61efe62f5"/>
+		<device_ref name="z80"/>
+		<device_ref name="rp2a03g"/>
+		<device_ref name="nesapu"/>
+		<device_ref name="ls259"/>
+		<device_ref name="ls259"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="palette"/>
+		<device_ref name="screen"/>
+		<device_ref name="screen"/>
+		<device_ref name="ppu2c03b"/>
+		<device_ref name="nes_zapper_sensor"/>
+		<device_ref name="speaker"/>
+		<device_ref name="rp5h01"/>
 	</machine>
-	<machine name="pumpitup">
-		<description>pumpitup</description>
+	<machine name="pumpitup" sourcefile="misc/xtom3d.cpp" isbios="yes" runnable="no">
+		<description>Pump It Up BIOS</description>
+		<year>1999</year>
+		<manufacturer>Andamiro</manufacturer>
+		<biosset name="mk3v10" description="mk3 v1.0"/>
+		<biosset name="mk3v11" description="mk3 v1.1"/>
 		<rom name="mk3_1.0_bios.u22" size="131072" crc="a2b5546b" sha1="d99d29615e2b9c8784e03d4270cf7bb6569f389d"/>
 		<rom name="mk3_1.1_bios.u22" size="131072" crc="4540c23f" sha1="bba697dbe234e4f14c23aac126ea36df216f8c93"/>
 		<rom name="piu10.u8" size="2097152" crc="5911e31a" sha1="295723b9b7da9e55b5dd5586b23b06355f4837ef"/>
 		<rom name="piu10.u9" size="2097152" crc="9c436cfa" sha1="480ea52e74721d1963ced41be5c482b7b913ccd2"/>
+		<device_ref name="pentium2"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="banshee_x86"/>
+		<device_ref name="voodoo_banshee"/>
+		<device_ref name="i82371eb_isa"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_piu10"/>
+		<device_ref name="macronix_29f1610mc_16bit"/>
+		<device_ref name="cat702_piu"/>
+		<device_ref name="dac3350a"/>
+		<device_ref name="mas3507d"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_oksan_lpc"/>
+		<device_ref name="mc146818"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_pumpitup_io_sound"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
 	</machine>
-	<machine name="recel">
-		<description>recel</description>
+	<machine name="recel" sourcefile="pinball/recel.cpp" sampleof="genpin" isbios="yes" runnable="no">
+		<description>Recel BIOS</description>
+		<year>1977</year>
+		<manufacturer>Recel</manufacturer>
 		<rom name="a2361.b1" size="2048" crc="d0c4695d" sha1="4846adb3f6c292626840ba5255ffc5e788a69301"/>
 		<rom name="a2362.b2" size="2048" crc="39a70611" sha1="8545e168a5f256150bcff12d1e6d8efffd08c3cd"/>
+		<device_ref name="pps4_2"/>
+		<device_ref name="nvram"/>
+		<device_ref name="ra17xx"/>
+		<device_ref name="ra17xx"/>
+		<device_ref name="r10696"/>
+		<device_ref name="r10788"/>
+		<device_ref name="speaker"/>
+		<device_ref name="samples"/>
+		<sample name="bumper"/>
+		<sample name="chime1"/>
+		<sample name="chime2"/>
+		<sample name="chime3"/>
+		<sample name="chime4"/>
+		<sample name="coil_coinlockout_engage"/>
+		<sample name="coil_coinlockout_release"/>
+		<sample name="coinin"/>
+		<sample name="drop_target_reset"/>
+		<sample name="hole"/>
+		<sample name="kickback"/>
+		<sample name="knocker"/>
+		<sample name="outhole"/>
+		<sample name="relay_engage"/>
+		<sample name="relay_release"/>
+		<sample name="sling"/>
+		<sample name="solenoid_engage"/>
+		<sample name="solenoid_release"/>
 	</machine>
-	<machine name="sammymdl">
-		<description>sammymdl</description>
+	<machine name="sammymdl" sourcefile="sigma/sigmab98.cpp" isbios="yes" runnable="no">
+		<description>Sammy Medal Game System BIOS</description>
+		<year>2000</year>
+		<manufacturer>Sammy</manufacturer>
+		<biosset name="v5" description="IPL Ver. 5.0"/>
+		<biosset name="v4" description="IPL Ver. 4.0"/>
 		<rom name="mt201l04.u012" size="524288" crc="c8c6d25f" sha1="5be39fa72b65f2e455ccc146dbab58d24ab46505"/>
 		<rom name="vm1211l01.u2" size="524288" crc="c3c74dc5" sha1="07352e6dba7514214e778ba39e1ca773e4698858"/>
+		<device_ref name="kl5c80a12"/>
+		<device_ref name="kp69"/>
+		<device_ref name="kp64"/>
+		<device_ref name="kp64"/>
+		<device_ref name="kp63_3channel"/>
+		<device_ref name="nvram"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="ticket_dispenser"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="screen"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="okim9810"/>
 	</machine>
-	<machine name="segasp">
-		<description>segasp</description>
+	<machine name="segasp" sourcefile="sega/segasp.cpp" isbios="yes" runnable="no">
+		<description>Sega System SP (Spider) BIOS</description>
+		<year>2004</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="v101" description="BOOT VER 1.01"/>
+		<biosset name="v200" description="BOOT VER 2.00"/>
+		<biosset name="v201" description="BOOT VER 2.01"/>
 		<rom name="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
 		<rom name="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
 		<rom name="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
@@ -661,19 +2464,83 @@
 		<rom name="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
 		<rom name="net_eeprom.ic74s" size="512" crc="77cc5a6c" sha1="cbfba546256b70bce6c6fd0030d7e2e410a25526"/>
 		<rom name="net_firm_119.ic72" size="2097152" crc="a738ea1c" sha1="d25187a973a7e166e70334f964363adf2be87257"/>
+		<device_ref name="sh4le"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
 	</machine>
-	<machine name="sfcbox">
-		<description>sfcbox</description>
+	<machine name="sfcbox" sourcefile="nintendo/sfcbox.cpp" isbios="yes" runnable="no">
+		<description>Super Famicom Box BIOS</description>
+		<year>1994</year>
+		<manufacturer>Nintendo</manufacturer>
+		<biosset name="2.00" description="SFCBox BIOS Version 2.00"/>
+		<biosset name="1.00" description="SFCBox BIOS Version 1.00"/>
 		<rom name="atrom-4s-0.rom5" size="524288" crc="ad3ec05c" sha1="a3d336db585fe02a37c323422d9db6a33fd489a6"/>
 		<rom name="krom1.ic1" size="65536" crc="c9010002" sha1="f4c74086a83b728b1c1af3a021a60efa80eff5a4"/>
 		<rom name="krom2.00.ic1" size="131072" crc="e31b5580" sha1="4a6a34a9a94c8249c3b441c2516bdd03e198c458"/>
+		<device_ref name="5a22"/>
+		<device_ref name="s_smp"/>
+		<device_ref name="z80180"/>
+		<device_ref name="z180asci_channel_0"/>
+		<device_ref name="z180asci_channel_1"/>
+		<device_ref name="z180csio"/>
+		<device_ref name="mb90082"/>
+		<device_ref name="s3520cf"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="s_dsp"/>
+		<device_ref name="screen"/>
+		<device_ref name="snes_ppu"/>
+		<device_ref name="screen"/>
 	</machine>
-	<machine name="shtzone">
-		<description>shtzone</description>
+	<machine name="shtzone" sourcefile="sega/shtzone.cpp" isbios="yes" runnable="no">
+		<description>Shooting Zone System BIOS</description>
+		<year>1987</year>
+		<manufacturer>Sega</manufacturer>
 		<rom name="epr10894a.20" size="16384" crc="ea8901d9" sha1="43fd8bfc395e3b2e3fbe9645d692a5eb04783d9c"/>
+		<device_ref name="z80"/>
+		<device_ref name="speaker"/>
+		<device_ref name="sms_cart_slot"/>
+		<device_ref name="software_list"/>
+		<device_ref name="sms_control_port"/>
+		<device_ref name="sms_light_phaser"/>
+		<device_ref name="sms_control_port"/>
+		<device_ref name="sms_light_phaser"/>
+		<device_ref name="z80"/>
+		<device_ref name="nvram"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="sega315_5124"/>
+		<device_ref name="palette"/>
+		<device_ref name="segapsg"/>
+		<device_ref name="beep"/>
+		<device_ref name="sms_cart_slot"/>
+		<device_ref name="sms_cart_slot"/>
+		<device_ref name="sms_cart_slot"/>
+		<device_ref name="sms_cart_slot"/>
 	</machine>
-	<machine name="skns">
-		<description>skns</description>
+	<machine name="skns" sourcefile="kaneko/suprnova.cpp" isbios="yes" runnable="no">
+		<description>Super Kaneko Nova System BIOS</description>
+		<year>1996</year>
+		<manufacturer>Kaneko</manufacturer>
+		<biosset name="japan" description="Japan"/>
+		<biosset name="europe" description="Europe"/>
+		<biosset name="asia" description="Asia"/>
+		<biosset name="usa" description="USA"/>
+		<biosset name="korea" description="Korea"/>
+		<biosset name="japanmod" description="Japan (No Region Lock)"/>
+		<biosset name="koreamod" description="Korea (No Region Lock)"/>
 		<rom name="sknsa1.u10" size="524288" crc="745e5212" sha1="caba649ab2d83b2d7e007eecee0fc582c019df38"/>
 		<rom name="sknse2.u10" size="524288" crc="e2b9d7d1" sha1="b530a3bb9dedc8cfafcba9f1f10277590be04a15"/>
 		<rom name="sknsj1.u10" size="524288" crc="7e2b836c" sha1="92c5a7a2472496028bff0e5980d41dd294f42144"/>
@@ -681,9 +2548,39 @@
 		<rom name="sknsu1.u10" size="524288" crc="384d21ec" sha1="a27e8a18099d9cea64fa32db28d01101c2a78815"/>
 		<rom name="supernova-modbios-korea.u10" size="524288" crc="1d90517c" sha1="463962ffe19880135f0d95a7beda79e27448e872"/>
 		<rom name="supernova_modbios-japan.u10" size="524288" crc="b8d3190c" sha1="62c9a4a075fd944e89fe95c6b46046101eb6de1c"/>
+		<device_ref name="sh2_7604"/>
+		<device_ref name="timer"/>
+		<device_ref name="msm6242"/>
+		<device_ref name="nvram"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="sknsspr"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="ymz280b"/>
 	</machine>
-	<machine name="stvbios">
-		<description>stvbios</description>
+	<machine name="stvbios" sourcefile="sega/stv.cpp" isbios="yes" runnable="no">
+		<description>ST-V BIOS</description>
+		<year>1996</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="jp" description="EPR-23603 (Japan 00/10/24)"/>
+		<biosset name="jp1" description="EPR-20091 (Japan 97/08/21)"/>
+		<biosset name="jp2" description="EPR-19730 (Japan 97/02/17)"/>
+		<biosset name="jp3" description="EPR-17951A (Japan 95/04/25)"/>
+		<biosset name="jp4" description="EPR-17740A (Japan 95/02/20)"/>
+		<biosset name="jp5" description="EPR-17740 (Japan 95/01/31)"/>
+		<biosset name="euro" description="EPR-17954A (Europe 95/04/25)"/>
+		<biosset name="us" description="EPR-17952A (USA 95/04/25)"/>
+		<biosset name="us1" description="EPR-17741a (USA 95/02/20)"/>
+		<biosset name="tw" description="EPR-19854 (Taiwan 97/05/15)"/>
+		<biosset name="tw1" description="EPR-17953A (Taiwan 95/04/25)"/>
+		<biosset name="tw2" description="EPR-17742A (Taiwan 95/02/20)"/>
+		<biosset name="debug" description="Development (1.10, 95/01/13)"/>
+		<biosset name="dev" description="Development (1.061, 94/11/25)"/>
 		<rom name="epr-17740.ic8" size="524288" crc="5c5aa63d" sha1="06860d96923b81afbc21e0ad32ee19487d8ff6e7"/>
 		<rom name="epr-17740a.ic8" size="524288" crc="3e23c81f" sha1="f9b282fd27693e9891843597b2e1823da3d23c7b"/>
 		<rom name="epr-17741a.ic8" size="524288" crc="4166c663" sha1="cc41d30de06160083d77e0dc5d69e61fec7fdcb5"/>
@@ -699,19 +2596,55 @@
 		<rom name="stv1061.bin" size="524288" crc="728dbca3" sha1="0ed2030177f0aa8285645c395ae9ad9f568ab1d6"/>
 		<rom name="stv110.bin" size="524288" crc="3dfeda92" sha1="8eb33192a57df5f3a1dfb57263054867c6b2db6d"/>
 		<rom name="stvbios.nv" size="128" crc="15432ae2" sha1="7d9364d546f3d3f839ec36be148076f8d26a65a6"/>
+		<device_ref name="sh2_7604"/>
+		<device_ref name="timer"/>
+		<device_ref name="sh2_7604"/>
+		<device_ref name="timer"/>
+		<device_ref name="m68000"/>
+		<device_ref name="sega_scu"/>
+		<device_ref name="scudsp"/>
+		<device_ref name="smpc_hle"/>
+		<device_ref name="nvram"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="scsp"/>
+		<device_ref name="segabill"/>
+		<device_ref name="z80"/>
+		<device_ref name="315_5338a"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="software_list"/>
 	</machine>
-	<machine name="su2000">
-		<description>su2000</description>
+	<machine name="su2000" sourcefile="misc/su2000.cpp" isbios="yes" runnable="no">
+		<description>SU2000</description>
+		<year>1993</year>
+		<manufacturer>Virtuality</manufacturer>
 		<rom name="amibios_486dx_isa_bios.u32" size="65536" crc="811d3639" sha1="a64d6026c16ac8c79f22b2c241f149402449fafb"/>
 		<rom name="hmc86304_bios_v208.u7" size="32768" crc="c6c32f1a" sha1="a07ade7f0567e1978cd8cee73c6a5d7b5e5f947f"/>
+		<rom name="u37 335d.u37" size="256" status="nodump"/>
+		<rom name="u40 4116.u40" size="256" status="nodump"/>
 		<rom name="ver_151_03_u16.u16" size="131072" crc="8354d059" sha1="a88df7cc259c1c39316cc3bff9e08aa4e8d3d2c0"/>
 		<rom name="ver_151_03_u17.u17" size="131072" crc="ace4081d" sha1="f57287ded53f8d127bcdc9e34b8adb356fe55e5e"/>
+		<rom name="wfc014a.u14" size="256" status="nodump"/>
 		<rom name="wfc062_212.u62" size="32768" crc="9a6b553a" sha1="7045f733446866ee3171e175e1b22d9384fda1b5"/>
+		<rom name="wfc065a.u65" size="256" status="nodump"/>
+		<rom name="wfc066a.u66" size="256" status="nodump"/>
+		<rom name="wfc067b.u67" size="256" status="nodump"/>
+		<rom name="wfc071a.u71" size="256" status="nodump"/>
+		<rom name="wfc072a.u72" size="256" status="nodump"/>
 		<rom name="wi01p006.u6" size="2194" crc="528142eb" sha1="2c152c6540f3d38cb881296decba957f8b5c7c58"/>
+		<rom name="wi01p025.u25" size="256" status="nodump"/>
 		<rom name="wi01p026.u26" size="2194" crc="528142eb" sha1="2c152c6540f3d38cb881296decba957f8b5c7c58"/>
 		<rom name="wi01p044.u44" size="2194" crc="a2ad9cf8" sha1="67d44807f7346baf87c15d35c27458b0a7d5de89"/>
 		<rom name="wi01p045.u45" size="2194" crc="e2a13df7" sha1="eaa5ee3a92d11f0722934cb6d3443ead903dc78f"/>
 		<rom name="wi01p046.u46" size="2194" crc="4c22fba5" sha1="6fabc7a0790f8b883b83fa6fe5f1ee1302d284e2"/>
+		<rom name="wi01p047.u47" size="256" status="nodump"/>
 		<rom name="wi01p048.u48" size="2706" crc="b9958131" sha1="058203eefb1645a446ff3ff4a170a673ad65076c"/>
 		<rom name="wi01p049.u49" size="2706" crc="820d245a" sha1="8690e6eb46617c3dc78e1b233970a9318101101c"/>
 		<rom name="wi01p050.u50" size="2194" crc="7cb0931f" sha1="394c100b33e5b8d1b2f4979399ad0791af39da28"/>
@@ -725,9 +2658,11 @@
 		<rom name="wi01p073.u73" size="2706" crc="e02fe7c1" sha1="ca22b30391453daae943007a0c04b5a28a958c18"/>
 		<rom name="wi01p074.u74" size="2706" crc="fca2823c" sha1="6628f1ba3827a3d333ed88c5f20ca94a1439c75e"/>
 		<rom name="wi01p075.u75" size="2194" crc="3d1adb17" sha1="b1af8c069de3df3c757e211b372f535b513c6326"/>
+		<rom name="wi01p077.u77" size="256" status="nodump"/>
 		<rom name="wi01p079.u79" size="2194" crc="3d3ad152" sha1="a769bc80514873c2f238e6c8842c5b23596b4a42"/>
 		<rom name="wi01p080.u80" size="2194" crc="657a4495" sha1="c5bbd5e5f065a99f9f3d7ce89ca833779c338da5"/>
 		<rom name="wi01p083.u83" size="2706" crc="902731aa" sha1="862c2e6fb75fbd712aeaf9eb3b8a84210332fa66"/>
+		<rom name="wi01p087.u87" size="256" status="nodump"/>
 		<rom name="wi01p092.u92" size="2706" crc="f996657e" sha1="01c2c774a9d5f4bcb78742cd606864eff512bfce"/>
 		<rom name="wi02p000.u23" size="2706" crc="bab34c4b" sha1="a3f4f17a122cc0d063cb700b3d183b894d857cb4"/>
 		<rom name="wi02p001.u32" size="2706" crc="b438ce94" sha1="f36c681b3d09835393a8be5079263915d3480b88"/>
@@ -746,30 +2681,115 @@
 		<rom name="wi02p014.u82" size="2194" crc="845e4d48" sha1="6aaeabad0e86fe480773b4b51ca4f7c1c8935993"/>
 		<rom name="wi02p015.u74" size="2194" crc="a10d1876" sha1="4091fa0a3abb2baeabcc6b250342cf29829af21a"/>
 		<rom name="wi02p016.u52" size="2194" crc="d84b58c2" sha1="087b5a56ddb6bef6b1bc93b9a8e0d23de27aa399"/>
+		<device_ref name="i486"/>
+		<device_ref name="screen"/>
+		<device_ref name="vga"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pit8254"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="pit_counter"/>
+		<device_ref name="ds12885"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="at_keyb"/>
 	</machine>
-	<machine name="sys246">
-		<description>sys246</description>
+	<machine name="sys246" sourcefile="namco/namcops2.cpp" isbios="yes" runnable="no">
+		<description>System 246 BIOS</description>
+		<year>2001</year>
+		<manufacturer>Namco</manufacturer>
 		<rom name="r27v1602f.7d" size="2097152" crc="2b2e41a2" sha1="f0a74bbcaf801f3fd0b7002ebd0118564aae3528"/>
+		<device_ref name="r5000le"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
 	</machine>
-	<machine name="sys256">
-		<description>sys256</description>
+	<machine name="sys256" sourcefile="namco/namcops2.cpp" isbios="yes" runnable="no">
+		<description>System 256 BIOS</description>
+		<year>2004</year>
+		<manufacturer>Namco</manufacturer>
 		<rom name="r27v1602f.8g" size="2097152" crc="b2a8eeb6" sha1="bc4fb4e1e53adbd92385f1726bd69663ff870f1e"/>
+		<device_ref name="r5000le"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
 	</machine>
-	<machine name="sys573">
-		<description>sys573</description>
+	<machine name="sys573" sourcefile="konami/ksys573.cpp" isbios="yes" runnable="no">
+		<description>System 573 BIOS</description>
+		<year>1997</year>
+		<manufacturer>Konami</manufacturer>
+		<biosset name="std" description="Standard"/>
+		<biosset name="gchgchmp" description="Found on Gachagachamp"/>
+		<biosset name="dsem2" description="Found on Dancing Stage Euro Mix 2"/>
 		<rom name="700a01,gchgchmp.22g" size="524288" crc="39ebb0ca" sha1="9aab8c637dd2be84d79007e52f108abe92bf29dd"/>
 		<rom name="700a01.22g" size="524288" crc="11812ef8" sha1="e1284add4aaddd5337bd7f4e27614460d52b5b48"/>
 		<rom name="700b01.22g" size="524288" crc="6cf852af" sha1="a2421d0a494892c0e71003c96995ce8f945064dd"/>
 		<rom name="h8a01.bin" size="64" crc="131e0359" sha1="967f66578ebc0cf6b044d71af09b59bce1f4a1d0"/>
 		<rom name="h8b01.bin" size="64" crc="508b057d" sha1="779177e6312ef272483eeb64a5e84bbae6e301f2"/>
+		<rom name="hd6473644h.18e" size="32768" status="nodump"/>
+		<device_ref name="cxd8530cq"/>
+		<device_ref name="psxirq"/>
+		<device_ref name="psxdma"/>
+		<device_ref name="psxmdec"/>
+		<device_ref name="psxrcnt"/>
+		<device_ref name="psxsio0"/>
+		<device_ref name="psxsio1"/>
+		<device_ref name="ram"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="k572cassslot"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="pccard"/>
+		<device_ref name="pccard"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="cxd8561q"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="psxspu"/>
+		<device_ref name="m48t58"/>
+		<device_ref name="adc0834"/>
+		<device_ref name="sys573_jvs_host"/>
 	</machine>
-	<machine name="taitotz">
-		<description>taitotz</description>
+	<machine name="taitotz" sourcefile="taito/taitotz.cpp" isbios="yes" runnable="no">
+		<description>Type Zero BIOS</description>
+		<year>1999</year>
+		<manufacturer>Taito</manufacturer>
 		<rom name="e68-04-1.ic5" size="524288" crc="c7c2dc6b" sha1="bf88c818166c285130c5c73d6982f009da26e143"/>
 		<rom name="e68-05-1.ic6" size="524288" crc="6ad9b006" sha1="f05a0ae26b6abaeda9c7944aee96c72b08fff7a5"/>
+		<device_ref name="ppc603e"/>
+		<device_ref name="tmp95c063"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="nvram"/>
+		<device_ref name="screen"/>
 	</machine>
-	<machine name="tourvis">
-		<description>tourvis</description>
+	<machine name="tourvis" sourcefile="pce/tourvis.cpp" isbios="yes" runnable="no">
+		<description>TourVisión (PC Engine bootleg)</description>
+		<year>19??</year>
+		<manufacturer>bootleg (TourVisión)</manufacturer>
+		<biosset name="60" description="V4-60"/>
+		<biosset name="55" description="V4-55"/>
+		<biosset name="54" description="V4-54"/>
+		<biosset name="53" description="V4-53"/>
+		<biosset name="52" description="V4-52"/>
+		<biosset name="51" description="V4-51"/>
+		<biosset name="43" description="V4-43"/>
+		<biosset name="42" description="V4-42"/>
+		<biosset name="40" description="V4-40"/>
+		<biosset name="20" description="VT-20"/>
+		<biosset name="11" description="VT-11"/>
 		<rom name="v4-40.ic29" size="32768" crc="ba6290cc" sha1="92b0e9f55791e892ec209de4fadd80faef370622"/>
 		<rom name="v4-42.ic29" size="32768" crc="0372606d" sha1="8c6a63865b0b4951ea032725cf022d353115b93b"/>
 		<rom name="v4-43.ic29" size="32768" crc="88da23f3" sha1="9d24faa116129783e55c7f79a4a08902a236d5a6"/>
@@ -781,13 +2801,52 @@
 		<rom name="v4-60.ic29" size="32768" crc="1fd27e22" sha1="b103d365eac3fa447c2e9addddf6974b4403ed41"/>
 		<rom name="vt_1.1.bin" size="32768" crc="27abbc36" sha1="881ea7802b9e241473bc8ced0472e0f1851c9886"/>
 		<rom name="vt_2.0.bin" size="32768" crc="36012f88" sha1="5bd42fb51aa48ff65e704ea06a9181bb87ed2137"/>
+		<device_ref name="h6280"/>
+		<device_ref name="c6280"/>
+		<device_ref name="i8085a"/>
+		<device_ref name="screen"/>
+		<device_ref name="huc6260"/>
+		<device_ref name="huc6270"/>
+		<device_ref name="i8155"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="generic_cartslot"/>
+		<device_ref name="software_list"/>
 	</machine>
-	<machine name="triforce">
-		<description>triforce</description>
+	<machine name="triforce" sourcefile="sega/triforce.cpp" isbios="yes" runnable="no">
+		<description>Triforce BIOS</description>
+		<year>2002</year>
+		<manufacturer>Sega</manufacturer>
+		<biosset name="bios0" description="Triforce BIOS"/>
 		<rom name="triforce_bootrom.bin" size="2097152" crc="d1883221" sha1="c3cb7227e4dbc2af861e76d00cb59726105a2e4c"/>
+		<device_ref name="ppc603"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
 	</machine>
-	<machine name="v4bios">
-		<description>v4bios</description>
+	<machine name="v4bios" sourcefile="barcrest/mpu4vid.cpp" isbios="yes" runnable="no">
+		<description>MPU4 Video Firmware</description>
+		<year>199?</year>
+		<manufacturer>Barcrest</manufacturer>
 		<rom name="vid.p1" size="65536" crc="e996bc18" sha1="49798165640627eb31024319353da04380787b10"/>
+		<device_ref name="mc6809"/>
+		<device_ref name="timer"/>
+		<device_ref name="msc1937"/>
+		<device_ref name="ptm6840"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="pia6821"/>
+		<device_ref name="meters"/>
+		<device_ref name="bacta_datalogger"/>
+		<device_ref name="coin_hopper"/>
+		<device_ref name="speaker"/>
+		<device_ref name="dac"/>
+		<device_ref name="nvram"/>
+		<device_ref name="mc68681"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="ay8913"/>
 	</machine>
 </datafile>

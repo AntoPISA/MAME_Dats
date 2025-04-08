@@ -4,13 +4,13 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Samples (dir2dat)</name>
-		<description>pS MAME Official Samples 20241231</description>
+		<description>pS MAME Official Samples 20250331</description>
 		<category>MAME System Files</category>
-		<version>0.273</version>
-		<date>31/12/2024</date>
+		<version>0.276</version>
+		<date>31/03/2025</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
-		<homepage>https://www.progettosnaps.net/</homepage>
+		<homepage>http://www.progettosnaps.net/</homepage>
 		<url>http://www.progettosnaps.net/samples/</url>
 		<comment>-</comment>
 		<clrmamepro/>
@@ -25,12 +25,12 @@
 		<rom name="shoot.wav" size="21836" crc="030b6a18" sha1="625fb54b0671f6c073d4182c54c2a0d9c9dd313c"/>
 		<rom name="whistle.wav" size="332556" crc="6f0dddd1" sha1="711be78233fc7ce8ba66896b0287645c355038b7"/>
 	</machine>
-	<machine name="3bagflvt">
-		<description>3 Bags Full (5VXFC790, Victoria)</description>
+	<machine name="3bagfull">
+		<description>3 Bags Full</description>
 		<rom name="tick.wav" size="386" crc="52ad2b5a" sha1="b3e7f6c5d07072bb137206e9c3caeee31df947d2"/>
 	</machine>
 	<machine name="astrof">
-		<description>Astro Fighter (set 1)</description>
+		<description>Astro Fighter</description>
 		<rom name="bossfire.wav" size="59420" crc="efb94581" sha1="01b2d453de4fca9e74811dfc363210eef26c9f89"/>
 		<rom name="bosshit.wav" size="102378" crc="b0728026" sha1="18a685e2d2c4840d70be75ba6cea6db4146b1a2b"/>
 		<rom name="bosskill.wav" size="385054" crc="e4a546eb" sha1="82fbe52a6c47fc19c1abe54b384bf82ec12c780c"/>
@@ -44,7 +44,7 @@
 		<rom name="wave4.wav" size="3434" crc="b194a28d" sha1="c1f6603d23a05398ef15de6edce216187fc47f8b"/>
 	</machine>
 	<machine name="battles">
-		<description>Battles (set 1)</description>
+		<description>Battles</description>
 		<rom name="explo1.wav" size="210882" crc="740c1a6e" sha1="2bfc49cff91024134376b85b9ff530f25b7b7f1c"/>
 		<rom name="explo2.wav" size="298264" crc="afb249b3" sha1="e308a2c1cad9f49b00f8016139177a6a5ad9ec45"/>
 	</machine>
@@ -81,7 +81,7 @@
 		<rom name="shipsnd3.wav" size="130042" crc="82806098" sha1="c92941543a126c516b4b77221f863196de9d3ff5"/>
 	</machine>
 	<machine name="carnival">
-		<description>Carnival (upright, AY8912 music)</description>
+		<description>Carnival</description>
 		<rom name="bear.wav" size="20122" crc="3bd7fb3d" sha1="ba198d857f9acc1aa74c93b1b88e72b3d3b441b8"/>
 		<rom name="bonus1.wav" size="338628" crc="b5884504" sha1="3e30a7a3ca41df9312a33096d37397d0f66c7682"/>
 		<rom name="bonus2.wav" size="37692" crc="268b993f" sha1="7952f63dadc7b867faa21177f2da666d1ec5cf7d"/>
@@ -100,11 +100,11 @@
 		<rom name="pop.wav" size="15204" crc="0f34df2c" sha1="16b8bd14859370bdbd1efd95634eb6bd02c23cc8"/>
 	</machine>
 	<machine name="clowns">
-		<description>Clowns (rev. 2)</description>
+		<description>Clowns</description>
 		<rom name="miss.wav" size="46012" crc="9f5348f3" sha1="85ce80b3ac4ff5d189cee7205501298d3f6eabad"/>
 	</machine>
 	<machine name="congo">
-		<description>congo</description>
+		<description>Congo Bongo</description>
 		<rom name="bass.wav" size="16092" crc="125f7a71" sha1="7fc1985eadb2562c057316f222ecbdbb50035522"/>
 		<rom name="congah.wav" size="15816" crc="31c9f720" sha1="92410d33d5783e6338cd59a718136bbce83ee2a3"/>
 		<rom name="congal.wav" size="16080" crc="662cee03" sha1="60dbfae118e259d09e6595445a6b7c3d8ad92a87"/>
@@ -112,7 +112,7 @@
 		<rom name="rim.wav" size="3038" crc="02f5dc1f" sha1="e11a417fb186bba392da2f422838da1d63fd4d3e"/>
 	</machine>
 	<machine name="cosmica">
-		<description>Cosmic Alien (version II, set 1)</description>
+		<description>Cosmic Alien</description>
 		<rom name="backgr.wav" size="163014" crc="96f5d44f" sha1="50bb1ddab6391179e5c1a235bc0649cdbed6bb60"/>
 		<rom name="coin.wav" size="44202" crc="462242ca" sha1="7212a2da377d7632c9f47011f3edb96742dbe864"/>
 		<rom name="divea.wav" size="227590" crc="27449ea6" sha1="8ff7a2424df216184f300a3f8cf1429d2b913166"/>
@@ -150,7 +150,7 @@
 		<rom name="crash.wav" size="19858" crc="ba3a7450" sha1="60a11a28cd65b668f661d72043bfd0cecd8d579c"/>
 	</machine>
 	<machine name="dai3wksi">
-		<description>Dai 3 Wakusei (Japan)</description>
+		<description>Dai 3 Wakusei</description>
 		<rom name="1.wav" size="4434" crc="c946f2f6" sha1="f53358b96b6931282e43e9c0944e02ad32eaa340"/>
 		<rom name="2.wav" size="19720" crc="c6a5173c" sha1="cf4bedde931a2b6d21e345d482e52f3f370fd45f"/>
 		<rom name="3-2.wav" size="54790" crc="e1d43661" sha1="7f8cd407bf2371fba45730eee23e786d80bfcb95"/>
@@ -209,7 +209,7 @@
 		<rom name="07.wav" size="90284" crc="6dc91abd" sha1="ad9aed9a52134e469a7856e43d81985a9368ddbe"/>
 	</machine>
 	<machine name="gaplus">
-		<description>Gaplus (GP2 rev. B)</description>
+		<description>Gaplus</description>
 		<rom name="bang.wav" size="116982" crc="5ee62d76" sha1="7ebc688424f9a966964d3a96e5224c24fd036c09"/>
 	</machine>
 	<machine name="genpin">
@@ -295,7 +295,7 @@
 		<rom name="shiphit.wav" size="170796" crc="381e4784" sha1="c8aa524fcdd950de1f8017288ecd30e5a2fbb540"/>
 	</machine>
 	<machine name="ipminvad">
-		<description>IPM Invader (set 1)</description>
+		<description>IPM Invader</description>
 		<rom name="0.wav" size="1801" crc="f6a16d61" sha1="16d26645d637339d5f7aecaa8ab5f10f739a82f5"/>
 		<rom name="1.wav" size="3307" crc="08d24e2c" sha1="205009f7e948874002c957bdcbee10527b91455d"/>
 		<rom name="2.wav" size="7797" crc="45de95cd" sha1="30f70dbe18c832f66aa0d00aeed788d08fe10136"/>
@@ -312,7 +312,7 @@
 		<rom name="sepways.wav" size="16213036" crc="fc2b78b7" sha1="05c6fc2fb0b6b99e7fbb40b0c2b540da03e1f2a2"/>
 	</machine>
 	<machine name="kst25">
-		<description>Star Trek: 25th Anniversary (handheld)</description>
+		<description>Star Trek: 25th Anniversary</description>
 		<rom name="beammeupscotty.wav" size="79264" crc="e8636341" sha1="995443ec096fa0385ca584eddeaee97230a983e3"/>
 		<rom name="boom.wav" size="92364" crc="8c9eb4a4" sha1="ef58805ac8a6b494777cb71b1e5ffded688b5861"/>
 		<rom name="engage.wav" size="78266" crc="6e19da80" sha1="b0a08ba0ec584d7040e7e52a9d692374509fbb0d"/>
@@ -327,7 +327,7 @@
 		<rom name="warpspeed.wav" size="81888" crc="38b47c46" sha1="b70fb35ccecb7a75261be2360328d48199cc4818"/>
 	</machine>
 	<machine name="ktmnt2">
-		<description>Teenage Mutant Ninja Turtles II: Splinter Speaks (handheld)</description>
+		<description>Teenage Mutant Ninja Turtles II: Splinter Speaks</description>
 		<rom name="bebop.wav" size="41872" crc="5e607269" sha1="e0d0dc45528d50155eb03c549b7fe2189d729744"/>
 		<rom name="cowabunga.wav" size="120236" crc="065f1fa7" sha1="29545ccbd5bc9ca4ce05bb0227daf7bdcae21896"/>
 		<rom name="gameover.wav" size="101346" crc="15a59086" sha1="6af3635562d2d72e1d76b7c4ce5df20d807d4ca5"/>
@@ -341,7 +341,7 @@
 		<rom name="yeow.wav" size="100356" crc="4233022e" sha1="6ad7b5ec37231e0a8d098f291166a7af5b981588"/>
 	</machine>
 	<machine name="ktopgun2">
-		<description>Top Gun: Second Mission (handheld)</description>
+		<description>Top Gun: Second Mission</description>
 		<rom name="bailout.wav" size="57554" crc="203471f6" sha1="0c086d5c65500e139a71f9b0b5139ccc41b46239"/>
 		<rom name="boom.wav" size="98618" crc="fba2caf7" sha1="18d4ca4854229857f335f999355590eb3f2d5cab"/>
 		<rom name="crash.wav" size="113124" crc="a5e460f8" sha1="aa2df1f77738f2875cf83027fa0238504b67ca39"/>
@@ -367,7 +367,7 @@
 		<rom name="thrust.wav" size="215194" crc="9d4422a3" sha1="8d8583fe755cf38fff218be5bcae9b808954336e"/>
 	</machine>
 	<machine name="lupin3">
-		<description>Lupin III (set 1)</description>
+		<description>Lupin III</description>
 		<rom name="bark.wav" size="15204" crc="0f34df2c" sha1="16b8bd14859370bdbd1efd95634eb6bd02c23cc8"/>
 		<rom name="cap.wav" size="26930" crc="cd481e1e" sha1="a370116d31bc217a33a56db4c3faab69845a089c"/>
 		<rom name="extend.wav" size="37692" crc="268b993f" sha1="7952f63dadc7b867faa21177f2da666d1ec5cf7d"/>
@@ -380,6 +380,11 @@
 		<description>M-4</description>
 		<rom name="1.wav" size="3307" crc="08d24e2c" sha1="205009f7e948874002c957bdcbee10527b91455d"/>
 		<rom name="2.wav" size="7797" crc="45de95cd" sha1="30f70dbe18c832f66aa0d00aeed788d08fe10136"/>
+	</machine>
+	<machine name="midiverb">
+		<description>MIDIverb</description>
+		<rom name="left.wav" size="93184" crc="84abd344" sha1="82b30584f17df0484f448eb84aa724d934c7ee75"/>
+		<rom name="right.wav" size="91066" crc="92b48ea8" sha1="5d9d071b569219eff5f172dbd7a5f493f389fb61"/>
 	</machine>
 	<machine name="MM1_keyboard">
 		<description>MM1 Keyboard</description>
@@ -519,7 +524,7 @@
 		<rom name="talk.wav" size="7875189" crc="2a161606" sha1="3193f7d7f3e4fb2ff0c7802f6eb5727b8ac34964"/>
 	</machine>
 	<machine name="nsub">
-		<description>N-Sub (upright)</description>
+		<description>N-Sub</description>
 		<rom name="SND_BOAT.wav" size="47028" crc="dbcf26c5" sha1="b4a52f16afd5681fec13922a8bc8b5ab2b87497b"/>
 		<rom name="SND_BONUS0.wav" size="14542" crc="6bf9dab5" sha1="d1b6eeba3c89c071161e11092931278b0338b5d6"/>
 		<rom name="SND_BONUS1.wav" size="92434" crc="9fa191d8" sha1="6a65cce475ef9bbea2f73492883bd740219064ea"/>
@@ -535,7 +540,7 @@
 		<rom name="SND_WARNING1.wav" size="163814" crc="bca5780a" sha1="e8a4eb5f0a28afc7a14a80d07eb04b286b0662d6"/>
 	</machine>
 	<machine name="ozmawars">
-		<description>Ozma Wars (set 1)</description>
+		<description>Ozma Wars</description>
 		<rom name="ow0.wav" size="29436" crc="30634f65" sha1="e936f081eac1c5fd415a15874bc04aab4f35f71a"/>
 		<rom name="ow1.wav" size="202604" crc="28414cae" sha1="7a1fcb2b63341265c7e920059d06e1bff32a29da"/>
 		<rom name="ow10.wav" size="13498" crc="203876de" sha1="07ad7b2494fc0ee1ab621632bc4212f15a361864"/>
@@ -553,7 +558,7 @@
 		<rom name="ow9.wav" size="128108" crc="0229a5fa" sha1="7d8a64baa0b2630ba33f251485568b31014acdd6"/>
 	</machine>
 	<machine name="panic">
-		<description>Space Panic (version E)</description>
+		<description>Space Panic</description>
 		<rom name="coin.wav" size="44202" crc="462242ca" sha1="7212a2da377d7632c9f47011f3edb96742dbe864"/>
 		<rom name="death.wav" size="87104" crc="a46dc6fe" sha1="deab05ffaf4faa57348cad5012d92dfbabefd1b9"/>
 		<rom name="ekilled.wav" size="98988" crc="a1564579" sha1="6e5f464802397f1e0683bab66ab46da816b48e0b"/>
@@ -572,7 +577,7 @@
 		<rom name="2.wav" size="7797" crc="45de95cd" sha1="30f70dbe18c832f66aa0d00aeed788d08fe10136"/>
 	</machine>
 	<machine name="ptrmj">
-		<description>PT Reach Mahjong (Japan)</description>
+		<description>PT Reach Mahjong</description>
 		<rom name="ball_drop.wav" size="109194" crc="3876be70" sha1="35e2249f84b76306dd9b0894aaaca143c2b8c0c1"/>
 		<rom name="paddle_hit.wav" size="109412" crc="7db8a8ad" sha1="be9af3d771f5667df1eacc697274c8d0b980adf6"/>
 		<rom name="tick.wav" size="4072" crc="245a2847" sha1="dc38aff2834863821906f5aa9034722b18430421"/>
@@ -595,11 +600,11 @@
 		<rom name="sizzle.wav" size="68186" crc="0460dc16" sha1="0652b62c51af0c3886265a6863fd42a71736100b"/>
 	</machine>
 	<machine name="qbert">
-		<description>Q*bert (US set 1)</description>
+		<description>Q*bert</description>
 		<rom name="knocker.wav" size="6472" crc="ae3fb77f" sha1="f04a4a4dfa6f829c8e2b0d392a1291814dacb16d"/>
 	</machine>
 	<machine name="rallyx">
-		<description>Rally X (32k Ver.?)</description>
+		<description>Rally X</description>
 		<rom name="bang.wav" size="79006" crc="c1373563" sha1="388c49757e48c5a4aa1bf6a28b485772f68fc211"/>
 	</machine>
 	<machine name="redclash">
@@ -607,7 +612,7 @@
 		<rom name="shoot.wav" size="153982" crc="c1981742" sha1="e1a5fa885d92ac232d344582ce9818b86933189a"/>
 	</machine>
 	<machine name="relay">
-		<description>relay</description>
+		<description>Relay</description>
 		<rom name="relayoff.wav" size="8864" crc="3bfa43cf" sha1="ab06b4ce5ab88da51a6d0223dfcf7402e83cf965"/>
 		<rom name="relayon.wav" size="8864" crc="8a6257d9" sha1="85c43404f3f701e87f5c3b30bb2624465feb537c"/>
 	</machine>
@@ -627,7 +632,7 @@
 		<rom name="roll.wav" size="44" crc="44a894f9" sha1="b8000eada705cf56630266b151564d054d3e2a06"/>
 	</machine>
 	<machine name="safarir">
-		<description>Safari Rally (World)</description>
+		<description>Safari Rally</description>
 		<rom name="sound1-1.wav" size="18692" crc="8bf7028f" sha1="fb42798786ef993647329f305fff65feedf08f48"/>
 		<rom name="sound1-2.wav" size="12806" crc="2e2cd582" sha1="c5c7e5e60a30c3cc67592d3b448e66549e977d66"/>
 		<rom name="sound2.wav" size="1880" crc="2870686d" sha1="2b587b6bf6a991485c11e69ac90f5561f5dc621b"/>
@@ -648,7 +653,7 @@
 		<rom name="shot.wav" size="67884" crc="64da86df" sha1="12f31f9a420db35da8c2ff4348feef5e02b3bc8f"/>
 	</machine>
 	<machine name="seawolf">
-		<description>Sea Wolf (set 1)</description>
+		<description>Sea Wolf</description>
 		<rom name="dive.wav" size="220104" crc="71557aa8" sha1="e4053e068418fed0279ce8a87ed7607513f15160"/>
 		<rom name="minehit.wav" size="308342" crc="3a068d60" sha1="3ca9483f0b89576e5b54ea28cc7c67b137e45dc0"/>
 		<rom name="shiphit.wav" size="431222" crc="e62894fb" sha1="9d10e78f04e2a620072cdf700d3d567a117542bc"/>
@@ -684,14 +689,14 @@
 		<rom name="19.wav" size="240056" crc="8f759303" sha1="c58db29c3b552d5e5176c885be65046197ad866c"/>
 	</machine>
 	<machine name="spacefb">
-		<description>Space Firebird (rev. 04-u)</description>
+		<description>Space Firebird</description>
 		<rom name="ekilled.wav" size="282522" crc="1188ebf0" sha1="1376703fa6d879d2325e9cefcef46a2616e7cccb"/>
 		<rom name="explode1.wav" size="221114" crc="8eeac18d" sha1="99c591e028f8af6f1c533a53f07b4cbd27454df3"/>
 		<rom name="explode2.wav" size="95138" crc="e197befd" sha1="6683746ddbd64feba3607f31dc5b017def69cb8b"/>
 		<rom name="shipfire.wav" size="194164" crc="b4db6b4b" sha1="f23e80100d92a1cda3181ce6a3de4a4df1e24f05"/>
 	</machine>
 	<machine name="spaceod">
-		<description>Space Odyssey (version 2)</description>
+		<description>Space Odyssey</description>
 		<rom name="accel.wav" size="430746" crc="52387fd3" sha1="182c1e2e7796b1a3219a45e4341161d98e9ac7e1"/>
 		<rom name="birth.wav" size="23488" crc="a17673bf" sha1="115d7e8949013e5bfe32006ebefec67f24460cc4"/>
 		<rom name="bomb.wav" size="83958" crc="720a9937" sha1="430cb344ac862508d6e75526dccd17e89b139f8f"/>
@@ -776,7 +781,7 @@
 		<rom name="witch.wav" size="18213356" crc="86de5bf3" sha1="ae0a439cccf56b8ea5f842378e78451f04c2f64d"/>
 	</machine>
 	<machine name="turbo">
-		<description>Turbo (program 1513-1515)</description>
+		<description>Turbo</description>
 		<rom name="01.wav" size="1348" crc="c4e4dad7" sha1="55332c45b15f0828d1befd33c4c5ec89ef981fb8"/>
 		<rom name="02.wav" size="11444" crc="5d29f340" sha1="c173a8152ba528a35feb8d5055b3262439c0e3af"/>
 		<rom name="03.wav" size="40856" crc="f2d6aba0" sha1="2c105700536fc3f9b865450dce3d33c76b930def"/>
@@ -788,12 +793,12 @@
 		<rom name="skidding.wav" size="50186" crc="0e1ea005" sha1="f0432ed504787b7654bf39c31f8b3f26ff4269c6"/>
 	</machine>
 	<machine name="twotiger">
-		<description>Two Tigers (dedicated)</description>
+		<description>Two Tigers</description>
 		<rom name="left.wav" size="82325562" crc="e13573a8" sha1="c277b9ea2417774759b75a9b48da447c17d52a84"/>
 		<rom name="right.wav" size="82325562" crc="0d88c194" sha1="ec8252af617a2906ec35ef726255571db51135e5"/>
 	</machine>
 	<machine name="vanguard">
-		<description>Vanguard (SNK)</description>
+		<description>Vanguard</description>
 		<rom name="explsion.wav" size="12788" crc="39f463b0" sha1="99eed3697a743a10fc66fe44ca1e68d54bb2e004"/>
 		<rom name="fire.wav" size="4748" crc="e50eb92b" sha1="2ff896646daea6a3ab921d916ee089c156b9eb00"/>
 		<rom name="vg_voi-0.wav" size="300076" crc="b69ba04d" sha1="20994ec49767f57f6533a9417fcf582b5643e153"/>
@@ -814,7 +819,7 @@
 		<rom name="vg_voi-f.wav" size="100908" crc="8c38230b" sha1="37fe483fb0759970a2e1bcf51f5f1a6925181438"/>
 	</machine>
 	<machine name="zaxxon">
-		<description>Zaxxon (set 1, rev D)</description>
+		<description>Zaxxon</description>
 		<rom name="00.wav" size="30014" crc="e6528d9e" sha1="f16d6f074a5373f890a87924c002d965a9592491"/>
 		<rom name="01.wav" size="17842" crc="ac9441db" sha1="c8d09758369574429140210eead0b36fb8a7ffc8"/>
 		<rom name="02.wav" size="63640" crc="580b4e60" sha1="e7e137ca93af51df599a5cdd0cfabb42a0eb39b3"/>
@@ -829,7 +834,7 @@
 		<rom name="23.wav" size="87022" crc="6afde55b" sha1="1e0ec8be6ad2c160b1e1842723d32267f62a7606"/>
 	</machine>
 	<machine name="zerohour">
-		<description>Zero Hour (set 1)</description>
+		<description>Zero Hour</description>
 		<rom name="asteroid_hit_1.wav" size="58028" crc="252bbaf5" sha1="8a6deb4b5da12b8bd9a1e96c9a41e3053322a22e"/>
 		<rom name="asteroid_hit_2.wav" size="64300" crc="823b2cce" sha1="486e649dbc96c314728db4d7649a87224199ecbb"/>
 		<rom name="bonus_warn.wav" size="12004" crc="4233fe17" sha1="ab2bc28bc4e452a1a0449b70c27dcc454cd609f7"/>
