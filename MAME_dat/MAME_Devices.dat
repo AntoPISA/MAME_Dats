@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Devices (dir2dat)</name>
-		<description>pS MAME Official Devices 20250331</description>
+		<description>pS MAME Official Devices 20250630</description>
 		<category>MAME System Files</category>
-		<version>0.276</version>
-		<date>31/03/2025</date>
+		<version>0.278</version>
+		<date>30/06/2025</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -121,6 +121,10 @@
 	<machine name="a2hsscsi">
 		<description>a2hsscsi</description>
 		<rom name="341-0803.bin" size="32768" crc="2c15618b" sha1="7d32227299933bfc1b7f8bc2062906fdfe530674"/>
+	</machine>
+	<machine name="a2ieee488">
+		<description>a2ieee488</description>
+		<rom name="341-0059-a.bin" size="2048" crc="57a3ece1" sha1="d5cd452bdb7f9ab5c1d77806ffea4b63da77f714"/>
 	</machine>
 	<machine name="a2iwm">
 		<description>a2iwm</description>
@@ -938,6 +942,22 @@
 	<machine name="atom_discpack">
 		<description>atom_discpack</description>
 		<rom name="dosrom.ic15" size="4096" crc="c431a9b7" sha1="71ea0a4b8d9c3caf9718fc7cc279f4306a23b39c"/>
+	</machine>
+	<machine name="atom_gdos">
+		<description>atom_gdos</description>
+		<rom name="gdos166.rom" size="4096" crc="935407cb" sha1="b8ded5f6ca78664b30e608631e95a5d2b0b3c1fc"/>
+	</machine>
+	<machine name="atom_gdos2015">
+		<description>atom_gdos2015</description>
+		<rom name="gdos2015_15.ic8" size="65536" crc="fc790657" sha1="ff776eff6aadaf1a7f6d856cd6d1f1f59ac97112"/>
+	</machine>
+	<machine name="atom_speech">
+		<description>atom_speech</description>
+		<rom name="sp0256a-al2.bin" size="2048" crc="b504ac15" sha1="e60fcb5fa16ff3f3b69d36c7a6e955744d3feafc"/>
+	</machine>
+	<machine name="atom_vdu80">
+		<description>atom_vdu80</description>
+		<rom name="charset.rom" size="8192" crc="b2f49eb3" sha1="d0ef530be33bfc296314e7152302d95fdf9520fc"/>
 	</machine>
 	<machine name="ax208">
 		<description>ax208</description>
@@ -2374,6 +2394,10 @@
 		<rom name="80035.5a" size="256" crc="f839c90e" sha1="aff7a56c228922e45f4bf9f0c838544363239ec2"/>
 		<rom name="80036.6a" size="256" crc="9fc1a036" sha1="5f447bfe90dc06cd195b2dcf7c88ca90c3e82295"/>
 	</machine>
+	<machine name="duodock">
+		<description>duodock</description>
+		<rom name="ec-a697_f2.bin" size="131072" crc="708c6ebd" sha1="be190b869b32f33bb1e59c7ae733853cd8133a4d"/>
+	</machine>
 	<machine name="dw_kbd">
 		<description>dw_kbd</description>
 		<rom name="4333923_kb_8048.bin" size="1024" crc="7850e3a0" sha1="3183d93e34707f4b24f4f71db658c3cf317a631a"/>
@@ -2582,6 +2606,10 @@
 	<machine name="et4kw32i">
 		<description>et4kw32i</description>
 		<rom name="et4kw32i.vbi" size="32768" crc="14542962" sha1="d5aee7205af8bd1fef0ecf1db2c07308a2b10b17"/>
+	</machine>
+	<machine name="ethudock">
+		<description>ethudock</description>
+		<rom name="newertechethernetmicrodock.rom" size="1024" crc="0fd930f0" sha1="85474adc62de1bdca6ce7bf694a0158d467113cc"/>
 	</machine>
 	<machine name="europc_kbd">
 		<description>europc_kbd</description>
@@ -3437,6 +3465,10 @@
 		<description>mpu401</description>
 		<rom name="roland__6801v0b55p__15179222.bin" size="4096" crc="65d3a151" sha1="00efbfb96aeb997b69bb16981c6751d3c784bb87"/>
 	</machine>
+	<machine name="mr9735_002">
+		<description>mr9735_002</description>
+		<rom name="mr9735-002" size="960" crc="201490f3" sha1="6c8daba70374e5aa3a6402f24cdc5f8677d58a0f"/>
+	</machine>
 	<machine name="ms7004">
 		<description>ms7004</description>
 		<rom name="mc7004_keyboard_original.rom" size="2048" crc="69fcab53" sha1="2d7cc7cd182f2ee09ecf2c539e33db3c2195f778"/>
@@ -3623,6 +3655,11 @@
 		<rom name="mvme350u40v2.3.bin" size="16384" crc="bcef82ef" sha1="e6fdf26e4714cbaeb3e97d7b5acf02d64d8ad744"/>
 		<rom name="mvme350u47v2.3.bin" size="16384" crc="582ce095" sha1="d0929dbfeb0cfda63df6b5bc29ee27fbf665def7"/>
 	</machine>
+	<machine name="mz1e30">
+		<description>mz1e30</description>
+		<rom name="sasi.rom" size="32768" crc="a7bf39ce" sha1="3f4a237fc4f34bac6fe2bbda4ce4d16d42400081"/>
+		<rom name="sasirom.bin" size="32768" crc="f486b66b" sha1="8b4f722e9a61c3e6aacebcda03c67253b8d9f468"/>
+	</machine>
 	<machine name="mzr8105">
 		<description>mzr8105</description>
 		<rom name="mzros9hb.bin" size="8192" crc="d18e69a6" sha1="a00b68f4d649bcc09a29361f8692e52be12b3792"/>
@@ -3805,6 +3842,10 @@
 		<description>nb_mdc824</description>
 		<rom name="3410868.bin" size="32768" crc="57f925fa" sha1="4d3c0632711b7b31c8e0c5cfdd7ec1904f178336"/>
 	</machine>
+	<machine name="nb_pcs8">
+		<description>nb_pcs8</description>
+		<rom name="lapisprocolorserver.bin" size="32768" crc="cd2a726b" sha1="bd4ceb4b229c9ce3e8f5386d5132ff26de6067e1"/>
+	</machine>
 	<machine name="nb_qdlink">
 		<description>nb_qdlink</description>
 		<rom name="ql_2.2.bin" size="16384" crc="88c323b8" sha1="d70bc32ad50ceb5cb75c6251293cacd65d8313aa"/>
@@ -3826,9 +3867,17 @@
 		<description>nb_thungx</description>
 		<rom name="radius thunder gx v1.2.3.rom" size="65536" crc="b8e035b6" sha1="c5a1eab749b76aaf3e0ede2120fa99dd7f720196"/>
 	</machine>
+	<machine name="nb_thungx16">
+		<description>nb_thungx16</description>
+		<rom name="radius thunder iv gx1600 0010-415-0003.bin" size="65536" crc="b0c036c1" sha1="ea008fa93f56807f48d9535f70efebdf3def2609"/>
+	</machine>
 	<machine name="nb_vikbw">
 		<description>nb_vikbw</description>
 		<rom name="viking.bin" size="8192" crc="92cf04d1" sha1="d08349edfc82a0bd5ea848e053e1712092308f74"/>
+	</machine>
+	<machine name="nb_wkstn">
+		<description>nb_wkstn</description>
+		<rom name="341-0245a.bin" size="4096" crc="aff72693" sha1="697412843cfd56be2b382f8952ef3f5a8323066a"/>
 	</machine>
 	<machine name="nb_wspt">
 		<description>nb_wspt</description>
@@ -4059,6 +4108,10 @@
 	<machine name="pd3_pc16">
 		<description>pd3_pc16</description>
 		<rom name="procolor_ver60590.bin" size="32768" crc="ebef6168" sha1="e41ecc7d12fc13bc74f9223ca02920e8a7eb072b"/>
+	</machine>
+	<machine name="pd3_pcs8">
+		<description>pd3_pcs8</description>
+		<rom name="procolorserver8.bin" size="32768" crc="8701ba41" sha1="ef2d7ad3309a0df16ec392a82110118830d276b5"/>
 	</machine>
 	<machine name="pdc20262">
 		<description>pdc20262</description>
@@ -4360,10 +4413,6 @@
 	</machine>
 	<machine name="qsound">
 		<description>qsound</description>
-		<rom name="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501"/>
-	</machine>
-	<machine name="qsound_hle">
-		<description>qsound_hle</description>
 		<rom name="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501"/>
 	</machine>
 	<machine name="qts1">
@@ -5465,6 +5514,11 @@
 	<machine name="trs80m2kb">
 		<description>trs80m2kb</description>
 		<rom name="65-1991.z4" size="1024" crc="0a50e977" sha1="c944cb9be062c9eed4f20a5b2568c8019dc71e27"/>
+	</machine>
+	<machine name="tsvme104">
+		<description>tsvme104</description>
+		<rom name="abx_0.ic51" size="65536" crc="b09f887e" sha1="901d2e59d4b3c825f15e832b20cc7492ab8687e6"/>
+		<rom name="abx_1.ic49" size="65536" crc="2603b5c2" sha1="3b9834731f2b1a47f8c840c5e47d9fc4a8769d42"/>
 	</machine>
 	<machine name="turbogx">
 		<description>turbogx</description>

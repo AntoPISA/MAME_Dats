@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Samples (dir2dat)</name>
-		<description>pS MAME Official Samples 20250331</description>
+		<description>pS MAME Official Samples 20250630</description>
 		<category>MAME System Files</category>
-		<version>0.276</version>
-		<date>31/03/2025</date>
+		<version>0.278</version>
+		<date>30/06/2025</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -380,16 +380,6 @@
 		<description>M-4</description>
 		<rom name="1.wav" size="3307" crc="08d24e2c" sha1="205009f7e948874002c957bdcbee10527b91455d"/>
 		<rom name="2.wav" size="7797" crc="45de95cd" sha1="30f70dbe18c832f66aa0d00aeed788d08fe10136"/>
-	</machine>
-	<machine name="midiverb">
-		<description>MIDIverb</description>
-		<rom name="left.wav" size="93184" crc="84abd344" sha1="82b30584f17df0484f448eb84aa724d934c7ee75"/>
-		<rom name="right.wav" size="91066" crc="92b48ea8" sha1="5d9d071b569219eff5f172dbd7a5f493f389fb61"/>
-	</machine>
-	<machine name="MM1_keyboard">
-		<description>MM1 Keyboard</description>
-		<rom name="beep.wav" size="16758" crc="38559139" sha1="5c5e562d93da3497a37e6c69123ba8278980dc06"/>
-		<rom name="power_switch.wav" size="74492" crc="58ba98ff" sha1="fa8ee29eead1b5b6270ab1ada86fbd5b42a77504"/>
 	</machine>
 	<machine name="mmagic">
 		<description>Monkey Magic</description>

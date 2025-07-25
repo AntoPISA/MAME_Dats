@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>MAME BIOS</name>
-		<description>MAME BIOS 0.276</description>
+		<description>MAME BIOS 0.278</description>
 		<category>Emulation</category>
-		<version>0.276</version>
-		<date>31/03/2025</date>
+		<version>0.278</version>
+		<date>30/06/2025</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -41,14 +41,13 @@
 		<rom name="epr-21802.ic27" size="2097152" crc="a77c6b1c" sha1="bd50a6bb8fa9bac121b076e21ea048a83a240a48"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -77,7 +76,6 @@
 		<device_ref name="rsp"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="dmadac"/>
 		<device_ref name="dmadac"/>
@@ -108,7 +106,6 @@
 		<device_ref name="agnus_copper"/>
 		<device_ref name="ldp1450"/>
 		<device_ref name="palette"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="paula_8364"/>
 		<device_ref name="mos8520"/>
@@ -193,7 +190,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="paula_8364"/>
 		<device_ref name="mos8520"/>
 		<device_ref name="mos8520"/>
@@ -232,7 +228,6 @@
 		<device_ref name="ioc"/>
 		<device_ref name="screen"/>
 		<device_ref name="acorn_vidc1a"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="dac_16bit_r2r_tc"/>
 		<device_ref name="dac_16bit_r2r_tc"/>
@@ -405,7 +400,7 @@
 		<rom name="24013001_right.u83" size="2097152" crc="e97afedf" sha1="10ca3b015afaff5d7812f0f5207b2535602136a5"/>
 		<rom name="25012805_left.u70" size="2097152" crc="996f32ce" sha1="cf21bef745986fcbd298167453c7b8e5945ce602"/>
 		<rom name="25012805_right.u83" size="2097152" crc="2ecd8da8" sha1="389e9668b2ba4fffed5d2721b2ce70d502fb9f67"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7750"/>
 		<device_ref name="ns16550"/>
 		<device_ref name="ns16550"/>
 		<device_ref name="93c56_16"/>
@@ -453,7 +448,6 @@
 		<device_ref name="atarimo"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="generic_latch_8"/>
 		<device_ref name="generic_latch_8"/>
 		<device_ref name="ym2151"/>
@@ -471,14 +465,13 @@
 		<rom name="bios0.ic23" size="131072" crc="719b2b0b" sha1="b4c1a26bc8906d5275eb28c701dff2b9365bcdfa"/>
 		<rom name="bios1.ic23" size="131072" crc="d3e80a9f" sha1="33024f9d51c04884c2b44ce146f340e7a857b959"/>
 		<rom name="fpr-24363.ic48" size="524288" crc="82a105f0" sha1="5128fe2ddcced77332bdcab691c09958051fa564"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -534,7 +527,6 @@
 		<device_ref name="cdicdic"/>
 		<device_ref name="cdislavehle"/>
 		<device_ref name="cdrom_image"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="dmadac"/>
 		<device_ref name="dmadac"/>
@@ -669,7 +661,6 @@
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
 		<device_ref name="cat702"/>
@@ -696,7 +687,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
@@ -725,7 +715,6 @@
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
 		<device_ref name="cat702"/>
@@ -753,7 +742,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
@@ -785,7 +773,6 @@
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
 		<device_ref name="cat702"/>
@@ -812,7 +799,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
@@ -841,7 +827,6 @@
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
 		<device_ref name="cat702"/>
@@ -867,7 +852,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
@@ -906,7 +890,6 @@
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
 		<device_ref name="cat702"/>
@@ -930,7 +913,6 @@
 		<device_ref name="cxd8654q"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
@@ -969,7 +951,6 @@
 		<device_ref name="psxspu"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="at28c16"/>
 		<device_ref name="znmcu"/>
 		<device_ref name="cat702"/>
@@ -1005,7 +986,6 @@
 		<device_ref name="vr0video"/>
 		<device_ref name="palette"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="vr0sound"/>
 		<device_ref name="ds1302"/>
 	</machine>
@@ -1026,7 +1006,6 @@
 		<device_ref name="cdda"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="paula_8364"/>
 		<device_ref name="mos8520"/>
@@ -1091,14 +1070,13 @@
 		<rom name="epr-22851.ic27" size="2097152" crc="62483677" sha1="3e3bcacf5f972c376b569f45307ee7fd0b5031b7"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -1132,14 +1110,13 @@
 		<rom name="epr-21864p.ic27" size="2097152" crc="05128861" sha1="5bdb320d84015b8429527a8eb4524958031862aa"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -1337,14 +1314,33 @@
 		<biosset name="bios1" description="epr23400"/>
 		<biosset name="bios2" description="epr21904"/>
 		<biosset name="bios3" description="Development / prototype"/>
+		<rom name="93c46.ic115" size="128" crc="737dc714" sha1="852a90319ac2e787b94a4fc769424b79afbaaf9d"/>
 		<rom name="epr-21904.ic94" size="2097152" crc="d96298b6" sha1="d10d837bc7d68eb7125c34beffe21a91305627b0"/>
 		<rom name="epr-23400.ic94" size="2097152" crc="3d557104" sha1="d39879f5a1acbd54ad8ee4fbd412f870c9ff4aa5"/>
 		<rom name="epr-23400a.ic94" size="2097152" crc="2aa906a7" sha1="098c9909b123ed6c338ac874f2ee90e3b2da4c02"/>
 		<rom name="prot_bot.ic94" size="2097152" crc="7cbf2fb6" sha1="7384e3c9314add7d61f93c9edd9fb7788d08f423"/>
-		<device_ref name="sh4le"/>
-		<device_ref name="sh4le"/>
+		<rom name="x76f100.ic85" size="132" crc="194c6c18" sha1="6c2de7dae32bef855d9bc556568c3a170f54caa5" status="baddump"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="sega315_6154"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="sega315_6154"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="mie"/>
+		<device_ref name="z80"/>
+		<device_ref name="mie_jvs"/>
+		<device_ref name="jvs13551"/>
+		<device_ref name="tmp90ph44"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="93c46_8"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="nvram"/>
 		<device_ref name="screen"/>
-		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
 	</machine>
 	<machine name="hng64" sourcefile="snk/hng64.cpp" isbios="yes" runnable="no">
 		<description>Hyper NeoGeo 64 BIOS</description>
@@ -1383,7 +1379,6 @@
 		<device_ref name="v5x_icu"/>
 		<device_ref name="v5x_scu"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="l7a1045"/>
 		<device_ref name="kl5c80a12"/>
 		<device_ref name="kp69"/>
@@ -1410,14 +1405,13 @@
 		<rom name="hotd2biosproto.ic27" size="2097152" crc="ea74e967" sha1="e4d037480eb6555d335a8ab9cd6c56122335586d"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -1521,7 +1515,6 @@
 		<device_ref name="rs232"/>
 		<device_ref name="es1373"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="voodoo_3_pci"/>
 		<device_ref name="voodoo_3"/>
 		<device_ref name="iteagle_eeprom"/>
@@ -1553,7 +1546,6 @@
 		<device_ref name="cxd8514q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 	</machine>
 	<machine name="konamigx" sourcefile="konami/konamigx.cpp" isbios="yes" runnable="no">
@@ -1572,7 +1564,6 @@
 		<device_ref name="k055555"/>
 		<device_ref name="k054338"/>
 		<device_ref name="k055673"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="k056800"/>
 		<device_ref name="k054539"/>
@@ -1626,7 +1617,6 @@
 		<device_ref name="nvram"/>
 		<device_ref name="nvram"/>
 		<device_ref name="93c56_16"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="ymz280b"/>
 	</machine>
@@ -1705,7 +1695,6 @@
 		<device_ref name="voodoo_3"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="dmadac"/>
 		<device_ref name="dmadac"/>
@@ -1835,7 +1824,6 @@
 		<device_ref name="megadrive_io_port"/>
 		<device_ref name="megadrive_io_port"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="ym2612"/>
 		<device_ref name="z80"/>
 		<device_ref name="cxd1095"/>
@@ -1871,7 +1859,6 @@
 		<device_ref name="megadrive_io_port"/>
 		<device_ref name="megadrive_io_port"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="ym2612"/>
 		<device_ref name="z80"/>
 		<device_ref name="cxd1095"/>
@@ -1889,6 +1876,15 @@
 		<device_ref name="generic_cartslot"/>
 		<device_ref name="generic_cartslot"/>
 		<device_ref name="software_list"/>
+	</machine>
+	<machine name="miuchiz" sourcefile="misc/miuchiz.cpp" isbios="yes" runnable="no">
+		<description>Miuchiz Virtual Companions common BIOS</description>
+		<year>2006</year>
+		<manufacturer>MGA Entertainment</manufacturer>
+		<rom name="otp.dat" size="16384" crc="2ff7ec96" sha1="633365fd19a3d0f2ce56cb499b2577a5fb53e466"/>
+		<device_ref name="st2205u"/>
+		<device_ref name="screen"/>
+		<device_ref name="st7626"/>
 	</machine>
 	<machine name="naomi" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
 		<description>NAOMI BIOS</description>
@@ -1953,14 +1949,13 @@
 		<rom name="naomi_boot_2491.ic27" size="2097152" crc="5b28f868" sha1="d101f58c69d9835e87a969688e43dc9b699b89d0"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<rom name="zukinver0930.ic25" size="2097152" crc="58e17c23" sha1="19330f906accf1b859f56bbcedc2edff73747599"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -2010,14 +2005,13 @@
 		<rom name="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -2059,14 +2053,13 @@
 		<rom name="epr-21578h.ic27" size="2097152" crc="7b452946" sha1="8e9f153bbada24b37066dc45b64a7bf0d4f26a9b"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -2167,7 +2160,6 @@
 		<device_ref name="upd4990a"/>
 		<device_ref name="nvram"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="ng_memcard"/>
 		<device_ref name="neogeo_ctrl_edge"/>
 		<device_ref name="neogeo_joyac"/>
@@ -2238,7 +2230,6 @@
 		<device_ref name="dac_8bit_r2r"/>
 		<device_ref name="dac_8bit_r2r"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 	</machine>
 	<machine name="nss" sourcefile="nintendo/nss.cpp" isbios="yes" runnable="no">
 		<description>Nintendo Super System BIOS</description>
@@ -2257,7 +2248,6 @@
 		<device_ref name="s3520cf"/>
 		<device_ref name="rp5h01"/>
 		<device_ref name="m6m80011ap"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="s_dsp"/>
 		<device_ref name="screen"/>
@@ -2381,11 +2371,9 @@
 		<device_ref name="isa16_pumpitup_io_sound"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="ymz280b"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 	</machine>
 	<machine name="recel" sourcefile="pinball/recel.cpp" sampleof="genpin" isbios="yes" runnable="no">
@@ -2423,11 +2411,13 @@
 	</machine>
 	<machine name="sammymdl" sourcefile="sigma/sigmab98.cpp" isbios="yes" runnable="no">
 		<description>Sammy Medal Game System BIOS</description>
-		<year>2000</year>
+		<year>1999</year>
 		<manufacturer>Sammy</manufacturer>
 		<biosset name="v5" description="IPL Ver. 5.0"/>
 		<biosset name="v4" description="IPL Ver. 4.0"/>
+		<biosset name="v1" description="IPL Ver. 1.0"/>
 		<rom name="mt201l04.u012" size="524288" crc="c8c6d25f" sha1="5be39fa72b65f2e455ccc146dbab58d24ab46505"/>
+		<rom name="vm1201l01.u012" size="524288" crc="21b2ccbd" sha1="c3ceea196e5c1c6a9e03cf3a22e9f25f0099a38e"/>
 		<rom name="vm1211l01.u2" size="524288" crc="c3c74dc5" sha1="07352e6dba7514214e778ba39e1ca773e4698858"/>
 		<device_ref name="kl5c80a12"/>
 		<device_ref name="kp69"/>
@@ -2441,7 +2431,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="gfxdecode"/>
 		<device_ref name="palette"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="okim9810"/>
 	</machine>
@@ -2464,14 +2453,13 @@
 		<rom name="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
 		<rom name="net_eeprom.ic74s" size="512" crc="77cc5a6c" sha1="cbfba546256b70bce6c6fd0030d7e2e410a25526"/>
 		<rom name="net_firm_119.ic72" size="2097152" crc="a738ea1c" sha1="d25187a973a7e166e70334f964363adf2be87257"/>
-		<device_ref name="sh4le"/>
+		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="maple_dc"/>
 		<device_ref name="screen"/>
 		<device_ref name="powervr2"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -2497,7 +2485,6 @@
 		<device_ref name="z180csio"/>
 		<device_ref name="mb90082"/>
 		<device_ref name="s3520cf"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="s_dsp"/>
 		<device_ref name="screen"/>
@@ -2560,7 +2547,6 @@
 		<device_ref name="gfxdecode"/>
 		<device_ref name="sknsspr"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="ymz280b"/>
 	</machine>
 	<machine name="stvbios" sourcefile="sega/stv.cpp" isbios="yes" runnable="no">
@@ -2609,7 +2595,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="gfxdecode"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="scsp"/>
 		<device_ref name="segabill"/>
@@ -2719,7 +2704,7 @@
 		<year>1997</year>
 		<manufacturer>Konami</manufacturer>
 		<biosset name="std" description="Standard"/>
-		<biosset name="gchgchmp" description="Found on Gachagachamp"/>
+		<biosset name="gchgchmp" description="Found on Gacha Gachamp"/>
 		<biosset name="dsem2" description="Found on Dancing Stage Euro Mix 2"/>
 		<rom name="700a01,gchgchmp.22g" size="524288" crc="39ebb0ca" sha1="9aab8c637dd2be84d79007e52f108abe92bf29dd"/>
 		<rom name="700a01.22g" size="524288" crc="11812ef8" sha1="e1284add4aaddd5337bd7f4e27614460d52b5b48"/>
@@ -2752,7 +2737,6 @@
 		<device_ref name="address_map_bank"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="m48t58"/>
@@ -2808,7 +2792,6 @@
 		<device_ref name="huc6260"/>
 		<device_ref name="huc6270"/>
 		<device_ref name="i8155"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="generic_cartslot"/>
 		<device_ref name="software_list"/>
