@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>MAME BIOS</name>
-		<description>MAME BIOS 0.278</description>
+		<description>MAME BIOS 0.280</description>
 		<category>Emulation</category>
-		<version>0.278</version>
-		<date>30/06/2025</date>
+		<version>0.280</version>
+		<date>31/08/2025</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -400,6 +400,7 @@
 		<rom name="24013001_right.u83" size="2097152" crc="e97afedf" sha1="10ca3b015afaff5d7812f0f5207b2535602136a5"/>
 		<rom name="25012805_left.u70" size="2097152" crc="996f32ce" sha1="cf21bef745986fcbd298167453c7b8e5945ce602"/>
 		<rom name="25012805_right.u83" size="2097152" crc="2ecd8da8" sha1="389e9668b2ba4fffed5d2721b2ce70d502fb9f67"/>
+		<rom name="gambs2m_01.05.07.u3" size="131072" crc="58730ed3" sha1="6e9c9d7960fe0ef083ff824287a99d9c0b9f5e6a"/>
 		<device_ref name="sh7750"/>
 		<device_ref name="ns16550"/>
 		<device_ref name="ns16550"/>
@@ -1268,7 +1269,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 	</machine>
@@ -1338,6 +1338,9 @@
 		<device_ref name="nvram"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
 		<device_ref name="arm7_le"/>
 		<device_ref name="aica"/>
 		<device_ref name="aicartc"/>
@@ -1918,6 +1921,7 @@
 		<biosset name="bios25" description="epr-21576h (multi-region hack)"/>
 		<biosset name="bios26" description="Dev BIOS v1.2"/>
 		<biosset name="bios27" description="Dev Naomi Boot 2491"/>
+		<biosset name="bios28" description="epr-21580a (Australia)"/>
 		<rom name="315-6188.ic31" size="8244" crc="7c9fea46" sha1="f77c07ae65dfed18c1c4c632c8945be21d02ddaf"/>
 		<rom name="boot_rom_64b8.ic606" size="524288" crc="7a50fab9" sha1="ef79f448e0bf735d1264ad4f051d24178822110f"/>
 		<rom name="develop.ic27" size="2097152" crc="309a196a" sha1="409b50371feb648f10efd6b7ac420bf08d9a3b5a"/>
@@ -1945,6 +1949,7 @@
 		<rom name="epr-21578h.ic27" size="2097152" crc="7b452946" sha1="8e9f153bbada24b37066dc45b64a7bf0d4f26a9b"/>
 		<rom name="epr-21579.ic27" size="2097152" crc="71f9c918" sha1="d15af8b947f41eea7c203b565cd403e3f37a2017"/>
 		<rom name="epr-21579d.ic27" size="2097152" crc="33513691" sha1="b1d8c7c516e1471a788fcf7a02a794ad2f05aeeb"/>
+		<rom name="epr-21580a.ic27" size="2097152" crc="46dbe90f" sha1="822b2ea8e254ea3ce66f0ea67e80a8c7e1125ec9"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="naomi_boot_2491.ic27" size="2097152" crc="5b28f868" sha1="d101f58c69d9835e87a969688e43dc9b699b89d0"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
@@ -1989,7 +1994,8 @@
 		<biosset name="bios9" description="epr-23607b (USA)"/>
 		<biosset name="bios10" description="epr-23607 (USA)"/>
 		<biosset name="bios11" description="epr-23609b (Korea)"/>
-		<biosset name="bios12" description="epr-23605c (multi-region hack)"/>
+		<biosset name="bios12" description="epr-23610b (Australia)"/>
+		<biosset name="bios13" description="epr-23605c (multi-region hack)"/>
 		<rom name="epr-23605.ic27" size="2097152" crc="5731e446" sha1="787b0844fc408cf124c12405c095c59948709ea6"/>
 		<rom name="epr-23605a.ic27" size="2097152" crc="7bc3fc2d" sha1="a4a9531a7c66ff30046908cf71f6c7b6fb59c392"/>
 		<rom name="epr-23605b.ic27" size="2097152" crc="3a3242d4" sha1="aaca4df51ef91d926f8191d372f3dfe1d20d9484"/>
@@ -2003,6 +2009,7 @@
 		<rom name="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<device_ref name="sh7091"/>

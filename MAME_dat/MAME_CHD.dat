@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>MAME CHDs</name>
-		<description>MAME CHDs 0.278</description>
+		<description>MAME CHDs 0.280</description>
 		<category>Emulation</category>
-		<version>0.278</version>
-		<date>30/06/2025</date>
+		<version>0.280</version>
+		<date>31/08/2025</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -874,6 +874,17 @@
 		<disk name="arctthnd" sha1="f4373e57c3f453ac09c735b5d8d99ff811416a23" region="pci:07.1:ide1:0:hdd"/>
 		<device_ref name="pentium3"/>
 		<device_ref name="pci_root"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="ardancem" sourcefile="tvgames/generalplus_gpl32612.cpp">
+		<description>AR Dance Mat (Model DM02, YRPRSODF)</description>
+		<year>202?</year>
+		<manufacturer>Shen Zhen Shi Fei Xun Hu Dong Technology</manufacturer>
+		<rom name="25q08.u6" size="1048576" crc="ba2cdacd" sha1="d47829ee5310140665146262a44e0ba91942f25c"/>
+		<disk name="ardancemat" sha1="df8cb065f5ce0ca863b205549ecc4c27647f9954" region="sdcard"/>
+		<device_ref name="arm9"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="area51" sourcefile="atari/jaguar.cpp">
@@ -1963,7 +1974,7 @@
 		<driver status="imperfect"/>
 	</machine>
 	<machine name="batlgear" sourcefile="taito/taitotz.cpp" romof="taitotz">
-		<description>Battle Gear (Ver 2.40 A)</description>
+		<description>Battle Gear (VER.2.40A)</description>
 		<year>1999</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -1984,7 +1995,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="batlgr2" sourcefile="taito/taitotz.cpp" romof="taitotz">
-		<description>Battle Gear 2 (Ver 2.04 J)</description>
+		<description>Battle Gear 2 (VER.2.04J)</description>
 		<year>2000</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -2005,7 +2016,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="batlgr2a" sourcefile="taito/taitotz.cpp" cloneof="batlgr2" romof="batlgr2">
-		<description>Battle Gear 2 (Ver 2.01 J, Side by Side cabinet)</description>
+		<description>Battle Gear 2 (VER.2.01J, Side by Side conversion)</description>
 		<year>2000</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -2544,6 +2555,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0014" sha1="2d784ed2f5c00189af8480c9ab5ae9d8b7a152d2" region="gdrom"/>
@@ -3181,7 +3193,7 @@
 		<device_ref name="k054539"/>
 		<driver status="imperfect"/>
 	</machine>
-	<machine name="bm2ndmxa" sourcefile="konami/djmain.cpp" cloneof="bm2ndmix" romof="bm2ndmix">
+	<machine name="bm2ndmixa" sourcefile="konami/djmain.cpp" cloneof="bm2ndmix" romof="bm2ndmix">
 		<description>beatmania 2nd MIX (ver JA-A)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
@@ -3470,7 +3482,7 @@
 	</machine>
 	<machine name="bm3final" sourcefile="konami/firebeat.cpp">
 		<description>Beatmania III The Final</description>
-		<year>2003</year>
+		<year>2002</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="972maina01.21e" size="524288" crc="9de35bfd" sha1="57290e0015ea24fa46efdfe1e8299003b7754a3b"/>
 		<rom name="a21jca03.3q" size="524288" crc="98ea367a" sha1="f0b72bdfbba4d265e7b08d606cd82424947d97b9"/>
@@ -3532,20 +3544,20 @@
 		<device_ref name="firebeat_spectrum_analyzer"/>
 		<driver status="imperfect"/>
 	</machine>
-	<machine name="bm3rdeaa" sourcefile="konami/djmain.cpp" cloneof="bm3rdmix" romof="bm3rdmix">
-		<description>beatmania 3rd MIX (ver EA-A)</description>
+	<machine name="bm3rdmix" sourcefile="konami/djmain.cpp">
+		<description>beatmania 3rd MIX (ver JA-B)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="825eaa01.6a" size="524288" crc="a7303584" sha1="222d1c469a72f17ea9316cfaf22ba965b24260d6"/>
-		<rom name="825eaa02.8a" size="524288" crc="45e65086" sha1="0daf53379d7c64b2819a0bdc192ee4ea72160643"/>
-		<rom name="825eaa07.22d" size="524288" crc="3a2fe19e" sha1="65c07a8471579cb20885a45af6a9f12c9f088625"/>
-		<rom name="825eaa08.23d" size="524288" crc="98b16689" sha1="e2bebf40d098365e6757b83ffee924f9d3995d12"/>
-		<rom name="825eaa09.25d" size="524288" crc="829000ca" sha1="f52494869cca78e7bc6125d329292eaa15fffed5"/>
-		<rom name="825eaa10.27d" size="524288" crc="345ee6e5" sha1="ce5d05b26900ed09fb3996a60edaf332e3acd720"/>
-		<rom name="825eaa03.19a" merge="825jaa03.19a" size="524288" crc="ecd62652" sha1="bceab4052dce2c843358f0a98aacc6e1124e3068"/>
-		<rom name="825eaa04.20a" merge="825jaa04.20a" size="524288" crc="437a576f" sha1="f30fd15d4f0d776e9b29ccfcd6e26861fb42e51a"/>
-		<rom name="825eaa05.22a" merge="825jaa05.22a" size="524288" crc="9f9a3369" sha1="d8b20127336af89b9e886289fb4f5a2e0db65f9b"/>
-		<rom name="825eaa06.24a" merge="825jaa06.24a" size="524288" crc="e7a3991a" sha1="6c8cb481e721428e1365f784e97bb6f6d421ed5a"/>
+		<rom name="825_a03.19a" size="524288" crc="ecd62652" sha1="bceab4052dce2c843358f0a98aacc6e1124e3068"/>
+		<rom name="825_a04.20a" size="524288" crc="437a576f" sha1="f30fd15d4f0d776e9b29ccfcd6e26861fb42e51a"/>
+		<rom name="825_a05.22a" size="524288" crc="9f9a3369" sha1="d8b20127336af89b9e886289fb4f5a2e0db65f9b"/>
+		<rom name="825_a06.24a" size="524288" crc="e7a3991a" sha1="6c8cb481e721428e1365f784e97bb6f6d421ed5a"/>
+		<rom name="825_b01.6a" size="524288" crc="934fdcb2" sha1="b88bada065b5464c579039c2e403c061e6eeb356"/>
+		<rom name="825_b02.8a" size="524288" crc="6012c488" sha1="df32db41942c2fe2b2aa7439900372e22ea54c3c"/>
+		<rom name="825_b07.22d" size="524288" crc="1a515c82" sha1="a0c908d449aa45cb3a90a42c97429f10873e884b"/>
+		<rom name="825_b08.23d" size="524288" crc="82731b07" sha1="c0d391fcd94c6b2225fca338c0c5db5d35e2d8bc"/>
+		<rom name="825_b09.25d" size="524288" crc="1407ba5d" sha1="e7a0d190326589f4d94e83cb7c85dd4e91f4efad"/>
+		<rom name="825_b10.27d" size="524288" crc="2afd0a10" sha1="1b8b868ac5720bb1b376f4eb8952efb190257bda"/>
 		<disk name="825jab11" sha1="f506a83d43aeed87a7a32c3f7312d2a2b7d60d91" region="ata:0:hdd"/>
 		<device_ref name="m68ec020"/>
 		<device_ref name="ata_interface"/>
@@ -3563,21 +3575,52 @@
 		<device_ref name="k054539"/>
 		<driver status="imperfect"/>
 	</machine>
-	<machine name="bm3rdmix" sourcefile="konami/djmain.cpp">
+	<machine name="bm3rdmixa" sourcefile="konami/djmain.cpp" cloneof="bm3rdmix" romof="bm3rdmix">
 		<description>beatmania 3rd MIX (ver JA-A)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
+		<rom name="825jaa03.19a" merge="825_a03.19a" size="524288" crc="ecd62652" sha1="bceab4052dce2c843358f0a98aacc6e1124e3068"/>
+		<rom name="825jaa04.20a" merge="825_a04.20a" size="524288" crc="437a576f" sha1="f30fd15d4f0d776e9b29ccfcd6e26861fb42e51a"/>
+		<rom name="825jaa05.22a" merge="825_a05.22a" size="524288" crc="9f9a3369" sha1="d8b20127336af89b9e886289fb4f5a2e0db65f9b"/>
+		<rom name="825jaa06.24a" merge="825_a06.24a" size="524288" crc="e7a3991a" sha1="6c8cb481e721428e1365f784e97bb6f6d421ed5a"/>
 		<rom name="825jaa01.6a" size="524288" crc="cf7494a5" sha1="994df0644817f44d135a16f04d8dae9ec73e3728"/>
 		<rom name="825jaa02.8a" size="524288" crc="5f787fe2" sha1="5944da21141802d96594cf77880682e97d014ca1"/>
-		<rom name="825jaa03.19a" size="524288" crc="ecd62652" sha1="bceab4052dce2c843358f0a98aacc6e1124e3068"/>
-		<rom name="825jaa04.20a" size="524288" crc="437a576f" sha1="f30fd15d4f0d776e9b29ccfcd6e26861fb42e51a"/>
-		<rom name="825jaa05.22a" size="524288" crc="9f9a3369" sha1="d8b20127336af89b9e886289fb4f5a2e0db65f9b"/>
-		<rom name="825jaa06.24a" size="524288" crc="e7a3991a" sha1="6c8cb481e721428e1365f784e97bb6f6d421ed5a"/>
 		<rom name="825jaa07.22d" size="524288" crc="a96cf46c" sha1="c8540b452dcb15f5873ca629fa62657a5a3bb02c"/>
 		<rom name="825jaa08.23d" size="524288" crc="06d56c3b" sha1="19cd15ab0869773e6a16b1cad48c53bec2f60b0b"/>
 		<rom name="825jaa09.25d" size="524288" crc="d3e65669" sha1="51abf452da60794fa47c05d11c08b203dde563ff"/>
 		<rom name="825jaa10.27d" size="524288" crc="44d184f3" sha1="28f3ec33a29164a6531f53db071272ccf015f66d"/>
 		<disk name="825jaa11" sha1="048919977232bbce046406a7212586cf39b77cf2" region="ata:0:hdd"/>
+		<device_ref name="m68ec020"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="k056832"/>
+		<device_ref name="k055555"/>
+		<device_ref name="speaker"/>
+		<device_ref name="k054539"/>
+		<device_ref name="k054539"/>
+		<driver status="imperfect"/>
+	</machine>
+	<machine name="bm3rdmixe" sourcefile="konami/djmain.cpp" cloneof="bm3rdmix" romof="bm3rdmix">
+		<description>beatmania 3rd MIX (ver EA-A)</description>
+		<year>1998</year>
+		<manufacturer>Konami</manufacturer>
+		<rom name="825eaa03.19a" merge="825_a03.19a" size="524288" crc="ecd62652" sha1="bceab4052dce2c843358f0a98aacc6e1124e3068"/>
+		<rom name="825eaa04.20a" merge="825_a04.20a" size="524288" crc="437a576f" sha1="f30fd15d4f0d776e9b29ccfcd6e26861fb42e51a"/>
+		<rom name="825eaa05.22a" merge="825_a05.22a" size="524288" crc="9f9a3369" sha1="d8b20127336af89b9e886289fb4f5a2e0db65f9b"/>
+		<rom name="825eaa06.24a" merge="825_a06.24a" size="524288" crc="e7a3991a" sha1="6c8cb481e721428e1365f784e97bb6f6d421ed5a"/>
+		<rom name="825eaa01.6a" size="524288" crc="a7303584" sha1="222d1c469a72f17ea9316cfaf22ba965b24260d6"/>
+		<rom name="825eaa02.8a" size="524288" crc="45e65086" sha1="0daf53379d7c64b2819a0bdc192ee4ea72160643"/>
+		<rom name="825eaa07.22d" size="524288" crc="3a2fe19e" sha1="65c07a8471579cb20885a45af6a9f12c9f088625"/>
+		<rom name="825eaa08.23d" size="524288" crc="98b16689" sha1="e2bebf40d098365e6757b83ffee924f9d3995d12"/>
+		<rom name="825eaa09.25d" size="524288" crc="829000ca" sha1="f52494869cca78e7bc6125d329292eaa15fffed5"/>
+		<rom name="825eaa10.27d" size="524288" crc="345ee6e5" sha1="ce5d05b26900ed09fb3996a60edaf332e3acd720"/>
+		<disk name="825jab11" merge="825jab11" sha1="f506a83d43aeed87a7a32c3f7312d2a2b7d60d91" region="ata:0:hdd"/>
 		<device_ref name="m68ec020"/>
 		<device_ref name="ata_interface"/>
 		<device_ref name="ata_slot"/>
@@ -4016,7 +4059,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -4074,7 +4116,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -4134,7 +4175,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -4192,7 +4232,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -4252,7 +4291,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -4310,7 +4348,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -4370,7 +4407,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -4428,7 +4464,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -4488,7 +4523,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -4546,7 +4580,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -4606,7 +4639,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -4664,7 +4696,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -4724,7 +4755,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -4782,7 +4812,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -4842,7 +4871,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -4900,7 +4928,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -4960,7 +4987,6 @@
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
 		<device_ref name="speaker"/>
-		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
 		<device_ref name="rs232"/>
@@ -5018,7 +5044,6 @@
 		<device_ref name="ns16550"/>
 		<device_ref name="cxd8561q"/>
 		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
 		<device_ref name="psxspu"/>
 		<device_ref name="rf5c400"/>
@@ -5269,7 +5294,7 @@
 		<device_ref name="dmadac"/>
 		<device_ref name="dmadac"/>
 		<device_ref name="m48t58"/>
-		<device_ref name="k001604_device"/>
+		<device_ref name="k001604"/>
 		<device_ref name="konppc_jvs_host"/>
 		<device_ref name="windy2_2l12b"/>
 		<driver status="preliminary"/>
@@ -6271,6 +6296,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="cycraft_clubkart_smcp_v1.65" sha1="c77df6eaf425e4e86f871914aa024debc1940713" region="cycraft"/>
@@ -6333,6 +6359,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="cycraft_clubkart_smcp_v1.65" merge="cycraft_clubkart_smcp_v1.65" sha1="c77df6eaf425e4e86f871914aa024debc1940713" region="cycraft"/>
@@ -11542,7 +11569,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="dendego3" sourcefile="taito/taitotz.cpp" romof="taitotz">
-		<description>Densha de GO 3! Tsukin-hen (Ver 2.03 J)</description>
+		<description>Densha de GO 3! Tsukin-hen (VER.2.03J)</description>
 		<year>2000</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -14025,6 +14052,40 @@
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
 		<softwarelist name="kpython2"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="ds6000" sourcefile="namco/ds6000.cpp">
+		<description>DS-6000 Driving Simulator</description>
+		<year>1996?</year>
+		<manufacturer>Namco / Mitsubishi</manufacturer>
+		<rom name="at28c64b-15sc.12e" size="8192" status="nodump"/>
+		<rom name="ds22c2.12e" size="741" status="nodump"/>
+		<rom name="ds22c3.13a" size="279" status="nodump"/>
+		<rom name="ds22c4.12d" size="741" status="nodump"/>
+		<rom name="ds22c5.6c" size="741" status="nodump"/>
+		<rom name="ds22c6.13k" size="279" status="nodump"/>
+		<rom name="ds22s1.ic9" size="741" status="nodump"/>
+		<rom name="ds22sp1.6f" size="16384" status="nodump"/>
+		<rom name="dsf4.10a" size="279" status="nodump"/>
+		<rom name="dsf5a.8p" size="279" status="nodump"/>
+		<rom name="kss1prog0-0d.3a" size="131072" crc="e01ef77d" sha1="fd0109c685ce61f62c13f42c34197fca4e8ca44d"/>
+		<rom name="kss1prog0h-0c.1b" size="524288" crc="c57f7139" sha1="62da97a7823460bdd90fb218cf2e8f0aa5de6149"/>
+		<rom name="kss1prog0l-0c.12b" size="524288" crc="f8bc97dc" sha1="531ed0005852fcb5f443af1cbc51f49cd842595d"/>
+		<rom name="kss1ver-j.1" size="1048576" crc="72009838" sha1="b6e48c927463ae435b712150a2df5bb45598187c"/>
+		<rom name="kss1ver-j.2" size="1048576" crc="c94e183a" sha1="d491268382a2f1fb075e4c2bab134ca2d87a428e"/>
+		<rom name="kss1ver-j.3" size="1048576" crc="8a55a829" sha1="5dcb0711a719ffd1f8b9429850ac520895ad60d4"/>
+		<rom name="kss1ver-j.4" size="1048576" crc="65a7c7b3" sha1="f6a5dd3d2032f11350a4e478d8bf23ab59c78825"/>
+		<rom name="ksspld0b.4f" size="741" status="nodump"/>
+		<rom name="ksspld1.6e" size="279" status="nodump"/>
+		<rom name="ksspld2.9e" size="279" status="nodump"/>
+		<rom name="pa28f200bx.8j" size="262144" crc="d2280eca" sha1="87f91d054e2ed0ddae8a26a7656fb67a2f38ec95"/>
+		<disk name="ver5.12" sha1="02f4e7a0331c759b19ce5c2ac1cae8ff0a20099b" region="cd"/>
+		<device_ref name="m68020"/>
+		<device_ref name="tmp68301"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="c352"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="dsem" sourcefile="konami/ksys573.cpp" romof="sys573">
@@ -22885,6 +22946,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0039a" sha1="44aab273f836aa81728b1a00fdfdc2561d0984aa" region="gdrom"/>
@@ -22947,6 +23009,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0039b" sha1="b5eaae06ee3c81d57c0190bd709c690372a4cca6" region="gdrom"/>
@@ -23010,6 +23073,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0020b" sha1="08a594af2933144d341a299e3160d3c8281b7241" region="gdrom"/>
@@ -23071,6 +23135,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0025a" sha1="d6ec4295122e3d69b9e109778ab1cb0cb0dfc839" region="gdrom"/>
@@ -23132,6 +23197,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0025" sha1="00f4c62a16862e814798df9fa6ed0471745760b7" region="gdrom"/>
@@ -23193,6 +23259,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0020" sha1="e1766340da8191ab51a67477876d1806f2153a7e" region="gdrom"/>
@@ -23254,6 +23321,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0027" sha1="c146e8c4d71d1a0cbe836a0b50dea87797869da8" region="gdrom"/>
@@ -23315,6 +23383,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0026b" sha1="54cc643e1f850cfaea7d39f6778b662125cba111" region="gdrom"/>
@@ -23376,6 +23445,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0026a" sha1="44790194a7a32ca9faf02403821bf23015ec8f3c" region="gdrom"/>
@@ -23437,6 +23507,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0026" sha1="07d1dda89e7f5b5377888feaef1dff32c18e63f1" region="gdrom"/>
@@ -23498,6 +23569,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0033" sha1="98fb1bd119fc33ef14fcaba3eb2347836469a75b" region="gdrom"/>
@@ -23559,6 +23631,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0032c" sha1="d92bca7c8a7920c99b23710f5bdbeed1fbec12d2" region="gdrom"/>
@@ -23620,6 +23693,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0032b" sha1="3b4d5686c26d07eed8c835b07516da9840c1b905" region="gdrom"/>
@@ -23757,6 +23831,17 @@
 		<device_ref name="generic_cartslot"/>
 		<device_ref name="software_list"/>
 		<softwarelist name="vtech_innotv_cart"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="intrtvg" sourcefile="tvgames/generalplus_gpl32612.cpp">
+		<description>Interactive Game Console (Model B608, YRPRSODF)</description>
+		<year>202?</year>
+		<manufacturer>Shen Zhen Shi Fei Xun Hu Dong Technology</manufacturer>
+		<rom name="25q08.u6" size="1048576" crc="5aa91972" sha1="296108e8683063c16951ff326e6ff3d63d9ed5b8"/>
+		<disk name="interactivetv" sha1="7061e28c4560b763bda1157036b79c726387e430" region="sdcard"/>
+		<device_ref name="arm9"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="istellar" sourcefile="misc/istellar.cpp">
@@ -26468,7 +26553,7 @@
 		<driver status="imperfect"/>
 	</machine>
 	<machine name="landhigh" sourcefile="taito/taitotz.cpp" romof="taitotz">
-		<description>Landing High Japan (Ver 2.01 OK)</description>
+		<description>Landing High Japan (VER.2.01OK)</description>
 		<year>1999</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -26492,7 +26577,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="landhigha" sourcefile="taito/taitotz.cpp" cloneof="landhigh" romof="landhigh">
-		<description>Landing High Japan (Ver 2.02 O)</description>
+		<description>Landing High Japan (VER.2.02O)</description>
 		<year>1999</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -27282,6 +27367,7 @@
 		<year>1996</year>
 		<manufacturer>Atari Games</manufacturer>
 		<rom name="314_mace.u96" size="8192" crc="65943e82" sha1="984a1938f43671fc8f6394677396451dab7f042b"/>
+		<rom name="319_mace_39_u96.u96" size="8192" crc="e8f29a87" sha1="9a9438097a9e8287f0489373acf6b0243a4f16b0"/>
 		<rom name="mace10ce.u32" size="524288" crc="7a50b37e" sha1="33788835f84a9443566c80bee9f20a1691490c6d"/>
 		<rom name="soundl11.u95" size="32768" crc="c589458c" sha1="0cf970a35910a74cdcf3bd8119bfc0c693e19b00"/>
 		<disk name="mace" sha1="96ec8d3ff5dd894e21aa81403bcdbeba44bb97ea" region="pci:09.0:ide:0:hdd"/>
@@ -27326,6 +27412,7 @@
 		<year>1997</year>
 		<manufacturer>Atari Games</manufacturer>
 		<rom name="314_mace.u96" merge="314_mace.u96" size="8192" crc="65943e82" sha1="984a1938f43671fc8f6394677396451dab7f042b"/>
+		<rom name="319_mace_39_u96.u96" merge="319_mace_39_u96.u96" size="8192" crc="e8f29a87" sha1="9a9438097a9e8287f0489373acf6b0243a4f16b0"/>
 		<rom name="maceboot.u32" size="524288" crc="effe3ebc" sha1="7af3ca3580d6276ffa7ab8b4c57274e15ee6bcbb"/>
 		<rom name="soundl11.u95" merge="soundl11.u95" size="32768" crc="c589458c" sha1="0cf970a35910a74cdcf3bd8119bfc0c693e19b00"/>
 		<disk name="macea" sha1="9bd4a60627915d71932cab24f89c48ea21f4c1cb" region="pci:09.0:ide:0:hdd" status="baddump"/>
@@ -34575,10 +34662,47 @@
 		<year>2014</year>
 		<manufacturer>G Squared</manufacturer>
 		<rom name="bootrom" size="524288" status="nodump"/>
-		<disk name="pl6_kfp" sha1="a2506e2ff67f2632bcde3281baeaad1d094309b2" region="cfcard"/>
+		<disk name="pl6_kfp" sha1="a2506e2ff67f2632bcde3281baeaad1d094309b2" region="ata:0:hdd"/>
 		<device_ref name="mcf5206e"/>
-		<device_ref name="mcf5206e_peripheral"/>
+		<device_ref name="coldfire_sim"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="coldfire_timer"/>
+		<device_ref name="coldfire_timer"/>
+		<device_ref name="mcf5206euart"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="mcf5206euart"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="coldfire_mbus"/>
+		<device_ref name="coldfire_dma"/>
+		<device_ref name="coldfire_dma"/>
+		<device_ref name="pl6expslot"/>
+		<device_ref name="pl6expslot"/>
 		<device_ref name="speaker"/>
+		<device_ref name="pl6_fpga"/>
+		<device_ref name="cs4334"/>
+		<device_ref name="cs4334"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="pl6_pic"/>
+		<device_ref name="nvram"/>
+		<device_ref name="mc68681"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="24c04"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="serial_vfd"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="pl6_lgk" sourcefile="jpm/pluto6.cpp" ismechanical="yes">
@@ -34586,10 +34710,47 @@
 		<year>2014</year>
 		<manufacturer>Betcom</manufacturer>
 		<rom name="bootrom" size="524288" status="nodump"/>
-		<disk name="pl6_lgk" sha1="7d8631a4e336e93c9bfddf9166a22b756d8382fc" region="cfcard"/>
+		<disk name="pl6_lgk" sha1="7d8631a4e336e93c9bfddf9166a22b756d8382fc" region="ata:0:hdd"/>
 		<device_ref name="mcf5206e"/>
-		<device_ref name="mcf5206e_peripheral"/>
+		<device_ref name="coldfire_sim"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="coldfire_timer"/>
+		<device_ref name="coldfire_timer"/>
+		<device_ref name="mcf5206euart"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="mcf5206euart"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="coldfire_mbus"/>
+		<device_ref name="coldfire_dma"/>
+		<device_ref name="coldfire_dma"/>
+		<device_ref name="pl6expslot"/>
+		<device_ref name="pl6expslot"/>
 		<device_ref name="speaker"/>
+		<device_ref name="pl6_fpga"/>
+		<device_ref name="cs4334"/>
+		<device_ref name="cs4334"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="pl6_pic"/>
+		<device_ref name="nvram"/>
+		<device_ref name="mc68681"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="24c04"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="serial_vfd"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="play4texash" sourcefile="pc/play4texash.cpp">
@@ -35005,7 +35166,7 @@
 		<driver status="imperfect"/>
 	</machine>
 	<machine name="popn1" sourcefile="konami/djmain.cpp">
-		<description>Pop'n Music 1 (ver TA-A, HDD 1.01)</description>
+		<description>Pop'n Music (ver TA-A, HDD 1.01)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="803j_a02.8a" size="524288" crc="17e90be0" sha1="8857d46d63b7cd97aed5c7a5cf804fe5311255ac"/>
@@ -35036,7 +35197,7 @@
 		<driver status="imperfect"/>
 	</machine>
 	<machine name="popn1a" sourcefile="konami/djmain.cpp" cloneof="popn1" romof="popn1">
-		<description>Pop'n Music 1 (ver AA-A, HDD 1.00)</description>
+		<description>Pop'n Music (ver AA-A, HDD 1.00)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="803aaa01.6a" size="524288" crc="70466eff" sha1="d59f97a6882ad65afa3b5de491d44bb4d839d286"/>
@@ -35067,7 +35228,7 @@
 		<driver status="imperfect"/>
 	</machine>
 	<machine name="popn1j" sourcefile="konami/djmain.cpp" cloneof="popn1" romof="popn1">
-		<description>Pop'n Music 1 (ver JA-A, HDD 1.00)</description>
+		<description>Pop'n Music (ver JA-A, HDD 1.00)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="803jaa01.6a" size="524288" crc="469cee89" sha1="d7c3e25e48492bceb17825db357830b08a20f09a"/>
@@ -35098,11 +35259,11 @@
 		<driver status="imperfect"/>
 	</machine>
 	<machine name="popn1k" sourcefile="konami/djmain.cpp" cloneof="popn1" romof="popn1">
-		<description>Pop'n Music 1 (ver KA-A, HDD 1.01)</description>
+		<description>Pop'n Music (ver KA-A, HDD 1.01)</description>
 		<year>1998</year>
 		<manufacturer>Konami</manufacturer>
-		<rom name="803k a01.bin" size="524288" crc="5037e700" sha1="b1e4d0a69187b22706d7a744da63bf639aee9738"/>
-		<rom name="803k a02.bin" size="524288" crc="14aff1c4" sha1="0832c1eea7fb593245fba23bf7dc4b4495ff0cdc"/>
+		<rom name="803k_a01.bin" size="524288" crc="5037e700" sha1="b1e4d0a69187b22706d7a744da63bf639aee9738"/>
+		<rom name="803k_a02.bin" size="524288" crc="14aff1c4" sha1="0832c1eea7fb593245fba23bf7dc4b4495ff0cdc"/>
 		<rom name="803aaa03.19a" merge="803t_a03.19a" size="524288" crc="a0970b32" sha1="4bf06f977f67f13d0994e80021faaefed015ca1c"/>
 		<rom name="803aaa04.20a" merge="803t_a04.20a" size="524288" crc="a158b950" sha1="535d994a68fe56c8a93d460e5272b1a0b081383d"/>
 		<rom name="803aaa05.22a" merge="803t_a05.22a" size="524288" crc="8a23c18d" sha1="714b68a3112dff52feba6a50ae15c02d041b1def"/>
@@ -38031,7 +38192,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="pwrshovl" sourcefile="taito/taitotz.cpp" romof="taitotz">
-		<description>Power Shovel ni Norou!! - Power Shovel Simulator (Ver 2.07 J)</description>
+		<description>Power Shovel ni Norou!! - Power Shovel Simulator (VER.2.07J)</description>
 		<year>1999</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -38973,7 +39134,7 @@
 		<device_ref name="dmadac"/>
 		<device_ref name="dmadac"/>
 		<device_ref name="m48t58"/>
-		<device_ref name="k001604_device"/>
+		<device_ref name="k001604"/>
 		<device_ref name="konppc_jvs_host"/>
 		<driver status="preliminary"/>
 	</machine>
@@ -39124,7 +39285,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="raizpin" sourcefile="taito/taitotz.cpp" romof="taitotz">
-		<description>Raizin Ping Pong (Ver 2.01 O)</description>
+		<description>Raizin Ping Pong (VER.2.01O)</description>
 		<year>2002</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -39145,7 +39306,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="raizpinj" sourcefile="taito/taitotz.cpp" cloneof="raizpin" romof="raizpin">
-		<description>Raizin Ping Pong (Ver 2.01 J)</description>
+		<description>Raizin Ping Pong (VER.2.01J)</description>
 		<year>2002</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -44250,7 +44411,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="styphp" sourcefile="taito/taitotz.cpp" romof="taitotz">
-		<description>Stunt Typhoon Plus (Ver 2.04 J)</description>
+		<description>Stunt Typhoon Plus (VER.2.04J)</description>
 		<year>2001</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -45699,45 +45860,50 @@
 		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="torchh" sourcefile="acorn/bbc.cpp" sampleof="bbc">
+	<machine name="torchh" sourcefile="acorn/bbcb.cpp" sampleof="bbc">
 		<description>Torch CH240</description>
 		<year>1983</year>
 		<manufacturer>Torch Computers</manufacturer>
 		<rom name="basic2.rom" merge="basic2.rom" size="16384" crc="79434781" sha1="4a7393f3a45ea309f744441c16723e2ef447a281"/>
 		<rom name="dnfs120-201666.rom" size="16384" crc="8ccd2157" sha1="7e3c536baeae84d6498a14e8405319e01ee78232"/>
 		<rom name="os12.rom" merge="os12.rom" size="16384" crc="3c14fc70" sha1="0d9bcaf6a393c9ce2359ed700ddb53c232c2c45d"/>
-		<rom name="phrom_us.bin" size="16384" crc="bf4b3b64" sha1="66876702d1d95eecc034d20f25047f893a27cde5"/>
+		<rom name="vm61002.bin" size="16384" crc="bf4b3b64" sha1="66876702d1d95eecc034d20f25047f893a27cde5"/>
 		<disk name="torch_utilities" sha1="33a5f169bd91b9c6049e8bd0b237429c091fddd0" region="1mhzbus:torchhd:sasi:0:s1410" status="baddump"/>
 		<device_ref name="m6502"/>
 		<device_ref name="ipt_merge_any_hi"/>
-		<device_ref name="ls259"/>
 		<device_ref name="ram"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="saa5050"/>
 		<device_ref name="hd6845s"/>
+		<device_ref name="ls259"/>
+		<device_ref name="mos6522"/>
+		<device_ref name="torchb_kbd"/>
 		<device_ref name="speaker"/>
 		<device_ref name="sn76489a"/>
 		<device_ref name="samples"/>
 		<device_ref name="cassette_image"/>
 		<device_ref name="acia6850"/>
+		<device_ref name="serproc"/>
 		<device_ref name="rs232"/>
-		<device_ref name="clock"/>
-		<device_ref name="mos6522"/>
 		<device_ref name="bbc_romslot16"/>
 		<device_ref name="bbc_romslot16"/>
 		<device_ref name="bbc_romslot16"/>
 		<device_ref name="bbc_romslot16"/>
 		<device_ref name="software_list"/>
 		<device_ref name="software_list"/>
+		<device_ref name="bbc_vsp_slot"/>
+		<device_ref name="bbc_speech"/>
 		<device_ref name="tms5220"/>
 		<device_ref name="tms6100"/>
+		<device_ref name="generic_socket"/>
 		<device_ref name="mos6522"/>
-		<device_ref name="upd7002"/>
 		<device_ref name="centronics"/>
 		<device_ref name="centronics_printer"/>
 		<device_ref name="printer_image"/>
 		<device_ref name="output_latch"/>
+		<device_ref name="upd7002"/>
+		<device_ref name="bbc_analogue_slot"/>
 		<device_ref name="bbc_fdc_slot"/>
 		<device_ref name="bbc_acorn8271"/>
 		<device_ref name="i8271"/>
@@ -45752,7 +45918,6 @@
 		<device_ref name="mc6854"/>
 		<device_ref name="econet"/>
 		<device_ref name="econet_slot"/>
-		<device_ref name="bbc_analogue_slot"/>
 		<device_ref name="bbc_1mhzbus_slot"/>
 		<device_ref name="bbc_torchhd"/>
 		<device_ref name="nscsi_bus"/>
@@ -45772,12 +45937,14 @@
 		<device_ref name="software_list"/>
 		<device_ref name="software_list"/>
 		<device_ref name="software_list"/>
+		<device_ref name="software_list"/>
 		<softwarelist name="bbc_cass"/>
 		<softwarelist name="bbc_rom"/>
 		<softwarelist name="bbc_flop_torch"/>
 		<softwarelist name="bbcb_flop"/>
 		<softwarelist name="bbcb_flop_orig"/>
 		<softwarelist name="bbc_hdd"/>
+		<softwarelist name="bbc_vsm"/>
 		<sample name="motoroff"/>
 		<sample name="motoron"/>
 		<driver status="imperfect"/>
@@ -47143,6 +47310,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0012c" sha1="dcaeddea0dc089eadda8ba4579328aca3a613c4b" region="gdrom"/>
@@ -47204,6 +47372,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0012b" sha1="700bd2389b6dd9d8a78abc0289bbd241093a0260" region="gdrom"/>
@@ -47265,6 +47434,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0024c" sha1="0509863a8ab2080abd004510b381037e1891e37b" region="gdrom"/>
@@ -47326,6 +47496,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0024a" sha1="92fa11005708d7b1c1d2608dfc3033c30a885b47" region="gdrom"/>
@@ -47387,6 +47558,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0024b" sha1="42fba5d95454750ad80df2ce0db2996f71307914" region="gdrom"/>
@@ -47448,6 +47620,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0012" sha1="da231483b5351ab9f9eb0e6e8cd6c2a26d1f8f72" region="gdrom"/>
@@ -47509,6 +47682,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0036f" sha1="68edece4239e5adfef9df143defb711ff2b4db72" region="gdrom"/>
@@ -47570,6 +47744,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0036a" sha1="b6c9cbe09b4cbe0faefe0bb09f429a6856663eaa" region="gdrom"/>
@@ -47631,6 +47806,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0036d" sha1="2a2737e035f690946897bbb25943f2c5230eca99" region="gdrom"/>
@@ -48522,6 +48698,7 @@
 		<rom name="epr-23608b.ic27" merge="epr-23608b.ic27" size="2097152" crc="a554b1e3" sha1="343b727a3619d1c75a9b6d4cc156a9050447f155"/>
 		<rom name="epr-23608c.ic27" merge="epr-23608c.ic27" size="2097152" crc="6ef1dd8e" sha1="25ef957ec1c58fdaff5e89102002bca6c38832c5"/>
 		<rom name="epr-23609b.ic27" merge="epr-23609b.ic27" size="2097152" crc="99e3751f" sha1="8a244f75595c49d2a37a42ab96b6bab35163ca0e"/>
+		<rom name="epr-23610b.ic27" merge="epr-23610b.ic27" size="2097152" crc="de8e1267" sha1="0b3a36446c308fcbfe3647df45c848091e8797f1"/>
 		<rom name="main_eeprom.bin" merge="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e"/>
 		<rom name="x76f100_eeprom.bin" merge="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc"/>
 		<disk name="gds-0006" sha1="44bfd24f44272c8fd7f5f9294005c6cc53222ef3" region="gdrom"/>
