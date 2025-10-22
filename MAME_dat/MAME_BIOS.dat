@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>MAME BIOS</name>
-		<description>MAME BIOS 0.280</description>
+		<description>MAME BIOS 0.281</description>
 		<category>Emulation</category>
-		<version>0.280</version>
-		<date>31/08/2025</date>
+		<version>0.281</version>
+		<date>26/09/2025</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -986,9 +986,9 @@
 		<device_ref name="screen"/>
 		<device_ref name="vr0video"/>
 		<device_ref name="palette"/>
-		<device_ref name="speaker"/>
 		<device_ref name="vr0sound"/>
 		<device_ref name="ds1302"/>
+		<device_ref name="speaker"/>
 	</machine>
 	<machine name="cubo" sourcefile="amiga/cubo.cpp" isbios="yes" runnable="no">
 		<description>Cubo BIOS</description>
