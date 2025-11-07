@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>MAME CHDs</name>
-		<description>MAME CHDs 0.281</description>
+		<description>MAME CHDs 0.282</description>
 		<category>Emulation</category>
-		<version>0.281</version>
-		<date>26/09/2025</date>
+		<version>0.282</version>
+		<date>31/10/2025</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -282,6 +282,24 @@
 		<device_ref name="speaker"/>
 		<device_ref name="dmadac"/>
 		<device_ref name="dmadac"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="a6plus" sourcefile="nintendo/nes_vt369_vtunknown.cpp">
+		<description>Retro Arcade FC A6Plus - 8Bt Game Console</description>
+		<year>202?</year>
+		<manufacturer>&lt;unknown&gt;</manufacturer>
+		<rom name="w25q64jv.u3" size="8388608" crc="c62f9570" sha1="eed64d7b022a1274892992ec53d41f189679ebd3"/>
+		<disk name="a6plus" sha1="ce8fb23443008c921c6541e71da37c1dc6a06e5f" region="sdcard"/>
+		<device_ref name="vt369_soc"/>
+		<device_ref name="rp2a03_core_swap_op_d5_d6"/>
+		<device_ref name="screen"/>
+		<device_ref name="ppu_vt3xx"/>
+		<device_ref name="speaker"/>
+		<device_ref name="nes_apu_vt"/>
+		<device_ref name="vt3xx_spu"/>
+		<device_ref name="vt369adpcm"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="a7lucky88" sourcefile="aristocrat/aristmk7.cpp" romof="aristmk7">
@@ -863,6 +881,32 @@
 		<device_ref name="mos8520"/>
 		<device_ref name="mos8520"/>
 		<device_ref name="paula_fdc"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="arajewel" sourcefile="sega/segasp.cpp" romof="segasp">
+		<description>Arabian Jewel (MDA-C0090)</description>
+		<year>2010</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="317-0616-jpn.ic15" size="2048" crc="5b7ad9f3" sha1="9f2406141c21f8e4b30d8835d3bfae7e597ce054" status="baddump"/>
+		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
+		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
+		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
+		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
+		<disk name="mda-c0090" sha1="f06ac21b9c3ea515380c0fe322fabd28c3b479d8" region="cflash" status="baddump"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="arctthnd" sourcefile="midway/midqslvr.cpp">
@@ -2782,8 +2826,8 @@
 		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="bingogalo" sourcefile="sega/segasp.cpp">
-		<description>Bingo Galaxy (main) (MDA-C0039A)</description>
+	<machine name="bingogala" sourcefile="sega/segasp.cpp">
+		<description>Bingo Galaxy (MDA-C0039A)</description>
 		<year>2007</year>
 		<manufacturer>Sega</manufacturer>
 		<rom name="317-0513-jpn.ic15" merge="317-0513-jpn.ic15" size="2048" crc="599c5637" sha1="ca066dd8e8c4277023f5f9753e527009b634119b"/>
@@ -2792,6 +2836,58 @@
 		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
 		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
 		<disk name="mda-c0039a" sha1="950c27cc0cd77b2dd4e6d510da83699d8b511907" region="cflash"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="bingogalb" sourcefile="sega/segasp.cpp">
+		<description>Bingo Galaxy (MDA-C0039B)</description>
+		<year>2008</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="317-0513-jpn.ic15" merge="317-0513-jpn.ic15" size="2048" crc="599c5637" sha1="ca066dd8e8c4277023f5f9753e527009b634119b"/>
+		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
+		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
+		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
+		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
+		<disk name="mda-c0039b" sha1="80f2e93dbf39ed45f0d7a33ae0835282d6bb2f55" region="cflash" status="baddump"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="bingogalc" sourcefile="sega/segasp.cpp">
+		<description>Bingo Galaxy (MDA-C0039C)</description>
+		<year>2009</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="317-0513-jpn.ic15" merge="317-0513-jpn.ic15" size="2048" crc="599c5637" sha1="ca066dd8e8c4277023f5f9753e527009b634119b"/>
+		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
+		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
+		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
+		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
+		<disk name="mda-c0039c" sha1="cf3c113920546465a7b31268cd920583988c0405" region="cflash" status="baddump"/>
 		<device_ref name="sh7091"/>
 		<device_ref name="timer"/>
 		<device_ref name="dc_g2if"/>
@@ -12456,8 +12552,8 @@
 		<year>2006</year>
 		<manufacturer>Sony / Capcom</manufacturer>
 		<rom name="flash1" size="8388608" crc="dda4879f" sha1="4aa06247ca674e86be6c111db7f6abf1ed6e121d" status="baddump"/>
-		<rom name="ic30" size="4194304" crc="74687757" sha1="96b6e3725bcf16e92c6966f9b9ce93cfdd7ba641" status="baddump"/>
-		<rom name="ic33" size="4194304" crc="ba2e6716" sha1="49c5abb9d96e3f4a78ed4dced7a9f052a96b186d" status="baddump"/>
+		<rom name="stx_04.ic30" size="4194304" crc="74687757" sha1="96b6e3725bcf16e92c6966f9b9ce93cfdd7ba641"/>
+		<rom name="stx_05.ic33" size="4194304" crc="ba2e6716" sha1="49c5abb9d96e3f4a78ed4dced7a9f052a96b186d"/>
 		<disk name="dokodemo" sha1="0c786b6857a29b26971578abe1c8439fe43d94b5" region="ata:0:cfcard"/>
 		<device_ref name="sh7750s"/>
 		<device_ref name="ram"/>
@@ -15165,6 +15261,15 @@
 		<device_ref name="smbus"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="w83977tf"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
 		<device_ref name="pc_lpt"/>
 		<device_ref name="centronics"/>
 		<device_ref name="centronics_printer"/>
@@ -17071,7 +17176,7 @@
 		<rom name="ic26" size="32768" crc="da921265" sha1="c4a2d79d834c0333218c7a4853a8e4167036955a"/>
 		<rom name="stm_04.ic30" size="4194304" crc="74687757" sha1="96b6e3725bcf16e92c6966f9b9ce93cfdd7ba641"/>
 		<rom name="stm_05.ic33" size="4194304" crc="ba2e6716" sha1="49c5abb9d96e3f4a78ed4dced7a9f052a96b186d"/>
-		<disk name="gekimaka" region="ata:0:cfcard" status="nodump"/>
+		<disk name="gekimaka" sha1="d1041ebc364b32b251c421d5a7006e9754c2ed0c" region="ata:0:cfcard"/>
 		<device_ref name="sh7750s"/>
 		<device_ref name="ram"/>
 		<device_ref name="spansion_s29gl064s"/>
@@ -25190,6 +25295,110 @@
 		<device_ref name="93c46_8"/>
 		<driver status="preliminary"/>
 	</machine>
+	<machine name="kazaaan2" sourcefile="sega/segasp.cpp" romof="segasp">
+		<description>100&amp;Medal GekiKazaaan!! (MDA-C0098D)</description>
+		<year>2016</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="317-0637-jpn.ic15" size="2048" crc="bceb801a" sha1="ebb9b9ad50712ab4bfe2813f678e9a146490f0cd"/>
+		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
+		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
+		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
+		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
+		<disk name="mda-c0098d" sha1="015db8c344ed86df8352c1bab653dbb027336fd1" region="cflash"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="kazaaan2c" sourcefile="sega/segasp.cpp" cloneof="kazaaan2" romof="kazaaan2">
+		<description>100&amp;Medal GekiKazaaan!! (MDA-C0098C)</description>
+		<year>2016</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="317-0637-jpn.ic15" merge="317-0637-jpn.ic15" size="2048" crc="bceb801a" sha1="ebb9b9ad50712ab4bfe2813f678e9a146490f0cd"/>
+		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
+		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
+		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
+		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
+		<disk name="mda-c0098c" sha1="08f30e1f2708b5a6d00b279ad69a9000eb582145" region="cflash" status="baddump"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="kazaaan2o" sourcefile="sega/segasp.cpp" cloneof="kazaaan2" romof="kazaaan2">
+		<description>100&amp;Medal GekiKazaaan!! (MDA-C0098)</description>
+		<year>2012</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="317-0637-jpn.ic15" merge="317-0637-jpn.ic15" size="2048" crc="bceb801a" sha1="ebb9b9ad50712ab4bfe2813f678e9a146490f0cd"/>
+		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
+		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
+		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
+		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
+		<disk name="mda-c0098" sha1="a0e2f2f1bc637bfc2a57342e323299deba846d4d" region="cflash" status="baddump"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="kazaaana" sourcefile="sega/segasp.cpp">
+		<description>100&amp;Medal Kazaaan!! (MDA-C0091A)</description>
+		<year>2010</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="317-0626-jpn.ic15" merge="317-0626-jpn.ic15" size="2048" crc="4701a7b6" sha1="edbceb9e5ea019bd434724af69b08a5a36dc1222" status="baddump"/>
+		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
+		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
+		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
+		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
+		<disk name="mda-c0091a" sha1="635461381d072760fafea649766763b0fb0308e4" region="cflash" status="baddump"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
+		<driver status="preliminary"/>
+	</machine>
 	<machine name="kbadlands" sourcefile="konami/konblands.cpp">
 		<description>Badlands (Konami, set 1)</description>
 		<year>1984</year>
@@ -25628,7 +25837,7 @@
 		<description>Yataimura Kingyosukui (4-player, China, Ver 1.000)</description>
 		<year>2009</year>
 		<manufacturer>Sega</manufacturer>
-		<rom name="317-0563-jpn.ic15" size="2048" crc="8af67833" sha1="0b79abf9182c249a6d4976d6fd3b90101d66354f" status="baddump"/>
+		<rom name="317-5142-exp.ic15" size="2048" crc="73fa744f" sha1="c26333909d7cbef4b5b4930cea30753ef27e5185"/>
 		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
 		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
 		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
@@ -26372,8 +26581,10 @@
 		<description>Knights of Valour 3 HD (M-105CN 13-07-04 18:54:01)</description>
 		<year>2011</year>
 		<manufacturer>IGS</manufacturer>
+		<rom name="internal_boot.bin" size="32768" crc="f6877f92" sha1="4431d73cc7e5bbb11cd53449284fff1435a6ea32" status="baddump"/>
+		<rom name="internal_flash.bin" size="524288" crc="5925187d" sha1="3acc29891142d47a7bf3c73016a06bc436977b40"/>
 		<disk name="kov3hd_m105" sha1="81af30aa6e1a34b2a8fab8c5c23a313a7164767c" region="card"/>
-		<device_ref name="arm9"/>
+		<device_ref name="arm1176jzf_s"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<driver status="preliminary"/>
@@ -26382,8 +26593,10 @@
 		<description>Knights of Valour 3 HD (V101)</description>
 		<year>2011</year>
 		<manufacturer>IGS</manufacturer>
+		<rom name="internal_boot.bin" merge="internal_boot.bin" size="32768" crc="f6877f92" sha1="4431d73cc7e5bbb11cd53449284fff1435a6ea32" status="baddump"/>
+		<rom name="internal_flash.bin" merge="internal_flash.bin" size="524288" crc="5925187d" sha1="3acc29891142d47a7bf3c73016a06bc436977b40"/>
 		<disk name="kov3hd_m101" sha1="086d6f1b8b2c01a8670fd6480da44b9c507f6e08" region="card"/>
-		<device_ref name="arm9"/>
+		<device_ref name="arm1176jzf_s"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<driver status="preliminary"/>
@@ -26392,8 +26605,10 @@
 		<description>Knights of Valour 3 HD (V102)</description>
 		<year>2011</year>
 		<manufacturer>IGS</manufacturer>
+		<rom name="internal_boot.bin" merge="internal_boot.bin" size="32768" crc="f6877f92" sha1="4431d73cc7e5bbb11cd53449284fff1435a6ea32" status="baddump"/>
+		<rom name="internal_flash.bin" merge="internal_flash.bin" size="524288" crc="5925187d" sha1="3acc29891142d47a7bf3c73016a06bc436977b40"/>
 		<disk name="kov3hd_m102" sha1="a5a872f9add5527b94019ec77ff1cd0f167f040f" region="card"/>
-		<device_ref name="arm9"/>
+		<device_ref name="arm1176jzf_s"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<driver status="preliminary"/>
@@ -26402,8 +26617,10 @@
 		<description>Knights of Valour 3 HD (V103)</description>
 		<year>2011</year>
 		<manufacturer>IGS</manufacturer>
+		<rom name="internal_boot.bin" merge="internal_boot.bin" size="32768" crc="f6877f92" sha1="4431d73cc7e5bbb11cd53449284fff1435a6ea32" status="baddump"/>
+		<rom name="internal_flash.bin" merge="internal_flash.bin" size="524288" crc="5925187d" sha1="3acc29891142d47a7bf3c73016a06bc436977b40"/>
 		<disk name="kov3hd_m103" sha1="0d4fd981f477cd5ed62609b875f4ddec939a2bb0" region="card"/>
-		<device_ref name="arm9"/>
+		<device_ref name="arm1176jzf_s"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<driver status="preliminary"/>
@@ -26412,8 +26629,10 @@
 		<description>Knights of Valour 3 HD (V104)</description>
 		<year>2011</year>
 		<manufacturer>IGS</manufacturer>
+		<rom name="internal_boot.bin" merge="internal_boot.bin" size="32768" crc="f6877f92" sha1="4431d73cc7e5bbb11cd53449284fff1435a6ea32" status="baddump"/>
+		<rom name="internal_flash.bin" merge="internal_flash.bin" size="524288" crc="5925187d" sha1="3acc29891142d47a7bf3c73016a06bc436977b40"/>
 		<disk name="kov3hd_m104" sha1="899b3b81825e6f23ae8f39aa67ad5b019f387cf9" region="card"/>
-		<device_ref name="arm9"/>
+		<device_ref name="arm1176jzf_s"/>
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<driver status="preliminary"/>
@@ -26556,7 +26775,7 @@
 		<driver status="imperfect"/>
 	</machine>
 	<machine name="landhigh" sourcefile="taito/taitotz.cpp" romof="taitotz">
-		<description>Landing High Japan (VER.2.01OK, no sub monitor)</description>
+		<description>Landing High Japan (VER.2.01OK, single monitor)</description>
 		<year>1999</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="e68-01.ic7" size="65536" status="nodump"/>
@@ -30097,6 +30316,32 @@
 		<device_ref name="generic_cartslot"/>
 		<device_ref name="software_list"/>
 		<softwarelist name="cubieboard4"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="monomedal" sourcefile="sega/segasp.cpp" romof="segasp">
+		<description>Monopoly the Medal 2nd Edition (MDA-C0056A)</description>
+		<year>2008</year>
+		<manufacturer>Sega</manufacturer>
+		<rom name="317-0528-jpn.ic15" size="2048" crc="1af3dac5" sha1="c9d5cf913d0839a14164409537bb941d36b9cdf0"/>
+		<rom name="epr-24236a.ic50" merge="epr-24236a.ic50" size="2097152" crc="ca7df0de" sha1="504c74d5fc96c53ef9f7753e9e37fb8b39cb628c"/>
+		<rom name="epr-24328.ic50" merge="epr-24328.ic50" size="2097152" crc="25f2ef00" sha1="e58dec9f171e52b3ded213b3fcd9a0de8a438076"/>
+		<rom name="epr-24328a.ic50" merge="epr-24328a.ic50" size="2097152" crc="03ec3805" sha1="a8fbaea826ca257be0b2b86952f247254929e046"/>
+		<rom name="mb_serial.ic57" merge="mb_serial.ic57" size="128" crc="e1e3c009" sha1="66bc636c527389c3338f631d78c788b4bd4e93be"/>
+		<disk name="mda-c0056a" sha1="a9698de016761eadd6d1cf2876f0bf1dc23a8a58" region="cflash"/>
+		<device_ref name="sh7091"/>
+		<device_ref name="timer"/>
+		<device_ref name="dc_g2if"/>
+		<device_ref name="arm7_le"/>
+		<device_ref name="maple_dc"/>
+		<device_ref name="screen"/>
+		<device_ref name="powervr2"/>
+		<device_ref name="speaker"/>
+		<device_ref name="aica"/>
+		<device_ref name="aicartc"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="93c46_16"/>
+		<device_ref name="x76f100"/>
+		<device_ref name="naomi_m4_board"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="motogp" sourcefile="namco/namcops2.cpp" romof="sys256">
@@ -34664,6 +34909,54 @@
 		<device_ref name="m48t35"/>
 		<driver status="preliminary"/>
 	</machine>
+	<machine name="pl6_demo" sourcefile="jpm/pluto6.cpp">
+		<description>Pluto 6 Devkit/Evaluation Board</description>
+		<year>2000</year>
+		<manufacturer>Heber</manufacturer>
+		<rom name="17443iss.u1" size="524288" crc="40b4211a" sha1="4cce50fc67a15b2b1f5d12a9f11fc12c51908773"/>
+		<disk name="pl6demo_cf" sha1="a97e0af3b35d02b014d98b48977c4a2584271f20" region="ata:0:hdd"/>
+		<device_ref name="mcf5206e"/>
+		<device_ref name="coldfire_sim"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="coldfire_timer"/>
+		<device_ref name="coldfire_timer"/>
+		<device_ref name="mcf5206euart"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="mcf5206euart"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="coldfire_mbus"/>
+		<device_ref name="coldfire_dma"/>
+		<device_ref name="coldfire_dma"/>
+		<device_ref name="pl6expslot"/>
+		<device_ref name="pl6expslot"/>
+		<device_ref name="speaker"/>
+		<device_ref name="pl6_fpga"/>
+		<device_ref name="cs4334"/>
+		<device_ref name="cs4334"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="pl6_pic"/>
+		<device_ref name="nvram"/>
+		<device_ref name="mc68681"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="24c04"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="msc1937"/>
+		<driver status="preliminary"/>
+	</machine>
 	<machine name="pl6_kfp" sourcefile="jpm/pluto6.cpp" ismechanical="yes">
 		<description>Kung Fu Pounda</description>
 		<year>2014</year>
@@ -34709,7 +35002,7 @@
 		<device_ref name="idehd"/>
 		<device_ref name="harddisk_image"/>
 		<device_ref name="ata_slot"/>
-		<device_ref name="serial_vfd"/>
+		<device_ref name="msc1937"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="pl6_lgk" sourcefile="jpm/pluto6.cpp" ismechanical="yes">
@@ -34757,7 +35050,7 @@
 		<device_ref name="idehd"/>
 		<device_ref name="harddisk_image"/>
 		<device_ref name="ata_slot"/>
-		<device_ref name="serial_vfd"/>
+		<device_ref name="msc1937"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="play4texash" sourcefile="pc/play4texash.cpp">
@@ -38490,6 +38783,15 @@
 		<device_ref name="smbus"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="w83977tf"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
 		<device_ref name="pc_lpt"/>
 		<device_ref name="centronics"/>
 		<device_ref name="centronics_printer"/>
@@ -40157,30 +40459,71 @@
 		<manufacturer>Interactive Light</manufacturer>
 		<rom name="p2xbl_award_451pg.bin" size="262144" crc="37d0030e" sha1="c6773d0e02325116f95c497b9953f59a9ac81317"/>
 		<rom name="savquest_ds12885.bin" size="128" crc="e9270019" sha1="4d900ca317d93c915c80a9053528b741746f08a1" status="baddump"/>
-		<rom name="vgabios.bin" size="65536" crc="a81423d6" sha1="a099af621ce7fbaa55a2d9947d9f07e04f1b5fca"/>
-		<disk name="savquest" sha1="b7c8901172b66706a7ab5f5c91e6912855153fa9" region="ide:0:hdd"/>
+		<disk name="savquest" sha1="b7c8901172b66706a7ab5f5c91e6912855153fa9" region="pci:07.1:ide1:0:hdd"/>
 		<device_ref name="pentium2"/>
-		<device_ref name="pic8259"/>
-		<device_ref name="pic8259"/>
-		<device_ref name="am9517a"/>
-		<device_ref name="am9517a"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="i82443bx_host"/>
+		<device_ref name="i82443bx_bridge"/>
+		<device_ref name="pci_slot"/>
+		<device_ref name="i82371eb_isa"/>
 		<device_ref name="pit8254"/>
 		<device_ref name="pit_counter"/>
 		<device_ref name="pit_counter"/>
 		<device_ref name="pit_counter"/>
-		<device_ref name="ds12885"/>
-		<device_ref name="kbdc8042"/>
-		<device_ref name="at_keyb"/>
-		<device_ref name="pci_bus_legacy"/>
-		<device_ref name="idectrl32"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="am9517a"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="pic8259"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker_sound_device"/>
+		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_ide"/>
+		<device_ref name="idectrl32bm"/>
 		<device_ref name="ata_slot"/>
 		<device_ref name="idehd"/>
 		<device_ref name="harddisk_image"/>
 		<device_ref name="ata_slot"/>
-		<device_ref name="idectrl32"/>
+		<device_ref name="idectrl32bm"/>
 		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
 		<device_ref name="ata_slot"/>
-		<device_ref name="isa16"/>
+		<device_ref name="i82371eb_usb"/>
+		<device_ref name="i82371eb_acpi"/>
+		<device_ref name="lpc_acpi"/>
+		<device_ref name="smbus"/>
+		<device_ref name="voodoo_2_pci"/>
+		<device_ref name="voodoo_2"/>
+		<device_ref name="pci_slot"/>
+		<device_ref name="virge_pci"/>
+		<device_ref name="screen"/>
+		<device_ref name="virge_vga"/>
+		<device_ref name="ibm8514a"/>
+		<device_ref name="pci_slot"/>
+		<device_ref name="pci_slot"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="w83977tf"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="pc_lpt"/>
+		<device_ref name="centronics"/>
+		<device_ref name="hasp_savquest"/>
+		<device_ref name="input_buffer"/>
+		<device_ref name="input_buffer"/>
+		<device_ref name="input_buffer"/>
+		<device_ref name="output_latch"/>
+		<device_ref name="output_latch"/>
+		<device_ref name="ds12885"/>
+		<device_ref name="kbdc8042"/>
+		<device_ref name="at_keyb"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="isa_sblaster_16"/>
 		<device_ref name="speaker"/>
@@ -40195,10 +40538,9 @@
 		<device_ref name="midiout_port"/>
 		<device_ref name="midiout"/>
 		<device_ref name="ymf262"/>
+		<device_ref name="isa16_slot"/>
+		<device_ref name="isa16_slot"/>
 		<device_ref name="screen"/>
-		<device_ref name="s3_86c764_vga"/>
-		<device_ref name="ibm8514a"/>
-		<device_ref name="voodoo_2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="sblazerp" sourcefile="sega/segald.cpp" cloneof="galaxyr" romof="galaxyr">
@@ -40537,6 +40879,18 @@
 		<device_ref name="sata"/>
 		<device_ref name="smbus"/>
 		<device_ref name="ac97"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="segdis16" sourcefile="tvgames/generalplus_gpl32612.cpp">
+		<description>Disney Characters Magical Pad -Girls Lesson- (Japan)</description>
+		<year>2016</year>
+		<manufacturer>Sega Toys</manufacturer>
+		<rom name="internal.rom" size="262144" status="nodump"/>
+		<rom name="mx30lf2g18ac.nfrom" size="276824064" crc="87905c80" sha1="79081934082e163163c06dc11362d8cf4e858bcf"/>
+		<disk name="segdis16" sha1="63cf1290c8ed78355b96b4e23885d11d7e2bd25d" region="sdcard"/>
+		<device_ref name="arm9"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="sengomjk" sourcefile="nichibutsu/hrdvd.cpp" romof="nichidvd">
@@ -42898,6 +43252,15 @@
 		<device_ref name="ibm8514a"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="w83977tf"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
 		<device_ref name="pc_lpt"/>
 		<device_ref name="centronics"/>
 		<device_ref name="centronics_printer"/>
@@ -42975,6 +43338,15 @@
 		<device_ref name="ibm8514a"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="w83977tf"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
 		<device_ref name="pc_lpt"/>
 		<device_ref name="centronics"/>
 		<device_ref name="centronics_printer"/>
@@ -43052,6 +43424,15 @@
 		<device_ref name="ibm8514a"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="w83977tf"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
 		<device_ref name="pc_lpt"/>
 		<device_ref name="centronics"/>
 		<device_ref name="centronics_printer"/>
@@ -43129,6 +43510,15 @@
 		<device_ref name="ibm8514a"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="w83977tf"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
 		<device_ref name="pc_lpt"/>
 		<device_ref name="centronics"/>
 		<device_ref name="centronics_printer"/>
@@ -43206,6 +43596,15 @@
 		<device_ref name="ibm8514a"/>
 		<device_ref name="isa16_slot"/>
 		<device_ref name="w83977tf"/>
+		<device_ref name="n82077aa"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
+		<device_ref name="floppy_connector"/>
+		<device_ref name="floppy_35_hd"/>
+		<device_ref name="speaker"/>
+		<device_ref name="flopsnd"/>
 		<device_ref name="pc_lpt"/>
 		<device_ref name="centronics"/>
 		<device_ref name="centronics_printer"/>
@@ -45545,6 +45944,50 @@
 		<device_ref name="screen"/>
 		<driver status="preliminary"/>
 	</machine>
+	<machine name="tijkpots" sourcefile="jpm/pluto6.cpp" ismechanical="yes">
+		<description>Treasure Island Jackpots</description>
+		<year>2014</year>
+		<manufacturer>Betcom</manufacturer>
+		<rom name="tisland.u1" size="524288" crc="e4b67b94" sha1="d88019190989e92e1538a9abd6e1ef3c3bb89146"/>
+		<disk name="pl6_tisl" region="ata:0:hdd" status="nodump"/>
+		<device_ref name="mcf5206e"/>
+		<device_ref name="coldfire_sim"/>
+		<device_ref name="watchdog"/>
+		<device_ref name="coldfire_timer"/>
+		<device_ref name="coldfire_timer"/>
+		<device_ref name="mcf5206euart"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="mcf5206euart"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="duart_channel"/>
+		<device_ref name="coldfire_mbus"/>
+		<device_ref name="coldfire_dma"/>
+		<device_ref name="coldfire_dma"/>
+		<device_ref name="pl6expslot"/>
+		<device_ref name="pl6expslot"/>
+		<device_ref name="speaker"/>
+		<device_ref name="pl6_fpga"/>
+		<device_ref name="cs4334"/>
+		<device_ref name="cs4334"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="rs232"/>
+		<device_ref name="pl6_pic"/>
+		<device_ref name="nvram"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="msc1937"/>
+		<driver status="preliminary"/>
+	</machine>
 	<machine name="timecrs3" sourcefile="namco/namcops2.cpp" romof="sys246">
 		<description>Time Crisis 3 (TST1)</description>
 		<year>2003</year>
@@ -46630,7 +47073,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="turrett" sourcefile="namco/turrett.cpp">
-		<description>Turret Tower</description>
+		<description>Turret Tower - The Enemy Has Arrived</description>
 		<year>2001</year>
 		<manufacturer>Dell Electronics (Namco license)</manufacturer>
 		<rom name="turret.u12" size="524288" crc="a2a498fc" sha1="47f2c9c9f2496b49fd923acb400166e963095e1d"/>

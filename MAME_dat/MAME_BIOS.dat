@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>MAME BIOS</name>
-		<description>MAME BIOS 0.281</description>
+		<description>MAME BIOS 0.282</description>
 		<category>Emulation</category>
-		<version>0.281</version>
-		<date>26/09/2025</date>
+		<version>0.282</version>
+		<date>31/10/2025</date>
 		<author>AntoPISA</author>
 		<homepage>https://www.progettosnaps.net/</homepage>
 		<url>https://www.progettosnaps.net/dats/MAME/</url>
@@ -1373,6 +1373,13 @@
 		<device_ref name="palette"/>
 		<device_ref name="palette"/>
 		<device_ref name="palette"/>
+		<device_ref name="kl5c80a12"/>
+		<device_ref name="kp69"/>
+		<device_ref name="kp64"/>
+		<device_ref name="kp64"/>
+		<device_ref name="kp63_3channel"/>
+		<device_ref name="tmp87ph40an"/>
+		<device_ref name="idt71321"/>
 		<device_ref name="v53a"/>
 		<device_ref name="pit8254"/>
 		<device_ref name="pit_counter"/>
@@ -1381,15 +1388,10 @@
 		<device_ref name="v5x_dmau"/>
 		<device_ref name="v5x_icu"/>
 		<device_ref name="v5x_scu"/>
-		<device_ref name="speaker"/>
 		<device_ref name="l7a1045"/>
-		<device_ref name="kl5c80a12"/>
-		<device_ref name="kp69"/>
-		<device_ref name="kp64"/>
-		<device_ref name="kp64"/>
-		<device_ref name="kp63_3channel"/>
-		<device_ref name="tmp87ph40an"/>
-		<device_ref name="idt71321"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
+		<device_ref name="speaker"/>
 		<device_ref name="hng64_lamps"/>
 	</machine>
 	<machine name="hod2bios" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
@@ -2749,6 +2751,15 @@
 		<device_ref name="m48t58"/>
 		<device_ref name="adc0834"/>
 		<device_ref name="sys573_jvs_host"/>
+	</machine>
+	<machine name="systemy2" sourcefile="sega/y2.cpp" isbios="yes" runnable="no">
+		<description>System Board Y2</description>
+		<year>2009</year>
+		<manufacturer>SI Electronics</manufacturer>
+		<rom name="system_y2_m25p40.u801" size="524288" crc="2b19f490" sha1="b6a0482926d02fb5bb9a2c05ffdba6a2347fe658"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
 	</machine>
 	<machine name="taitotz" sourcefile="taito/taitotz.cpp" isbios="yes" runnable="no">
 		<description>Type Zero BIOS</description>

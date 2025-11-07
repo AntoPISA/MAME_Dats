@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Devices (dir2dat)</name>
-		<description>pS MAME Official Devices 20250926</description>
+		<description>pS MAME Official Devices 20251031</description>
 		<category>MAME System Files</category>
-		<version>0.281</version>
-		<date>26/09/2025</date>
+		<version>0.282</version>
+		<date>31/10/2025</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -847,9 +847,13 @@
 		<description>arc_scanvideo</description>
 		<rom name="video256_1.20.rom" size="65536" crc="3e9a44b8" sha1="9fe739b42c5bf5dab69e3c1ffb1c3c5a5d8d7a50"/>
 	</machine>
+	<machine name="arc_scsi_aka30">
+		<description>arc_scsi_aka30</description>
+		<rom name="aka30_0273,210-02.rom" size="32768" crc="850ab784" sha1="6d52381fed7cfd0bd16e21566c2a5bcff98b72c0"/>
+	</machine>
 	<machine name="arc_scsi_aka31">
 		<description>arc_scsi_aka31</description>
-		<rom name="aka31_0273,210-03_scsi_id_prom.rom" size="65536" crc="d8a51876" sha1="fedbd8d8dafb225b931c76704ccb93d4ebdaea10"/>
+		<rom name="aka31_0273,210-03_scsi_id_prom.rom" size="32768" crc="21350ead" sha1="1c2a2761a861d1560b6a245c5015059c2d0f71e7"/>
 	</machine>
 	<machine name="arc_scsi_aka32">
 		<description>arc_scsi_aka32</description>
@@ -1272,6 +1276,7 @@
 		<rom name="armeval_100.rom" size="16384" crc="ed80462a" sha1="ba33eaf1a23cfef6fc1b88aa516ca2b3693e69d9"/>
 		<rom name="armeval_101.rom" size="16384" crc="cab85473" sha1="f86bbc4894e62725b8ef22d44e7f44d37c98ac14"/>
 		<rom name="brazil_005.rom" size="16384" crc="7c27c098" sha1="abcc71cbc43489e89a87aac64e67b17daef5895a"/>
+		<rom name="brazil_006.rom" size="16384" crc="9bafcc1c" sha1="bfa252de2af0d20db87af554fff99f158e267ace"/>
 	</machine>
 	<machine name="bbc_tube_arm7">
 		<description>bbc_tube_arm7</description>
@@ -2406,6 +2411,11 @@
 		<description>duodock</description>
 		<rom name="ec-a697_f2.bin" size="131072" crc="708c6ebd" sha1="be190b869b32f33bb1e59c7ae733853cd8133a4d"/>
 	</machine>
+	<machine name="dvk_kmd">
+		<description>dvk_kmd</description>
+		<rom name="091.dat" size="8192" crc="3bd0effc" sha1="4a3e4567dc46cb306d37fbe71839bc46e232bac8"/>
+		<rom name="092.dat" size="8192" crc="eb4e1de1" sha1="6bc020054934a5562e763a18f915b8d612ccc70c"/>
+	</machine>
 	<machine name="dw_kbd">
 		<description>dw_kbd</description>
 		<rom name="4333923_kb_8048.bin" size="1024" crc="7850e3a0" sha1="3183d93e34707f4b24f4f71db658c3cf317a631a"/>
@@ -2610,6 +2620,10 @@
 		<description>ergoline_kbd</description>
 		<rom name="mcg_21_1035.ic10" size="4096" crc="cde2417e" sha1="8a2e1a894fda3e92fd760b8523121ba171281206"/>
 	</machine>
+	<machine name="esq2x40_vfx">
+		<description>esq2x40_vfx</description>
+		<rom name="esqvfd_font_vfx.bin" size="192" crc="58dc335b" sha1="097fc3e1930a49ab61f73ea7a6191c892004f823"/>
+	</machine>
 	<machine name="et4000">
 		<description>et4000</description>
 		<rom name="cvet4kax.bin" size="32768" crc="a3ab496c" sha1="8644b4178cd0e841139bfa06c9da493dd74d22e8"/>
@@ -2635,6 +2649,10 @@
 	<machine name="ev346">
 		<description>ev346</description>
 		<rom name="everex_ev346_vers_3.2.bin" size="8192" crc="49b10ca7" sha1="ef31b62f5ac38db7cacfc4d30e203a4cc1414913"/>
+	</machine>
+	<machine name="everdrive_md">
+		<description>everdrive_md</description>
+		<rom name="v35.bin" size="131072" crc="161b4d2e" sha1="fe71de7dd1f2117409b158ccd45c68b1d6781a9c"/>
 	</machine>
 	<machine name="ex1280">
 		<description>ex1280</description>
@@ -3049,10 +3067,6 @@
 		<description>isa_hdc</description>
 		<rom name="wdbios.rom" size="8192" crc="8e9e2bd4" sha1="601d7ceab282394ebab50763c267e915a6a2166a"/>
 	</machine>
-	<machine name="isa_hdc_ec1841">
-		<description>isa_hdc_ec1841</description>
-		<rom name="wdbios.rom" size="8192" crc="8e9e2bd4" sha1="601d7ceab282394ebab50763c267e915a6a2166a"/>
-	</machine>
 	<machine name="isa_hercules">
 		<description>isa_hercules</description>
 		<rom name="hgc_mzv_2301.bin" size="4096" crc="9431b9e0" sha1="3279dfeed4a0f5daa7b57d455c96eafdcbb6bf41"/>
@@ -3210,6 +3224,7 @@
 	</machine>
 	<machine name="ks0066">
 		<description>ks0066</description>
+		<rom name="ks0066_f00.bin" size="4096" crc="e459877c" sha1="65cf075a988cdcbb316b9afdd0529b374a1a65ec"/>
 		<rom name="ks0066_f05.bin" size="4096" crc="af9e7bd6" sha1="0196e871584ee5d370856e7307c0f9d1466e3e51"/>
 	</machine>
 	<machine name="labtam_3232">
@@ -3638,8 +3653,8 @@
 	</machine>
 	<machine name="mulcd">
 		<description>mulcd</description>
-		<rom name="mu100-font.bin" size="4096" crc="a7d6c1d6" sha1="9f0398d678bdf607cb34d83ee535f3b7fcc97c41"/>
-		<rom name="mulcd.svg" size="525021" crc="81eba091" sha1="d998f4b508555ddd56b187a868311cd34f28e077"/>
+		<rom name="hd44780u_b04.bin" size="4096" crc="126ed6da" sha1="2ff0899bfee7795ba52a3d56c96edf31d9e6a3f9"/>
+		<rom name="mulcd.svg" size="525261" crc="fb3c68ed" sha1="e18bd29d25b8e5d025ec107adc37021e1f5e85e1"/>
 	</machine>
 	<machine name="mvme120">
 		<description>mvme120</description>
@@ -4104,6 +4119,11 @@
 		<description>pc88va2_fd_if</description>
 		<rom name="vasubsys.rom" size="8192" crc="08962850" sha1="a9375aa480f85e1422a0e1385acb0ea170c5c2e0"/>
 	</machine>
+	<machine name="pc9801_14">
+		<description>pc9801_14</description>
+		<rom name="vfz01_00.bin" size="8192" crc="3b227477" sha1="85474b0550d58395ae9ca53658f93ad2f87fdd4d"/>
+		<rom name="vfz02_00.bin" size="8192" crc="a386ab6b" sha1="5b014c5de1b8e41a412cafd61d7e9d18abdeb6be"/>
+	</machine>
 	<machine name="pc9801_26">
 		<description>pc9801_26</description>
 		<rom name="26k_wyka01_00.bin" size="8192" crc="f071bf69" sha1="f3cdef94e9fee116cf4a9b54881e77c6cd903815"/>
@@ -4197,6 +4217,14 @@
 		<description>pdslc_macconlc</description>
 		<rom name="asante_maccon_lc_mcilc_1.1.bin" size="16384" crc="b95940be" sha1="317255bcb552ef43f43f85109706ed860baaf6dc"/>
 	</machine>
+	<machine name="permedia2">
+		<description>permedia2</description>
+		<rom name="creative.vbi" size="32768" crc="3e622da7" sha1="b06f89777badfdb7cd4c76b414ba19fcaed243c9"/>
+		<rom name="permed2pc.bin" size="131072" crc="6711ddf8" sha1="9f02e4d1a64c42e4a17df8428d8cc9a72e78e0d5"/>
+		<rom name="raptor110.bin" size="131072" crc="6a6f4ba4" sha1="89df1a7bc52693e34b79587c16f2c2efb30bd3f1"/>
+		<rom name="raptor111.bin" size="65536" crc="ee21d1f4" sha1="04845a2e0938b9ecd88934c148e637e6f00e2578"/>
+		<rom name="raptor160.u10" size="131072" crc="8d6706d5" sha1="6df6719aa8f46176d837b1b05e90f7e541416b4c"/>
+	</machine>
 	<machine name="pet_softbox">
 		<description>pet_softbox</description>
 		<rom name="375.ic3" size="2048" crc="177580e7" sha1="af6a97495de825b80cdc9fbf72329d5440826177"/>
@@ -4214,12 +4242,6 @@
 		<rom name="901898-03.u19" size="4096" crc="5db4983d" sha1="6c5b0cce97068f8841112ba6d5cd8e568b562fa3"/>
 		<rom name="901898-04.u20" size="4096" crc="f55fc559" sha1="b42a2050a319a1ffca7868a8d8d635fadd37ec37"/>
 		<rom name="901898-05.u22" size="4096" crc="f42df0cb" sha1="9b4a5134d20345171e7303445f87c4e0b9addc96"/>
-	</machine>
-	<machine name="pg1000">
-		<description>pg1000</description>
-		<rom name="roland_pg-1000_v1.00.ic4" size="8192" crc="c09ef84e" sha1="d780d4d53e57918e6ea8098f54f5c9b43aeec287"/>
-		<rom name="roland_pg-1000_v1.01.ic4" size="8192" crc="9f9bcf76" sha1="da5a45c65a04c35d7a615c6f043ccaf958b0d65e"/>
-		<rom name="roland_pg-1000_v2.00.ic4" size="8192" crc="c8bc1f62" sha1="796d5efd09b411d370f93b32283aa33a4435dec4"/>
 	</machine>
 	<machine name="pg200">
 		<description>pg200</description>
@@ -4491,6 +4513,10 @@
 		<description>quadro</description>
 		<rom name="elsagloriaii.bin" size="44032" crc="78a6fbad" sha1="5517fefc314bd34de7839fb8077aeb252689595d"/>
 		<rom name="elsagloriaiipro.bin" size="44032" crc="b4ef6426" sha1="006b72eb2bcb549686e4e39f8ca17972435178e4"/>
+	</machine>
+	<machine name="qvision_wavestar">
+		<description>qvision_wavestar</description>
+		<rom name="wst07a.bin" size="32768" crc="4dd1a543" sha1="0b32c371cc0fe17acbd7c566e707fd6687f5e7ae"/>
 	</machine>
 	<machine name="qx10_keyboard_ascii">
 		<description>qx10_keyboard_ascii</description>
@@ -4783,6 +4809,7 @@
 	</machine>
 	<machine name="sed1278">
 		<description>sed1278</description>
+		<rom name="sed1278_0a.bin" size="4096" crc="e459877c" sha1="65cf075a988cdcbb316b9afdd0529b374a1a65ec"/>
 		<rom name="sed1278_0b.bin" size="4096" crc="962498b7" sha1="41866836ab4ed7bd4c3539bc8df492ba7d7ff42a"/>
 	</machine>
 	<machine name="sega837_14438">
@@ -5228,6 +5255,10 @@
 		<rom name="v10.0.u101" size="8192" crc="1ad4c52a" sha1="4bc1a19e8f202378d5d7baa8b95319275c040a6d"/>
 		<rom name="v10.8.u103" size="8192" crc="3528a0f8" sha1="be437dd93d1a44eccffa6f5e05935119482beab0"/>
 	</machine>
+	<machine name="sun_gem">
+		<description>sun_gem</description>
+		<rom name="517543-ee17c8_at29c512.u0901" size="65536" crc="d0797304" sha1="b22046b8b574acf7818ebb00dc8d78c04c170ac0"/>
+	</machine>
 	<machine name="sv603">
 		<description>sv603</description>
 		<rom name="sv603.ic10" size="8192" crc="19e91b82" sha1="8a30abe5ffef810b0f99b86db38b1b3c9d259b78"/>
@@ -5249,6 +5280,10 @@
 		<rom name="xt461a0-829.ic123" size="2097152" crc="a1d138a3" sha1="46a7a7225cd7e1818ba551325d2af5ac1bf5b2bf"/>
 		<rom name="xv389a0.ic122" size="8388608" crc="92e11205" sha1="72ec39e03e4e5ddf6137faa798c0ec3c23905855"/>
 		<rom name="xv390a0.ic121" size="8388608" crc="cbc80585" sha1="1903ed7f1292e6117a448fec19e2b712f3815964"/>
+	</machine>
+	<machine name="swp30">
+		<description>swp30</description>
+		<rom name="sin-table.bin" size="65536" crc="4305f63c" sha1="ab3aeacc7a6261cd77019d2f3febd2c21986bf46"/>
 	</machine>
 	<machine name="swtpc8212_device">
 		<description>swtpc8212_device</description>
