@@ -3,14 +3,16 @@
 
 <datafile>
 	<header>
-		<name>MAME CHDs</name>
-		<description>MAME CHDs 0.282</description>
-		<category>Emulation</category>
-		<version>0.282</version>
-		<date>31/10/2025</date>
-		<author>AntoPISA</author>
-		<homepage>https://www.progettosnaps.net/</homepage>
-		<url>https://www.progettosnaps.net/dats/MAME/</url>
+		<name>-not specified-</name>
+		<description>-not specified-</description>
+		<category>-not specified-</category>
+		<version>-not specified-</version>
+		<date>-not specified-</date>
+		<author>-not specified-</author>
+		<email>-not specified-</email>
+		<homepage>-not specified-</homepage>
+		<url>-not specified-</url>
+		<comment>-not specified-</comment>
 		<clrmamepro/>
 	</header>
 	<machine name="2spicy" sourcefile="sega/lindbergh.cpp" romof="lindbios">
@@ -2104,20 +2106,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-bbh0.u53" size="2176" status="nodump"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="bbh_v1.00.14" sha1="dd56f758c3e421005e06ac24c21d12f0f29b0f44" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -2166,19 +2169,20 @@
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
 		<rom name="bbh2-us.u53" size="2176" status="nodump"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="bbh2sp_v2.02.11" sha1="63e41cca534f4774bfba4b4dda9620fe805029b4" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -2227,19 +2231,20 @@
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
 		<rom name="bbh2-us.u53" size="2176" status="nodump"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="bbh2sp_v2.02.09" sha1="fac3963b6da35a8c8b00f6826bc10e9c7230b1d6" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -2288,19 +2293,20 @@
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
 		<rom name="bbh2-us.u53" size="2176" status="nodump"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="bbh2sp_v2.02.08" sha1="13b9b4ea0465f55dd1c7bc6e2f962c3c9b9566bd" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -2348,20 +2354,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="cw-us-8.u53" size="2176" crc="c5234b58" sha1="fb47b2233147a3f633f01edebef9994c358bd162"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="bbhcotw_v3.02.05_cf" sha1="b1fcaab3a5aa51821673a914333c8868d36f77ae" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -2410,19 +2417,20 @@
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
 		<rom name="bb15-us.u53" size="2176" status="nodump"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="bbhsc_v1.60.01" sha1="8554fdd7193ee27c0fe8ca921aa8db9c0378b313" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -2471,19 +2479,20 @@
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
 		<rom name="bb15-us.u53" size="2176" status="nodump"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="bbhsc_v1.50.07_cf" sha1="21dcf1f7e5ab901ac64e6afb099c35e273b3bf1f" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -5315,6 +5324,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -5772,20 +5785,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="ck1-us.u53" size="2176" status="nodump"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="carnival_king_v_1.00.11" sha1="c819af66d36df173ab17bf42f4045c7cca3203d8" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -5915,6 +5929,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -6189,6 +6206,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -7591,6 +7611,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -7807,6 +7830,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -7861,6 +7887,10 @@
 		<device_ref name="m68000"/>
 		<device_ref name="tms57002"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -8783,7 +8813,7 @@
 		<device_ref name="ad7521"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="cuttherope" sourcefile="pc/cuttherope.cpp">
+	<machine name="cutrope" sourcefile="pc/cuttherope.cpp">
 		<description>Cut The Rope</description>
 		<year>2016</year>
 		<manufacturer>ICE</manufacturer>
@@ -12570,7 +12600,7 @@
 		<device_ref name="m48t35"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="doodlejmp" sourcefile="misc/rawthrillspc.cpp">
+	<machine name="doodljmp" sourcefile="misc/rawthrillspc.cpp">
 		<description>Doodle Jump Arcade (v1.16)</description>
 		<year>2013</year>
 		<manufacturer>ICE / Raw Thrills (Lima Sky license)</manufacturer>
@@ -14883,8 +14913,8 @@
 		<device_ref name="i8251"/>
 		<device_ref name="i8251"/>
 		<device_ref name="screen"/>
-		<device_ref name="gfxdecode"/>
 		<device_ref name="palette"/>
+		<device_ref name="sei25x_rise1x"/>
 		<device_ref name="speaker"/>
 		<device_ref name="ymz280b"/>
 		<driver status="preliminary"/>
@@ -14906,8 +14936,8 @@
 		<device_ref name="i8251"/>
 		<device_ref name="i8251"/>
 		<device_ref name="screen"/>
-		<device_ref name="gfxdecode"/>
 		<device_ref name="palette"/>
+		<device_ref name="sei25x_rise1x"/>
 		<device_ref name="speaker"/>
 		<device_ref name="ymz280b"/>
 		<driver status="preliminary"/>
@@ -14929,8 +14959,8 @@
 		<device_ref name="i8251"/>
 		<device_ref name="i8251"/>
 		<device_ref name="screen"/>
-		<device_ref name="gfxdecode"/>
 		<device_ref name="palette"/>
+		<device_ref name="sei25x_rise1x"/>
 		<device_ref name="speaker"/>
 		<device_ref name="ymz280b"/>
 		<driver status="preliminary"/>
@@ -17096,6 +17126,57 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
+	<machine name="gauntleg14" sourcefile="midway/vegas.cpp" cloneof="gauntleg" romof="gauntleg">
+		<description>Gauntlet Legends (version 1.4)</description>
+		<year>1998</year>
+		<manufacturer>Atari Games</manufacturer>
+		<rom name="12to16.1.bin" size="1048576" crc="253c6bf2" sha1="5e129576afe2bc4c638242e010735655d269a747"/>
+		<rom name="12to16.2.bin" size="1048576" crc="15b1fe78" sha1="532c4937b55befcc3a8cb25b0282d63e206fba47"/>
+		<rom name="12to16.3.bin" size="1048576" crc="1027e54f" sha1="a841f5cc5b022ddfaf70c97a64d1582f0a2ca70e"/>
+		<rom name="322_gauntlet.u37" merge="322_gauntlet.u37" size="8192" crc="0fe0bd0a" sha1="bfd54572e2923d26392e89961d044357f551872a"/>
+		<rom name="legend13.bin" size="524288" crc="34674c5f" sha1="92ec1779f3ab32944cbd953b6e1889503a57794b"/>
+		<rom name="legend14.bin" size="524288" crc="66869402" sha1="bf470e0b9198b80f8baf8b9432a7e1df8c7d18ca"/>
+		<rom name="vegassio.bin" merge="vegassio.bin" size="32768" crc="d1470e23" sha1="f6e8405cfa604528c0224401bc374a6df9caccef"/>
+		<disk name="gauntleg14" sha1="920a1048fb0503026ab0da2c1f82f6c11a51e0e7" region="pci:05.0:ide:0:hdd"/>
+		<device_ref name="r5000le"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="vrc5074"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="rs232"/>
+		<device_ref name="ide_pci"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="voodoo_2_pci"/>
+		<device_ref name="voodoo_2"/>
+		<device_ref name="m48t37"/>
+		<device_ref name="smc91c94"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<device_ref name="dcs2_audio_2104"/>
+		<device_ref name="adsp2104"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="midway_ioasic"/>
+		<driver status="good"/>
+	</machine>
 	<machine name="gdariusg" sourcefile="sony/taitogn.cpp" romof="coh3002t">
 		<description>G-Darius (VER 2.70G)</description>
 		<year>2011</year>
@@ -17610,6 +17691,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -17688,6 +17772,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -17995,20 +18082,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-led0.u53" size="2176" crc="6ec86dc6" sha1="01665ad6d92d2b8e917e33ca705fab9258766513"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_v1.00.25" sha1="6dc445b982aee3bab93ade5c4f5d148471939ecc" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18056,20 +18144,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g42-us-u.u53" size="2176" crc="06e0b452" sha1="f6b865799cb94941e0e77453b9d556d5988b0194"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2002_v2.01.06" sha1="d1363bc17337c91684148b76fa1e73ac9dd80d8f" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18117,20 +18206,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g43-us-u.u53" size="2176" crc="51c6f726" sha1="9930337315128f89f7202893fb123ee3f0d33649"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2003_v3.00.10" sha1="d789ef86837a5012beb224c487537dd563d93886" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18178,20 +18268,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g43-us-u.u53" merge="g43-us-u.u53" size="2176" crc="51c6f726" sha1="9930337315128f89f7202893fb123ee3f0d33649"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2003_v3.00.09" sha1="3c9cf82c3ad87b0d6b5a21089795abd8a08f8dd2" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18239,20 +18330,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g44-us-u.u53" size="2176" status="nodump"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2004_v4.00.08" sha1="739a52d6ce13bb6ac7a543ee0e8086fb66be19b9" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18300,20 +18392,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g44-us-u.u53" size="2176" status="nodump"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2004_v4.00.00" sha1="fe7525de89d67e0e3d10c48572fd04382543c19f" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18361,20 +18454,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g45-us-u.u53" size="2176" status="nodump"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2005_v5.01.06" sha1="fa465263218d8e39102ec81d116c11447ef07e19" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18422,20 +18516,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g45-us-u.u53" size="2176" status="nodump"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2005_v5.01.02" sha1="6e20d60fb7e9ab6bf0086267fa5b4329d8a9f468" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18483,20 +18578,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g45-us-u.u53" size="2176" status="nodump"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2005_v5.01.00" sha1="d8de569d8cf97b5aaada10ce896eb3c75f1b37f1" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18544,20 +18640,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g45-us-u.u53" size="2176" status="nodump"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_2005_v5.00.00" sha1="4236f57e639cae2e5a3eaa97fb24f5ff80557e84" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -18605,20 +18702,21 @@
 		<rom name="17s20lpc_sb4.u26" merge="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" merge="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" merge="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" merge="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" merge="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" merge="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" merge="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" merge="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" merge="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" merge="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" merge="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" merge="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" merge="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" merge="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" merge="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" merge="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" merge="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" merge="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" merge="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" merge="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" merge="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
 		<rom name="g4c-us-u.u53" size="2176" status="nodump"/>
+		<rom name="golf_fore_u15_v101.u15" merge="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" merge="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" merge="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" merge="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" merge="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" merge="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" merge="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<disk name="golf_fore_complete_v6.00.01" sha1="e902b91bd739daee0b95b10e5cf33700dd63a76b" region="pci:06.1:ide:0:hdd"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
@@ -21357,7 +21455,7 @@
 		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="guitarheroac" sourcefile="misc/rawthrillspc.cpp">
+	<machine name="gtrhroac" sourcefile="misc/rawthrillspc.cpp">
 		<description>Guitar Hero Arcade (v1.0.5)</description>
 		<year>2008</year>
 		<manufacturer>Raw Thrills (Activision / Konami license)</manufacturer>
@@ -21412,6 +21510,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -21490,6 +21591,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -21568,6 +21672,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -21646,6 +21753,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -21724,6 +21834,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -21802,6 +21915,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -22303,6 +22419,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -22899,6 +23018,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -22941,8 +23064,54 @@
 		<rom name="hyperdrive1.1.u32" size="524288" crc="3120991e" sha1="8e47888a5a23c9d3c0d0c64497e1cfb4e46c2cd6"/>
 		<rom name="hyperdrive1.2.u33" size="1048576" crc="fcc922fb" sha1="7bfa4f0614f561ba77ad2dc7d776af2c3e84b7e7"/>
 		<rom name="hyprdrve.u32" size="524288" crc="3e18cb80" sha1="b18cc4253090ee1d65d72a7ec0c426ed08c4f238"/>
-		<rom name="seattle.snd" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d" status="baddump"/>
+		<rom name="seattle.snd" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d"/>
 		<disk name="hyprdriv" sha1="8cfa343797575b32f46cc24150024be48963a03e" region="pci:09.0:ide:0:hdd"/>
+		<device_ref name="r5000le"/>
+		<device_ref name="pci_root"/>
+		<device_ref name="gt64010"/>
+		<device_ref name="ide_pci"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="idectrl32bm"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="voodoo_1_pci"/>
+		<device_ref name="voodoo_1"/>
+		<device_ref name="nvram"/>
+		<device_ref name="screen"/>
+		<device_ref name="smc91c94"/>
+		<device_ref name="speaker"/>
+		<device_ref name="dcs2_audio_2115"/>
+		<device_ref name="adsp2115"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="midway_ioasic"/>
+		<driver status="good"/>
+	</machine>
+	<machine name="hyprdriv131" sourcefile="midway/seattle.cpp" cloneof="hyprdriv" romof="hyprdriv">
+		<description>Hyperdrive (ver 1.31, Oct 21 1998)</description>
+		<year>1998</year>
+		<manufacturer>Midway Games</manufacturer>
+		<rom name="hyperdrive1.1.u32" merge="hyperdrive1.1.u32" size="524288" crc="3120991e" sha1="8e47888a5a23c9d3c0d0c64497e1cfb4e46c2cd6"/>
+		<rom name="hyperdrive1.2.u33" merge="hyperdrive1.2.u33" size="1048576" crc="fcc922fb" sha1="7bfa4f0614f561ba77ad2dc7d776af2c3e84b7e7"/>
+		<rom name="hyprdrve.u32" merge="hyprdrve.u32" size="524288" crc="3e18cb80" sha1="b18cc4253090ee1d65d72a7ec0c426ed08c4f238"/>
+		<rom name="seattle.snd" merge="seattle.snd" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d"/>
+		<disk name="hyprdriv131" sha1="24473e702a1f38ff563cac0b85360d89929a685d" region="pci:09.0:ide:0:hdd"/>
 		<device_ref name="r5000le"/>
 		<device_ref name="pci_root"/>
 		<device_ref name="gt64010"/>
@@ -25759,6 +25928,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -25889,7 +26062,7 @@
 	<machine name="kinst" sourcefile="rare/kinst.cpp">
 		<description>Killer Instinct</description>
 		<year>1994</year>
-		<manufacturer>Rare (Midway license)</manufacturer>
+		<manufacturer>Rare / Nintendo (Midway license)</manufacturer>
 		<rom name="ki-l13.u98" size="524288" crc="65f7ea31" sha1="7f21620a512549db6821a0b4fa53681a767b7974"/>
 		<rom name="ki-l14.u98" size="524288" crc="afedb75f" sha1="07254f20707377f7195e64675eb6458e663c1a9a"/>
 		<rom name="ki-l15d.u98" size="524288" crc="7b65ca3d" sha1="607394d4ba1713f38c2cb5159303cace9cde991e"/>
@@ -25923,7 +26096,7 @@
 	<machine name="kinst2" sourcefile="rare/kinst.cpp">
 		<description>Killer Instinct 2</description>
 		<year>1996</year>
-		<manufacturer>Rare (Midway license)</manufacturer>
+		<manufacturer>Rare / Nintendo (Midway license)</manufacturer>
 		<rom name="ki2-l10.u98" size="524288" crc="b17b4b3d" sha1="756629cd1b51ae50f2b9818765dd3d277c3019b3"/>
 		<rom name="ki2-l11.u98" size="524288" crc="0cb8de1e" sha1="fe447f4b1d29b524f57c5ba1890652ef6afff88a"/>
 		<rom name="ki2-l13.u98" size="524288" crc="25ebde3b" sha1="771d150fb4de0a2ceb279954b9545458e93e2405"/>
@@ -25957,7 +26130,7 @@
 	<machine name="kinst2uk" sourcefile="rare/kinst.cpp" cloneof="kinst2" romof="kinst2">
 		<description>Killer Instinct 2 (upgrade kit)</description>
 		<year>1996</year>
-		<manufacturer>Rare (Midway license)</manufacturer>
+		<manufacturer>Rare / Nintendo (Midway license)</manufacturer>
 		<rom name="ki2-l13k.u98" size="524288" crc="3b4f16fc" sha1="c28416f94453fd1f73ba01025276a04610569d12"/>
 		<rom name="ki2-l14k.u98" size="524288" crc="9cbd00a8" sha1="926dce4bb9016331ea40d3c337a9ace896f07493"/>
 		<rom name="ki2_d14p.u98" size="524288" crc="d716d428" sha1="1a3b000fdc35b3824a0c8142ba9b496490894543"/>
@@ -26760,6 +26933,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -29087,6 +29264,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29165,6 +29345,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29243,6 +29426,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29321,6 +29507,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29399,6 +29588,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29477,6 +29669,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29555,6 +29750,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29633,6 +29831,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29711,6 +29912,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -29789,6 +29993,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -30305,7 +30512,7 @@
 		<device_ref name="93c46_8"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="monkeyjmp" sourcefile="skeleton/cubieboard4.cpp">
+	<machine name="monkyjmp" sourcefile="skeleton/cubieboard4.cpp">
 		<description>Monkey Jump</description>
 		<year>20??</year>
 		<manufacturer>Falgas</manufacturer>
@@ -31235,6 +31442,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -31265,6 +31476,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -31331,7 +31546,7 @@
 		<manufacturer>Midway Games</manufacturer>
 		<rom name="2.5.u27" size="524288" crc="6a9bd382" sha1="18b942df6af86ea944c24166dbe88148334eaff9"/>
 		<rom name="2.6.u27" size="524288" crc="ec2885e5" sha1="a7cc77b00d509f87563b57be31df3f8190700905"/>
-		<rom name="2.7.u27" size="524288" crc="4242bf14" sha1="c1fcec67d7463df5f41afc89f22c3b4484279534" status="baddump"/>
+		<rom name="2.7.u27" size="524288" crc="44a086a1" sha1="a5553c18b61148a31ee32c614b33ae0b0b32b15e" status="baddump"/>
 		<rom name="vegassio.bin" size="32768" crc="d1470e23" sha1="f6e8405cfa604528c0224401bc374a6df9caccef"/>
 		<disk name="nbanfl" sha1="f60c627f85f1bf58f2ea674063736a1e516e7e9e" region="pci:05.0:ide:0:hdd"/>
 		<device_ref name="r5000le"/>
@@ -32273,6 +32488,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -32532,6 +32750,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -32652,6 +32873,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -32730,6 +32954,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -32808,6 +33035,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -32886,6 +33116,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -36310,6 +36543,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -38626,6 +38863,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -38706,6 +38946,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -38952,6 +39195,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -40635,6 +40881,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -40713,6 +40962,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -40791,6 +41043,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -42146,7 +42401,7 @@
 		<device_ref name="sh2_7604"/>
 		<device_ref name="timer"/>
 		<device_ref name="m68000"/>
-		<device_ref name="sega_scu"/>
+		<device_ref name="saturn_scu"/>
 		<device_ref name="scudsp"/>
 		<device_ref name="smpc_hle"/>
 		<device_ref name="nvram"/>
@@ -42180,7 +42435,7 @@
 		<device_ref name="sh2_7604"/>
 		<device_ref name="timer"/>
 		<device_ref name="m68000"/>
-		<device_ref name="sega_scu"/>
+		<device_ref name="saturn_scu"/>
 		<device_ref name="scudsp"/>
 		<device_ref name="smpc_hle"/>
 		<device_ref name="nvram"/>
@@ -43089,6 +43344,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -43629,7 +43888,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="sogeki" sourcefile="konami/viper.cpp" cloneof="sscopex" romof="sscopex">
-		<description>Sogeki (ver JAA)</description>
+		<description>Sogeki (ver JRB 1.01)</description>
 		<year>2001</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="941a01.u25" merge="941a01.u25" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87"/>
@@ -44373,14 +44632,45 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="sscopex" sourcefile="konami/viper.cpp" romof="kviper">
-		<description>Silent Scope EX (ver UAA)</description>
+		<description>Silent Scope EX (ver EAC 1.20)</description>
 		<year>2001</year>
 		<manufacturer>Konami</manufacturer>
 		<rom name="941a01.u25" merge="941a01.u25" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87"/>
 		<rom name="941b01.u25" merge="941b01.u25" size="262144" crc="233e5159" sha1="66ff268d5bf78fbfa48cdc3e1b08f8956cfd6cfb"/>
-		<rom name="a13uaa_nvram.u39" size="8192" crc="7b0e1ac8" sha1="1ea549964539e27f87370e9986bfa44eeed037cd"/>
-		<rom name="ds2430.u3" size="40" crc="427a65ef" sha1="745e951715ece9f60898b7ed4809e69558145d2d"/>
+		<rom name="a13eaa_nvram.u39" size="8192" crc="7b0e1ac8" sha1="1ea549964539e27f87370e9986bfa44eeed037cd"/>
+		<rom name="ds2430.u3" size="40" crc="e4f44830" sha1="97a43ae1605b59ffc57b59608f46e6258dcee5ba"/>
 		<disk name="a13c02" sha1="d740784fa51a3f43695ea95e23f92ef05f43284a" region="ata:0:hdd"/>
+		<device_ref name="mpc8240"/>
+		<device_ref name="ds2430a"/>
+		<device_ref name="pci_bus_legacy"/>
+		<device_ref name="ata_interface"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="idehd"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="ata_slot"/>
+		<device_ref name="pc16552d"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="ns16550"/>
+		<device_ref name="k056230_viper"/>
+		<device_ref name="voodoo_3"/>
+		<device_ref name="screen"/>
+		<device_ref name="palette"/>
+		<device_ref name="speaker"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="dmadac"/>
+		<device_ref name="m48t58"/>
+		<device_ref name="timer"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="sscopexu" sourcefile="konami/viper.cpp" cloneof="sscopex" romof="sscopex">
+		<description>Silent Scope EX (ver UAC 1.20)</description>
+		<year>2001</year>
+		<manufacturer>Konami</manufacturer>
+		<rom name="941a01.u25" merge="941a01.u25" size="262144" crc="df6f88d6" sha1="2bc10e4fbec36573aa8b6878492d37665f074d87"/>
+		<rom name="941b01.u25" merge="941b01.u25" size="262144" crc="233e5159" sha1="66ff268d5bf78fbfa48cdc3e1b08f8956cfd6cfb"/>
+		<rom name="a13uaa_nvram.u39" merge="a13eaa_nvram.u39" size="8192" crc="7b0e1ac8" sha1="1ea549964539e27f87370e9986bfa44eeed037cd"/>
+		<rom name="ds2430.u3" size="40" crc="427a65ef" sha1="745e951715ece9f60898b7ed4809e69558145d2d"/>
+		<disk name="a13c02" merge="a13c02" sha1="d740784fa51a3f43695ea95e23f92ef05f43284a" region="ata:0:hdd"/>
 		<device_ref name="mpc8240"/>
 		<device_ref name="ds2430a"/>
 		<device_ref name="pci_bus_legacy"/>
@@ -44954,6 +45244,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -46105,6 +46399,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -46136,6 +46434,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -46167,6 +46469,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -46198,6 +46504,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -47629,6 +47939,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -47707,6 +48020,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -49416,6 +49732,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -49494,6 +49813,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -49572,6 +49894,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -49650,6 +49975,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -49728,6 +50056,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -49806,6 +50137,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -49842,9 +50176,12 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="warfa" sourcefile="midway/vegas.cpp">
-		<description>War: Final Assault (EPROM 1.9 Mar 25 1999, GUTS 1.3 Apr 20 1999, GAME Apr 20 1999)</description>
+		<description>War: Final Assault (GUTS 1.3 Apr 20 1999, GAME Apr 20 1999)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
+		<rom name="war42ce.bin" size="524288" crc="1a6e7f59" sha1="0d8b4ce1e4b1132689796c4374aa54447b9a3369"/>
+		<rom name="war__upgrade__ver_1.91.u27" size="524288" crc="4d8fe0f8" sha1="b809d29760ff229200509ba6751d8255faca7082"/>
+		<rom name="warboot.v16" size="524288" crc="1c44b3a3" sha1="e81c15d7c9bc19078787d39c7f5e48eab003c5f4"/>
 		<rom name="warboot.v19" size="524288" crc="b0c095cd" sha1="d3b8cccdca83f0ecb49aa7993864cfdaa4e5c6f0"/>
 		<rom name="warsnd.106" size="32768" crc="d1470e23" sha1="f6e8405cfa604528c0224401bc374a6df9caccef"/>
 		<disk name="warfa" sha1="87f8a8878cd6be716dbd6c68fb1bc7f564ede484" region="pci:05.0:ide:0:hdd"/>
@@ -49888,10 +50225,13 @@
 		<driver status="good"/>
 	</machine>
 	<machine name="warfaa" sourcefile="midway/vegas.cpp" cloneof="warfa" romof="warfa">
-		<description>War: Final Assault (EPROM 1.6 Jan 14 1999, GUTS 1.1 Mar 16 1999, GAME Mar 16 1999)</description>
+		<description>War: Final Assault (GUTS 1.1 Mar 16 1999, GAME Mar 16 1999)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
-		<rom name="warboot.v16" size="524288" crc="1c44b3a3" sha1="e81c15d7c9bc19078787d39c7f5e48eab003c5f4"/>
+		<rom name="war42ce.bin" merge="war42ce.bin" size="524288" crc="1a6e7f59" sha1="0d8b4ce1e4b1132689796c4374aa54447b9a3369"/>
+		<rom name="war__upgrade__ver_1.91.u27" merge="war__upgrade__ver_1.91.u27" size="524288" crc="4d8fe0f8" sha1="b809d29760ff229200509ba6751d8255faca7082"/>
+		<rom name="warboot.v16" merge="warboot.v16" size="524288" crc="1c44b3a3" sha1="e81c15d7c9bc19078787d39c7f5e48eab003c5f4"/>
+		<rom name="warboot.v19" merge="warboot.v19" size="524288" crc="b0c095cd" sha1="d3b8cccdca83f0ecb49aa7993864cfdaa4e5c6f0"/>
 		<rom name="warsnd.106" merge="warsnd.106" size="32768" crc="d1470e23" sha1="f6e8405cfa604528c0224401bc374a6df9caccef"/>
 		<disk name="warfaa" sha1="b443ba68003f8492e5c20156e0d3091fe51e9224" region="pci:05.0:ide:0:hdd"/>
 		<device_ref name="r5000le"/>
@@ -49934,58 +50274,15 @@
 		<driver status="good"/>
 	</machine>
 	<machine name="warfab" sourcefile="midway/vegas.cpp" cloneof="warfa" romof="warfa">
-		<description>War: Final Assault (EPROM 1.3 Apr 7 1999, GUTS 1.3 Apr 7 1999, GAME Apr 7 1999)</description>
+		<description>War: Final Assault (GUTS 1.3 Mar 25 1999, GAME Mar 23 1999)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
-		<rom name="war42ce.bin" size="524288" crc="1a6e7f59" sha1="0d8b4ce1e4b1132689796c4374aa54447b9a3369"/>
+		<rom name="war42ce.bin" merge="war42ce.bin" size="524288" crc="1a6e7f59" sha1="0d8b4ce1e4b1132689796c4374aa54447b9a3369"/>
+		<rom name="war__upgrade__ver_1.91.u27" merge="war__upgrade__ver_1.91.u27" size="524288" crc="4d8fe0f8" sha1="b809d29760ff229200509ba6751d8255faca7082"/>
+		<rom name="warboot.v16" merge="warboot.v16" size="524288" crc="1c44b3a3" sha1="e81c15d7c9bc19078787d39c7f5e48eab003c5f4"/>
+		<rom name="warboot.v19" merge="warboot.v19" size="524288" crc="b0c095cd" sha1="d3b8cccdca83f0ecb49aa7993864cfdaa4e5c6f0"/>
 		<rom name="warsnd.106" merge="warsnd.106" size="32768" crc="d1470e23" sha1="f6e8405cfa604528c0224401bc374a6df9caccef"/>
 		<disk name="warfa15" sha1="bd538bf2f6a245545dae4ea97c433bb3f7d4394e" region="pci:05.0:ide:0:hdd"/>
-		<device_ref name="r5000le"/>
-		<device_ref name="pci_root"/>
-		<device_ref name="vrc5074"/>
-		<device_ref name="ns16550"/>
-		<device_ref name="rs232"/>
-		<device_ref name="ide_pci"/>
-		<device_ref name="idectrl32bm"/>
-		<device_ref name="ata_slot"/>
-		<device_ref name="idehd"/>
-		<device_ref name="harddisk_image"/>
-		<device_ref name="ata_slot"/>
-		<device_ref name="cdrom"/>
-		<device_ref name="cdrom_image"/>
-		<device_ref name="cdda"/>
-		<device_ref name="idectrl32bm"/>
-		<device_ref name="ata_slot"/>
-		<device_ref name="idehd"/>
-		<device_ref name="harddisk_image"/>
-		<device_ref name="ata_slot"/>
-		<device_ref name="cdrom"/>
-		<device_ref name="cdrom_image"/>
-		<device_ref name="cdda"/>
-		<device_ref name="voodoo_2_pci"/>
-		<device_ref name="voodoo_2"/>
-		<device_ref name="m48t37"/>
-		<device_ref name="smc91c94"/>
-		<device_ref name="screen"/>
-		<device_ref name="speaker"/>
-		<device_ref name="dcs2_audio_2104"/>
-		<device_ref name="adsp2104"/>
-		<device_ref name="timer"/>
-		<device_ref name="timer"/>
-		<device_ref name="timer"/>
-		<device_ref name="timer"/>
-		<device_ref name="dmadac"/>
-		<device_ref name="dmadac"/>
-		<device_ref name="midway_ioasic"/>
-		<driver status="good"/>
-	</machine>
-	<machine name="warfac" sourcefile="midway/vegas.cpp" cloneof="warfa" romof="warfa">
-		<description>War: Final Assault (EPROM 1.91 Apr 13 1999, GUTS 1.3 Apr 7 1999, GAME Apr 7 1999)</description>
-		<year>1999</year>
-		<manufacturer>Atari Games</manufacturer>
-		<rom name="war__upgrade__ver_1.91.u27" size="524288" crc="4d8fe0f8" sha1="b809d29760ff229200509ba6751d8255faca7082"/>
-		<rom name="warsnd.106" merge="warsnd.106" size="32768" crc="d1470e23" sha1="f6e8405cfa604528c0224401bc374a6df9caccef"/>
-		<disk name="warfa" merge="warfa" sha1="87f8a8878cd6be716dbd6c68fb1bc7f564ede484" region="pci:05.0:ide:0:hdd"/>
 		<device_ref name="r5000le"/>
 		<device_ref name="pci_root"/>
 		<device_ref name="vrc5074"/>
@@ -51022,6 +51319,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>

@@ -3,14 +3,16 @@
 
 <datafile>
 	<header>
-		<name>MAME BIOS</name>
-		<description>MAME BIOS 0.282</description>
-		<category>Emulation</category>
-		<version>0.282</version>
-		<date>31/10/2025</date>
-		<author>AntoPISA</author>
-		<homepage>https://www.progettosnaps.net/</homepage>
-		<url>https://www.progettosnaps.net/dats/MAME/</url>
+		<name>-not specified-</name>
+		<description>-not specified-</description>
+		<category>-not specified-</category>
+		<version>-not specified-</version>
+		<date>-not specified-</date>
+		<author>-not specified-</author>
+		<email>-not specified-</email>
+		<homepage>-not specified-</homepage>
+		<url>-not specified-</url>
+		<comment>-not specified-</comment>
 		<clrmamepro/>
 	</header>
 	<machine name="3dobios" sourcefile="misc/3do.cpp" isbios="yes" runnable="no">
@@ -625,6 +627,9 @@
 		<device_ref name="mcpx_ohci"/>
 		<device_ref name="mcpx_eth"/>
 		<device_ref name="mcpx_apu"/>
+		<device_ref name="dsp56362"/>
+		<device_ref name="hi08"/>
+		<device_ref name="dsp5636x_shi"/>
 		<device_ref name="mcpx_ac97_audio"/>
 		<device_ref name="mcpx_ac97_modem"/>
 		<device_ref name="pci_bridge"/>
@@ -1388,6 +1393,7 @@
 		<device_ref name="v5x_dmau"/>
 		<device_ref name="v5x_icu"/>
 		<device_ref name="v5x_scu"/>
+		<device_ref name="timer"/>
 		<device_ref name="l7a1045"/>
 		<device_ref name="speaker"/>
 		<device_ref name="speaker"/>
@@ -1461,33 +1467,35 @@
 		<description>Eagle BIOS</description>
 		<year>2000</year>
 		<manufacturer>Incredible Technologies</manufacturer>
-		<biosset name="209" description="bootrom 2.09"/>
-		<biosset name="208" description="bootrom 2.08"/>
-		<biosset name="204" description="bootrom 2.04"/>
-		<biosset name="201" description="bootrom 2.01"/>
-		<biosset name="107" description="bootrom 1.07"/>
-		<biosset name="106a" description="bootrom 1.06a"/>
-		<biosset name="106" description="bootrom 1.06"/>
-		<biosset name="105" description="bootrom 1.05"/>
-		<biosset name="103" description="bootrom 1.03"/>
-		<biosset name="102" description="bootrom 1.02"/>
-		<biosset name="101" description="bootrom 1.01"/>
+		<biosset name="209" description="Eagle 40MB bootrom 2.09"/>
+		<biosset name="208" description="Eagle 40MB bootrom 2.08"/>
+		<biosset name="204" description="Eagle 40MB bootrom 2.04"/>
+		<biosset name="201" description="Eagle 40MB bootrom 2.01"/>
+		<biosset name="107" description="Eagle 40MB bootrom 1.07"/>
+		<biosset name="106a" description="Eagle 40MB bootrom 1.06a"/>
+		<biosset name="106" description="Eagle 40MB bootrom 1.06"/>
+		<biosset name="105" description="Eagle 40MB bootrom 1.05"/>
+		<biosset name="103" description="Eagle bootrom 1.03"/>
+		<biosset name="102bbh" description="BBH 8meg bootrom 1.02"/>
+		<biosset name="102" description="Eagle bootrom 1.02"/>
+		<biosset name="101" description="Eagle bootrom 1.01"/>
 		<rom name="17s20lpc_sb4.u26" size="32768" crc="62c4af8a" sha1="6eca277b9c66a401990599e98fdca64a9e38cc9a"/>
 		<rom name="17s20lpc_sb5.u26" size="32768" crc="c88b9d42" sha1="b912d0fc50ecdc6a198c626f6e1644e8405fac6e"/>
 		<rom name="17s50a_red1.u26" size="131072" crc="f5cf3187" sha1="83b4a14de9959e5a776d97d424945d43501bda7f"/>
+		<rom name="bbh_u15_v102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
 		<rom name="e2-card1.u22.jed" size="3025" crc="9d1e1ace" sha1="287d6a30e9f32137ef4eba54f0effa092c97a6eb"/>
 		<rom name="e2-res3.u117.jed" size="3025" crc="4f1ff45a" sha1="213cbdd6cd37ad9b5bfc9545084892a68d29f5ff"/>
-		<rom name="eagle101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
-		<rom name="eagle102.u15" size="1048576" crc="1fd39e73" sha1="d1ac758f94defc5c55c62594b3999a406dd9ef1f"/>
-		<rom name="eagle103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
-		<rom name="eagle105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
-		<rom name="eagle106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
-		<rom name="eagle106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
-		<rom name="eagle107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
-		<rom name="eagle201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
-		<rom name="eagle204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
-		<rom name="eagle208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
-		<rom name="eagle209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="eagle_u15_v201.u15" size="1048576" crc="e180442b" sha1="4f50821fed5bcd786d989520aa2559d6c416fb1f"/>
+		<rom name="eagle_u15_v204.u15" size="1048576" crc="f02e5523" sha1="b979cf72a6992f1ecad9695a08c8d51e315ab537"/>
+		<rom name="eagle_u15_v208.u15" size="1048576" crc="772f2864" sha1="085063a4e34f29ebe3814823cd2c6323a050da36"/>
+		<rom name="eagle_u15_v209.u15" size="1048576" crc="e0fc1a16" sha1="c9524f7ee6b95bd484a3b75bcbe2243cb273f84c"/>
+		<rom name="golf_fore_u15_v101.u15" size="1048576" crc="2600bc2b" sha1="c4b89e69c51e4a3bb1874407c4d30b6caed4f396"/>
+		<rom name="golf_fore_u15_v102.u15" size="1048576" crc="4c000c5e" sha1="4fd5ea2a0874759b621c9cd52cee55d282443e5d"/>
+		<rom name="golf_fore_u15_v103.u15" size="1048576" crc="c35f4cf2" sha1="45301c18c7f8f78754c8ad60ea4d2da5a7dc55fb"/>
+		<rom name="golf_fore_u15_v105.u15" size="1048576" crc="3870dbe0" sha1="09be2d86c7259cd81d945c757044b167a76f30db"/>
+		<rom name="golf_fore_u15_v106.u15" size="1048576" crc="56bc193d" sha1="e531d208ef27f777d0784414885f390d1be654b9"/>
+		<rom name="golf_fore_u15_v106a.u15" size="1048576" crc="9c79b7ad" sha1="ccf1c86e79d65bee30f399e0fa33a7839570d93b"/>
+		<rom name="golf_fore_u15_v107.u15" size="1048576" crc="97a01fc9" sha1="a421dbf4d097b2f50cc005d3cd0d63e562e03df8"/>
 		<device_ref name="vr4310le"/>
 		<device_ref name="pci_root"/>
 		<device_ref name="vrc4373"/>
@@ -1540,6 +1548,10 @@
 		<device_ref name="psxsio1"/>
 		<device_ref name="ram"/>
 		<device_ref name="mb89371"/>
+		<device_ref name="i8251"/>
+		<device_ref name="i8251"/>
+		<device_ref name="clock"/>
+		<device_ref name="clock"/>
 		<device_ref name="93c46_16"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="nscsi_connector"/>
@@ -2596,7 +2608,7 @@
 		<device_ref name="sh2_7604"/>
 		<device_ref name="timer"/>
 		<device_ref name="m68000"/>
-		<device_ref name="sega_scu"/>
+		<device_ref name="saturn_scu"/>
 		<device_ref name="scudsp"/>
 		<device_ref name="smpc_hle"/>
 		<device_ref name="nvram"/>
