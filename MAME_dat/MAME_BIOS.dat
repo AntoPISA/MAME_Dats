@@ -3,16 +3,14 @@
 
 <datafile>
 	<header>
-		<name>-not specified-</name>
-		<description>-not specified-</description>
-		<category>-not specified-</category>
-		<version>-not specified-</version>
-		<date>-not specified-</date>
-		<author>-not specified-</author>
-		<email>-not specified-</email>
-		<homepage>-not specified-</homepage>
-		<url>-not specified-</url>
-		<comment>-not specified-</comment>
+		<name>MAME BIOS</name>
+		<description>MAME BIOS 0.285</description>
+		<category>Emulation</category>
+		<version>0.285</version>
+		<date>30/01/2026</date>
+		<author>AntoPISA</author>
+		<homepage>https://www.progettosnaps.net/</homepage>
+		<url>https://www.progettosnaps.net/dats/MAME/</url>
 		<clrmamepro/>
 	</header>
 	<machine name="3dobios" sourcefile="misc/3do.cpp" isbios="yes" runnable="no">
@@ -29,9 +27,19 @@
 		<rom name="sanyotry.bin" size="1048576" crc="d5cbc509" sha1="b01c53da256dde43ffec4ad3fc3adfa8d635e943"/>
 		<device_ref name="arm7_be"/>
 		<device_ref name="nvram"/>
-		<device_ref name="timer"/>
+		<device_ref name="madam"/>
+		<device_ref name="clio"/>
+		<device_ref name="dspp"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="amy"/>
+		<device_ref name="cr560b"/>
+		<device_ref name="cdda"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
 		<device_ref name="screen"/>
-		<device_ref name="cdrom_image"/>
+		<device_ref name="speaker"/>
+		<device_ref name="software_list"/>
+		<device_ref name="software_list"/>
 	</machine>
 	<machine name="airlbios" sourcefile="sega/naomi.cpp" isbios="yes" runnable="no">
 		<description>NAOMI Airline Pilots (deluxe) BIOS</description>
@@ -90,9 +98,19 @@
 		<rom name="saot_rom2.bin" size="524288" crc="b832da9a" sha1="520d3d1b5897800af47f92efd2444a26b7a7dead"/>
 		<device_ref name="arm7_be"/>
 		<device_ref name="nvram"/>
-		<device_ref name="timer"/>
+		<device_ref name="madam"/>
+		<device_ref name="clio"/>
+		<device_ref name="dspp"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="amy"/>
+		<device_ref name="cr560b"/>
+		<device_ref name="cdda"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
 		<device_ref name="screen"/>
-		<device_ref name="cdrom_image"/>
+		<device_ref name="speaker"/>
+		<device_ref name="software_list"/>
+		<device_ref name="software_list"/>
 	</machine>
 	<machine name="alg_bios" sourcefile="amiga/alg.cpp" isbios="yes" runnable="no">
 		<description>American Laser Games BIOS</description>

@@ -4,10 +4,10 @@
 <datafile>
 	<header>
 		<name>progetto-SNAPS - Official Devices (dir2dat)</name>
-		<description>pS MAME Official Devices 20251231</description>
+		<description>pS MAME Official Devices 20260130</description>
 		<category>MAME System Files</category>
-		<version>0.284</version>
-		<date>31/12/2025</date>
+		<version>0.285</version>
+		<date>30/01/2026</date>
 		<author>AntoPISA</author>
 		<email>progettosnaps@gmail.com</email>
 		<homepage>http://www.progettosnaps.net/</homepage>
@@ -35,6 +35,30 @@
 		<description>4dparprn</description>
 		<rom name="rom.bin" size="2048" crc="189262c9" sha1="d6179664d6860df5ed26fce72f253e28f933b01a"/>
 	</machine>
+	<machine name="a1000kbd_de">
+		<description>a1000kbd_de</description>
+		<rom name="6500-1" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a1000kbd_dk">
+		<description>a1000kbd_dk</description>
+		<rom name="6500-1" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a1000kbd_fr">
+		<description>a1000kbd_fr</description>
+		<rom name="6500-1" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a1000kbd_gb">
+		<description>a1000kbd_gb</description>
+		<rom name="6500-1" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a1000kbd_it">
+		<description>a1000kbd_it</description>
+		<rom name="6500-1" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a1000kbd_se">
+		<description>a1000kbd_se</description>
+		<rom name="6500-1" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
 	<machine name="a1000kbd_us">
 		<description>a1000kbd_us</description>
 		<rom name="6500-1" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
@@ -48,9 +72,61 @@
 		<rom name="apple-a3.3" size="256" crc="6eae8f52" sha1="71906932727ef70952ef6afe6b08708df15cd67d"/>
 		<rom name="apple-a4.4" size="256" crc="94efa977" sha1="851f3bd6863859a1a6909179a5e5bf744b3d807e"/>
 	</machine>
+	<machine name="a2000kbd_ch">
+		<description>a2000kbd_ch</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a2000kbd_de">
+		<description>a2000kbd_de</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a2000kbd_dk">
+		<description>a2000kbd_dk</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a2000kbd_es">
+		<description>a2000kbd_es</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a2000kbd_fr">
+		<description>a2000kbd_fr</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a2000kbd_g80_de">
+		<description>a2000kbd_g80_de</description>
+		<rom name="467.u4" size="2048" crc="fb92a773" sha1="e787dc05de227f30a47ac5b9ee7a355c2e9e693b"/>
+	</machine>
+	<machine name="a2000kbd_g80_dk">
+		<description>a2000kbd_g80_dk</description>
+		<rom name="467.u4" size="2048" crc="fb92a773" sha1="e787dc05de227f30a47ac5b9ee7a355c2e9e693b"/>
+	</machine>
+	<machine name="a2000kbd_g80_gb">
+		<description>a2000kbd_g80_gb</description>
+		<rom name="467.u4" size="2048" crc="fb92a773" sha1="e787dc05de227f30a47ac5b9ee7a355c2e9e693b"/>
+	</machine>
+	<machine name="a2000kbd_g80_se">
+		<description>a2000kbd_g80_se</description>
+		<rom name="467.u4" size="2048" crc="fb92a773" sha1="e787dc05de227f30a47ac5b9ee7a355c2e9e693b"/>
+	</machine>
 	<machine name="a2000kbd_g80_us">
 		<description>a2000kbd_g80_us</description>
 		<rom name="467.u4" size="2048" crc="fb92a773" sha1="e787dc05de227f30a47ac5b9ee7a355c2e9e693b"/>
+	</machine>
+	<machine name="a2000kbd_gb">
+		<description>a2000kbd_gb</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a2000kbd_it">
+		<description>a2000kbd_it</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a2000kbd_no">
+		<description>a2000kbd_no</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a2000kbd_se">
+		<description>a2000kbd_se</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
 	</machine>
 	<machine name="a2000kbd_us">
 		<description>a2000kbd_us</description>
@@ -81,6 +157,11 @@
 	</machine>
 	<machine name="a2bufgrapplerplus">
 		<description>a2bufgrapplerplus</description>
+		<rom name="90rom00002.u18" size="4096" crc="cd07c7ef" sha1="6c2f1375b5df6bb65dfca1444c064661242fef1a"/>
+		<rom name="95rom08048.u10" size="1024" crc="55990f67" sha1="f0907cf02d8c5dbf1bfacb0d626f2231142f0ff7"/>
+	</machine>
+	<machine name="a2bufgrapplerplusa">
+		<description>a2bufgrapplerplusa</description>
 		<rom name="90rom00002.u18" size="4096" crc="cd07c7ef" sha1="6c2f1375b5df6bb65dfca1444c064661242fef1a"/>
 		<rom name="95rom08048.u10" size="1024" crc="55990f67" sha1="f0907cf02d8c5dbf1bfacb0d626f2231142f0ff7"/>
 	</machine>
@@ -159,6 +240,10 @@
 	</machine>
 	<machine name="a2q68">
 		<description>a2q68</description>
+		<rom name="debug1.04-caf4.bin" size="8192" crc="6bead126" sha1="e46d5e8256faece3723e9040f78fd1c8edb3ee0e"/>
+	</machine>
+	<machine name="a2q68plus">
+		<description>a2q68plus</description>
 		<rom name="debug1.04-caf4.bin" size="8192" crc="6bead126" sha1="e46d5e8256faece3723e9040f78fd1c8edb3ee0e"/>
 	</machine>
 	<machine name="a2ramfac">
@@ -301,6 +386,86 @@
 	<machine name="a3fdc">
 		<description>a3fdc</description>
 		<rom name="341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4"/>
+	</machine>
+	<machine name="a500kbd_ch">
+		<description>a500kbd_ch</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_de">
+		<description>a500kbd_de</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_dk">
+		<description>a500kbd_dk</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_es">
+		<description>a500kbd_es</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_fr">
+		<description>a500kbd_fr</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_gb">
+		<description>a500kbd_gb</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_it">
+		<description>a500kbd_it</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_no">
+		<description>a500kbd_no</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_se">
+		<description>a500kbd_se</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a500kbd_us">
+		<description>a500kbd_us</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_ch">
+		<description>a600kbd_ch</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_de">
+		<description>a600kbd_de</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_dk">
+		<description>a600kbd_dk</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_es">
+		<description>a600kbd_es</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_fr">
+		<description>a600kbd_fr</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_gb">
+		<description>a600kbd_gb</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_it">
+		<description>a600kbd_it</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_no">
+		<description>a600kbd_no</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_se">
+		<description>a600kbd_se</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
+	</machine>
+	<machine name="a600kbd_us">
+		<description>a600kbd_us</description>
+		<rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2"/>
 	</machine>
 	<machine name="abc1600mac">
 		<description>abc1600mac</description>
@@ -1080,6 +1245,12 @@
 		<rom name="103.bin" size="16384" crc="f8faaf74" sha1="b11edeaa9eefd75bcfcb5e39bab01b74b7dbc45f"/>
 		<rom name="104.bin" size="16384" crc="c66ae87c" sha1="500339258bd5cad363709c774c0cee36a17986cb"/>
 	</machine>
+	<machine name="bbc_cms6502">
+		<description>bbc_cms6502</description>
+		<rom name="basic2.rom" size="16384" crc="79434781" sha1="4a7393f3a45ea309f744441c16723e2ef447a281"/>
+		<rom name="cms6502_1.19.rom" size="16384" crc="e59d30fd" sha1="835dbb0a8906aaa7ea890f37dc09e9f28e208125"/>
+		<rom name="cmslink.rom" size="8192" crc="f3055016" sha1="619467dc58414089190cbde76a45129d9dfd188e"/>
+	</machine>
 	<machine name="bbc_cumana1">
 		<description>bbc_cumana1</description>
 		<rom name="qfs102.rom" size="16384" crc="083a9285" sha1="4bf31a420a9d752285b088ee4f08a64563527662"/>
@@ -1101,6 +1272,10 @@
 		<rom name="eeprom.bin" size="65536" crc="eb22a606" sha1="7d791234216c63a32b7181ff09c2f5fbdfc7f1a0"/>
 		<rom name="nvrest_1.01.ssd" size="204800" crc="54b49e63" sha1="524826112e436728ba54e73f3f6b25c7b43abd69"/>
 		<rom name="ramfs104.rom" size="16384" crc="2e52e331" sha1="d3c501fb29d35c2d144b164fa3ceb5a3b65d2850"/>
+	</machine>
+	<machine name="bbc_detalker">
+		<description>bbc_detalker</description>
+		<rom name="sp0256a-al2.bin" size="2048" crc="b504ac15" sha1="e60fcb5fa16ff3f3b69d36c7a6e955744d3feafc"/>
 	</machine>
 	<machine name="bbc_ieee488">
 		<description>bbc_ieee488</description>
@@ -1633,7 +1808,8 @@
 	<machine name="c2040">
 		<description>c2040</description>
 		<rom name="901466-01.uk3" size="1024" crc="9d1e25ce" sha1="d539858f839f96393f218307df7394362a84a26a"/>
-		<rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
+		<rom name="901468-06.ul1" size="4096" crc="25b5eed5" sha1="4d9658f2e6ff3276e5c6e224611a66ce44b16fc7"/>
+		<rom name="901468-07.uh1" size="4096" crc="9b09ae83" sha1="6a51c7954938439ca8342fc295bda050c06e1791"/>
 	</machine>
 	<machine name="c2040_fdc">
 		<description>c2040_fdc</description>
@@ -1642,7 +1818,6 @@
 	<machine name="c3040">
 		<description>c3040</description>
 		<rom name="901466-02.uk3" size="1024" crc="9d1e25ce" sha1="d539858f839f96393f218307df7394362a84a26a"/>
-		<rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 		<rom name="901468-06.ul1" size="4096" crc="25b5eed5" sha1="4d9658f2e6ff3276e5c6e224611a66ce44b16fc7"/>
 		<rom name="901468-07.uh1" size="4096" crc="9b09ae83" sha1="6a51c7954938439ca8342fc295bda050c06e1791"/>
 	</machine>
@@ -1653,7 +1828,6 @@
 	<machine name="c4040">
 		<description>c4040</description>
 		<rom name="901466-04.uk3" size="1024" crc="0ab338dc" sha1="6645fa40b81be1ff7d1384e9b52df06a26ab0bfb"/>
-		<rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 		<rom name="901468-11.uj1" size="4096" crc="b7157458" sha1="8415f3159dea73161e0cef7960afa6c76953b6f8"/>
 		<rom name="901468-12.ul1" size="4096" crc="02c44ff9" sha1="e8a94f239082d45f64f01b2d8e488d18fe659cbb"/>
 		<rom name="901468-13.uh1" size="4096" crc="cbd785b3" sha1="6ada7904ac9d13c3f1c0a8715f9c4be1aa6eb0bb"/>
@@ -2442,6 +2616,15 @@
 		<rom name="80035.5a" size="256" crc="f839c90e" sha1="aff7a56c228922e45f4bf9f0c838544363239ec2"/>
 		<rom name="80036.6a" size="256" crc="9fc1a036" sha1="5f447bfe90dc06cd195b2dcf7c88ca90c3e82295"/>
 	</machine>
+	<machine name="dsd5217">
+		<description>dsd5217</description>
+		<rom name="080202_1.bin" size="1025" crc="9287dbf5" sha1="4293cde7ddbedf02814d144d77dba67387677004"/>
+		<rom name="080202_2.bin" size="1025" crc="896c5aaf" sha1="5fe589a79806451abcbfbcff28eca39e925df264"/>
+		<rom name="080341_5.bin" size="8192" crc="3d774f14" sha1="cb21936d2b9de9d0167e0e6f0bb122e11b182bcf"/>
+		<rom name="080341_6.bin" size="8192" crc="40b02f18" sha1="7303d35aba6f3e394949126bf115fdd19a33ec7a"/>
+		<rom name="080448_01.bin" size="8192" crc="371cb3d0" sha1="a9a64c75ac622bae3fbecb116e0445df9cb53205"/>
+		<rom name="080448_02.bin" size="8192" crc="edb2ad5d" sha1="8b3dca21eea8d3b912572480f20fc1e53610ea04"/>
+	</machine>
 	<machine name="dsp56303">
 		<description>dsp56303</description>
 		<rom name="boot-303.bin" size="768" crc="331218e3" sha1="a1728cfaf31919f619a6c4d579f198c5a4bb9e44"/>
@@ -2723,6 +2906,12 @@
 		<rom name="51aw1018b27.bin" size="2048" crc="15f77b53" sha1="1f73098ebf83d7255efcf2b509d12e559001ca5b"/>
 		<rom name="chargen.rom" size="2048" crc="0087cbad" sha1="a6d3dd0512db4c459944c60d728536755a570964"/>
 	</machine>
+	<machine name="exos201">
+		<description>exos201</description>
+		<rom name="080014123456.u20" size="256" crc="681c3a86" sha1="2eb6f6a5b2ebbd3489721ef632f3fbf162044cf4"/>
+		<rom name="nx200h__9520001_00__rev_5.3.u83" size="32768" crc="87efd134" sha1="3a2f692d6372c34831d7fd73c962373b572193c2"/>
+		<rom name="nx200l__9520002_00__rev_5.3.u82" size="32768" crc="fbdf49b3" sha1="605860ab62b6d4d3a43ce9afb79a336e0d68e735"/>
+	</machine>
 	<machine name="f4431_kbd">
 		<description>f4431_kbd</description>
 		<rom name="11419660-00_kb31.u3" size="2048" crc="45b90749" sha1="91d0ef181fe05e9474871e26dc75c313cb67c337"/>
@@ -2999,6 +3188,10 @@
 		<description>i8244</description>
 		<rom name="charset_i8244.bin" size="512" crc="b46a3f31" sha1="415382715455b47b69401b3d60bd8f0036dd7fef"/>
 	</machine>
+	<machine name="i8245">
+		<description>i8245</description>
+		<rom name="charset_i8244.bin" size="512" crc="b46a3f31" sha1="415382715455b47b69401b3d60bd8f0036dd7fef"/>
+	</machine>
 	<machine name="ibm_mfc">
 		<description>ibm_mfc</description>
 		<rom name="xc215 c 0.bin" size="32768" crc="28c58a4f" sha1="e7edf28d20e6c146e3144526c89cd6beea64663b"/>
@@ -3096,6 +3289,10 @@
 	<machine name="iq151_video64">
 		<description>iq151_video64</description>
 		<rom name="iq151_video64font.rom" size="2048" crc="cb6f43c0" sha1="4b2c1d41838d569228f61568c1a16a8d68b3dadf"/>
+	</machine>
+	<machine name="iris_kbd">
+		<description>iris_kbd</description>
+		<rom name="2758_477__1984__key_tronic.bin" size="1024" crc="3a2a6887" sha1="ed59ef7ad493b686f8f2f764549772b75bbd0735"/>
 	</machine>
 	<machine name="isa_aga">
 		<description>isa_aga</description>
@@ -3332,6 +3529,20 @@
 		<description>lha201</description>
 		<rom name="lha-201_ver1.33.ic3" size="32768" crc="a5995180" sha1="4316fd50ce03d1b8f522327c8caa79edc88ac55a"/>
 	</machine>
+	<machine name="lisa2fdc">
+		<description>lisa2fdc</description>
+		<rom name="341-0172-a" size="256" crc="223f3917" sha1="c7d32f091c3a02a0f8159bf51f6c810d23bd7b9f"/>
+		<rom name="341-0290-b" size="4096" crc="bc6364f1" sha1="f3164923330a51366a06d9d8a4a01ec7b0d3a8aa"/>
+	</machine>
+	<machine name="lisafdc">
+		<description>lisafdc</description>
+		<rom name="341-0138-f" size="4096" crc="edd8d560" sha1="872211d21386cd9625b3735d7682e2b2ecff05b4"/>
+		<rom name="341-0172-a" size="256" crc="223f3917" sha1="c7d32f091c3a02a0f8159bf51f6c810d23bd7b9f"/>
+	</machine>
+	<machine name="lisavideo">
+		<description>lisavideo</description>
+		<rom name="341-0229-a.rom" size="256" crc="75904783" sha1="3b0023bd90f2ca1be0b099160a566b044856885d"/>
+	</machine>
 	<machine name="lk201">
 		<description>lk201</description>
 		<rom name="23-001s9-00.bin" size="8192" crc="be293c51" sha1="a11ae004d2d6055d7279da3560c3e56610a19fdb"/>
@@ -3416,6 +3627,10 @@
 		<description>m68705r3</description>
 		<rom name="bootstrap.bin" size="120" crc="5946479b" sha1="834ea00aef5de12dbcd6421a6e21d5ea96cfbf37"/>
 	</machine>
+	<machine name="m68705u3">
+		<description>m68705u3</description>
+		<rom name="bootstrap.bin" size="120" crc="5946479b" sha1="834ea00aef5de12dbcd6421a6e21d5ea96cfbf37"/>
+	</machine>
 	<machine name="m68hc05pge">
 		<description>m68hc05pge</description>
 		<rom name="pge_boot.bin" size="512" crc="62d4dfed" sha1="79dc721651bf47aec53f57885779c84c4781761d"/>
@@ -3435,6 +3650,47 @@
 	<machine name="mackbd_m0110a">
 		<description>mackbd_m0110a</description>
 		<rom name="341-0332-a.bin" size="1024" crc="6554f5b6" sha1="a80404a122d74721cda13b285c412057c2c78bd7"/>
+	</machine>
+	<machine name="mackbd_m0110a_f">
+		<description>mackbd_m0110a_f</description>
+		<rom name="341-0332-a.bin" size="1024" crc="6554f5b6" sha1="a80404a122d74721cda13b285c412057c2c78bd7"/>
+	</machine>
+	<machine name="mackbd_m0110a_j">
+		<description>mackbd_m0110a_j</description>
+		<rom name="341-0332-a.bin" size="1024" crc="6554f5b6" sha1="a80404a122d74721cda13b285c412057c2c78bd7"/>
+	</machine>
+	<machine name="mackbd_m0110b">
+		<description>mackbd_m0110b</description>
+		<rom name="ip8021h_2173.bin" size="1024" crc="5fbd9a94" sha1="32a3b58afb445a8675b12a4de3aec2fa00c99222"/>
+	</machine>
+	<machine name="mackbd_m0110f">
+		<description>mackbd_m0110f</description>
+		<rom name="ip8021h_2173.bin" size="1024" crc="5fbd9a94" sha1="32a3b58afb445a8675b12a4de3aec2fa00c99222"/>
+	</machine>
+	<machine name="mackbd_m0110j">
+		<description>mackbd_m0110j</description>
+		<rom name="ip8021h_2173.bin" size="1024" crc="5fbd9a94" sha1="32a3b58afb445a8675b12a4de3aec2fa00c99222"/>
+	</machine>
+	<machine name="mackbd_m0110t">
+		<description>mackbd_m0110t</description>
+		<rom name="ip8021h_2173.bin" size="1024" crc="5fbd9a94" sha1="32a3b58afb445a8675b12a4de3aec2fa00c99222"/>
+	</machine>
+	<machine name="mackbd_m0120">
+		<description>mackbd_m0120</description>
+		<rom name="ip8021h_2173.bin" size="1024" crc="5fbd9a94" sha1="32a3b58afb445a8675b12a4de3aec2fa00c99222"/>
+	</machine>
+	<machine name="mackbd_m0120p">
+		<description>mackbd_m0120p</description>
+		<rom name="ip8021h_2173.bin" size="1024" crc="5fbd9a94" sha1="32a3b58afb445a8675b12a4de3aec2fa00c99222"/>
+	</machine>
+	<machine name="macxlfdc">
+		<description>macxlfdc</description>
+		<rom name="341-0281-d" size="4096" crc="e343fe74" sha1="a0e484ead2d2315fca261f39fff2f211ff61b0ef"/>
+		<rom name="341-8003-c" size="4096" crc="8c67959a" sha1="aa446b0c4acb4cb6c9d0adfbbea900fb8c04c1e9"/>
+	</machine>
+	<machine name="macxlvideo">
+		<description>macxlvideo</description>
+		<rom name="341-0348-a" size="256" crc="778fc5d9" sha1="ec2533a6bd9e75d02fa69754fb82c7c28f0366ab"/>
 	</machine>
 	<machine name="mc1502_rom">
 		<description>mc1502_rom</description>
@@ -3574,6 +3830,10 @@
 	<machine name="mpf1_ssb">
 		<description>mpf1_ssb</description>
 		<rom name="ssb-mpf.bin" size="4096" crc="f926334f" sha1="35847f8164eed4c0794a8b74e5d7fa972b10eb90"/>
+	</machine>
+	<machine name="mpf1_ssb_ip">
+		<description>mpf1_ssb_ip</description>
+		<rom name="ssb-mpf_ip.bin" size="4096" crc="f28c9d0f" sha1="42a1ce714fe9017cc9c2838757bf072414c752d0"/>
 	</machine>
 	<machine name="mpf1_tva_ip">
 		<description>mpf1_tva_ip</description>
@@ -4083,7 +4343,17 @@
 	</machine>
 	<machine name="osa_analyst">
 		<description>osa_analyst</description>
+		<rom name="b6c_721_u3.u3" size="32768" crc="b1e57023" sha1="6cec5cdc0bf4f8ac88afb0397fcb4738136b0431"/>
+		<rom name="b6m_614_u3.u3" size="32768" crc="eff75543" sha1="d7c1b3824bc87d5ffada6f5c8c72a8b292ff3d46"/>
+		<rom name="b6m_629_u3.u3" size="32768" crc="15e7b1f1" sha1="d2a757114f13c6141d74a15671aa06b675304b4a"/>
+		<rom name="b6m_b15_u3.u3" size="32768" crc="6155de90" sha1="bb5cdf061dde2d1dc7925d455891c3ade1d274e3"/>
+		<rom name="d++_u2.u2" size="32768" crc="48ef032c" sha1="d336cb2096780b4d3bcceda0d2ed1246e780cd8d"/>
 		<rom name="m6l_a15_u2.u2" size="32768" crc="91570897" sha1="e6db36ffc87ce3941a3e12222678069cff9e47f6"/>
+		<rom name="m6l_b25_u2.u2" size="32768" crc="217ae56c" sha1="27ec80d0f82723c2710e2ccb477705934a4c2119"/>
+		<rom name="m6l_b30b_u2.u2" size="32768" crc="4b5026d7" sha1="9715a0220c1bd3456480104f1c7ae61cbf1a1d73"/>
+		<rom name="m6l_b30d_u2.u2" size="32768" crc="bb10e15c" sha1="7b0fb987c49da76a03b46c80d2b4eacaa785ee75"/>
+		<rom name="m6m_625_u2.u2" size="32768" crc="aa7b5cfd" sha1="e909108fdace633a519fecf0b9876fe6a46b2067"/>
+		<rom name="ma3_714a_u2.u2" size="32768" crc="435e1e30" sha1="0d82df7c40443cb341dacebdf65f33c3e03bce70"/>
 	</machine>
 	<machine name="osa_maestro">
 		<description>osa_maestro</description>
@@ -4241,6 +4511,10 @@
 		<description>pd3_30hr</description>
 		<rom name="369c.rom" size="32768" crc="b22f0a89" sha1="be34c8604b8a1ae9c9f3b0b90faba9a1a64a5855"/>
 	</machine>
+	<machine name="pd3_30hrint">
+		<description>pd3_30hrint</description>
+		<rom name="369c.rom" size="32768" crc="b22f0a89" sha1="be34c8604b8a1ae9c9f3b0b90faba9a1a64a5855"/>
+	</machine>
 	<machine name="pd3_c264">
 		<description>pd3_c264</description>
 		<rom name="0002-2019_10-02-90.bin" size="32768" crc="5b5b2fab" sha1="0584deb38b402718f2abef456b0035b34fddb473"/>
@@ -4251,6 +4525,10 @@
 	</machine>
 	<machine name="pd3_mclr">
 		<description>pd3_mclr</description>
+		<rom name="0390.bin" size="32768" crc="adea7a18" sha1="9141eb1a0e5061e0409d65a89b4eaeb119ee4ffb"/>
+	</machine>
+	<machine name="pd3_mclrint">
+		<description>pd3_mclrint</description>
 		<rom name="0390.bin" size="32768" crc="adea7a18" sha1="9141eb1a0e5061e0409d65a89b4eaeb119ee4ffb"/>
 	</machine>
 	<machine name="pd3_pc16">
@@ -4283,6 +4561,10 @@
 	<machine name="pdslc_macconlc">
 		<description>pdslc_macconlc</description>
 		<rom name="asante_maccon_lc_mcilc_1.1.bin" size="16384" crc="b95940be" sha1="317255bcb552ef43f43f85109706ed860baaf6dc"/>
+	</machine>
+	<machine name="pencil2_coleco">
+		<description>pencil2_coleco</description>
+		<rom name="r72114a_8317.bin" size="8192" crc="d393c0cc" sha1="160077afb139943725c634d6539898db59f33657"/>
 	</machine>
 	<machine name="permedia2">
 		<description>permedia2</description>
@@ -4331,6 +4613,10 @@
 	<machine name="pr8210">
 		<description>pr8210</description>
 		<rom name="pr-8210_mcu_ud6005a.bin" size="2048" crc="120fa83b" sha1="b514326ca1f52d6d89056868f9d17eabd4e3f31d"/>
+	</machine>
+	<machine name="prav8ckb">
+		<description>prav8ckb</description>
+		<rom name="cm650-05.bin" size="2048" crc="a97206e3" sha1="f4bb44507889fd06d9e952aeb6c44be66ec6f8e9"/>
 	</machine>
 	<machine name="premier_fdc">
 		<description>premier_fdc</description>
@@ -4569,6 +4855,10 @@
 	</machine>
 	<machine name="qsound">
 		<description>qsound</description>
+		<rom name="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501"/>
+	</machine>
+	<machine name="qsound_hle">
+		<description>qsound_hle</description>
 		<rom name="dl-1425.bin" size="24576" crc="d6cf5ef5" sha1="555f50fe5cdf127619da7d854c03f4a244a0c501"/>
 	</machine>
 	<machine name="qts1">
@@ -4931,7 +5221,6 @@
 	<machine name="sfd1001">
 		<description>sfd1001</description>
 		<rom name="251257-02a.u2" size="2048" crc="b51150de" sha1="3b954eb34f7ea088eed1d33ebc6d6e83a3e9be15"/>
-		<rom name="901467-01.5c" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2"/>
 		<rom name="901885-04.u1" size="1024" crc="bab998c9" sha1="0dc9a3b60f1b866c63eebd882403532fc59fe57f"/>
 		<rom name="901887-01.1j" size="8192" crc="0073b8b2" sha1="b10603195f240118fe5fb6c6dfe5c5097463d890"/>
 		<rom name="901888-01.3j" size="8192" crc="de9b6132" sha1="2e6c2d7ca934e5c550ad14bd5e9e7749686b7af4"/>
@@ -4939,6 +5228,12 @@
 	<machine name="sgi_gm1">
 		<description>sgi_gm1</description>
 		<rom name="070-0253-005.bin" size="65536" crc="a5b883b8" sha1="ad22a07d0a57b012e708b38216b7f3e600e12597"/>
+	</machine>
+	<machine name="sgi_ip2">
+		<description>sgi_ip2</description>
+		<rom name="sgi-ip2-u91.nolabel.od" size="32768" crc="32e1f6b5" sha1="2bd928c3fe2e364b9a38189158e9bad0e5271a59"/>
+		<rom name="sgi-ip2-u92.nolabel.od" size="32768" crc="13dbfdb3" sha1="3361fb62f7a8c429653700bccfc3e937f7508182"/>
+		<rom name="sgi-ip2-u93.ip2.2-008.od" size="32768" crc="bf967590" sha1="1aac48e4f5531a25c5482f64de5cd3c7a9931f11"/>
 	</machine>
 	<machine name="sgi_ip4">
 		<description>sgi_ip4</description>
@@ -5555,6 +5850,10 @@
 		<description>tandy_1000_graphics</description>
 		<rom name="video-array.chr" size="16384" crc="33d64a11" sha1="b63da2a656b6c0a8a32f2be8bdcb51aed983a450"/>
 	</machine>
+	<machine name="tandy_1000x_graphics">
+		<description>tandy_1000x_graphics</description>
+		<rom name="bigblue.chr" size="16384" crc="33d64a11" sha1="b63da2a656b6c0a8a32f2be8bdcb51aed983a450"/>
+	</machine>
 	<machine name="tdl12">
 		<description>tdl12</description>
 		<rom name="tdl-12_v180.bin" size="16384" crc="fd0f4468" sha1="1cf0bf8702747ff3047691d2b661bb08d40754f0"/>
@@ -5688,20 +5987,20 @@
 		<description>tk02</description>
 		<rom name="tk02-v100.bin" size="8192" crc="ad3c4346" sha1="cd57e630371b4d0314e3f15693753fb195c7257d"/>
 	</machine>
-	<machine name="tms32030">
-		<description>tms32030</description>
+	<machine name="tms320c30">
+		<description>tms320c30</description>
 		<rom name="c30boot.bin" size="16384" crc="bddc2763" sha1="96b2170ecee5bec5abaa1741bb2d3b6096ecc262"/>
 	</machine>
-	<machine name="tms32031">
-		<description>tms32031</description>
+	<machine name="tms320c31">
+		<description>tms320c31</description>
 		<rom name="c31boot.bin" size="16384" crc="bddc2763" sha1="96b2170ecee5bec5abaa1741bb2d3b6096ecc262"/>
 	</machine>
-	<machine name="tms32032">
-		<description>tms32032</description>
+	<machine name="tms320c32">
+		<description>tms320c32</description>
 		<rom name="c32boot.bin" size="16384" crc="ecf84729" sha1="4d32ead450f921f563514b061ea561a222283616"/>
 	</machine>
-	<machine name="tms32033">
-		<description>tms32033</description>
+	<machine name="tms320vc33">
+		<description>tms320vc33</description>
 		<rom name="c31boot.bin" size="16384" crc="bddc2763" sha1="96b2170ecee5bec5abaa1741bb2d3b6096ecc262"/>
 	</machine>
 	<machine name="tp880v">
@@ -6015,6 +6314,10 @@
 	<machine name="x820kb">
 		<description>x820kb</description>
 		<rom name="820iikey.bin" size="1024" crc="8ea3b39b" sha1="3f05959f54a558b273567b1b4f0c7cdf46d8d9bf"/>
+	</machine>
+	<machine name="xetec_c5181">
+		<description>xetec_c5181</description>
+		<rom name="xetec c-5181 v1.0.bin" size="8192" crc="7ede21e7" sha1="431c57e876c7432c07469c461e7438678ebb0043"/>
 	</machine>
 	<machine name="xt446">
 		<description>xt446</description>

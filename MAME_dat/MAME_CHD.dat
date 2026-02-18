@@ -3,16 +3,14 @@
 
 <datafile>
 	<header>
-		<name>-not specified-</name>
-		<description>-not specified-</description>
-		<category>-not specified-</category>
-		<version>-not specified-</version>
-		<date>-not specified-</date>
-		<author>-not specified-</author>
-		<email>-not specified-</email>
-		<homepage>-not specified-</homepage>
-		<url>-not specified-</url>
-		<comment>-not specified-</comment>
+		<name>MAME CHDs</name>
+		<description>MAME CHDs 0.285</description>
+		<category>Emulation</category>
+		<version>0.285</version>
+		<date>30/01/2026</date>
+		<author>AntoPISA</author>
+		<homepage>https://www.progettosnaps.net/</homepage>
+		<url>https://www.progettosnaps.net/dats/MAME/</url>
 		<clrmamepro/>
 	</header>
 	<machine name="2spicy" sourcefile="sega/lindbergh.cpp" romof="lindbios">
@@ -372,9 +370,6 @@
 		<device_ref name="rs232"/>
 		<device_ref name="archimedes_exp_slot"/>
 		<device_ref name="archimedes_econet_slot"/>
-		<softwarelist name="archimedes"/>
-		<softwarelist name="archimedes_hdd"/>
-		<softwarelist name="archimedes_rom"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="aa4" sourcefile="acorn/aa310.cpp" cloneof="aa5000" romof="aa5000">
@@ -437,9 +432,6 @@
 		<device_ref name="acorn_bmu"/>
 		<device_ref name="acorn_lc"/>
 		<device_ref name="generic_socket"/>
-		<softwarelist name="archimedes"/>
-		<softwarelist name="archimedes_hdd"/>
-		<softwarelist name="archimedes_rom"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="aa4000" sourcefile="acorn/aa310.cpp">
@@ -499,9 +491,6 @@
 		<device_ref name="rs232"/>
 		<device_ref name="archimedes_exp_slot"/>
 		<device_ref name="archimedes_econet_slot"/>
-		<softwarelist name="archimedes"/>
-		<softwarelist name="archimedes_hdd"/>
-		<softwarelist name="archimedes_rom"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="aa5000" sourcefile="acorn/aa310.cpp">
@@ -574,9 +563,6 @@
 		<device_ref name="archimedes_exp_slot"/>
 		<device_ref name="archimedes_econet_slot"/>
 		<device_ref name="generic_socket"/>
-		<softwarelist name="archimedes"/>
-		<softwarelist name="archimedes_hdd"/>
-		<softwarelist name="archimedes_rom"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="aa5000a" sourcefile="acorn/aa310.cpp" cloneof="aa5000" romof="aa5000">
@@ -649,9 +635,6 @@
 		<device_ref name="archimedes_exp_slot"/>
 		<device_ref name="archimedes_econet_slot"/>
 		<device_ref name="generic_socket"/>
-		<softwarelist name="archimedes"/>
-		<softwarelist name="archimedes_hdd"/>
-		<softwarelist name="archimedes_rom"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="abclimax" sourcefile="sega/lindbergh.cpp" romof="lindbios">
@@ -5545,7 +5528,7 @@
 		<device_ref name="isa16_slot"/>
 		<device_ref name="tgui9680"/>
 		<device_ref name="screen"/>
-		<device_ref name="trident_vga"/>
+		<device_ref name="tgui9680_vga"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="calspeed" sourcefile="midway/seattle.cpp">
@@ -9028,7 +9011,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="darkhleg" sourcefile="konami/ksys573.cpp" romof="sys573">
@@ -11306,7 +11288,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ddrsn2aa" sourcefile="konami/kpython2.cpp" cloneof="ddrsn2a" romof="ddrsn2a">
@@ -11345,7 +11326,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ddrsn2j" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -11384,7 +11364,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ddrsn2ja" sourcefile="konami/kpython2.cpp" cloneof="ddrsn2j" romof="ddrsn2j">
@@ -11423,7 +11402,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ddrsn2u" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -11462,7 +11440,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ddrsna" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -11501,7 +11478,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ddrsnj" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -11540,7 +11516,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ddrsnu" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -11579,7 +11554,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ddru" sourcefile="konami/ksys573.cpp" cloneof="dstage" romof="dstage">
@@ -13751,7 +13725,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv2aa" sourcefile="konami/kpython2.cpp" cloneof="drmnv2a" romof="drmnv2a">
@@ -13790,7 +13763,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv2ab" sourcefile="konami/kpython2.cpp" cloneof="drmnv2a" romof="drmnv2a">
@@ -13829,7 +13801,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv2j" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -13868,7 +13839,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv2ja" sourcefile="konami/kpython2.cpp" cloneof="drmnv2j" romof="drmnv2j">
@@ -13907,7 +13877,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv2jb" sourcefile="konami/kpython2.cpp" cloneof="drmnv2j" romof="drmnv2j">
@@ -13946,7 +13915,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv3a" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -13985,7 +13953,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv3aa" sourcefile="konami/kpython2.cpp" cloneof="drmnv3a" romof="drmnv3a">
@@ -14024,7 +13991,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv3j" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -14063,7 +14029,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnv3ja" sourcefile="konami/kpython2.cpp" cloneof="drmnv3j" romof="drmnv3j">
@@ -14102,7 +14067,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnva" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -14141,7 +14105,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="drmnvj" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -14180,7 +14143,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="ds6000" sourcefile="namco/ds6000.cpp">
@@ -14733,7 +14695,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="dstagesna" sourcefile="konami/kpython2.cpp" cloneof="dstagesn" romof="dstagesn">
@@ -14772,7 +14733,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="dygolf" sourcefile="sega/naomi.cpp" romof="naomigd">
@@ -14867,8 +14827,8 @@
 		<device_ref name="isa16_slot"/>
 		<device_ref name="tgui9680"/>
 		<device_ref name="screen"/>
-		<device_ref name="trident_vga"/>
-		<driver status="good"/>
+		<device_ref name="tgui9680_vga"/>
+		<driver status="imperfect"/>
 	</machine>
 	<machine name="eldoralg" sourcefile="amiga/cubo.cpp" romof="cubo">
 		<description>Eldorado (4.2)</description>
@@ -15707,7 +15667,7 @@
 		<rom name="95751937.bin" size="65536" crc="4a99ee11" sha1="335398ebc64bbfe86e2652ac080a5943dd413928"/>
 		<disk name="95100303" sha1="9ba47c96de27ec2bea9c6624d78d309b67705406" region="scsibus:3:cdrom"/>
 		<device_ref name="i486"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="mc146818"/>
 		<device_ref name="nvram"/>
 		<device_ref name="nscsi_bus"/>
@@ -21023,7 +20983,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv2aa" sourcefile="konami/kpython2.cpp" cloneof="gtrfrkv2a" romof="gtrfrkv2a">
@@ -21062,7 +21021,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv2ab" sourcefile="konami/kpython2.cpp" cloneof="gtrfrkv2a" romof="gtrfrkv2a">
@@ -21101,7 +21059,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv2j" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -21140,7 +21097,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv2ja" sourcefile="konami/kpython2.cpp" cloneof="gtrfrkv2j" romof="gtrfrkv2j">
@@ -21179,7 +21135,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv2jb" sourcefile="konami/kpython2.cpp" cloneof="gtrfrkv2j" romof="gtrfrkv2j">
@@ -21218,7 +21173,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv3a" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -21257,7 +21211,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv3aa" sourcefile="konami/kpython2.cpp" cloneof="gtrfrkv3a" romof="gtrfrkv3a">
@@ -21296,7 +21249,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv3j" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -21335,7 +21287,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkv3ja" sourcefile="konami/kpython2.cpp" cloneof="gtrfrkv3j" romof="gtrfrkv3j">
@@ -21374,7 +21325,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkva" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -21413,7 +21363,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrfrkvj" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -21452,7 +21401,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="gtrhroac" sourcefile="misc/rawthrillspc.cpp">
@@ -22373,7 +22321,7 @@
 		<device_ref name="isa16_slot"/>
 		<device_ref name="tgui9680"/>
 		<device_ref name="screen"/>
-		<device_ref name="trident_vga"/>
+		<device_ref name="tgui9680_vga"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="hotd3" sourcefile="sega/chihiro.cpp" romof="chihiro">
@@ -24107,7 +24055,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="generic_cartslot"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="vtech_innotv_cart"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="intrtvg" sourcefile="tvgames/generalplus_gpl32612.cpp">
@@ -28526,12 +28473,22 @@
 		<year>199?</year>
 		<manufacturer>American Laser Games</manufacturer>
 		<rom name="saot_rom2.bin" merge="saot_rom2.bin" size="524288" crc="b832da9a" sha1="520d3d1b5897800af47f92efd2444a26b7a7dead"/>
-		<disk name="mad dog ii" sha1="0117c1fd279f42e942648ca55fa75dd45da37a4f" region="cdrom"/>
+		<disk name="mad dog ii" sha1="0117c1fd279f42e942648ca55fa75dd45da37a4f" region="cdimage"/>
 		<device_ref name="arm7_be"/>
 		<device_ref name="nvram"/>
-		<device_ref name="timer"/>
+		<device_ref name="madam"/>
+		<device_ref name="clio"/>
+		<device_ref name="dspp"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="amy"/>
+		<device_ref name="cr560b"/>
+		<device_ref name="cdda"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
 		<device_ref name="screen"/>
-		<device_ref name="cdrom_image"/>
+		<device_ref name="speaker"/>
+		<device_ref name="software_list"/>
+		<device_ref name="software_list"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="meltyb" sourcefile="sega/naomi.cpp" romof="naomigd">
@@ -30522,7 +30479,6 @@
 		<device_ref name="generic_cartslot"/>
 		<device_ref name="generic_cartslot"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="cubieboard4"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="monomedal" sourcefile="sega/segasp.cpp" romof="segasp">
@@ -30917,7 +30873,7 @@
 		<device_ref name="address_map_bank"/>
 		<device_ref name="amd_29f040"/>
 		<device_ref name="ds1205"/>
-		<driver status="good"/>
+		<driver status="imperfect"/>
 	</machine>
 	<machine name="mtchxl6ko" sourcefile="merit/mtouchxl.cpp" cloneof="mtchxl6k" romof="mtchxl6k">
 		<description>MegaTouch XL 6000 (Version r02)</description>
@@ -30967,7 +30923,7 @@
 		<device_ref name="address_map_bank"/>
 		<device_ref name="amd_29f040"/>
 		<device_ref name="ds1205"/>
-		<driver status="good"/>
+		<driver status="imperfect"/>
 	</machine>
 	<machine name="mtchxl6ko4" sourcefile="merit/mtouchxl.cpp" cloneof="mtchxl6k" romof="mtchxl6k">
 		<description>MegaTouch XL 6000 (Version r04)</description>
@@ -31017,7 +30973,7 @@
 		<device_ref name="address_map_bank"/>
 		<device_ref name="amd_29f040"/>
 		<device_ref name="ds1205"/>
-		<driver status="good"/>
+		<driver status="imperfect"/>
 	</machine>
 	<machine name="mtchxlgld" sourcefile="merit/mtouchxl.cpp">
 		<description>MegaTouch XL Gold (Version r01)</description>
@@ -31216,7 +31172,7 @@
 		<device_ref name="address_map_bank"/>
 		<device_ref name="amd_29f040"/>
 		<device_ref name="ds1205"/>
-		<driver status="good"/>
+		<driver status="imperfect"/>
 	</machine>
 	<machine name="musclhit" sourcefile="konami/konamigs.cpp">
 		<description>Muscle Ranking Kinniku Banzuke Spray Hitter</description>
@@ -32547,12 +32503,22 @@
 		<rom name="panafz1.bin" merge="panafz1.bin" size="1048576" crc="c8c8ff89" sha1="34bf189111295f74d7b7dfc1f304d98b8d36325a"/>
 		<rom name="panafz10.bin" merge="panafz10.bin" size="1048576" crc="58242cee" sha1="3c912300775d1ad730dc35757e279c274c0acaad"/>
 		<rom name="sanyotry.bin" merge="sanyotry.bin" size="1048576" crc="d5cbc509" sha1="b01c53da256dde43ffec4ad3fc3adfa8d635e943"/>
-		<disk name="orbatak" sha1="25cb3b889cf09dbe5faf2b0ca4aae5e03453da00" region="cdrom"/>
+		<disk name="orbatak" sha1="25cb3b889cf09dbe5faf2b0ca4aae5e03453da00" region="cdimage"/>
 		<device_ref name="arm7_be"/>
 		<device_ref name="nvram"/>
-		<device_ref name="timer"/>
+		<device_ref name="madam"/>
+		<device_ref name="clio"/>
+		<device_ref name="dspp"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="amy"/>
+		<device_ref name="cr560b"/>
+		<device_ref name="cdda"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
 		<device_ref name="screen"/>
-		<device_ref name="cdrom_image"/>
+		<device_ref name="speaker"/>
+		<device_ref name="software_list"/>
+		<device_ref name="software_list"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="otenamhf" sourcefile="sony/taitogn.cpp" romof="coh3002t">
@@ -40506,7 +40472,7 @@
 		<rom name="rotr.nv" size="32768" crc="62543517" sha1="a4bf3431cdab956839bb155c4a8c140d30e5c7ec"/>
 		<disk name="rotr" sha1="d67d7feb52d8c7ba1d2a190a40d97e84871f2d80" region="scsibus:0:harddisk"/>
 		<device_ref name="i486"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="mc146818"/>
 		<device_ref name="nvram"/>
 		<device_ref name="nscsi_bus"/>
@@ -40536,7 +40502,7 @@
 		<rom name="rotr.nv" merge="rotr.nv" size="32768" crc="62543517" sha1="a4bf3431cdab956839bb155c4a8c140d30e5c7ec"/>
 		<disk name="rotra" sha1="570d402e5e9bba123edf7dfa9db7a0e6bdb23823" region="scsibus:0:harddisk"/>
 		<device_ref name="i486"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="mc146818"/>
 		<device_ref name="nvram"/>
 		<device_ref name="nscsi_bus"/>
@@ -42496,7 +42462,7 @@
 		<device_ref name="smc91c94"/>
 		<device_ref name="speaker"/>
 		<device_ref name="atari_cage_seattle"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
@@ -42547,7 +42513,7 @@
 		<device_ref name="smc91c94"/>
 		<device_ref name="speaker"/>
 		<device_ref name="atari_cage_seattle"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
@@ -42598,7 +42564,7 @@
 		<device_ref name="smc91c94"/>
 		<device_ref name="speaker"/>
 		<device_ref name="atari_cage_seattle"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
@@ -42649,7 +42615,7 @@
 		<device_ref name="smc91c94"/>
 		<device_ref name="speaker"/>
 		<device_ref name="atari_cage_seattle"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
@@ -43256,12 +43222,22 @@
 		<year>1994</year>
 		<manufacturer>American Laser Games</manufacturer>
 		<rom name="saot_rom2.bin" merge="saot_rom2.bin" size="524288" crc="b832da9a" sha1="520d3d1b5897800af47f92efd2444a26b7a7dead"/>
-		<disk name="shootout at old tucson" sha1="bd42213c6b460b5b6153a8b2b41d0a114171e86e" region="cdrom"/>
+		<disk name="shootout at old tucson" sha1="bd42213c6b460b5b6153a8b2b41d0a114171e86e" region="cdimage"/>
 		<device_ref name="arm7_be"/>
 		<device_ref name="nvram"/>
-		<device_ref name="timer"/>
+		<device_ref name="madam"/>
+		<device_ref name="clio"/>
+		<device_ref name="dspp"/>
+		<device_ref name="address_map_bank"/>
+		<device_ref name="amy"/>
+		<device_ref name="cr560b"/>
+		<device_ref name="cdda"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
+		<device_ref name="dac_16bit_r2r_tc"/>
 		<device_ref name="screen"/>
-		<device_ref name="cdrom_image"/>
+		<device_ref name="speaker"/>
+		<device_ref name="software_list"/>
+		<device_ref name="software_list"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="sianniv" sourcefile="sony/taitogn.cpp" romof="coh3002t">
@@ -46207,7 +46183,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="tierras100hz" sourcefile="amiga/alg.cpp" romof="alg_bios">
@@ -46698,13 +46673,6 @@
 		<device_ref name="software_list"/>
 		<device_ref name="software_list"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="bbc_cass"/>
-		<softwarelist name="bbc_rom"/>
-		<softwarelist name="bbc_flop_torch"/>
-		<softwarelist name="bbcb_flop"/>
-		<softwarelist name="bbcb_flop_orig"/>
-		<softwarelist name="bbc_hdd"/>
-		<softwarelist name="bbc_vsm"/>
 		<sample name="motoroff"/>
 		<sample name="motoron"/>
 		<driver status="imperfect"/>
@@ -46874,7 +46842,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="toysmarch2" sourcefile="konami/kpython2.cpp" romof="kpython2">
@@ -46913,7 +46880,6 @@
 		<device_ref name="screen"/>
 		<device_ref name="palette"/>
 		<device_ref name="software_list"/>
-		<softwarelist name="kpython2"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="trbwtchs" sourcefile="taito/taitotx.cpp">
@@ -50330,7 +50296,7 @@
 		<rom name="u2.rom" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d"/>
 		<rom name="u41.rom" size="131072" crc="398c54cc" sha1="6c4b5d6ec5c844dcbf181f9d86a9196a088ed2db"/>
 		<disk name="wargods_11-07-1996" sha1="7585bc65b1038589cb59d3e7c56e08ca9d7015b8" region="ata:0:hdd"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
 		<device_ref name="watchdog"/>
@@ -50361,7 +50327,7 @@
 		<rom name="u2.rom" merge="u2.rom" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d"/>
 		<rom name="u41.rom" merge="u41.rom" size="131072" crc="398c54cc" sha1="6c4b5d6ec5c844dcbf181f9d86a9196a088ed2db"/>
 		<disk name="wargods_08-15-1996" sha1="5dee00be40c315fbb1d6e3994dae8e498ab87fb2" region="ata:0:hdd"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
 		<device_ref name="watchdog"/>
@@ -50392,7 +50358,7 @@
 		<rom name="u2.rom" merge="u2.rom" size="32768" crc="bec7d3ae" sha1="db80aa4a645804a4574b07b9f34dec6b6b64190d"/>
 		<rom name="u41.rom" merge="u41.rom" size="131072" crc="398c54cc" sha1="6c4b5d6ec5c844dcbf181f9d86a9196a088ed2db"/>
 		<disk name="wargods_12-11-1995" sha1="141063f95867fdcc4b15c844e510696604a70c6a" region="ata:0:hdd"/>
-		<device_ref name="tms32031"/>
+		<device_ref name="tms320c31"/>
 		<device_ref name="timer"/>
 		<device_ref name="timer"/>
 		<device_ref name="watchdog"/>
