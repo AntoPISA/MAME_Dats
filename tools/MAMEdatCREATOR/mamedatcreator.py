@@ -1,4 +1,4 @@
-# Internal version: 0.19
+# Internal version: 0.28 (24/02/2026 19:14)
 # -*- coding: utf-8 -*-
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
@@ -323,9 +323,6 @@ class MAMEDiffGenerator:
         button_frame = ttk.Frame(parent)
         button_frame.pack(fill=tk.X, pady=5)
         
-        # Pulsante "Refresh" (a destra)
-        ttk.Button(button_frame, text="Refresh", command=self.refresh_data).pack(side=tk.RIGHT, padx=5)
-        
         # Pulsante "Generate DIFFs" (a destra)
         ttk.Button(button_frame, text="Generate DIFFs", command=self.show_save_dialog).pack(side=tk.RIGHT, padx=5)
         
@@ -560,7 +557,7 @@ class MAMEDiffGenerator:
             "not_mechanical": tk.BooleanVar(value=False)
         }
         
-        # Opzioni — ripristinate tutte le 7 conversioni
+        # Opzioni
         options = [
             ("Complete conversion", "full"),
             ("BIOSes only", "bioses"),
@@ -715,71 +712,246 @@ class MAMEDiffGenerator:
             games = root.findall("machine") or root.findall("game")
             filtered = [g for g in games if filter_func(g)]
             
+            # Applica la logica specifica per i samples
+            if include_samples_only:
+                # Trova tutti i valori unici di sampleof
+                sampleofs = set()
+                for game in games:
+                    sampleof_val = game.get("sampleof")
+                    if sampleof_val:
+                        sampleofs.add(sampleof_val)
+
+                # Crea un dizionario per trovare le macchine corrispondenti
+                game_dict = {game.get("name"): game for game in games}
+
+                # Raggruppa tutti i sample per ogni sampleof, evitando duplicati
+                samples_by_target = {}
+                for game in games:
+                    sampleof_val = game.get("sampleof")
+                    if sampleof_val:
+                        if sampleof_val not in samples_by_target:
+                            samples_by_target[sampleof_val] = []
+                        # Estrai tutti i <sample> da questa macchina e aggiungili
+                        for sample in game.findall("sample"):
+                            sample_name = sample.get("name")
+                            # Aggiungi il sample solo se non è già presente
+                            if sample_name and sample_name not in [s.get("name") for s in samples_by_target[sampleof_val]]:
+                                samples_by_target[sampleof_val].append(sample)
+
+                filtered = []
+                for sampleof_val in sampleofs:
+                    target_game = game_dict.get(sampleof_val)
+                    if target_game is not None:
+                        # La macchina target esiste: crea una nuova macchina con i suoi dati + i suoi sample
+                        new_attrs = {k: v for k, v in target_game.attrib.items() if k != "sampleof"}
+                        new_game = ET.Element("machine", attrib=new_attrs)
+
+                        # Copia description, year, manufacturer
+                        for tag in ["description", "year", "manufacturer"]:
+                            el = target_game.find(tag)
+                            if el is not None:
+                                nc = ET.SubElement(new_game, tag)
+                                for a, v in el.attrib.items():
+                                    if v != "no":
+                                        nc.set(a, v)
+                                if el.text:
+                                    nc.text = el.text
+
+                        # Copia tutti i sample trovati per questo sampleof_val
+                        for sample in samples_by_target.get(sampleof_val, []):
+                            nc = ET.SubElement(new_game, "sample")
+                            if sample.get("name"):
+                                nc.set("name", sample.get("name"))
+                            if sample.text:
+                                nc.text = sample.text
+
+                        filtered.append(new_game)
+                    else:
+                        # La macchina sampleof_val NON esiste: crea una macchina artificiale con i suoi sample
+                        fake_attrs = {"name": sampleof_val}
+                        fake_game = ET.Element("machine", attrib=fake_attrs)
+                        ET.SubElement(fake_game, "description").text = sampleof_val.capitalize()
+                        ET.SubElement(fake_game, "year").text = "????"
+                        ET.SubElement(fake_game, "manufacturer").text = "????"
+                        # Aggiungi i sample trovati
+                        for sample in samples_by_target.get(sampleof_val, []):
+                            nc = ET.SubElement(fake_game, "sample")
+                            if sample.get("name"):
+                                nc.set("name", sample.get("name"))
+                            if sample.text:
+                                nc.text = sample.text
+
+                        filtered.append(fake_game)
+            
+            # Applica la logica specifica per i devices
+            elif include_devices_only:
+                # Filtra per isdevice="yes", ma escludi quelle senza rom, disk, biosset
+                filtered = []
+                for game in games:
+                    if game.get("isdevice") == "yes":
+                        has_rom = len(game.findall("rom")) > 0
+                        has_disk = len(game.findall("disk")) > 0
+                        has_biosset = len(game.findall("biosset")) > 0
+                        if has_rom or has_disk or has_biosset:
+                            # Crea attributi base per <machine> — rimuovi isdevice="yes"
+                            new_attrs = {k: v for k, v in game.attrib.items() if k in ["name", "sourcefile", "cloneof", "romof"]}
+                            new_game = ET.Element("machine", attrib=new_attrs)
+                            
+                            # Copia description, year, manufacturer
+                            for tag in ["description", "year", "manufacturer"]:
+                                el = game.find(tag)
+                                if el is not None:
+                                    nc = ET.SubElement(new_game, tag)
+                                    for a, v in el.attrib.items():
+                                        if v != "no":
+                                            nc.set(a, v)
+                                    if el.text:
+                                        nc.text = el.text
+                            
+                            # Copia rom, disk, biosset
+                            for child_tag in ["rom", "disk", "biosset"]:
+                                for child in game.findall(child_tag):
+                                    nc = ET.SubElement(new_game, child_tag)
+                                    for a, v in child.attrib.items():
+                                        nc.set(a, v)
+                                    if child.text:
+                                        nc.text = child.text
+                            
+                            filtered.append(new_game)
+            
+            # Applica la logica specifica per i not mechanical
+            elif include_not_mechanical_only:
+                # Filtra per ismechanical!="yes", isbios!="yes", isdevice!="yes"
+                filtered = [g for g in games if g.get("ismechanical") != "yes" and g.get("isbios") != "yes" and g.get("isdevice") != "yes"]
+            
+            # Ordina alfabeticamente per nome
+            filtered.sort(key=lambda x: x.get("name", ""))
+            
             for game in filtered:
-                # Per NOTMECHANICALs only: escludi macchine con isbios="yes" o isdevice="yes"
-                if include_not_mechanical_only:
-                    if game.get("isbios") == "yes" or game.get("isdevice") == "yes":
-                        continue  # salta questa macchina
-                
                 # Crea attributi per <machine>
                 attrs = {k: v for k, v in game.attrib.items() if k in ["name", "sourcefile", "cloneof", "romof", "sampleof"]}
-                # Rimuovi attributi con valore "no"
-                attrs = {k: v for k, v in attrs.items() if v != "no"}
+                
+                # Rimuovi isbios="no", isdevice="no", ismechanical="no" se presenti (per evitare ridondanza)
+                for k in ["isbios", "isdevice", "ismechanical"]:
+                    if attrs.get(k) == "no":
+                        del attrs[k]
+                
                 mg = ET.SubElement(new_root, "machine", attrib=attrs)
                 
-                # Copia solo i tag richiesti per ogni tipo
+                # Copia description, year, manufacturer
+                for tag in ["description", "year", "manufacturer"]:
+                    el = game.find(tag)
+                    if el is not None:
+                        nc = ET.SubElement(mg, tag)
+                        for a, v in el.attrib.items():
+                            if v != "no":
+                                nc.set(a, v)
+                        if el.text:
+                            nc.text = el.text
+                
+                # Copia rom, disk, sample, biosset, driver secondo il tipo
                 for child in game:
                     tag = child.tag
-                    if include_roms_only and tag == "rom":
-                        nc = ET.SubElement(mg, "rom")
-                        for a in ["name", "size", "crc", "sha1"]:
-                            if child.get(a):
-                                nc.set(a, child.get(a))
-                        if child.text:
-                            nc.text = child.text
-                    elif include_chds_only and tag == "disk":
-                        nc = ET.SubElement(mg, "disk")
-                        for a in ["name", "sha1", "status"]:
-                            if child.get(a):
-                                nc.set(a, child.get(a))
-                        if child.text:
-                            nc.text = child.text
-                    elif include_samples_only and tag == "sample":
-                        nc = ET.SubElement(mg, "sample")
-                        if child.get("name"):
-                            nc.set("name", child.get("name"))
-                        if child.text:
-                            nc.text = child.text
-                    elif include_devices_only and tag in ["rom", "biosset", "disk"]:
-                        nc = ET.SubElement(mg, tag)
-                        for a, v in child.attrib.items():
-                            if a in ["name", "size", "crc", "sha1"]:
-                                nc.set(a, v)
-                        if child.text:
-                            nc.text = child.text
-                    elif include_bioses_only and tag == "rom":
-                        nc = ET.SubElement(mg, "rom")
-                        for a, v in child.attrib.items():
-                            if a in ["name", "size", "crc", "sha1"]:
-                                nc.set(a, v)
-                        if child.text:
-                            nc.text = child.text
-                    elif include_not_mechanical_only and tag in ["description", "year", "manufacturer", "rom", "disk", "sample", "device_ref", "biosset", "driver"]:
-                        nc = ET.SubElement(mg, tag)
-                        for a, v in child.attrib.items():
-                            if v != "no":
-                                nc.set(a, v)
-                        if child.text:
-                            nc.text = child.text
-                    # Per "full", copia tutto
-                    elif not (include_roms_only or include_chds_only or include_samples_only or include_devices_only or include_bioses_only or include_not_mechanical_only):
-                        nc = ET.SubElement(mg, tag)
-                        for a, v in child.attrib.items():
-                            if v != "no":
-                                nc.set(a, v)
-                        if child.text:
-                            nc.text = child.text
+                    # Se include_roms_only=True, copia solo tag consentiti
+                    if include_roms_only:
+                        allowed_tags = {"rom", "biosset", "sample"}
+                        excluded_tags = {
+                            "device_ref", "chip", "display", "sound", "input", "port", "feature", "device", "softwarelist"
+                        }
+                        if tag in allowed_tags and tag not in excluded_tags:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in child.attrib.items():
+                                if a in ["name", "size", "crc", "sha1", "status"]:
+                                    if child.get(a):
+                                        nc.set(a, child.get(a))
+                            if child.text:
+                                nc.text = child.text
+                    # Se include_chds_only=True, copia solo tag consentiti
+                    elif include_chds_only:
+                        allowed_tags = {"disk", "biosset", "sample"}
+                        excluded_tags = {
+                            "device_ref", "chip", "display", "sound", "input", "port", "feature", "device", "softwarelist"
+                        }
+                        if tag in allowed_tags and tag not in excluded_tags:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in child.attrib.items():
+                                if a in ["name", "sha1", "status"]:
+                                    if child.get(a):
+                                        nc.set(a, child.get(a))
+                            if child.text:
+                                nc.text = child.text
+                    # Se include_samples_only=True, copia solo tag consentiti
+                    elif include_samples_only:
+                        allowed_tags = {"sample"}
+                        excluded_tags = {
+                            "device_ref", "chip", "display", "sound", "input", "port", "feature", "device", "softwarelist"
+                        }
+                        if tag in allowed_tags and tag not in excluded_tags:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in child.attrib.items():
+                                if a in ["name"]:
+                                    if child.get(a):
+                                        nc.set(a, child.get(a))
+                            if child.text:
+                                nc.text = child.text
+                    # Se include_devices_only=True, copia solo tag consentiti
+                    elif include_devices_only:
+                        allowed_tags = {"rom", "disk", "biosset"}
+                        excluded_tags = {
+                            "device_ref", "chip", "display", "sound", "input", "port", "feature", "device", "softwarelist"
+                        }
+                        if tag in allowed_tags and tag not in excluded_tags:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in child.attrib.items():
+                                if a in ["name", "size", "crc", "sha1", "status"]:
+                                    if child.get(a):
+                                        nc.set(a, child.get(a))
+                            if child.text:
+                                nc.text = child.text
+                    # Se include_bioses_only=True, copia solo tag consentiti
+                    elif include_bioses_only:
+                        allowed_tags = {"rom", "biosset", "sample"}
+                        excluded_tags = {
+                            "device_ref", "chip", "display", "sound", "input", "port", "feature", "device", "softwarelist"
+                        }
+                        if tag in allowed_tags and tag not in excluded_tags:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in child.attrib.items():
+                                if a in ["name", "size", "crc", "sha1", "status"]:
+                                    if child.get(a):
+                                        nc.set(a, child.get(a))
+                            if child.text:
+                                nc.text = child.text
+                    # Se include_not_mechanical_only=True, copia solo tag consentiti
+                    elif include_not_mechanical_only:
+                        allowed_tags = {"rom", "disk", "sample", "biosset", "driver"}
+                        excluded_tags = {
+                            "device_ref", "chip", "display", "sound", "input", "port", "feature", "device", "softwarelist"
+                        }
+                        if tag in allowed_tags and tag not in excluded_tags:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in child.attrib.items():
+                                if a in ["name", "size", "crc", "sha1", "status"]:
+                                    if child.get(a):
+                                        nc.set(a, child.get(a))
+                            if child.text:
+                                nc.text = child.text
+                    # Per "full", copia tutto tranne tag esclusi
+                    elif not any([include_roms_only, include_chds_only, include_samples_only, include_devices_only, include_bioses_only, include_not_mechanical_only]):
+                        excluded_tags = {
+                            "device_ref", "chip", "display", "sound", "input", "port", "feature", "device", "softwarelist"
+                        }
+                        if tag not in excluded_tags:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in child.attrib.items():
+                                if v != "no":
+                                    nc.set(a, v)
+                            if child.text:
+                                nc.text = child.text
+                    # Se nessun tipo specifico è attivo e non è "full", non copiare nulla
+                    # (Questo è un fallback sicuro)
             
+            # Scrivi il nuovo file DAT
             with open(output_file, 'wb') as f:
                 f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
                 f.write(b'<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">\n\n')
@@ -830,8 +1002,8 @@ class MAMEDiffGenerator:
             games = root.findall("machine") or root.findall("game")
             for game in games:
                 attrs = {k: v for k, v in game.attrib.items() if k in ["name", "sourcefile", "cloneof", "romof", "sampleof"]}
-                for k, v in game.attrib.items():
-                    if k in ["isdevice", "isbios", "ismechanical"] and v == "yes":
+                for k in ["isdevice", "isbios", "ismechanical"]:
+                    if game.get(k) == "yes":
                         attrs[k] = "yes"
                 mg = ET.SubElement(new_root, "machine", attrib=attrs)
                 for child in game:
@@ -853,7 +1025,6 @@ class MAMEDiffGenerator:
         except Exception as e:
             print(f"Error in DAT conversion: {str(e)}")
             return False
-    
     def show_save_dialog(self):
         # Controlla se ci sono almeno due file caricati
         if len(self.mame_files) < 2:
@@ -897,9 +1068,9 @@ class MAMEDiffGenerator:
         process_frame = ttk.Frame(main)
         process_frame.grid(row=3, column=0, columnspan=2, sticky=tk.W)
         
-        # Checkbox per i processi — layout 2 righe × 3 colonne
+        # Checkbox per i processi — SOLO quelli richiesti
         self.process_vars = {
-            "updated": tk.BooleanVar(),
+            "updated": tk.BooleanVar(), # Non selezionato di default
             "updated_roms": tk.BooleanVar(),
             "updated_chds": tk.BooleanVar(),
             "updated_devices": tk.BooleanVar(),
@@ -907,7 +1078,7 @@ class MAMEDiffGenerator:
             "updated_bioses": tk.BooleanVar()
         }
         
-        # Righe
+        # Righe — layout 2x3 come richiesto
         ttk.Checkbutton(process_frame, text="Updated", variable=self.process_vars["updated"]).grid(row=0, column=0, sticky=tk.W)
         ttk.Checkbutton(process_frame, text="Updated ROMs", variable=self.process_vars["updated_roms"]).grid(row=0, column=1, sticky=tk.W)
         ttk.Checkbutton(process_frame, text="Updated CHDs", variable=self.process_vars["updated_chds"]).grid(row=0, column=2, sticky=tk.W)
@@ -1029,32 +1200,32 @@ class MAMEDiffGenerator:
             results = []
             
             if processes["updated"]:
-                output_file = f"MAME (v{src_ver}) to MAME (v{tgt_ver}).dat"
+                output_file = f"MAME ({src_ver}) to MAME ({tgt_ver}).dat"
                 if self.generate_updated_diff(source_file, target_file, output_file, src_ver, tgt_ver):
                     results.append(output_file)
             
             if processes["updated_roms"]:
-                output_file = f"MAME (v{src_ver}) to MAME (v{tgt_ver}) - ROMs.dat"
+                output_file = f"MAME ({src_ver}) to MAME ({tgt_ver}) - ROMs.dat"
                 if self.generate_updated_roms_diff(source_file, target_file, output_file, src_ver, tgt_ver):
                     results.append(output_file)
             
             if processes["updated_chds"]:
-                output_file = f"MAME (v{src_ver}) to MAME (v{tgt_ver}) - CHDs.dat"
+                output_file = f"MAME ({src_ver}) to MAME ({tgt_ver}) - CHDs.dat"
                 if self.generate_updated_chds_diff(source_file, target_file, output_file, src_ver, tgt_ver):
                     results.append(output_file)
             
             if processes["updated_devices"]:
-                output_file = f"MAME (v{src_ver}) to MAME (v{tgt_ver}) - DEVICEs.dat"
+                output_file = f"MAME ({src_ver}) to MAME ({tgt_ver}) - DEVICEs.dat"
                 if self.generate_updated_devices_diff(source_file, target_file, output_file, src_ver, tgt_ver):
                     results.append(output_file)
             
             if processes["updated_samples"]:
-                output_file = f"MAME (v{src_ver}) to MAME (v{tgt_ver}) - SAMPLEs.dat"
+                output_file = f"MAME ({src_ver}) to MAME ({tgt_ver}) - SAMPLEs.dat"
                 if self.generate_updated_samples_diff(source_file, target_file, output_file, src_ver, tgt_ver):
                     results.append(output_file)
             
             if processes["updated_bioses"]:
-                output_file = f"MAME (v{src_ver}) to MAME (v{tgt_ver}) - BIOSes.dat"
+                output_file = f"MAME ({src_ver}) to MAME ({tgt_ver}) - BIOSes.dat"
                 if self.generate_updated_bioses_diff(source_file, target_file, output_file, src_ver, tgt_ver):
                     results.append(output_file)
             
@@ -1076,7 +1247,6 @@ class MAMEDiffGenerator:
             root_old = tree_old.getroot()
             root_new = tree_new.getroot()
             
-            # Crea nuovo albero
             new_root = ET.Element("datafile")
             header = ET.SubElement(new_root, "header")
             ET.SubElement(header, "name").text = "MAME"
@@ -1090,11 +1260,9 @@ class MAMEDiffGenerator:
             ET.SubElement(header, "comment").text = f"Latest editing on {datetime.now().strftime('%d/%m/%Y')} by AntoPISA with MAMEdat Creator v1.0"
             ET.SubElement(header, "clrmamepro")
             
-            # Ottieni giochi
             old_games = {game.get("name"): game for game in root_old.findall("machine") or root_old.findall("game")}
             new_games = {game.get("name"): game for game in root_new.findall("machine") or root_new.findall("game")}
             
-            # Trova differenze
             all_names = set(old_games.keys()).union(set(new_games.keys()))
             for name in all_names:
                 old_game = old_games.get(name)
@@ -1105,19 +1273,26 @@ class MAMEDiffGenerator:
                     mg = self._create_machine_element(new_game, include_all=True)
                     new_root.append(mg)
                 # Modificato
-                elif old_game is not None and new_game is not None and self._game_differs(old_game, new_game):
-                    mg = self._create_machine_element(new_game, include_all=True)
-                    new_root.append(mg)
+                elif old_game is not None and new_game is not None:
+                    if self._game_differs(old_game, new_game):
+                        mg = self._create_machine_element(new_game, include_all=True)
+                        new_root.append(mg)
             
-            # Non scrivere se vuoto
             if len(new_root.findall("machine")) == 0:
                 return False
+            
+            # Ordina le macchine per nome
+            machines = list(new_root.findall("machine"))
+            machines.sort(key=lambda x: x.get("name", ""))
+            new_root.clear()
+            new_root.append(header)
+            for m in machines:
+                new_root.append(m)
             
             # Applica cartella di salvataggio
             if self.save_folder.get():
                 output_file = os.path.join(self.save_folder.get(), os.path.basename(output_file))
             
-            # Scrivi
             with open(output_file, 'wb') as f:
                 f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
                 f.write(b'<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">\n\n')
@@ -1126,69 +1301,40 @@ class MAMEDiffGenerator:
                 pretty = minidom.parseString(rough).toprettyxml(indent="  ")
                 lines = [l for l in pretty.split('\n') if l.strip() and not l.strip().startswith('<?xml')]
                 f.write('\n'.join(lines).encode('utf-8'))
-            
             return True
         except Exception as e:
             print(f"Error in generate_updated_diff: {e}")
             return False
-    
+
     def _create_machine_element(self, game, include_all=False):
         """Crea un <machine> con solo attributi validi e tag rilevanti"""
         attrs = {k: v for k, v in game.attrib.items() if v != "no"}
         # Rimuovi isbios="yes", isdevice="yes", ismechanical="yes" se non richiesti
-        for k, v in list(attrs.items()):
-            if k in ["isbios", "isdevice", "ismechanical"] and v == "yes":
+        for k in ["isbios", "isdevice", "ismechanical"]:
+            if attrs.get(k) == "yes":
                 del attrs[k]
-        
         mg = ET.Element("machine", attrib=attrs)
-        
-        # Copia solo tag rilevanti
-        for child in game:
-            tag = child.tag
-            if tag in ["description", "year", "manufacturer"]:
+        # Copia description, year, manufacturer
+        for tag, attr in [("description", "text"), ("year", "text"), ("manufacturer", "text")]:
+            el = game.find(tag)
+            if el is not None:
                 nc = ET.SubElement(mg, tag)
-                for a, v in child.attrib.items():
+                for a, v in el.attrib.items():
                     if v != "no":
                         nc.set(a, v)
-                if child.text:
-                    nc.text = child.text
-            elif tag == "rom":
-                nc = ET.SubElement(mg, "rom")
-                for a in ["name", "size", "crc", "sha1"]:
-                    if child.get(a):
-                        nc.set(a, child.get(a))
-                if child.text:
-                    nc.text = child.text
-            elif tag == "disk":
-                nc = ET.SubElement(mg, "disk")
-                for a in ["name", "sha1", "status"]:
-                    if child.get(a):
-                        nc.set(a, child.get(a))
-                if child.text:
-                    nc.text = child.text
-            elif tag == "sample":
-                nc = ET.SubElement(mg, "sample")
-                if child.get("name"):
-                    nc.set("name", child.get("name"))
-                if child.text:
-                    nc.text = child.text
-            elif tag == "biosset" and include_all:
-                nc = ET.SubElement(mg, "biosset")
-                for a, v in child.attrib.items():
-                    if v != "no":
+                if el.text:
+                    nc.text = el.text
+        # Copia rom, disk, sample, biosset, device_ref, driver se richiesti
+        if include_all:
+            for child in game:
+                if child.tag in ["rom", "disk", "sample", "biosset", "device_ref", "driver"]:
+                    nc = ET.SubElement(mg, child.tag)
+                    for a, v in child.attrib.items():
                         nc.set(a, v)
-                if child.text:
-                    nc.text = child.text
-            elif tag == "device_ref" and include_all:
-                nc = ET.SubElement(mg, "device_ref")
-                for a, v in child.attrib.items():
-                    if v != "no":
-                        nc.set(a, v)
-                if child.text:
-                    nc.text = child.text
-        
+                    if child.text:
+                        nc.text = child.text
         return mg
-    
+
     def _game_differs(self, old_game, new_game):
         """Controlla se due giochi differiscono in ROM, CHD, SAMPLE, ecc."""
         # Confronta ROM
@@ -1201,30 +1347,31 @@ class MAMEDiffGenerator:
         if self._sample_lists_differ(old_game, new_game):
             return True
         # Confronta attributi base
-        for attr in ["description", "year", "manufacturer"]:
-            o = old_game.find(attr)
-            n = new_game.find(attr)
+        for attr, tag in [("description", "description"), ("year", "year"), ("manufacturer", "manufacturer")]:
+            o = old_game.find(tag)
+            n = new_game.find(tag)
             if (o is None) != (n is None):
                 return True
-            if o is not None and n is not None and o.text != n.text:
-                return True
+            if o is not None and n is not None:
+                if o.text != n.text:
+                    return True
         return False
-    
+
     def _rom_lists_differ(self, old_game, new_game):
         old_roms = {(r.get("name"), r.get("size"), r.get("crc"), r.get("sha1")) for r in old_game.findall("rom")}
         new_roms = {(r.get("name"), r.get("size"), r.get("crc"), r.get("sha1")) for r in new_game.findall("rom")}
         return old_roms != new_roms
-    
+
     def _disk_lists_differ(self, old_game, new_game):
         old_disks = {(r.get("name"), r.get("sha1")) for r in old_game.findall("disk")}
         new_disks = {(r.get("name"), r.get("sha1")) for r in new_game.findall("disk")}
         return old_disks != new_disks
-    
+
     def _sample_lists_differ(self, old_game, new_game):
         old_samples = {r.get("name") for r in old_game.findall("sample")}
         new_samples = {r.get("name") for r in new_game.findall("sample")}
         return old_samples != new_samples
-    
+
     def generate_updated_roms_diff(self, source_file, target_file, output_file, src_ver, tgt_ver):
         try:
             tree_old = ET.parse(source_file)
@@ -1253,16 +1400,39 @@ class MAMEDiffGenerator:
                 old_game = old_games.get(name)
                 new_game = new_games.get(name)
                 if new_game is not None and (old_game is None or self._rom_lists_differ(old_game, new_game)):
-                    mg = ET.Element("machine", attrib={k: v for k, v in new_game.attrib.items() if v != "no" and k not in ["isbios", "isdevice", "ismechanical"]})
+                    attrs = {k: v for k, v in new_game.attrib.items() if v != "no" and k not in ["isbios", "isdevice", "ismechanical"]}
+                    mg = ET.SubElement(new_root, "machine", attrib=attrs)
+                    
+                    # Copia description, year, manufacturer
+                    for tag, attr in [("description", "text"), ("year", "text"), ("manufacturer", "text")]:
+                        el = new_game.find(tag)
+                        if el is not None:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in el.attrib.items():
+                                if v != "no":
+                                    nc.set(a, v)
+                            if el.text:
+                                nc.text = el.text
+                    
                     for rom in new_game.findall("rom"):
                         nc = ET.SubElement(mg, "rom")
-                        for a in ["name", "size", "crc", "sha1"]:
-                            if rom.get(a):
-                                nc.set(a, rom.get(a))
+                        for a, v in rom.attrib.items():
+                            if a in ["name", "size", "crc", "sha1"]:
+                                nc.set(a, v)
+                        if rom.text:
+                            nc.text = rom.text
                     new_root.append(mg)
             
             if len(new_root.findall("machine")) == 0:
                 return False
+            
+            # Ordina le macchine per nome
+            machines = list(new_root.findall("machine"))
+            machines.sort(key=lambda x: x.get("name", ""))
+            new_root.clear()
+            new_root.append(header)
+            for m in machines:
+                new_root.append(m)
             
             # Applica cartella di salvataggio
             if self.save_folder.get():
@@ -1280,7 +1450,7 @@ class MAMEDiffGenerator:
         except Exception as e:
             print(f"Error in generate_updated_roms_diff: {e}")
             return False
-    
+
     def generate_updated_chds_diff(self, source_file, target_file, output_file, src_ver, tgt_ver):
         try:
             tree_old = ET.parse(source_file)
@@ -1309,16 +1479,39 @@ class MAMEDiffGenerator:
                 old_game = old_games.get(name)
                 new_game = new_games.get(name)
                 if new_game is not None and (old_game is None or self._disk_lists_differ(old_game, new_game)):
-                    mg = ET.Element("machine", attrib={k: v for k, v in new_game.attrib.items() if v != "no" and k not in ["isbios", "isdevice", "ismechanical"]})
+                    attrs = {k: v for k, v in new_game.attrib.items() if v != "no" and k not in ["isbios", "isdevice", "ismechanical"]}
+                    mg = ET.SubElement(new_root, "machine", attrib=attrs)
+                    
+                    # Copia description, year, manufacturer
+                    for tag, attr in [("description", "text"), ("year", "text"), ("manufacturer", "text")]:
+                        el = new_game.find(tag)
+                        if el is not None:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in el.attrib.items():
+                                if v != "no":
+                                    nc.set(a, v)
+                            if el.text:
+                                nc.text = el.text
+                    
                     for disk in new_game.findall("disk"):
                         nc = ET.SubElement(mg, "disk")
                         for a, v in disk.attrib.items():
                             if a in ["name", "sha1", "status"]:
                                 nc.set(a, v)
+                        if disk.text:
+                            nc.text = disk.text
                     new_root.append(mg)
             
             if len(new_root.findall("machine")) == 0:
                 return False
+            
+            # Ordina le macchine per nome
+            machines = list(new_root.findall("machine"))
+            machines.sort(key=lambda x: x.get("name", ""))
+            new_root.clear()
+            new_root.append(header)
+            for m in machines:
+                new_root.append(m)
             
             # Applica cartella di salvataggio
             if self.save_folder.get():
@@ -1336,7 +1529,7 @@ class MAMEDiffGenerator:
         except Exception as e:
             print(f"Error in generate_updated_chds_diff: {e}")
             return False
-    
+
     def generate_updated_devices_diff(self, source_file, target_file, output_file, src_ver, tgt_ver):
         try:
             tree_old = ET.parse(source_file)
@@ -1365,9 +1558,27 @@ class MAMEDiffGenerator:
                 old_device = old_devices.get(name)
                 new_device = new_devices.get(name)
                 if new_device is not None and (old_device is None or self._rom_lists_differ(old_device, new_device)):
+                    # Escludi se non ha rom, disk o biosset
+                    has_rom = len(new_device.findall("rom")) > 0
+                    has_disk = len(new_device.findall("disk")) > 0
+                    has_biosset = len(new_device.findall("biosset")) > 0
+                    if not (has_rom or has_disk or has_biosset):
+                        continue
+                    
                     attrs = {k: v for k, v in new_device.attrib.items() if v != "no" and k not in ["isbios", "ismechanical"]}
-                    mg = ET.Element("machine", attrib=attrs)
-                    # Copia rom, biosset, disk se presenti
+                    mg = ET.SubElement(new_root, "machine", attrib=attrs)
+                    
+                    # Copia description, year, manufacturer
+                    for tag, attr in [("description", "text"), ("year", "text"), ("manufacturer", "text")]:
+                        el = new_device.find(tag)
+                        if el is not None:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in el.attrib.items():
+                                if v != "no":
+                                    nc.set(a, v)
+                            if el.text:
+                                nc.text = el.text
+                    
                     for rom in new_device.findall("rom"):
                         nc = ET.SubElement(mg, "rom")
                         for a, v in rom.attrib.items():
@@ -1375,24 +1586,18 @@ class MAMEDiffGenerator:
                                 nc.set(a, v)
                         if rom.text:
                             nc.text = rom.text
-                    for biosset in new_device.findall("biosset"):
-                        nc = ET.SubElement(mg, "biosset")
-                        for a, v in biosset.attrib.items():
-                            if v != "no":
-                                nc.set(a, v)
-                        if biosset.text:
-                            nc.text = biosset.text
-                    for disk in new_device.findall("disk"):
-                        nc = ET.SubElement(mg, "disk")
-                        for a, v in disk.attrib.items():
-                            if a in ["name", "sha1", "status"]:
-                                nc.set(a, v)
-                        if disk.text:
-                            nc.text = disk.text
                     new_root.append(mg)
             
             if len(new_root.findall("machine")) == 0:
                 return False
+            
+            # Ordina le macchine per nome
+            machines = list(new_root.findall("machine"))
+            machines.sort(key=lambda x: x.get("name", ""))
+            new_root.clear()
+            new_root.append(header)
+            for m in machines:
+                new_root.append(m)
             
             # Applica cartella di salvataggio
             if self.save_folder.get():
@@ -1434,15 +1639,32 @@ class MAMEDiffGenerator:
             old_games = {game.get("name"): game for game in root_old.findall("machine") or root_old.findall("game")}
             new_games = {game.get("name"): game for game in root_new.findall("machine") or root_new.findall("game")}
             
-            all_names = set(old_games.keys()).union(set(new_games.keys()))
-            for name in all_names:
-                old_game = old_games.get(name)
-                new_game = new_games.get(name)
-                if new_game is not None and (old_game is None or self._sample_lists_differ(old_game, new_game)):
-                    attrs = {k: v for k, v in new_game.attrib.items() if v != "no" and k not in ["isbios", "isdevice", "ismechanical"]}
-                    mg = ET.Element("machine", attrib=attrs)
-                    # Copia SOLO <sample name>
-                    for sample in new_game.findall("sample"):
+            # Trova tutte le macchine con sampleof
+            old_sampleofs = {g.get("sampleof") for g in old_games.values() if g.get("sampleof")}
+            new_sampleofs = {g.get("sampleof") for g in new_games.values() if g.get("sampleof")}
+            changed_sampleofs = new_sampleofs - old_sampleofs
+            
+            # Per ogni sampleof nuovo, esporta la macchina target con i suoi sample
+            game_dict = {g.get("name"): g for g in new_games.values()}
+            for so in changed_sampleofs:
+                target_game = game_dict.get(so)
+                if target_game:
+                    attrs = {k: v for k, v in target_game.attrib.items() if v != "no" and k not in ["isbios", "isdevice", "ismechanical"]}
+                    mg = ET.SubElement(new_root, "machine", attrib=attrs)
+                    
+                    # Copia description, year, manufacturer
+                    for tag in ["description", "year", "manufacturer"]:
+                        el = target_game.find(tag)
+                        if el is not None:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in el.attrib.items():
+                                if v != "no":
+                                    nc.set(a, v)
+                            if el.text:
+                                nc.text = el.text
+                    
+                    # Copia solo i sample
+                    for sample in target_game.findall("sample"):
                         nc = ET.SubElement(mg, "sample")
                         if sample.get("name"):
                             nc.set("name", sample.get("name"))
@@ -1452,6 +1674,14 @@ class MAMEDiffGenerator:
             
             if len(new_root.findall("machine")) == 0:
                 return False
+            
+            # Ordina le macchine per nome
+            machines = list(new_root.findall("machine"))
+            machines.sort(key=lambda x: x.get("name", ""))
+            new_root.clear()
+            new_root.append(header)
+            for m in machines:
+                new_root.append(m)
             
             # Applica cartella di salvataggio
             if self.save_folder.get():
@@ -1499,8 +1729,19 @@ class MAMEDiffGenerator:
                 new_bios = new_bioses.get(name)
                 if new_bios is not None and (old_bios is None or self._rom_lists_differ(old_bios, new_bios)):
                     attrs = {k: v for k, v in new_bios.attrib.items() if v != "no" and k not in ["isdevice", "ismechanical"]}
-                    mg = ET.Element("machine", attrib=attrs)
-                    # Copia SOLO <rom> (senza isbios="yes" nell'elemento machine)
+                    mg = ET.SubElement(new_root, "machine", attrib=attrs)
+                    
+                    # Copia description, year, manufacturer
+                    for tag, attr in [("description", "text"), ("year", "text"), ("manufacturer", "text")]:
+                        el = new_bios.find(tag)
+                        if el is not None:
+                            nc = ET.SubElement(mg, tag)
+                            for a, v in el.attrib.items():
+                                if v != "no":
+                                    nc.set(a, v)
+                            if el.text:
+                                nc.text = el.text
+                    
                     for rom in new_bios.findall("rom"):
                         nc = ET.SubElement(mg, "rom")
                         for a, v in rom.attrib.items():
@@ -1512,6 +1753,14 @@ class MAMEDiffGenerator:
             
             if len(new_root.findall("machine")) == 0:
                 return False
+            
+            # Ordina le macchine per nome
+            machines = list(new_root.findall("machine"))
+            machines.sort(key=lambda x: x.get("name", ""))
+            new_root.clear()
+            new_root.append(header)
+            for m in machines:
+                new_root.append(m)
             
             # Applica cartella di salvataggio
             if self.save_folder.get():
@@ -1552,7 +1801,6 @@ class MAMEDiffGenerator:
         self.save_cached_data()
         if messagebox.askyesno("Exit", "Are you sure you want to exit?"):
             self.root.destroy()
-
 if __name__ == "__main__":
     root = tk.Tk()
     app = MAMEDiffGenerator(root)
