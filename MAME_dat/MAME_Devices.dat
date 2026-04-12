@@ -4,15 +4,15 @@
 <datafile>
   <header>
     <name>MAME</name>
-    <description>MAME DEVICEs MAME 0.286 (Feb 26 2026)</description>
+    <description>MAME DEVICEs MAME 0.287 (Mar 31 2026)</description>
     <category>Emulation</category>
     <version>1.0</version>
-    <date>01/03/2026</date>
+    <date>11/04/2026</date>
     <author>AntoPISA</author>
     <email>progettosnaps@gmail.com</email>
     <homepage>http://www.progettosnaps.net/</homepage>
     <url>http://www.progettosnaps.net/dats/MAME</url>
-    <comment>Latest editing on 01/03/2026 by AntoPISA with MAMEdat Creator v1.0</comment>
+    <comment>Latest editing on 11/04/2026 by AntoPISA with MAMEdat Creator v1.0</comment>
     <clrmamepro/>
   </header>
   <machine name="22vp931" sourcefile="devices/machine/ldvp931.cpp">
@@ -292,6 +292,15 @@
     <description>Apple II SD Card</description>
     <rom name="appleiisd.bin" size="2048" crc="e82eea8a" sha1="7e0acef01e622eeed6f8e87893d07c701bbef016" status="good"/>
   </machine>
+  <machine name="a2sic" sourcefile="devices/bus/a2bus/a2sic.cpp">
+    <description>Apple II Serial Interface Card</description>
+    <rom name="341-0017.p7" size="256" crc="5be57c50" sha1="897c92517566f74b179165b8c7b1c9a9df89f014" status="good"/>
+    <rom name="p7-03" size="256" crc="99d96608" sha1="3abc7054f00fd09cc9ee7e76df913912990452f5" status="good"/>
+    <rom name="341-0048.p8a" size="512" crc="361c0462" sha1="369fb95586efa184025d4770ae3686517b13598b" status="good"/>
+    <rom name="p8-01" size="512" crc="7eafe564" sha1="8ff44e892b2510573e9528d781b60429c38dbe30" status="good"/>
+    <biosset name="r4"/>
+    <biosset name="r3"/>
+  </machine>
   <machine name="a2sider1" sourcefile="devices/bus/a2bus/sider.cpp">
     <description>First Class Peripherals Sider 1 SASI Card</description>
     <rom name="xebec-103684c-1986.bin" size="2048" crc="9e62e15f" sha1="7f50b5e00cac4960204f50448a6e2d623b1a41e2" status="good"/>
@@ -481,8 +490,8 @@
     <description>Amiga 600 Keyboard (U.S./Canada)</description>
     <rom name="6570-036" size="2048" crc="4a3fc332" sha1="83b21d0c8b93fc9b9b3b287fde4ec8f3badac5a2" status="good"/>
   </machine>
-  <machine name="abc1600mac" sourcefile="luxor/abc1600mac.cpp">
-    <description>ABC 1600 MAC</description>
+  <machine name="abc1600mac" sourcefile="luxor/abc1600_mmu.cpp">
+    <description>Luxor ABC 1600 MAC</description>
     <rom name="boot 6490356-04.1f" size="16384" crc="9372f6f2" sha1="86f0681f7ef8dd190b49eda5e781881582e0c2a4" status="good"/>
     <rom name="1022 6490351-01.17e" size="260" crc="5dd00d43" sha1="a3871f0d796bea9df8f25d41b3169dd4b8ef65ab" status="good"/>
   </machine>
@@ -829,6 +838,11 @@
     <biosset name="v134"/>
     <biosset name="v140"/>
     <biosset name="v140s"/>
+  </machine>
+  <machine name="aha2940" sourcefile="devices/bus/pci/aha2940au.cpp">
+    <description>Adaptec AHA-2940/W SCSI controller</description>
+    <rom name="589201e.u5" size="65536" crc="9f9507cd" sha1="f134df1a542d6af8dd1878c6db0c734b7701d756" status="good"/>
+    <biosset name="v1.11"/>
   </machine>
   <machine name="aha2940au" sourcefile="devices/bus/pci/aha2940au.cpp">
     <description>Adaptec AHA-2940AU SCSI controller</description>
@@ -2561,6 +2575,15 @@
     <biosset name="octek_vlcombo3.2"/>
     <biosset name="octek_vlcombo2.1"/>
   </machine>
+  <machine name="clgd5434_pci" sourcefile="devices/bus/pci/clgd543x_alpine.cpp">
+    <description>Cirrus Logic GD5434 card</description>
+    <rom name="cirrus5434.bin" size="32768" crc="bc271648" sha1="08afd4468c4c1a1630a200de1007b1671f109b3c" status="good"/>
+    <rom name="gd5434pci.bin" size="32768" crc="fa76dabf" sha1="0310ef02df941e7d35e1d832400e2e4dd07d6309" status="good"/>
+    <rom name="gd5434.bin" size="65536" crc="403020a4" sha1="1ee70f6cc3c7b9a9afb402a1bc939f9f2e0cc739" status="good"/>
+    <biosset name="100e"/>
+    <biosset name="122"/>
+    <biosset name="110b"/>
+  </machine>
   <machine name="clgd5446_pci" sourcefile="devices/bus/pci/clgd5446.cpp">
     <description>Cirrus Logic GD5446 card</description>
     <rom name="cl-gd5446_pci_vga_bios_version_1.31.u2" size="32768" crc="61f8cac7" sha1="6e54aadfe10dfa5c7e417a054e9a64499a99083c" status="good"/>
@@ -3499,6 +3522,11 @@
     <description>Magitronic Multi Floppy Controller Card</description>
     <rom name="magitronic_40.u2" size="8192" crc="41a5371b" sha1="9c4443169a0b104395404274470e62b8b65efcf4" status="good"/>
   </machine>
+  <machine name="fga4he" sourcefile="devices/bus/isa/tiga_spea.cpp">
+    <description>SPEA Graphiti FGA 4/HE TIGA card</description>
+    <rom name="spea_fga4he.vbi" size="32768" crc="ce472e63" sha1="fe4bc168ad7ccb186a6f8158964e2116435c994b" status="good"/>
+    <biosset name="v219"/>
+  </machine>
   <machine name="filetto_cga" sourcefile="pc/filetto.cpp">
     <description>ISA8_CGA_FILETTO</description>
     <rom name="u67.bin" size="8192" crc="09710122" sha1="de84bdd9245df287bbd3bb808f0c3531d13a3545" status="good"/>
@@ -3525,6 +3553,10 @@
   <machine name="g80_1500" sourcefile="devices/bus/pc_kbd/cherry_mx1500.cpp">
     <description>Cherry G80-1500 Multi-Function Keyboard</description>
     <rom name="nm27c256q_635-0945 index 05.bin" size="32768" crc="223714f4" sha1="009fc939f86bf70d288523446e292095d9706ab2" status="good"/>
+  </machine>
+  <machine name="gamtor_vga" sourcefile="misc/gamtor.cpp">
+    <description>CT-65550 SVGA</description>
+    <rom name="ngc_vga_1a_atf16v8c.bin" size="279" crc="e91d94db" sha1="d24b873c9deb02f048a57b5b44290d361f500e5c" status="baddump"/>
   </machine>
   <machine name="geforce256" sourcefile="devices/bus/pci/geforce.cpp">
     <description>nVidia GeForce 256 SDR (NV10)</description>
@@ -4395,6 +4427,11 @@
     <description>MC-1502 ROM cart</description>
     <rom name="basic.rom" size="32768" crc="173d69fa" sha1="003f872e12f00800e22ab6bbc009d36bfde67b9d" status="good"/>
   </machine>
+  <machine name="mc_mk4_hopper" sourcefile="misc/gamtor.cpp">
+    <description>Money Controls Universal Hopper model MK4</description>
+    <rom name="hop_leds_pic12c671.bin" size="16384" crc="61e31970" sha1="70ed27a9df57bc2bf9b6cd94ca86469fe6f9d5b4" status="good"/>
+    <rom name="hop_pic16c620a.bin" size="1024" status="nodump"/>
+  </machine>
   <machine name="mcx128" sourcefile="devices/bus/mc10/mcx128.cpp">
     <description>Darren Atkinson's MCX-128 cartridge</description>
     <rom name="mcx128bas.rom" size="16384" crc="11202e4b" sha1="36c30d0f198a1bffee88ef29d92f2401447a91f4" status="good"/>
@@ -5263,7 +5300,7 @@
     <biosset name="v518"/>
   </machine>
   <machine name="oti64111_pci" sourcefile="devices/bus/pci/oti_spitfire.cpp">
-    <description>OTI-64111 "Spitfire"</description>
+    <description>Oak Technology OTI-64111 "Spitfire"</description>
     <rom name="ot64111spitfire.vbi" size="32768" crc="fb031e98" sha1="16826d93bc2a09d91b52cca3f72447501daee2d2" status="good"/>
     <biosset name="spitfire"/>
   </machine>
@@ -5442,6 +5479,11 @@
     <rom name="ul114b0728.bin" size="16384" crc="a71f0c3d" sha1="ace4872c6060e9dd8458540c0f3193d1a9b4321a" status="good"/>
     <biosset name="v200"/>
     <biosset name="v114"/>
+  </machine>
+  <machine name="pdc20268" sourcefile="devices/bus/pci/pdc20262.cpp">
+    <description>Promise PDC20268 Ultra100TX2 EIDE controller</description>
+    <rom name="u100b15.bin" size="16384" crc="bec48f0e" sha1="7303819fee09922db5fd0d9632b0e1734cb70fb5" status="good"/>
+    <biosset name="v220"/>
   </machine>
   <machine name="pds30_emac" sourcefile="devices/bus/nubus/nubus_asntmc3b.cpp">
     <description>Farallon EtherMac 30i-TH Ethernet card</description>
@@ -6057,7 +6099,7 @@
     <rom name="smioc.27256.u65" size="32768" crc="25b93192" sha1="8ee9879033623490ce6703ba5429af2b16dbae84" status="good"/>
   </machine>
   <machine name="rt1000b" sourcefile="devices/bus/isa/ncr53c400.cpp">
-    <description> Rancho Technology RT1000B SCSI controller</description>
+    <description>Rancho Technology RT1000B SCSI controller</description>
     <rom name="rtbios_v8.20r_b256.u3" size="32768" crc="18d4d2f8" sha1="4a5b2219b9ea5bfbeefaf6b958f4095c53c0e8b4" status="good"/>
   </machine>
   <machine name="rtpc_kbd" sourcefile="ibm/rtpc_kbd.cpp">
@@ -6413,13 +6455,25 @@
   <machine name="sis6326_agp" sourcefile="devices/bus/pci/sis6326.cpp">
     <description>SiS 6326 AGP card</description>
     <rom name="aopenpa50v.vbi" size="32768" crc="6c4c7518" sha1="36bb29a23d565e34d548701acc248d50c99d7da4" status="good"/>
-    <rom name="3dpro4mbedo.bin" size="65536" crc="f04b374c" sha1="6eb96f7517df6eb566c615c2ab9ec5567035b6a5" status="good"/>
     <rom name="4mbsdr.vbi" size="49152" crc="a5f8c7f7" sha1="9e5cfcf8d34e0c5829343179c87fb2b97f7a7f9c" status="good"/>
     <rom name="sis6326agp.bin" size="65536" crc="a671255c" sha1="332ab9499142e8f7a235afe046e8e8d21a28580d" status="good"/>
     <biosset name="aopen"/>
-    <biosset name="3dpro"/>
     <biosset name="siso"/>
     <biosset name="sis"/>
+  </machine>
+  <machine name="sis6326_dvd" sourcefile="devices/bus/pci/sis6326.cpp">
+    <description>SiS 6326 DVD card</description>
+    <rom name="diamondspeedstar_a70.vbi" size="49152" crc="9501f6fc" sha1="7566f1483c3e963762ef19b4deeb8fc24ccd217f" status="good"/>
+    <biosset name="diamond"/>
+  </machine>
+  <machine name="sis6326_pci" sourcefile="devices/bus/pci/sis6326.cpp">
+    <description>SiS 6326 PCI card</description>
+    <rom name="sis6326_75mhz.vbi" size="32768" crc="1c74109d" sha1="c9180a32e78481c9082ad5bc75082ef4b289ad76" status="good"/>
+    <rom name="3dpro4mbedo.bin" size="65536" crc="f04b374c" sha1="6eb96f7517df6eb566c615c2ab9ec5567035b6a5" status="good"/>
+    <rom name="4mb_pci.vbi" size="49152" crc="8fca47be" sha1="7ce995ec0d8b9ac4f0f40ccd0a61d7fc209d313f" status="good"/>
+    <biosset name="sis"/>
+    <biosset name="3dpro"/>
+    <biosset name="siso"/>
   </machine>
   <machine name="sis900_eth" sourcefile="devices/machine/sis900_eth.cpp">
     <description>SiS 900 Fast Ethernet Adapter</description>

@@ -4,15 +4,15 @@
 <datafile>
   <header>
     <name>MAME</name>
-    <description>MAME BIOSes MAME 0.286 (Feb 26 2026)</description>
+    <description>MAME BIOSes MAME 0.287 (Mar 31 2026)</description>
     <category>Emulation</category>
     <version>1.0</version>
-    <date>01/03/2026</date>
+    <date>11/04/2026</date>
     <author>AntoPISA</author>
     <email>progettosnaps@gmail.com</email>
     <homepage>http://www.progettosnaps.net/</homepage>
     <url>http://www.progettosnaps.net/dats/MAME</url>
-    <comment>Latest editing on 01/03/2026 by AntoPISA with MAMEdat Creator v1.0</comment>
+    <comment>Latest editing on 11/04/2026 by AntoPISA with MAMEdat Creator v1.0</comment>
     <clrmamepro/>
   </header>
   <machine name="3dobios" sourcefile="misc/3do.cpp">
@@ -580,16 +580,19 @@
     <rom name="main_eeprom.bin" size="128" crc="fea29cbb" sha1="4099f1747aafa07db34f6e072cd9bfaa83bae10e" status="good"/>
     <rom name="x76f100_eeprom.bin" size="132" crc="3ea24b6a" sha1="3a730ebcf56e0060fef6b1b02eb2eb7cfb7e61dc" status="good"/>
   </machine>
-  <machine name="galgbios" sourcefile="ces/galgames.cpp">
-    <description>Galaxy Games BIOS</description>
+  <machine name="galgames" sourcefile="ces/galgames.cpp">
+    <description>Galaxy Games</description>
     <year>1998</year>
     <manufacturer>Creative Electronics &amp; Software</manufacturer>
     <biosset name="1.90"/>
     <biosset name="1.80"/>
+    <biosset name="1.71"/>
     <rom name="galaxy_u2__v1.90_12-01-98.u2" size="1048576" crc="e51ff184" sha1="aaa795f2c15ec29b3ceeb5c917b643db0dbb7083" status="good"/>
     <rom name="galaxy_u1__v1.90_12-01-98.u1" size="1048576" crc="c6d7bc6d" sha1="93c032f9aa38cbbdda59a8a25ff9f38f7ad9c760" status="good"/>
     <rom name="galaxy_u2__v1.80_10-15-98.u2" size="1048576" crc="73cff284" sha1="e6f7d92999cdb478c21c3b65a04eade84299ac12" status="good"/>
     <rom name="galaxy_u1__v1.80_10-15-98.u1" size="1048576" crc="e3ae423c" sha1="66d1964845a99a5ed4b19b4135b55cde6b5fe295" status="good"/>
+    <rom name="galaxy_u2__v1.71_7-8-98.u2" size="1048576" crc="d1c3dbb3" sha1="ebe74ed7f2d8c4abcd6743b9d9c77cc347efc444" status="good"/>
+    <rom name="galaxy_u1__v1.71_7-8-98.u1" size="1048576" crc="604415c8" sha1="6c67c3be1aca03d009b6244e3bd911caaa2ca666" status="good"/>
     <rom name="16v8h-blue.u24" size="279" status="nodump"/>
     <rom name="16v8h-yellow.u25" size="279" status="nodump"/>
     <rom name="16v8h-magenta.u26" size="279" status="nodump"/>
@@ -1152,7 +1155,7 @@
     <sample name="solenoid_engage"/>
     <sample name="solenoid_release"/>
   </machine>
-  <machine name="sammymdl" sourcefile="sigma/sigmab98.cpp">
+  <machine name="sammymdl" sourcefile="sigma/sammymdl.cpp">
     <description>Sammy Medal Game System BIOS</description>
     <year>1999</year>
     <manufacturer>Sammy</manufacturer>
