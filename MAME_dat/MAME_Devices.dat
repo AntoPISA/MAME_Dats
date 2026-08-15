@@ -4,15 +4,15 @@
 <datafile>
   <header>
     <name>MAME</name>
-    <description>MAME DEVICEs MAME 0.287 (Mar 31 2026)</description>
+    <description>MAME DEVICEs 0.289 (Jul 31 2026)</description>
     <category>Emulation</category>
     <version>1.0</version>
-    <date>11/04/2026</date>
+    <date>13/08/2026</date>
     <author>AntoPISA</author>
     <email>progettosnaps@gmail.com</email>
     <homepage>http://www.progettosnaps.net/</homepage>
     <url>http://www.progettosnaps.net/dats/MAME</url>
-    <comment>Latest editing on 11/04/2026 by AntoPISA with MAMEdat Creator v1.0</comment>
+    <comment>Latest editing on 13/08/2026 by AntoPISA with MAMEdat Creator v1.0</comment>
     <clrmamepro/>
   </header>
   <machine name="22vp931" sourcefile="devices/machine/ldvp931.cpp">
@@ -152,8 +152,12 @@
     <rom name="unknown apple ii clone video 1.bin" size="4096" crc="cf84811c" sha1="135f4f35607dd74941f0a3cae813227bf8a8a020" status="good"/>
   </machine>
   <machine name="a2aplcrd" sourcefile="devices/bus/a2bus/a2applicard.cpp">
-    <description>PCPI Applicard</description>
+    <description>PCPI Appli-Card</description>
     <rom name="applicard-v9.bin" size="2048" crc="1d461000" sha1="71d633be864b6084362e85108a4e600cbe6e44fe" status="good"/>
+  </machine>
+  <machine name="a2autokbd" sourcefile="devices/bus/a2kbd/autokbd.cpp">
+    <description>unknown Apple II clone keyboard with AUTO</description>
+    <rom name="keyboard.bin" size="2048" crc="8a9e77a8" sha1="a0cb73e43f30b6a05bd766136dcd3cee1384bf5f" status="good"/>
   </machine>
   <machine name="a2booti" sourcefile="devices/bus/a2bus/booti.cpp">
     <description>Booti Card</description>
@@ -298,7 +302,7 @@
     <rom name="p7-03" size="256" crc="99d96608" sha1="3abc7054f00fd09cc9ee7e76df913912990452f5" status="good"/>
     <rom name="341-0048.p8a" size="512" crc="361c0462" sha1="369fb95586efa184025d4770ae3686517b13598b" status="good"/>
     <rom name="p8-01" size="512" crc="7eafe564" sha1="8ff44e892b2510573e9528d781b60429c38dbe30" status="good"/>
-    <biosset name="r4"/>
+    <biosset name="r4a"/>
     <biosset name="r3"/>
   </machine>
   <machine name="a2sider1" sourcefile="devices/bus/a2bus/sider.cpp">
@@ -681,6 +685,10 @@
     <rom name="adaptec_inc_c86_acb-2072_408101-00b.u8" size="8192" status="nodump"/>
     <biosset name="b"/>
     <biosset name="a"/>
+  </machine>
+  <machine name="ace80" sourcefile="devices/bus/a2bus/a2applicard.cpp">
+    <description>Franklin ACE 80 CPU Card</description>
+    <rom name="1331414.u12" size="2048" crc="7ecb5c6d" sha1="8e9e9f12b78d545ccd90f5e30b6804ceeb6c939f" status="good"/>
   </machine>
   <machine name="ace_sp_reelctrl" sourcefile="misc/ace_sp_reelctrl.cpp">
     <description>ACE sp.ACE Reel Controller PCB</description>
@@ -2168,12 +2176,12 @@
     <biosset name="jiffydos"/>
   </machine>
   <machine name="c2031" sourcefile="devices/bus/ieee488/c2031.cpp">
-    <description>Commodore 2031</description>
+    <description>Commodore 2031 single disk drive</description>
     <rom name="901484-03.u5f" size="8192" crc="ee4b893b" sha1="54d608f7f07860f24186749f21c96724dd48bc50" status="good"/>
     <rom name="901484-05.u5h" size="8192" crc="6a629054" sha1="ec6b75ecfdd4744e5d57979ef6af990444c11ae1" status="good"/>
   </machine>
   <machine name="c2040" sourcefile="devices/bus/ieee488/c2040.cpp">
-    <description>Commodore 2040</description>
+    <description>Commodore 2040 disk drive</description>
     <rom name="901468-xx.ul1" size="4096" status="nodump"/>
     <rom name="901468-xx.uh1" size="4096" status="nodump"/>
     <rom name="901468-06.ul1" size="4096" crc="25b5eed5" sha1="4d9658f2e6ff3276e5c6e224611a66ce44b16fc7" status="good"/>
@@ -2187,7 +2195,7 @@
     <rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2" status="good"/>
   </machine>
   <machine name="c3040" sourcefile="devices/bus/ieee488/c2040.cpp">
-    <description>Commodore 3040</description>
+    <description>Commodore 3040 disk drive</description>
     <rom name="901468-06.ul1" size="4096" crc="25b5eed5" sha1="4d9658f2e6ff3276e5c6e224611a66ce44b16fc7" status="good"/>
     <rom name="901468-07.uh1" size="4096" crc="9b09ae83" sha1="6a51c7954938439ca8342fc295bda050c06e1791" status="good"/>
     <rom name="901466-02.uk3" size="1024" crc="9d1e25ce" sha1="d539858f839f96393f218307df7394362a84a26a" status="good"/>
@@ -2197,7 +2205,7 @@
     <rom name="325360-03.u8d" size="8192" crc="c6bb0977" sha1="7a8c43d2e205f58d83709c04bc7795602a892ddd" status="good"/>
   </machine>
   <machine name="c4040" sourcefile="devices/bus/ieee488/c2040.cpp">
-    <description>Commodore 4040</description>
+    <description>Commodore 4040 disk drive</description>
     <rom name="901468-11.uj1" size="4096" crc="b7157458" sha1="8415f3159dea73161e0cef7960afa6c76953b6f8" status="good"/>
     <rom name="901468-12.ul1" size="4096" crc="02c44ff9" sha1="e8a94f239082d45f64f01b2d8e488d18fe659cbb" status="good"/>
     <rom name="901468-13.uh1" size="4096" crc="cbd785b3" sha1="6ada7904ac9d13c3f1c0a8715f9c4be1aa6eb0bb" status="good"/>
@@ -2207,6 +2215,10 @@
     <rom name="901466-04.uk3" size="1024" crc="0ab338dc" sha1="6645fa40b81be1ff7d1384e9b52df06a26ab0bfb" status="good"/>
     <biosset name="dos20r1"/>
     <biosset name="dos20r2"/>
+  </machine>
+  <machine name="c64_ar4x" sourcefile="devices/bus/c64/action_replay.cpp">
+    <description>C64 Action Replay</description>
+    <rom name="82s129.u3" size="256" crc="f19e6686" sha1="f39975d24eb009325fa5fac86b475137cac04813" status="good"/>
   </machine>
   <machine name="c64_buscard" sourcefile="devices/bus/c64/buscard.cpp">
     <description>C64 BusCard cartridge</description>
@@ -2244,7 +2256,7 @@
     <rom name="c68297 vid pak cg.u18" size="2048" crc="9edf5e58" sha1="4b244e6d94a7653a2e52c351589f0b469119fb04" status="good"/>
   </machine>
   <machine name="c8050" sourcefile="devices/bus/ieee488/c8050.cpp">
-    <description>Commodore 8050</description>
+    <description>Commodore 8050 disk drive</description>
     <rom name="901482-01.ul1" size="8192" status="nodump"/>
     <rom name="901482-02.uh1" size="8192" status="nodump"/>
     <rom name="901482-03.ul1" size="8192" crc="09a609b9" sha1="166d8bfaaa9c4767f9b17ad63fc7ae77c199a64e" status="good"/>
@@ -2283,7 +2295,7 @@
     <rom name="901467.uk6" size="2048" crc="a23337eb" sha1="97df576397608455616331f8e837cb3404363fa2" status="good"/>
   </machine>
   <machine name="c8250" sourcefile="devices/bus/ieee488/c8050.cpp">
-    <description>Commodore 8250</description>
+    <description>Commodore 8250 disk drive</description>
     <rom name="901482-01.ul1" size="8192" status="nodump"/>
     <rom name="901482-02.uh1" size="8192" status="nodump"/>
     <rom name="901482-03.ul1" size="8192" crc="09a609b9" sha1="166d8bfaaa9c4767f9b17ad63fc7ae77c199a64e" status="good"/>
@@ -2318,7 +2330,7 @@
     <biosset name="dos27mpi"/>
   </machine>
   <machine name="c8250lp" sourcefile="devices/bus/ieee488/c8050.cpp">
-    <description>Commodore 8250LP</description>
+    <description>Commodore 8250LP disk drive</description>
     <rom name="251165-01.ua11" size="8192" status="nodump"/>
     <rom name="251166-01.ua13" size="8192" status="nodump"/>
     <rom name="dos-2.7b.bin" size="16384" crc="96e3b209" sha1="9849300be9f2e0143c2ed2564d26a4ba3b27526c" status="good"/>
@@ -2333,7 +2345,7 @@
     <biosset name="speeddos"/>
   </machine>
   <machine name="c8280" sourcefile="devices/bus/ieee488/c8280.cpp">
-    <description>Commodore 8280</description>
+    <description>Commodore 8280 dual 8" disk drive</description>
     <rom name="300542-001.10c" size="8192" crc="3c6eee1e" sha1="0726f6ab4de4fc9c18707fe87780ffd9f5ed72ab" status="good"/>
     <rom name="300543-001.10d" size="8192" crc="f58e665e" sha1="9e58b47c686c91efc6ef1a27f72dbb5e26c485ec" status="good"/>
     <rom name="300542-reva.10c" size="8192" crc="6f32ccfb" sha1="6926c049f1635e6769ec69891de8c92941ff880e" status="good"/>
@@ -2891,6 +2903,11 @@
     <rom name="ic14" size="8192" crc="adb6980e" sha1="13051587dfe43b04ce1bf354b89438ddf6d8d76b" status="good"/>
     <rom name="ic15" size="8192" crc="b0cecfa1" sha1="c67e79a7ffefc9e9eafc238cb6ff6bb718f19afb" status="good"/>
   </machine>
+  <machine name="ct1741" sourcefile="devices/sound/ct1741.cpp">
+    <description>Creative Labs CT1741 SB16 DSP Sound Unit</description>
+    <rom name="ct1741_v413@80c52.bin" size="8192" crc="5181892f" sha1="5b42f1c34c4e9c8dbbdcffa0a36c178ca4f1aa77" status="good"/>
+    <rom name="ct1741_v413_xor.bin" size="64" crc="5243d15a" sha1="c7637c92828843f47e6e2f956af639b07aee4571" status="good"/>
+  </machine>
   <machine name="cuda" sourcefile="apple/cuda.cpp">
     <description>Apple Cuda v2.xx ADB/I2C</description>
     <rom name="341s0417.bin" size="4352" crc="571f24c9" sha1="a2ae12492389a00e5f4b1ef19b267d6f3a8eadc3" status="good"/>
@@ -2926,7 +2943,7 @@
     <rom name="341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4" status="good"/>
   </machine>
   <machine name="d9060" sourcefile="devices/bus/ieee488/d9060.cpp">
-    <description>Commodore D9060</description>
+    <description>Commodore D9060 hard disk drive</description>
     <rom name="300516-001.7c" size="8192" status="nodump"/>
     <rom name="300517-001.7d" size="8192" crc="566df630" sha1="b1602dfff408b165ee52a6a4ca3e2ec27e689ba9" status="good"/>
     <rom name="300516-002.7c" size="8192" crc="2d758a14" sha1="c959cc9dde84fc3d64e95e58a0a096a26d8107fd" status="good"/>
@@ -2945,7 +2962,7 @@
     <biosset name="rc"/>
   </machine>
   <machine name="d9090" sourcefile="devices/bus/ieee488/d9060.cpp">
-    <description>Commodore D9090</description>
+    <description>Commodore D9090 hard disk drive</description>
     <rom name="300516-001.7c" size="8192" status="nodump"/>
     <rom name="300517-001.7d" size="8192" crc="566df630" sha1="b1602dfff408b165ee52a6a4ca3e2ec27e689ba9" status="good"/>
     <rom name="300516-002.7c" size="8192" crc="2d758a14" sha1="c959cc9dde84fc3d64e95e58a0a096a26d8107fd" status="good"/>
@@ -3226,6 +3243,17 @@
     <biosset name="341s0850"/>
     <biosset name="341s0851"/>
   </machine>
+  <machine name="eidemax" sourcefile="devices/bus/isa/eidemax.cpp">
+    <description>Promise EIDEMAX</description>
+    <rom name="emax_x_r113.u2" size="32768" crc="530e397c" sha1="20c4be8ca7163613861db213ae7a5cf3c6fe1766" status="good"/>
+    <rom name="pti-004_jul_1995.u2" size="16384" crc="92bf52c4" sha1="ef1b7a8de2fd12a19c3f2a6ff66779233f273651" status="good"/>
+    <rom name="pti-007_oct_1996.u2" size="65536" crc="2630489f" sha1="925340c30eba42d0ff326722592201f2598eb38a" status="good"/>
+    <rom name="eidemax_gal16v8b_u4.jed" size="738" crc="d71644f5" sha1="e75e3c381bcbf7dbbdec5fc70dcc9d94066b7f80" status="good"/>
+    <rom name="eidemax_gal16v8b_u5.jed" size="1125" crc="7583ab80" sha1="e105f258f68ffe62acf2544f2f474850ce07a0a3" status="good"/>
+    <biosset name="r113"/>
+    <biosset name="pti004"/>
+    <biosset name="pti007"/>
+  </machine>
   <machine name="einstein_sd" sourcefile="devices/bus/einstein/pipe/silicon_disc.cpp">
     <description>Einstein Silicon Disc</description>
     <rom name="sd11.bin" size="8192" crc="0e4f5e6d" sha1="d0bc01e533d8963c596154435c5b2d156a96d470" status="good"/>
@@ -3440,6 +3468,10 @@
     <rom name="et4kw32i.vbi" size="32768" crc="14542962" sha1="d5aee7205af8bd1fef0ecf1db2c07308a2b10b17" status="good"/>
     <biosset name="v800n"/>
   </machine>
+  <machine name="et532_board" sourcefile="devices/bus/nscsi/et532.cpp">
+    <description>ET532 board</description>
+    <rom name="et532_monitor.bin" size="65536" crc="9c024fab" sha1="c8f3651768efe8282ceb914a99c2355735be8976" status="good"/>
+  </machine>
   <machine name="ethudock" sourcefile="devices/bus/nubus/pwrbkduo/ethernetudock.cpp">
     <description>Newer Technology Ethernet MicroDock</description>
     <rom name="newertechethernetmicrodock.rom" size="1024" crc="0fd930f0" sha1="85474adc62de1bdca6ce7bf694a0158d467113cc" status="good"/>
@@ -3528,7 +3560,7 @@
     <biosset name="v219"/>
   </machine>
   <machine name="filetto_cga" sourcefile="pc/filetto.cpp">
-    <description>ISA8_CGA_FILETTO</description>
+    <description>Yamaha V6363 CMDC (on-board CGA ISA8)</description>
     <rom name="u67.bin" size="8192" crc="09710122" sha1="de84bdd9245df287bbd3bb808f0c3531d13a3545" status="good"/>
   </machine>
   <machine name="freedom220_kbd" sourcefile="liberty/freedom220_kbd.cpp">
@@ -3583,6 +3615,70 @@
     <description>AY-3-8800-1 GIC</description>
     <rom name="ay-3-8800-1.bin" size="512" crc="d9f11d2b" sha1="60ef45d51d102cd3af78787008d9aed848137bee" status="baddump"/>
   </machine>
+  <machine name="gpib_hardbox" sourcefile="devices/bus/ieee488/hardbox.cpp">
+    <description>SSE HardBox</description>
+    <rom name="295-2.3.ic3" size="4096" crc="a3eb5fc2" sha1="39941b45b0696db928615c41c7eae18d951d9ada" status="good"/>
+    <rom name="296-2.3.ic4" size="4096" crc="fb55b058" sha1="8f9ec313ec6beaf7b513edf39d9628e6abcc7bc3" status="good"/>
+    <rom name="289.ic3" size="4096" crc="c39e058f" sha1="45b390d7125a40f84c7b411a479218baff079746" status="good"/>
+    <rom name="290.ic4" size="4096" crc="62f51405" sha1="fdfa0d7b7e8d0182f2df0aa8163c790506104dcf" status="good"/>
+    <rom name="295-3.1.ic3" size="4096" crc="654a5db1" sha1="c40859526921e3d8bfd58fc28cc9cc64e59ec638" status="good"/>
+    <rom name="296-3.1.ic4" size="4096" crc="4c62ddc0" sha1="151f99dc554d3762b805fc8383cf1b3e1455784f" status="good"/>
+    <biosset name="v2.3"/>
+    <biosset name="v2.4"/>
+    <biosset name="v3.1"/>
+  </machine>
+  <machine name="gpib_mshark" sourcefile="devices/bus/ieee488/shark.cpp">
+    <description>Mator SHARK</description>
+    <rom name="pch488 3450 v22.1 @1" size="4096" crc="03bff9d7" sha1="ac506df6509e1b2185a69f9f8f44b8b456aa9834" status="good"/>
+    <rom name="pch488 3450 v22.1 @2" size="4096" crc="c14fa5fe" sha1="bcfd1dd65d692c76b90e6134b85f22c39c049430" status="good"/>
+    <rom name="pch488 3450 v22.1 @3" size="4096" crc="4dfaa482" sha1="fe2c44bb650572616c8bdad6358032fe64b1e363" status="good"/>
+    <rom name="pch488 3450 v22.1 @4" size="4096" crc="aef665e9" sha1="80a4c00b717100b4e22fa3704e34060fffce2bc3" status="good"/>
+    <rom name="pch488 3450 v22.1 @5" size="4096" crc="f30adf60" sha1="96c15264d5a9b52e1d238921880c48a797a6da1e" status="good"/>
+    <rom name="micro p3450 v1.3" size="2048" crc="0e69202e" sha1="3b384951ff54c4b45a3a778a88966d13e2c9d57a" status="good"/>
+  </machine>
+  <machine name="gpib_softbox" sourcefile="devices/bus/ieee488/softbox.cpp">
+    <description>SSE SoftBox</description>
+    <rom name="375.ic3" size="2048" crc="177580e7" sha1="af6a97495de825b80cdc9fbf72329d5440826177" status="good"/>
+    <rom name="376.ic4" size="2048" crc="edfee5be" sha1="5662e9071cc622a1c071d89b00272fc6ba122b9a" status="good"/>
+    <rom name="379.ic3" size="2048" crc="7b5a737c" sha1="2348590884b026b7647f6864af8c9ba1c6f8746b" status="good"/>
+    <rom name="380.ic4" size="2048" crc="65a13029" sha1="46de02e6f04be298047efeb412e00a5714dc21b3" status="good"/>
+    <rom name="389.ic3" size="2048" crc="d66e581a" sha1="2403e25c140c41b0e6d6975d39c9cd9d6f335048" status="good"/>
+    <rom name="390.ic4" size="2048" crc="abe6cb30" sha1="4b26d5db36f828e01268f718799f145d09b449ad" status="good"/>
+    <biosset name="19810908"/>
+    <biosset name="19811027"/>
+    <biosset name="19830609"/>
+  </machine>
+  <machine name="gpl16230a" sourcefile="devices/machine/generalplus_gpl162xx_soc.cpp">
+    <description>GeneralPlus GPL16230A System-on-a-Chip</description>
+    <rom name="gpl16230a_bootrom.bin" size="131072" status="nodump"/>
+  </machine>
+  <machine name="gpl16238b" sourcefile="devices/machine/generalplus_gpl162xx_b_soc.cpp">
+    <description>GeneralPlus GPL16238B System-on-a-Chip</description>
+    <rom name="gpl16238b_bootrom.bin" size="8192" status="nodump"/>
+  </machine>
+  <machine name="gpl16240va" sourcefile="devices/machine/generalplus_gpl162xx_soc.cpp">
+    <description>GeneralPlus GPL16240VA System-on-a-Chip</description>
+    <rom name="gpl16240va_bootrom.bin" size="131072" status="nodump"/>
+  </machine>
+  <machine name="gpl16248vb" sourcefile="devices/machine/generalplus_gpl162xx_b_soc.cpp">
+    <description>GeneralPlus GPL16248VB System-on-a-Chip</description>
+    <rom name="gpl16248vb_bootrom.bin" size="8192" status="nodump"/>
+  </machine>
+  <machine name="gpl16250va" sourcefile="devices/machine/generalplus_gpl162xx_soc.cpp">
+    <description>GeneralPlus GPL16250VA / GPAC800A System-on-a-Chip</description>
+    <rom name="gpl16250va_bootrom_v7.bin" size="131072" crc="fc4d0e32" sha1="4dad40aae258b54fd816590ee769a1c6059b1d4c" status="good"/>
+    <rom name="gpl16250va_bootrom_unknown_version.bin" size="131072" crc="975ece00" sha1="988e0befd33884b05aeccd6821e5cdd53f6a849f" status="good"/>
+    <biosset name="v7"/>
+    <biosset name="unk"/>
+  </machine>
+  <machine name="gpl16258vb" sourcefile="devices/machine/generalplus_gpl162xx_b_soc.cpp">
+    <description>GeneralPlus GPL16258VB System-on-a-Chip</description>
+    <rom name="gpl16258vb_bootrom.bin" size="8192" status="nodump"/>
+  </machine>
+  <machine name="gpl951xx" sourcefile="devices/machine/generalplus_gpl951xx_soc.cpp">
+    <description>GeneralPlus GPL951xx</description>
+    <rom name="gpl951.bin" size="8192" crc="2872d489" sha1="01752267b404d1bd3a61efa928223eb9e147faa3" status="good"/>
+  </machine>
   <machine name="gunsense" sourcefile="sega/gunsense.cpp">
     <description>Sega 838-13143 Gun Sense Board</description>
     <rom name="epr-20006a.ic2" size="65536" crc="45f310dc" sha1="b7cf40a1671dc351b607d8d6bba0d51ea128eb75" status="good"/>
@@ -3622,18 +3718,6 @@
     <rom name="2732_444-140_pam37.rom" size="4096" crc="53a540db" sha1="90082d02ffb1d27e8172b11fff465bd24343486e" status="good"/>
     <biosset name="xcon8"/>
     <biosset name="pam37"/>
-  </machine>
-  <machine name="hardbox" sourcefile="devices/bus/ieee488/hardbox.cpp">
-    <description>SSE HardBox</description>
-    <rom name="295-2.3.ic3" size="4096" crc="a3eb5fc2" sha1="39941b45b0696db928615c41c7eae18d951d9ada" status="good"/>
-    <rom name="296-2.3.ic4" size="4096" crc="fb55b058" sha1="8f9ec313ec6beaf7b513edf39d9628e6abcc7bc3" status="good"/>
-    <rom name="289.ic3" size="4096" crc="c39e058f" sha1="45b390d7125a40f84c7b411a479218baff079746" status="good"/>
-    <rom name="290.ic4" size="4096" crc="62f51405" sha1="fdfa0d7b7e8d0182f2df0aa8163c790506104dcf" status="good"/>
-    <rom name="295-3.1.ic3" size="4096" crc="654a5db1" sha1="c40859526921e3d8bfd58fc28cc9cc64e59ec638" status="good"/>
-    <rom name="296-3.1.ic4" size="4096" crc="4c62ddc0" sha1="151f99dc554d3762b805fc8383cf1b3e1455784f" status="good"/>
-    <biosset name="v2.3"/>
-    <biosset name="v2.4"/>
-    <biosset name="v3.1"/>
   </machine>
   <machine name="hcpu30" sourcefile="devices/bus/vme/hcpu30.cpp">
     <description>Besta HCPU30 CPU board</description>
@@ -3795,7 +3879,7 @@
     <rom name="1818-2687.bin" size="2048" crc="cce64de8" sha1="1dfabd32f4bdef85f88a514bd1978b80b25a6e80" status="good"/>
   </machine>
   <machine name="hp9895" sourcefile="devices/bus/ieee488/hp9895.cpp">
-    <description>HP9895</description>
+    <description>HP9895 floppy drive</description>
     <rom name="1818-1391a.bin" size="8192" crc="b50dbfb5" sha1="96edf9af78be75fbad2a0245b8af43958ba32752" status="good"/>
   </machine>
   <machine name="hpblp" sourcefile="devices/bus/isa/hpblp.cpp">
@@ -4447,6 +4531,10 @@
     <description>MD Virtua Racing</description>
     <rom name="svp.bin" size="2048" crc="2421ec7e" sha1="0b951ea9c6094b3c34e4f0b64d031c75c237564f" status="good"/>
   </machine>
+  <machine name="mdisplay3" sourcefile="hegenerglaser/mdisplay3.cpp">
+    <description>Mephisto 6. Generation LCD Modul</description>
+    <rom name="gk2000.svg" size="68501" crc="80554c49" sha1="88f06ec8f403eaaf7cbce4cc84807b5742ce7108" status="good"/>
+  </machine>
   <machine name="mg1_kbd_device" sourcefile="mg1/kbd.cpp">
     <description>MG-1 Keyboard</description>
     <rom name="2716.z4" size="2048" crc="ae325c37" sha1="c6e90b10241fa61e12124ef9a5cea15212d5866c" status="good"/>
@@ -4477,11 +4565,11 @@
     <biosset name="microtouch_5_5"/>
     <biosset name="microtouch_2_2"/>
   </machine>
-  <machine name="midcsd" sourcefile="midway/csd.cpp">
+  <machine name="midcsd" sourcefile="bally/csd.cpp">
     <description>Cheap Squeak Deluxe Sound Board</description>
     <rom name="0304-00803-0052.u15" size="74" crc="8b401aee" sha1="360f3f59877f0bc25b4154782a2011963dd80a52" status="good"/>
   </machine>
-  <machine name="midssio" sourcefile="midway/midway.cpp">
+  <machine name="midssio" sourcefile="bally/midway_sound.cpp">
     <description>Midway SSIO Sound Board</description>
     <rom name="82s123.12d" size="32" crc="e1281ee9" sha1="9ac9b01d24affc0ee9227a4364c4fd8f8290343a" status="good"/>
   </machine>
@@ -4638,15 +4726,6 @@
     <description>MSD SD-2 Disk Drive</description>
     <rom name="sd-2-2.3-c000.bin" size="8192" crc="2207560e" sha1="471e9b4a4ac09ceee9acc1774534510396f98b9a" status="good"/>
     <rom name="sd-2-2.3-e000.bin" size="8192" crc="4efd87a2" sha1="4beec0b7ce2349add3b0a5bceee60826637df8d9" status="good"/>
-  </machine>
-  <machine name="mshark" sourcefile="devices/bus/ieee488/shark.cpp">
-    <description>Mator SHARK</description>
-    <rom name="pch488 3450 v22.1 @1" size="4096" crc="03bff9d7" sha1="ac506df6509e1b2185a69f9f8f44b8b456aa9834" status="good"/>
-    <rom name="pch488 3450 v22.1 @2" size="4096" crc="c14fa5fe" sha1="bcfd1dd65d692c76b90e6134b85f22c39c049430" status="good"/>
-    <rom name="pch488 3450 v22.1 @3" size="4096" crc="4dfaa482" sha1="fe2c44bb650572616c8bdad6358032fe64b1e363" status="good"/>
-    <rom name="pch488 3450 v22.1 @4" size="4096" crc="aef665e9" sha1="80a4c00b717100b4e22fa3704e34060fffce2bc3" status="good"/>
-    <rom name="pch488 3450 v22.1 @5" size="4096" crc="f30adf60" sha1="96c15264d5a9b52e1d238921880c48a797a6da1e" status="good"/>
-    <rom name="micro p3450 v1.3" size="2048" crc="0e69202e" sha1="3b384951ff54c4b45a3a778a88966d13e2c9d57a" status="good"/>
   </machine>
   <machine name="msm6222b01" sourcefile="devices/video/msm6222b.cpp">
     <description>Oki MSM6222B-01 LCD Controller</description>
@@ -5198,7 +5277,10 @@
   <machine name="nss_tvinterface" sourcefile="devices/bus/rs232/nss_tvinterface.cpp">
     <description>Novag Super System TV Interface</description>
     <rom name="tvgr_011091" size="8192" crc="0ff64cec" sha1="d35881111cdf8e85a843e3b085447d07244d8d70" status="good"/>
+    <rom name="white_27c64a" size="8192" crc="3eefa63d" sha1="2e6e0abb50f5722c81baedfd514d660f9c1c814e" status="good"/>
     <rom name="cg_930" size="8192" crc="98287b9d" sha1="b20d7856e4739bafcd66434adf9881824f8a611b" status="good"/>
+    <biosset name="de"/>
+    <biosset name="fr"/>
   </machine>
   <machine name="omniwave" sourcefile="devices/bus/waveblaster/omniwave.cpp">
     <description>Samsung Omniwave</description>
@@ -5218,7 +5300,7 @@
     <rom name="microdis.rom" size="8192" crc="a9664a9c" sha1="0d2ef6e67322f48f4b7e08d8bbe68827e2074561" status="good"/>
   </machine>
   <machine name="osa_analyst" sourcefile="devices/bus/saitek_osa/maestro.cpp" romof="osa_maestro">
-    <description>Saitek OSA Analyst</description>
+    <description>Saitek OSA: Kasparov Analyst Module</description>
     <rom name="m6l_a15_u2.u2" size="32768" crc="91570897" sha1="e6db36ffc87ce3941a3e12222678069cff9e47f6" status="good"/>
     <rom name="b6c_721_u3.u3" size="32768" crc="b1e57023" sha1="6cec5cdc0bf4f8ac88afb0397fcb4738136b0431" status="good"/>
     <rom name="m6l_b30d_u2.u2" size="32768" crc="bb10e15c" sha1="7b0fb987c49da76a03b46c80d2b4eacaa785ee75" status="good"/>
@@ -5244,8 +5326,12 @@
     <biosset name="dp"/>
     <biosset name="dpp"/>
   </machine>
+  <machine name="osa_bforce" sourcefile="devices/bus/saitek_osa/bruteforce.cpp">
+    <description>Saitek OSA: Kasparov Brute Force Module</description>
+    <rom name="h8_325_hd6473258p10_sm18_b16_u_2.u2" size="32768" crc="f22e46d2" sha1="7baa809ffc09117a27bdeede655f92bc3a6d1626" status="good"/>
+  </machine>
   <machine name="osa_maestro" sourcefile="devices/bus/saitek_osa/maestro.cpp">
-    <description>Saitek OSA Maestro B-D</description>
+    <description>Saitek OSA: Kasparov Maestro B-D Module</description>
     <rom name="m6c_807e_u2.u2" size="32768" crc="a6b11715" sha1="18e086353d9122034f78bcd75ef5b3462c5983ac" status="good"/>
     <rom name="b6c_721_u3.u3" size="32768" crc="b1e57023" sha1="6cec5cdc0bf4f8ac88afb0397fcb4738136b0431" status="good"/>
     <rom name="m6c_807c_u2.u2" size="32768" crc="57c34b4d" sha1="1f436687f90b1afd4646e90d5617cf05c4465c98" status="good"/>
@@ -5278,14 +5364,14 @@
     <biosset name="dpp"/>
   </machine>
   <machine name="osa_maestroa" sourcefile="devices/bus/saitek_osa/maestroa.cpp">
-    <description>Saitek OSA Maestro A</description>
+    <description>Saitek OSA: Kasparov Maestro A Module</description>
     <rom name="m6a_a29b.u6" size="32768" crc="6ee0197a" sha1="61f201ca64576aca582bc9f2a427638bd79e1fee" status="good"/>
     <rom name="m6a_v14b.u6" size="32768" crc="d566a476" sha1="ef81b9a0dcfbd8427025cfe9bf738d42a7a1139a" status="good"/>
     <biosset name="a1"/>
     <biosset name="a2"/>
   </machine>
   <machine name="osa_sparc" sourcefile="devices/bus/saitek_osa/sparc.cpp">
-    <description>Saitek OSA Sparc</description>
+    <description>Saitek OSA: Kasparov Sparc Module</description>
     <rom name="sm16b_512.u5" size="65536" crc="96bca59d" sha1="2c7e693d0cdf69b6e566c6dd03bd24d39e32aa82" status="good"/>
     <rom name="sm16b_512.u4" size="65536" crc="15dd621d" sha1="e8f7404e84fe027b086fcb918fbcaf2ce4203567" status="good"/>
     <rom name="sm16b_512.u3" size="65536" crc="3201c6e4" sha1="9a209219a0ab4b4f874381a16773bf33f8f7ba25" status="good"/>
@@ -5354,6 +5440,10 @@
   <machine name="pc1640_iga" sourcefile="devices/bus/isa/pc1640_iga.cpp">
     <description>Amstrad PC1640 IGA</description>
     <rom name="40100.ic913" size="32768" crc="d2d1f1ae" sha1="98302006ee38a17c09bd75504cc18c0649174e33" status="good"/>
+  </machine>
+  <machine name="pc6022" sourcefile="devices/bus/centronics/pc6022.cpp">
+    <description>NEC PC-6022 Color Plotter Printer</description>
+    <rom name="upd7801g-138.bin" size="4096" crc="0a294989" sha1="fab85e88566ffa10923dec3a1a6b0d8346bc69ec" status="good"/>
   </machine>
   <machine name="pc80s31" sourcefile="devices/bus/nec_fdd/pc80s31k.cpp">
     <description>NEC PC-80S31 Mini Disk Unit I/F</description>
@@ -5441,6 +5531,11 @@
     <rom name="d40-graka.bin" size="8192" crc="dce48252" sha1="0d9a575b2d001168a36864d7bd5db1c3aca5fb8d" status="good"/>
     <rom name="d39-graka.bin" size="8192" crc="02920e25" sha1="145a6648d75c1dc4788f9bc7790281ef7e8f8426" status="good"/>
   </machine>
+  <machine name="pd32" sourcefile="devices/bus/isa/pd32.cpp">
+    <description>PD32 coprocessor (Rand/Scolaro)</description>
+    <rom name="rom.000" size="1024" crc="496e8088" sha1="522056eb821b6c875f8ce0963bc3cd24e7303759" status="good"/>
+    <rom name="rom.001" size="1024" crc="b2b45c15" sha1="6a8b0e6cd27fd3a7d7ca870790c6793edf9de083" status="good"/>
+  </machine>
   <machine name="pd3_30hr" sourcefile="devices/bus/nubus/pds30_30hr.cpp">
     <description>Micron/XCEED Technology Color 30HR</description>
     <rom name="369c.rom" size="32768" crc="b22f0a89" sha1="be34c8604b8a1ae9c9f3b0b90faba9a1a64a5855" status="good"/>
@@ -5453,7 +5548,7 @@
     <description>RasterOps ColorBoard 264/SE30</description>
     <rom name="0002-2019_10-02-90.bin" size="32768" crc="5b5b2fab" sha1="0584deb38b402718f2abef456b0035b34fddb473" status="good"/>
   </machine>
-  <machine name="pd3_lviw" sourcefile="devices/bus/nubus/pds30_sigmalview.cpp">
+  <machine name="pd3_lviw" sourcefile="devices/bus/nubus/laserview.cpp">
     <description>Sigma Designs L-View</description>
     <rom name="lv_asi_4_00.bin" size="16384" crc="b806f875" sha1="1e58593b1a8720193d1651b0d8a0d43e4e47563d" status="good"/>
   </machine>
@@ -5519,18 +5614,6 @@
     <biosset name="sparc_1_11"/>
     <biosset name="sparc_1_10"/>
     <biosset name="pc_99"/>
-  </machine>
-  <machine name="pet_softbox" sourcefile="devices/bus/ieee488/softbox.cpp">
-    <description>SSE SoftBox</description>
-    <rom name="375.ic3" size="2048" crc="177580e7" sha1="af6a97495de825b80cdc9fbf72329d5440826177" status="good"/>
-    <rom name="376.ic4" size="2048" crc="edfee5be" sha1="5662e9071cc622a1c071d89b00272fc6ba122b9a" status="good"/>
-    <rom name="379.ic3" size="2048" crc="7b5a737c" sha1="2348590884b026b7647f6864af8c9ba1c6f8746b" status="good"/>
-    <rom name="380.ic4" size="2048" crc="65a13029" sha1="46de02e6f04be298047efeb412e00a5714dc21b3" status="good"/>
-    <rom name="389.ic3" size="2048" crc="d66e581a" sha1="2403e25c140c41b0e6d6975d39c9cd9d6f335048" status="good"/>
-    <rom name="390.ic4" size="2048" crc="abe6cb30" sha1="4b26d5db36f828e01268f718799f145d09b449ad" status="good"/>
-    <biosset name="19810908"/>
-    <biosset name="19811027"/>
-    <biosset name="19830609"/>
   </machine>
   <machine name="pet_superpet" sourcefile="devices/bus/pet/superpet.cpp">
     <description>Commodore SuperPET</description>
@@ -6176,33 +6259,60 @@
     <rom name="s3_764.bin" size="65536" crc="4f10aac7" sha1="c77b3f11cc15679121314823588887dd547cd715" status="good"/>
     <biosset name="9fxv330"/>
   </machine>
+  <machine name="s8k_cpu" sourcefile="devices/bus/zbi/s8k_cpu.cpp">
+    <description>System 8000 CPU-A</description>
+    <rom name="cpu_34-0715-01a.u76" size="4096" crc="81a4cac6" sha1="9e74883a365f1034610b1c4681ca3611362d62ea" status="good"/>
+    <rom name="cpu_34-0716-01a.u74" size="4096" crc="ab2ca534" sha1="25857479801397f1f18c55b40f81cb5ba7a01a55" status="good"/>
+    <rom name="cpu_34-0718-01a.u77" size="4096" crc="6b8b4536" sha1="85ff7c9be0f51e299d4f9406064cd32df08b8f16" status="good"/>
+    <rom name="cpu_34-0717-01a.u75" size="4096" crc="c8d3be3b" sha1="efbca6fcbf53565075b67a14096d0f725839494a" status="good"/>
+    <rom name="cpu_34-0715-02_v_2.2.u76" size="4096" crc="198ce8ee" sha1="743d75dab6f4ea85b2f95ec1b620134f4416a351" status="good"/>
+    <rom name="cpu_34-0716-02_v_2.2.u74" size="4096" crc="8a3ea482" sha1="0572b21ac5aeb24cec01d7682f1ad7eef08cb070" status="good"/>
+    <rom name="cpu_34-0718-02_v_2.2.u77" size="4096" crc="43660a81" sha1="8398d1998384ea0a95fcad58f791d9657e023b83" status="good"/>
+    <rom name="cpu_34-0717-02_v_2.2.u75" size="4096" crc="8ddb6479" sha1="93eec5a59a7856d19e32f526dddb4f21c1864373" status="good"/>
+    <rom name="cpu_34-0715-03a.u76" size="4096" crc="addc3e4f" sha1="86e013450d23ab7a39b50bffa6113a0a060f1650" status="good"/>
+    <rom name="cpu_34-0716-03a_8user.u74" size="4096" crc="645dd24b" sha1="f123684c604a971ade5ed229538403989be7cc2a" status="good"/>
+    <rom name="cpu_34-0718-03a.u77" size="4096" crc="f2341d8e" sha1="574e6d1dd4e5211c0c83cad21e6e1b53810c699b" status="good"/>
+    <rom name="cpu_34-0717-03a.u75" size="4096" crc="3a0370b3" sha1="4660c1c58202ebaaf1200f92de719e1811860fd9" status="good"/>
+    <rom name="cpu_34-0715-03a.u76" size="4096" crc="addc3e4f" sha1="86e013450d23ab7a39b50bffa6113a0a060f1650" status="good"/>
+    <rom name="cpu_34-0716-03a.u74" size="4096" crc="9a315ba4" sha1="c2ab2bfaf21d60f69ea7ede01a929ac46511061b" status="good"/>
+    <rom name="cpu_34-0718-03a.u77" size="4096" crc="f2341d8e" sha1="574e6d1dd4e5211c0c83cad21e6e1b53810c699b" status="good"/>
+    <rom name="cpu_34-0717-03a.u75" size="4096" crc="3a0370b3" sha1="4660c1c58202ebaaf1200f92de719e1811860fd9" status="good"/>
+    <biosset name="v12"/>
+    <biosset name="v22"/>
+    <biosset name="v30_8u"/>
+    <biosset name="v30"/>
+  </machine>
+  <machine name="s8k_cpu10" sourcefile="devices/bus/zbi/s8k_cpu.cpp">
+    <description>System 8000 CPU-A 1.0</description>
+    <rom name="cpu_34-0601-00a.u76" size="2048" crc="fe8e0de5" sha1="9d28f6ecbf4f077c80cf987c9ea7adf99bf3429c" status="good"/>
+    <rom name="cpu_34-0602-00a.u74" size="2048" crc="0b634c89" sha1="1b81f56151038812441a7ceaf28f2bcb7d58b6d4" status="good"/>
+    <rom name="cpu_34-0605-00a.u77" size="2048" crc="ae5ebab8" sha1="e082107914da9acc1a71fa5c2dc9d1d464222fe5" status="good"/>
+    <rom name="cpu_34-0606-00a.u75" size="2048" crc="a46db483" sha1="86569a6c8649f691acbf7d42a825bde105460f55" status="good"/>
+  </machine>
+  <machine name="s8k_hpcpu" sourcefile="devices/bus/zbi/s8k_cpu.cpp">
+    <description>System 8000 HPCPU</description>
+    <rom name="hpcpu_34-1117-00_v10.1_common.19e" size="8192" crc="a77055c8" sha1="f1268c6b163f9e4151d425ccc2f5cb4c9c0af8c8" status="good"/>
+    <rom name="hpcpu_34-1119-00_v10.1_16user.21e" size="8192" crc="610e8b0c" sha1="bc804e09cf6905c9f0ccc502a15c98841ee4b087" status="good"/>
+  </machine>
   <machine name="s97269pb" sourcefile="sega/vicdual-97269pb.cpp">
     <description>N-Sub Daughterboard 97269-P-B</description>
     <rom name="pr-02.a1" size="256" crc="8e633b5c" sha1="7ee40abe0e8a56aae2cc5f1102fa8c334a19e075" status="good"/>
     <rom name="pr-56.b2" size="1024" crc="f79c8e91" sha1="eafff661e2aa1a6ef64f51faa9b1dac7af843557" status="good"/>
     <rom name="pr-57.a3" size="1024" crc="00d52430" sha1="5f4de97cfe6fe39da75761e0f434de28d30f3e3b" status="good"/>
   </machine>
+  <machine name="s97801_device" sourcefile="devices/machine/s97801.cpp">
+    <description>Siemens 97801 Terminal</description>
+    <rom name="010_d26__0118_04.d26" size="8192" crc="fcf045d7" sha1="4a98e7d2d98272970d627ce5c10e9572b87293d1" status="good"/>
+    <rom name="010_d21__0118_04.d21" size="8192" crc="b9b9df32" sha1="9a3ba060ebcf00b1ed9112493a1d73212c04d8e5" status="good"/>
+    <rom name="010_d23__0118_03.d23" size="8192" crc="23b22a7d" sha1="649abcfde9752f427ec7d1efdc013a4f01dc271c" status="good"/>
+  </machine>
+  <machine name="s97801_kbd" sourcefile="devices/machine/s97801_kbd.cpp">
+    <description>Siemens 97801 Keyboard (International V1)</description>
+    <rom name="p26361_k111_v1_3.d3" size="4096" crc="aba8f4b7" sha1="970a45b509081603e25319e1bbf0f7941f91a056" status="good"/>
+  </machine>
   <machine name="s_smp" sourcefile="devices/machine/s_smp.cpp">
     <description>Nintendo/Sony S-SMP</description>
     <rom name="spc700.rom" size="64" crc="44bb3a40" sha1="97e352553e94242ae823547cd853eecda55c20f0" status="good"/>
-  </machine>
-  <machine name="sa1403d" sourcefile="devices/bus/scsi/sa1403d.cpp">
-    <description>Shugart SA1403D</description>
-    <rom name="i" size="4096" status="nodump"/>
-    <rom name="ii" size="4096" status="nodump"/>
-    <rom name="iii" size="4096" status="nodump"/>
-    <rom name="iv" size="4096" status="nodump"/>
-    <rom name="i" size="4096" status="nodump"/>
-    <rom name="ii" size="4096" status="nodump"/>
-    <rom name="iii" size="4096" status="nodump"/>
-    <rom name="iv" size="4096" status="nodump"/>
-    <rom name="i" size="4096" status="nodump"/>
-    <rom name="ii" size="4096" status="nodump"/>
-    <rom name="iii" size="4096" status="nodump"/>
-    <rom name="iv" size="4096" status="nodump"/>
-    <biosset name="as30"/>
-    <biosset name="as31"/>
-    <biosset name="u50"/>
   </machine>
   <machine name="saa5050" sourcefile="devices/video/saa5050.cpp">
     <description>SAA5050 Teletext Character Generator</description>
@@ -6260,11 +6370,6 @@
     <biosset name="cdb106"/>
     <biosset name="cdb105"/>
     <biosset name="ygr022"/>
-  </machine>
-  <machine name="sb16" sourcefile="devices/bus/isa/sb16.cpp">
-    <description>SoundBlaster 16 Audio Adapter LLE</description>
-    <rom name="ct1741_v413@80c52.bin" size="8192" crc="5181892f" sha1="5b42f1c34c4e9c8dbbdcffa0a36c178ca4f1aa77" status="good"/>
-    <rom name="ct1741_v413_xor.bin" size="64" crc="5243d15a" sha1="c7637c92828843f47e6e2f956af639b07aee4571" status="good"/>
   </machine>
   <machine name="sb300p" sourcefile="devices/bus/sbus/artecon.cpp">
     <description>Artecon SB-300P 3S/1P controller</description>
@@ -6374,7 +6479,7 @@
     <description>Sega Network Board</description>
     <rom name="ver1305.bin" size="2097152" crc="a738ea1c" sha1="45d94d0c39be1cb3db9fab6610a88a550adda4e9" status="good"/>
   </machine>
-  <machine name="sente6vb" sourcefile="midway/sente6vb.cpp">
+  <machine name="sente6vb" sourcefile="bally/sente6vb.cpp">
     <description>Bally Sente 6VB Audio Board</description>
     <rom name="8002-10 9-25-84.5" size="8192" crc="4dd0a525" sha1="f0c447adc5b67917851a9df978df851247e75c43" status="good"/>
   </machine>
@@ -6383,7 +6488,7 @@
     <rom name="361d0279d031__e00422_tex.d31" size="8192" crc="369f5fd1" sha1="6a1c2d351d5552d54d835b7726b3f9b921605d0e" status="good"/>
   </machine>
   <machine name="sfd1001" sourcefile="devices/bus/ieee488/c8050.cpp">
-    <description>Commodore SFD-1001</description>
+    <description>Commodore SFD-1001 disk drive</description>
     <rom name="901887-01.1j" size="8192" crc="0073b8b2" sha1="b10603195f240118fe5fb6c6dfe5c5097463d890" status="good"/>
     <rom name="901888-01.3j" size="8192" crc="de9b6132" sha1="2e6c2d7ca934e5c550ad14bd5e9e7749686b7af4" status="good"/>
     <rom name="901885-04.u1" size="1024" crc="bab998c9" sha1="0dc9a3b60f1b866c63eebd882403532fc59fe57f" status="good"/>
@@ -6560,6 +6665,10 @@
     <description>Idol Japan SpeakBoard sound card</description>
     <rom name="spb lh5764 ic21_pink.bin" size="8192" crc="5bcefa1f" sha1="ae88e45d411bf5de1cb42689b12b6fca0146c586" status="good"/>
     <rom name="spb lh5764 ic22_green.bin" size="8192" crc="a7925ced" sha1="3def9ee386ab6c31436888261bded042cd64a0eb" status="good"/>
+  </machine>
+  <machine name="spectred_kbd" sourcefile="apple/spectred_kbd.cpp">
+    <description>Spectrum ED keyboard</description>
+    <rom name="167_8980.u5" size="4096" crc="a501f197" sha1="136c2b562999a6e340fe0e9a3776cea8c2e3647e" status="good"/>
   </machine>
   <machine name="spectrum_beta128" sourcefile="devices/bus/spectrum/beta128.cpp">
     <description>TR Beta 128 Disk Interface</description>
@@ -7272,6 +7381,10 @@
     <rom name="cd2325a.u2a" size="16384" crc="1f58b571" sha1="0ef4f178716b575a1c0c970c56af8a8d97561ffe" status="good"/>
     <rom name="cd2326a.u2b" size="16384" crc="65d00401" sha1="a367242c2c96cebf0e2bf21862f3f6734b2b3020" status="good"/>
   </machine>
+  <machine name="ti99_thermal" sourcefile="devices/bus/ti99/sidecar/thermal.cpp">
+    <description>TI-99 Thermal Printer</description>
+    <rom name="thermal.u12" size="4096" crc="83376edb" sha1="2f923e59a3a52b3645e8d26e11a697f320c6d4cb" status="good"/>
+  </machine>
   <machine name="ti99_tipi" sourcefile="devices/bus/ti99/peb/tipi.cpp">
     <description>TIPI card</description>
     <rom name="tipidsr.u2" size="32768" crc="a54e65af" sha1="f930e4b079a5b6b24dc20f262e9c599d2051b6be" status="good"/>
@@ -7721,9 +7834,27 @@
     <description>Sharp CZ-6BS1 SCSI-1</description>
     <rom name="scsiexrom.bin" size="8192" crc="7be488de" sha1="49616c09a8986ffe6a12ad600febe512f7ba8ae4" status="good"/>
   </machine>
+  <machine name="x820iikb" sourcefile="xerox/x820kb.cpp">
+    <description>Xerox 820-II Keyboard</description>
+    <rom name="820iikey.bin" size="1024" crc="8ea3b39b" sha1="3f05959f54a558b273567b1b4f0c7cdf46d8d9bf" status="good"/>
+  </machine>
   <machine name="x820kb" sourcefile="xerox/x820kb.cpp">
     <description>Xerox 820 Keyboard</description>
     <rom name="820iikey.bin" size="1024" crc="8ea3b39b" sha1="3f05959f54a558b273567b1b4f0c7cdf46d8d9bf" status="good"/>
+  </machine>
+  <machine name="xerox820_16_8" sourcefile="devices/bus/xerox820/copro.cpp">
+    <description>Xerox 16/8 8086 coprocessor board</description>
+    <rom name="8086.u33" size="4096" crc="ee49e3dc" sha1="a5f20c74fc53f9d695d8894534ab69a39e2c38d8" status="good"/>
+  </machine>
+  <machine name="xerox820_emii_flpy5" sourcefile="devices/bus/xerox820/copro.cpp">
+    <description>Xerox 16/8 EM-II, floppy only (8086 + WD1002-05)</description>
+    <rom name="8086.u33" size="4096" crc="ee49e3dc" sha1="a5f20c74fc53f9d695d8894534ab69a39e2c38d8" status="good"/>
+    <rom name="537p3682.bin" size="4096" crc="88f30a00" sha1="54d205e5a7ed80feb7cd06eddc863110fc655dde" status="good"/>
+  </machine>
+  <machine name="xerox820_emii_rgd5" sourcefile="devices/bus/xerox820/copro.cpp">
+    <description>Xerox 16/8 EM-II, rigid+floppy (8086 + WD1002-05)</description>
+    <rom name="8086.u33" size="4096" crc="ee49e3dc" sha1="a5f20c74fc53f9d695d8894534ab69a39e2c38d8" status="good"/>
+    <rom name="537p3682.bin" size="4096" crc="88f30a00" sha1="54d205e5a7ed80feb7cd06eddc863110fc655dde" status="good"/>
   </machine>
   <machine name="xetec_c5181" sourcefile="devices/bus/cbmiec/c5181.cpp">
     <description>Xetec C-5181 Serial Printer Interface</description>

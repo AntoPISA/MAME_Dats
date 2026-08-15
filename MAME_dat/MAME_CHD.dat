@@ -905,18 +905,20 @@
 		<device_ref name="naomi_m4_board"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="arb605" sourcefile="tvgames/generalplus_gpl32612.cpp">
+	<machine name="arb605" sourcefile="tvgames/generalplus_gpm453x_sdcard.cpp">
 		<description>AR Game Console (Model B605, YRPRSODF)</description>
 		<year>202?</year>
 		<manufacturer>Shen Zhen Shi Fei Xun Hu Dong Technology</manufacturer>
-		<rom name="25q80.u6" size="1048656" crc="8dbf398e" sha1="fdee8b93967f79cfd577b944841a65744dd251aa"/>
+		<rom name="25q80.u6" size="1048576" crc="ba2cdacd" sha1="d47829ee5310140665146262a44e0ba91942f25c"/>
 		<disk name="ar_game_console_b605" sha1="433d354529e262de9d833a7a423a37915ba3362c" region="sdcard"/>
 		<device_ref name="arm9"/>
 		<device_ref name="screen"/>
+		<device_ref name="spi_sdcard"/>
+		<device_ref name="harddisk_image"/>
 		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="arctthnd" sourcefile="midway/midqslvr.cpp">
+	<machine name="arctthnd" sourcefile="williams/midqslvr.cpp">
 		<description>Arctic Thunder (v1.002)</description>
 		<year>2001</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -927,7 +929,7 @@
 		<device_ref name="pci_root"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="ardancem" sourcefile="tvgames/generalplus_gpl32612.cpp">
+	<machine name="ardancem" sourcefile="tvgames/generalplus_gpm453x_sdcard.cpp">
 		<description>AR Dance Mat (Model DM02, YRPRSODF)</description>
 		<year>202?</year>
 		<manufacturer>Shen Zhen Shi Fei Xun Hu Dong Technology</manufacturer>
@@ -935,6 +937,8 @@
 		<disk name="ardancemat" sha1="df8cb065f5ce0ca863b205549ecc4c27647f9954" region="sdcard"/>
 		<device_ref name="arm9"/>
 		<device_ref name="screen"/>
+		<device_ref name="spi_sdcard"/>
+		<device_ref name="harddisk_image"/>
 		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
@@ -2943,7 +2947,7 @@
 		<device_ref name="naomi_m4_board"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="biofreak" sourcefile="midway/seattle.cpp">
+	<machine name="biofreak" sourcefile="williams/seattle.cpp">
 		<description>Bio F.R.E.A.K.S (prototype, boot ROM 0.1i)</description>
 		<year>1997</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -2998,7 +3002,7 @@
 		<device_ref name="palette"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="blitz" sourcefile="midway/seattle.cpp">
+	<machine name="blitz" sourcefile="williams/seattle.cpp">
 		<description>NFL Blitz (ver 1.21, Dec 5 1997)</description>
 		<year>1997</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -3044,7 +3048,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="blitz2k" sourcefile="midway/seattle.cpp">
+	<machine name="blitz2k" sourcefile="williams/seattle.cpp">
 		<description>NFL Blitz 2000 Gold Edition (ver 1.2, Sep 22 1999)</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -3088,7 +3092,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="blitz99" sourcefile="midway/seattle.cpp">
+	<machine name="blitz99" sourcefile="williams/seattle.cpp">
 		<description>NFL Blitz '99 (ver 1.30, Sep 22 1998)</description>
 		<year>1998</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -3132,7 +3136,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="blitz99a" sourcefile="midway/seattle.cpp" cloneof="blitz99" romof="blitz99">
+	<machine name="blitz99a" sourcefile="williams/seattle.cpp" cloneof="blitz99" romof="blitz99">
 		<description>NFL Blitz '99 (ver 1.2, Aug 28 1998)</description>
 		<year>1998</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -5136,6 +5140,19 @@
 		<device_ref name="pci_root"/>
 		<driver status="preliminary"/>
 	</machine>
+	<machine name="bodygun" sourcefile="tvgames/generalplus_gpm453x_sdcard.cpp">
+		<description>Body Gun Game Console (Model GC05, Damcoola)</description>
+		<year>202?</year>
+		<manufacturer>Shen Zhen Shi Fei Xun Hu Dong Technology</manufacturer>
+		<rom name="25q08.u6" size="1048576" crc="5aa91972" sha1="296108e8683063c16951ff326e6ff3d63d9ed5b8"/>
+		<disk name="bodygun" sha1="3e41a2ba9b86fb6b155c1c82a7612458c3555a64" region="sdcard"/>
+		<device_ref name="arm9"/>
+		<device_ref name="screen"/>
+		<device_ref name="spi_sdcard"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
 	<machine name="boxingm" sourcefile="konami/viper.cpp" romof="kviper">
 		<description>Boxing Mania: Ashita no Joe (ver JAA)</description>
 		<year>2001</year>
@@ -5591,7 +5608,7 @@
 		<device_ref name="tgui9680_vga"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="calspeed" sourcefile="midway/seattle.cpp">
+	<machine name="calspeed" sourcefile="williams/seattle.cpp">
 		<description>California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -5637,7 +5654,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="calspeeda" sourcefile="midway/seattle.cpp" cloneof="calspeed" romof="calspeed">
+	<machine name="calspeeda" sourcefile="williams/seattle.cpp" cloneof="calspeed" romof="calspeed">
 		<description>California Speed (Version 1.0r8 Mar 10 1998, GUTS Mar 10 1998 / MAIN Mar 10 1998)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -5687,7 +5704,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="calspeedb" sourcefile="midway/seattle.cpp" cloneof="calspeed" romof="calspeed">
+	<machine name="calspeedb" sourcefile="williams/seattle.cpp" cloneof="calspeed" romof="calspeed">
 		<description>California Speed (Version 1.0r7a Mar 4 1998, GUTS Mar 3 1998 / MAIN Jan 19 1998)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -5733,7 +5750,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="carnevil" sourcefile="midway/seattle.cpp">
+	<machine name="carnevil" sourcefile="williams/seattle.cpp">
 		<description>CarnEvil (v1.0.3)</description>
 		<year>1998</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -5777,7 +5794,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="carnevil1" sourcefile="midway/seattle.cpp" cloneof="carnevil" romof="carnevil">
+	<machine name="carnevil1" sourcefile="williams/seattle.cpp" cloneof="carnevil" romof="carnevil">
 		<description>CarnEvil (v1.0.1)</description>
 		<year>1998</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -5883,7 +5900,7 @@
 		<device_ref name="screen"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="cartfury" sourcefile="midway/vegas.cpp">
+	<machine name="cartfury" sourcefile="williams/vegas.cpp">
 		<description>CART Fury Championship Racing (ver 1.00)</description>
 		<year>2000</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -6098,7 +6115,7 @@
 	<machine name="chaosbrk" sourcefile="taito/taitotx.cpp">
 		<description>Chaos Breaker (v2.02J)</description>
 		<year>2004</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x_bios.bin" size="65536" status="nodump"/>
 		<disk name="chaosbreaker_v2_02j" sha1="8fe7bdc20a8d9e81f08cef60324ed9ac978a16e9" region="ide:0:hdd"/>
@@ -6203,7 +6220,7 @@
 	<machine name="chasehq2" sourcefile="taito/taitotx.cpp">
 		<description>Chase H.Q. 2 (v2.0.6.JP)</description>
 		<year>2006</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x2_bios.bin" size="65536" status="nodump"/>
 		<disk name="chase_hq_2_v2.0.6.jp" sha1="900620e27c1465dff4ced4b6ae479356c9a785e0" region="ide:0:hdd"/>
@@ -14900,7 +14917,7 @@
 		<device_ref name="tgui9680"/>
 		<device_ref name="screen"/>
 		<device_ref name="tgui9680_vga"/>
-		<driver status="imperfect"/>
+		<driver status="preliminary"/>
 	</machine>
 	<machine name="eldoralg" sourcefile="amiga/cubo.cpp" romof="cubo">
 		<description>Eldorado (4.2)</description>
@@ -17044,7 +17061,7 @@
 		<device_ref name="m68ec020"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="gauntdl" sourcefile="midway/vegas.cpp">
+	<machine name="gauntdl" sourcefile="williams/vegas.cpp">
 		<description>Gauntlet Dark Legacy (version DL 2.52)</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -17091,7 +17108,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="gauntdl24" sourcefile="midway/vegas.cpp" cloneof="gauntdl" romof="gauntdl">
+	<machine name="gauntdl24" sourcefile="williams/vegas.cpp" cloneof="gauntdl" romof="gauntdl">
 		<description>Gauntlet Dark Legacy (version DL 2.4)</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -17138,7 +17155,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="gauntleg" sourcefile="midway/vegas.cpp">
+	<machine name="gauntleg" sourcefile="williams/vegas.cpp">
 		<description>Gauntlet Legends (version 1.6)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -17185,7 +17202,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="gauntleg12" sourcefile="midway/vegas.cpp" cloneof="gauntleg" romof="gauntleg">
+	<machine name="gauntleg12" sourcefile="williams/vegas.cpp" cloneof="gauntleg" romof="gauntleg">
 		<description>Gauntlet Legends (version 1.2)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -17236,7 +17253,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="gauntleg14" sourcefile="midway/vegas.cpp" cloneof="gauntleg" romof="gauntleg">
+	<machine name="gauntleg14" sourcefile="williams/vegas.cpp" cloneof="gauntleg" romof="gauntleg">
 		<description>Gauntlet Legends (version 1.4)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -22264,7 +22281,7 @@
 	<machine name="gwinggen" sourcefile="taito/taitotx.cpp">
 		<description>Giga Wing Generations (v2.02J)</description>
 		<year>2004</year>
-		<manufacturer>Takumi Corporation</manufacturer>
+		<manufacturer>Takumi</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x_bios.bin" size="65536" status="nodump"/>
 		<disk name="gigawing_v2_02j" sha1="e09a2e5019111765689cb205cc94e7868c55e9ca" region="ide:0:hdd"/>
@@ -22838,7 +22855,7 @@
 		<device_ref name="ac97"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="hydrthnd" sourcefile="midway/midqslvr.cpp">
+	<machine name="hydrthnd" sourcefile="williams/midqslvr.cpp">
 		<description>Hydro Thunder</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -22916,7 +22933,7 @@
 		<device_ref name="screen"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="hydrthnd100d" sourcefile="midway/midqslvr.cpp" cloneof="hydrthnd" romof="hydrthnd">
+	<machine name="hydrthnd100d" sourcefile="williams/midqslvr.cpp" cloneof="hydrthnd" romof="hydrthnd">
 		<description>Hydro Thunder (v1.00d)</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -22994,7 +23011,7 @@
 		<device_ref name="screen"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="hydrthnd101b" sourcefile="midway/midqslvr.cpp" cloneof="hydrthnd" romof="hydrthnd">
+	<machine name="hydrthnd101b" sourcefile="williams/midqslvr.cpp" cloneof="hydrthnd" romof="hydrthnd">
 		<description>Hydro Thunder (v1.01b)</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -23223,7 +23240,7 @@
 		<device_ref name="pci_root"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="hyprdriv" sourcefile="midway/seattle.cpp">
+	<machine name="hyprdriv" sourcefile="williams/seattle.cpp">
 		<description>Hyperdrive (ver 1.40, Oct 23 1998)</description>
 		<year>1998</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -23269,7 +23286,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="hyprdriv131" sourcefile="midway/seattle.cpp" cloneof="hyprdriv" romof="hyprdriv">
+	<machine name="hyprdriv131" sourcefile="williams/seattle.cpp" cloneof="hyprdriv" romof="hyprdriv">
 		<description>Hyperdrive (ver 1.31, Oct 21 1998)</description>
 		<year>1998</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -24275,7 +24292,7 @@
 		<device_ref name="software_list"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="intrtvg" sourcefile="tvgames/generalplus_gpl32612.cpp">
+	<machine name="intrtvg" sourcefile="tvgames/generalplus_gpm453x_sdcard.cpp">
 		<description>Interactive Game Console (Model B608, YRPRSODF)</description>
 		<year>202?</year>
 		<manufacturer>Shen Zhen Shi Fei Xun Hu Dong Technology</manufacturer>
@@ -24283,6 +24300,8 @@
 		<disk name="interactivetv" sha1="7061e28c4560b763bda1157036b79c726387e430" region="sdcard"/>
 		<device_ref name="arm9"/>
 		<device_ref name="screen"/>
+		<device_ref name="spi_sdcard"/>
+		<device_ref name="harddisk_image"/>
 		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
@@ -24492,7 +24511,7 @@
 	<machine name="jnero" sourcefile="ice/vp101.cpp">
 		<description>Johnny Nero Action Hero (v01.01.08)</description>
 		<year>2004</year>
-		<manufacturer>ICE/Play Mechanix</manufacturer>
+		<manufacturer>ICE / Play Mechanix</manufacturer>
 		<rom name="8722a-1206.bin" size="524288" status="nodump"/>
 		<rom name="d710.05523.bin" size="1048576" crc="6054a066" sha1="58e68b7d86e6f24c79b99c8406e86e3c14387726"/>
 		<disk name="jn010108" sha1="5a27990478b65fca801c3a6518c519c5b4ca934d" region="ata:0:hdd"/>
@@ -25298,6 +25317,17 @@
 		<device_ref name="mbm29f016a"/>
 		<driver status="good"/>
 	</machine>
+	<machine name="jpad" sourcefile="tvgames/generalplus_gpl32612.cpp">
+		<description>Jewel Pad (Japan)</description>
+		<year>201?</year>
+		<manufacturer>Sega Toys</manufacturer>
+		<rom name="mx25l6406e.sfrom1" size="8388608" crc="be2d7c59" sha1="9b205b1a35e26720726fecac2d4523ef9a6e4d9d"/>
+		<disk name="jewel" sha1="6b39a2617ebbf9b2bebbf5ae118ea032072c011e" region="sdcard"/>
+		<device_ref name="arm9"/>
+		<device_ref name="screen"/>
+		<device_ref name="speaker"/>
+		<driver status="preliminary"/>
+	</machine>
 	<machine name="jpark3" sourcefile="konami/viper.cpp" romof="kviper">
 		<description>Jurassic Park III (ver EBC)</description>
 		<year>2001</year>
@@ -25593,6 +25623,19 @@
 		<device_ref name="24c01"/>
 		<device_ref name="24c01"/>
 		<device_ref name="93c46_8"/>
+		<driver status="preliminary"/>
+	</machine>
+	<machine name="kaximond" sourcefile="tvgames/generalplus_gpm453x_sdcard.cpp">
+		<description>Double Dance Mat with HDMI (Kaximon)</description>
+		<year>202?</year>
+		<manufacturer>Kaximon</manufacturer>
+		<rom name="tj25q08.u6" size="1048576" crc="83d07dff" sha1="4d6a3a823686a0955c904cc5f8c3e0e95ec53046"/>
+		<disk name="kaximon dance" sha1="dd041586f8815312e95a4e678d1e292c3407abea" region="sdcard"/>
+		<device_ref name="arm9"/>
+		<device_ref name="screen"/>
+		<device_ref name="spi_sdcard"/>
+		<device_ref name="harddisk_image"/>
+		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="kazaaan2" sourcefile="sega/segasp.cpp" romof="segasp">
@@ -26049,6 +26092,7 @@
 		<manufacturer>Konami</manufacturer>
 		<rom name="999a01.7e" merge="999a01.7e" size="524288" crc="ad498d2d" sha1="02a82a2fe1fba0404517c3602324bfa64e23e478"/>
 		<rom name="kdeadeye.25c" size="128" crc="3935d2df" sha1="cbb855c475269077803c380dbc3621e522efe51e"/>
+		<rom name="kdeadeye.flash" size="524288" crc="f87f18cf" sha1="67e5f76eb2b938942bd67dbb30508d4603e35f15"/>
 		<disk name="054uaa01" sha1="a05079e4e5024ca66b7f6b81de74695d86c62dd8" region="cdrom"/>
 		<device_ref name="cxd8530bq"/>
 		<device_ref name="psxirq"/>
@@ -26291,7 +26335,7 @@
 	<machine name="kof98um" sourcefile="taito/taitotx.cpp">
 		<description>The King of Fighters '98: Ultimate Match (v1.00)</description>
 		<year>2008</year>
-		<manufacturer>SNK</manufacturer>
+		<manufacturer>SNK Playmore</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x_bios.bin" size="65536" status="nodump"/>
 		<disk name="kof98um_v1_00" sha1="cf21747ddcdf802d766a2bd6a3d75a965e89b2cf" region="ide:0:hdd"/>
@@ -26302,7 +26346,7 @@
 	<machine name="kofskyst" sourcefile="taito/taitotx.cpp">
 		<description>KOF Sky Stage (v1.00J)</description>
 		<year>2010</year>
-		<manufacturer>Moss / SNK Playmore</manufacturer>
+		<manufacturer>MOSS / SNK Playmore</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x_bios.bin" size="65536" status="nodump"/>
 		<disk name="kof_sky_stage_v1.00j" sha1="86bdd4c7cd6f198c07c125a65b5361afe1bdd199" region="ide:0:hdd"/>
@@ -26362,7 +26406,7 @@
 		<device_ref name="cdda"/>
 		<device_ref name="mb89352"/>
 		<device_ref name="cxd1095"/>
-		<driver status="imperfect"/>
+		<driver status="preliminary"/>
 	</machine>
 	<machine name="kokoroj2" sourcefile="sega/segas32.cpp">
 		<description>Soreike Kokology Vol. 2 - Kokoro no Tanteikyoku</description>
@@ -26448,12 +26492,12 @@
 		<device_ref name="cdda"/>
 		<device_ref name="mb89352"/>
 		<device_ref name="cxd1095"/>
-		<driver status="imperfect"/>
+		<driver status="preliminary"/>
 	</machine>
 	<machine name="kollon" sourcefile="sony/taitogn.cpp" romof="coh3002t">
 		<description>Kollon (V2.04JA 2003/11/01 12:00)</description>
 		<year>2003</year>
-		<manufacturer>Taito</manufacturer>
+		<manufacturer>CyberFront</manufacturer>
 		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="f35-01_m27c800.bin" merge="f35-01_m27c800.bin" size="1048576" crc="6225ec11" sha1="047852d456b6ff85f8e640887caa03cf3e63ffad"/>
 		<rom name="f35-01_m27c800_modbios_mb-2009_dump_by_aje_fr.bin" merge="f35-01_m27c800_modbios_mb-2009_dump_by_aje_fr.bin" size="1048576" crc="6367aedf" sha1="8400775e0c974c8b017e26ef9339144cad457c63"/>
@@ -26500,7 +26544,7 @@
 	<machine name="kollonc" sourcefile="sony/taitogn.cpp" cloneof="kollon" romof="kollon">
 		<description>Kollon (V2.04JC 2003/11/01 12:00)</description>
 		<year>2003</year>
-		<manufacturer>Taito</manufacturer>
+		<manufacturer>CyberFront</manufacturer>
 		<rom name="78081g503.ic655" size="8192" status="nodump"/>
 		<rom name="f35-01_m27c800.bin" merge="f35-01_m27c800.bin" size="1048576" crc="6225ec11" sha1="047852d456b6ff85f8e640887caa03cf3e63ffad"/>
 		<rom name="f35-01_m27c800_modbios_mb-2009_dump_by_aje_fr.bin" merge="f35-01_m27c800_modbios_mb-2009_dump_by_aje_fr.bin" size="1048576" crc="6367aedf" sha1="8400775e0c974c8b017e26ef9339144cad457c63"/>
@@ -27848,8 +27892,9 @@
 		<description>Lexibook JG7420 - TV Game Console (200 Games, 32-bits)</description>
 		<year>201?</year>
 		<manufacturer>Lexibook</manufacturer>
+		<rom name="25d80.u6" size="1048576" crc="6916409d" sha1="80dbdc568547cc347a8aca0d530ac25e20b08e34"/>
+		<rom name="fm25q04.u14" size="524288" crc="f6410672" sha1="3ccce8e5ef1bfd08c90d90d2efdb646d2af9fba7"/>
 		<rom name="internal.bin" size="65536" status="nodump"/>
-		<rom name="spi_boot" size="1048576" status="nodump"/>
 		<disk name="jg7420" sha1="214a1686c7eefdb4cb5d723e98957600c8cb138d" region="sdcard"/>
 		<device_ref name="arm9"/>
 		<device_ref name="screen"/>
@@ -27882,7 +27927,7 @@
 		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="mace" sourcefile="midway/seattle.cpp">
+	<machine name="mace" sourcefile="williams/seattle.cpp">
 		<description>Mace: The Dark Age (boot ROM 1.0ce, HDD 1.0b)</description>
 		<year>1996</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -27927,7 +27972,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="macea" sourcefile="midway/seattle.cpp" cloneof="mace" romof="mace">
+	<machine name="macea" sourcefile="williams/seattle.cpp" cloneof="mace" romof="mace">
 		<description>Mace: The Dark Age (HDD 1.0a)</description>
 		<year>1997</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -31407,7 +31452,7 @@
 		<device_ref name="coin_hopper"/>
 		<driver status="imperfect"/>
 	</machine>
-	<machine name="mwskins" sourcefile="midway/atlantis.cpp">
+	<machine name="mwskins" sourcefile="williams/atlantis.cpp">
 		<description>Skins Game (1.06)</description>
 		<year>2000</year>
 		<manufacturer>Midway</manufacturer>
@@ -31454,7 +31499,7 @@
 		<device_ref name="rs232"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="mwskinsa" sourcefile="midway/atlantis.cpp" cloneof="mwskins" romof="mwskins">
+	<machine name="mwskinsa" sourcefile="williams/atlantis.cpp" cloneof="mwskins" romof="mwskins">
 		<description>Skins Game (1.06, alt)</description>
 		<year>2000</year>
 		<manufacturer>Midway</manufacturer>
@@ -31501,7 +31546,7 @@
 		<device_ref name="rs232"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="mwskinso" sourcefile="midway/atlantis.cpp" cloneof="mwskins" romof="mwskins">
+	<machine name="mwskinso" sourcefile="williams/atlantis.cpp" cloneof="mwskins" romof="mwskins">
 		<description>Skins Game (1.04)</description>
 		<year>2000</year>
 		<manufacturer>Midway</manufacturer>
@@ -31548,7 +31593,7 @@
 		<device_ref name="rs232"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="mwskinst" sourcefile="midway/atlantis.cpp" cloneof="mwskins" romof="mwskins">
+	<machine name="mwskinst" sourcefile="williams/atlantis.cpp" cloneof="mwskins" romof="mwskins">
 		<description>Skins Game Tournament Edition</description>
 		<year>2000</year>
 		<manufacturer>Midway</manufacturer>
@@ -31659,7 +31704,7 @@
 		<device_ref name="psxspu"/>
 		<driver status="imperfect"/>
 	</machine>
-	<machine name="nbagold" sourcefile="midway/vegas.cpp">
+	<machine name="nbagold" sourcefile="williams/vegas.cpp">
 		<description>SportStation: NBA Showtime NBA on NBC Gold Edition (ver 3.0, Feb 18 2000) / NFL Blitz 2000 Gold Edition</description>
 		<year>2000</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -31705,7 +31750,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="nbanfl" sourcefile="midway/vegas.cpp">
+	<machine name="nbanfl" sourcefile="williams/vegas.cpp">
 		<description>SportStation: NBA Showtime NBA on NBC (ver 2.1, Sep 22 1999) / NFL Blitz 2000 Gold Edition (ver 1.5, Sep 22 1999)</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -31753,7 +31798,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="nbashowt" sourcefile="midway/vegas.cpp">
+	<machine name="nbashowt" sourcefile="williams/vegas.cpp">
 		<description>NBA Showtime NBA on NBC (ver 2.0, Apr 25 1999)</description>
 		<year>1999</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -31902,7 +31947,7 @@
 		<device_ref name="pci_root"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="nflfoot" sourcefile="midway/mcr.cpp">
+	<machine name="nflfoot" sourcefile="bally/mcr.cpp">
 		<description>NFL Football</description>
 		<year>1983</year>
 		<manufacturer>Bally Midway</manufacturer>
@@ -32532,7 +32577,7 @@
 		<device_ref name="rs232"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="offrthnd" sourcefile="midway/midqslvr.cpp">
+	<machine name="offrthnd" sourcefile="williams/midqslvr.cpp">
 		<description>Offroad Thunder</description>
 		<year>2000</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -40218,7 +40263,7 @@
 		<driver status="preliminary"/>
 	</machine>
 	<machine name="raycris" sourcefile="sony/taitogn.cpp" romof="coh3002t">
-		<description>Ray Crisis (V2.03O 1998/11/15 15:43)</description>
+		<description>RayCrisis (V2.03O 1998/11/15 15:43)</description>
 		<year>1998</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="78081g503.ic655" size="8192" status="nodump"/>
@@ -40265,7 +40310,7 @@
 		<driver status="imperfect"/>
 	</machine>
 	<machine name="raycrisj" sourcefile="sony/taitogn.cpp" cloneof="raycris" romof="raycris">
-		<description>Ray Crisis (V2.03J 1998/11/15 15:43)</description>
+		<description>RayCrisis (V2.03J 1998/11/15 15:43)</description>
 		<year>1998</year>
 		<manufacturer>Taito</manufacturer>
 		<rom name="78081g503.ic655" size="8192" status="nodump"/>
@@ -40644,7 +40689,7 @@
 	<machine name="rhnation" sourcefile="ice/vp101.cpp">
 		<description>Rhythm Nation (v01.00.04, boot v3.1.5)</description>
 		<year>2003</year>
-		<manufacturer>ICE/Play Mechanix</manufacturer>
+		<manufacturer>ICE / Play Mechanix</manufacturer>
 		<rom name="pic18c242-i-sp.u22" size="524288" status="nodump"/>
 		<rom name="rhythm_nation_rev_3.1.5_m27v322.u13" size="4194304" crc="456f043d" sha1="cc166897fdbdaa3583e44816da9dfbbf303f5c61"/>
 		<disk name="rhn010104" sha1="5bc2e5817b29bf42ec483414242795fd76d749d9" region="ata:0:hdd"/>
@@ -40672,7 +40717,7 @@
 		<device_ref name="speaker"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="roadburn" sourcefile="midway/vegas.cpp">
+	<machine name="roadburn" sourcefile="williams/vegas.cpp">
 		<description>Road Burners (ver 1.04)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -40718,7 +40763,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="roadburn1" sourcefile="midway/vegas.cpp" cloneof="roadburn" romof="roadburn">
+	<machine name="roadburn1" sourcefile="williams/vegas.cpp" cloneof="roadburn" romof="roadburn">
 		<description>Road Burners (ver 1.0)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -41690,8 +41735,8 @@
 		<device_ref name="93c46_8"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="sf2049" sourcefile="midway/vegas.cpp">
-		<description>San Francisco Rush 2049</description>
+	<machine name="sf2049" sourcefile="williams/vegas.cpp">
+		<description>San Francisco Rush 2049 (Version 1.04, EPROM 1.02 Jul 9 1999, GUTS 1.03 Sep 3 1999, GAME Sep 8 1999)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
 		<rom name="336_rush_2049.u18" size="4096" crc="e258c3ff" sha1="c78f739638a0775e4075c6a460c70dafbcf08fd5"/>
@@ -41745,8 +41790,8 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="sf2049se" sourcefile="midway/vegas.cpp">
-		<description>San Francisco Rush 2049: Special Edition</description>
+	<machine name="sf2049se" sourcefile="williams/vegas.cpp">
+		<description>San Francisco Rush 2049: Special Edition (Version 1.00, GUTS 1.61 Sep 16 2003, GAME Sep 16 2003)</description>
 		<year>2003</year>
 		<manufacturer>Atari Games</manufacturer>
 		<rom name="352_rush_2049_se.u18" size="4103" crc="6120c20d" sha1="9bd76514de261aa7957f896c1ea0b3f91d4cb5d6"/>
@@ -41800,8 +41845,8 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="sf2049te" sourcefile="midway/vegas.cpp">
-		<description>San Francisco Rush 2049: Tournament Edition</description>
+	<machine name="sf2049te" sourcefile="williams/vegas.cpp">
+		<description>San Francisco Rush 2049: Tournament Edition (VERS 0.34 Sep 26 2000, EPROM 0.56 Apr 17 2000)</description>
 		<year>2000</year>
 		<manufacturer>Atari Games</manufacturer>
 		<rom name="352_rush_2049_se.u18" size="4103" crc="6120c20d" sha1="9bd76514de261aa7957f896c1ea0b3f91d4cb5d6"/>
@@ -41855,8 +41900,8 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="sf2049tea" sourcefile="midway/vegas.cpp" cloneof="sf2049te" romof="sf2049te">
-		<description>San Francisco Rush 2049: Tournament Edition Unlocked</description>
+	<machine name="sf2049tea" sourcefile="williams/vegas.cpp" cloneof="sf2049te" romof="sf2049te">
+		<description>San Francisco Rush 2049: Tournament Edition Unlocked (VERS 0.31 Sep 26 2000, EPROM 0.56 Apr 17 2000)</description>
 		<year>2001</year>
 		<manufacturer>Atari Games</manufacturer>
 		<rom name="352_rush_2049_se.u18" merge="352_rush_2049_se.u18" size="4103" crc="6120c20d" sha1="9bd76514de261aa7957f896c1ea0b3f91d4cb5d6"/>
@@ -41960,6 +42005,60 @@
 		<manufacturer>Capcom</manufacturer>
 		<rom name="sfiii2_usa.29f400.u2" size="524288" crc="75dd72e0" sha1="5a12d6ea6734df5de00ecee6f9ef470749d2f242"/>
 		<disk name="cap-3ga000" sha1="a0c11a5c3057dc1ad3962aa38adf95acb3430bec" region="cdrom"/>
+		<device_ref name="sh2_7604"/>
+		<device_ref name="nscsi_bus"/>
+		<device_ref name="scsi_cdrom"/>
+		<device_ref name="cdrom_image"/>
+		<device_ref name="cdda"/>
+		<device_ref name="wd33c93a"/>
+		<device_ref name="screen"/>
+		<device_ref name="timer"/>
+		<device_ref name="timer"/>
+		<device_ref name="nvram"/>
+		<device_ref name="palette"/>
+		<device_ref name="gfxdecode"/>
+		<device_ref name="speaker"/>
+		<device_ref name="cps3_custom"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<device_ref name="mbm29f016a"/>
+		<driver status="good"/>
+	</machine>
+	<machine name="sfiii2a" sourcefile="capcom/cps3.cpp" cloneof="sfiii2" romof="sfiii2">
+		<description>Street Fighter III 2nd Impact: Giant Attack (Asia 970930)</description>
+		<year>1997</year>
+		<manufacturer>Capcom</manufacturer>
+		<rom name="sfiii2_asia.29f400.u2" size="524288" crc="4518d589" sha1="43dba305c1b630e0ee51697b6802109ebb8268b5"/>
+		<disk name="cap-3ga000" merge="cap-3ga000" sha1="a0c11a5c3057dc1ad3962aa38adf95acb3430bec" region="cdrom"/>
 		<device_ref name="sh2_7604"/>
 		<device_ref name="nscsi_bus"/>
 		<device_ref name="scsi_cdrom"/>
@@ -42729,7 +42828,7 @@
 		<device_ref name="cdda"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="sfrush" sourcefile="midway/seattle.cpp">
+	<machine name="sfrush" sourcefile="williams/seattle.cpp">
 		<description>San Francisco Rush</description>
 		<year>1996</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -42782,7 +42881,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="sfrushrk" sourcefile="midway/seattle.cpp">
+	<machine name="sfrushrk" sourcefile="williams/seattle.cpp">
 		<description>San Francisco Rush: The Rock (boot rom L 1.0, GUTS Oct 6 1997 / MAIN Oct 16 1997)</description>
 		<year>1997</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -42833,7 +42932,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="sfrushrkw" sourcefile="midway/seattle.cpp" cloneof="sfrushrk" romof="sfrushrk">
+	<machine name="sfrushrkw" sourcefile="williams/seattle.cpp" cloneof="sfrushrk" romof="sfrushrk">
 		<description>San Francisco Rush: The Rock (Wavenet, boot rom L 1.38, GUTS Aug 19 1997 / MAIN Aug 19 1997)</description>
 		<year>1997</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -42884,7 +42983,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="sfrushrkwo" sourcefile="midway/seattle.cpp" cloneof="sfrushrk" romof="sfrushrk">
+	<machine name="sfrushrkwo" sourcefile="williams/seattle.cpp" cloneof="sfrushrk" romof="sfrushrk">
 		<description>San Francisco Rush: The Rock (Wavenet, boot rom L 1.38, GUTS Aug 6 1997 / MAIN Aug 5 1997)</description>
 		<year>1997</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -43376,7 +43475,7 @@
 	<machine name="shikiga3" sourcefile="taito/taitotx.cpp">
 		<description>Shikigami no Shiro III (v2.06J)</description>
 		<year>2006</year>
-		<manufacturer>Alfa System/SKonec Entertainment</manufacturer>
+		<manufacturer>Alfa System / SKonec Entertainment</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x_bios.bin" size="65536" status="nodump"/>
 		<disk name="shikigami3_v2_06jpn" sha1="4bf41ab1a3f2cd51cd2b1e6183959d2a4878449d" region="ide:0:hdd"/>
@@ -43431,7 +43530,7 @@
 		<device_ref name="zsg2"/>
 		<driver status="imperfect"/>
 	</machine>
-	<machine name="shikigama" sourcefile="sony/taitogn.cpp" romof="coh3002t">
+	<machine name="shikigama" sourcefile="sony/taitogn.cpp" cloneof="shikigam" romof="shikigam">
 		<description>Shikigami no Shiro - internal build (V1.02J 2001/09/27 18:45)</description>
 		<year>2001</year>
 		<manufacturer>Alfa System / Taito</manufacturer>
@@ -44404,7 +44503,7 @@
 	<machine name="specfrce" sourcefile="ice/vp101.cpp">
 		<description>Special Forces Elite Training (v01.02.00)</description>
 		<year>2002</year>
-		<manufacturer>ICE/Play Mechanix</manufacturer>
+		<manufacturer>ICE / Play Mechanix</manufacturer>
 		<rom name="boot 3.6.u4.27c801" size="1048576" crc="b1628dd9" sha1="5970d31b0cf3d0c1ab4b10ee8e54d2696fafde24"/>
 		<rom name="special_forces_boot_v3.4.u4" size="1048576" crc="db4862ac" sha1="a1e886d424cf7d26605e29d972d48e8d44ae2d58"/>
 		<rom name="special_forces_boot_v3.5.u4" size="1048576" crc="ae8dfdf0" sha1="d64130e710d0c70095ad8ebd4e2194b8c461be4a"/>
@@ -44423,7 +44522,7 @@
 	<machine name="specfrceo" sourcefile="ice/vp101.cpp" cloneof="specfrce" romof="specfrce">
 		<description>Special Forces Elite Training (v01.01.01)</description>
 		<year>2002</year>
-		<manufacturer>ICE/Play Mechanix</manufacturer>
+		<manufacturer>ICE / Play Mechanix</manufacturer>
 		<rom name="boot 3.6.u4.27c801" merge="boot 3.6.u4.27c801" size="1048576" crc="b1628dd9" sha1="5970d31b0cf3d0c1ab4b10ee8e54d2696fafde24"/>
 		<rom name="special_forces_boot_v3.4.u4" merge="special_forces_boot_v3.4.u4" size="1048576" crc="db4862ac" sha1="a1e886d424cf7d26605e29d972d48e8d44ae2d58"/>
 		<rom name="special_forces_boot_v3.5.u4" merge="special_forces_boot_v3.5.u4" size="1048576" crc="ae8dfdf0" sha1="d64130e710d0c70095ad8ebd4e2194b8c461be4a"/>
@@ -44453,7 +44552,7 @@
 	<machine name="spicaadv" sourcefile="taito/taitotx.cpp">
 		<description>Spica Adventure (v2.03J)</description>
 		<year>2005</year>
-		<manufacturer>Taito Corporation</manufacturer>
+		<manufacturer>Taito</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x_bios.bin" size="65536" status="nodump"/>
 		<disk name="spicaadventure_v2_03j" sha1="218ee0670a7b895f42480f0fe6719ecd4f4ba9e6" region="ide:0:hdd"/>
@@ -44900,7 +44999,7 @@
 		<device_ref name="pci_root"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="starridr" sourcefile="midway/starrider.cpp">
+	<machine name="starridr" sourcefile="williams/starrider.cpp">
 		<description>Star Rider (REV 1)</description>
 		<year>1984</year>
 		<manufacturer>Williams</manufacturer>
@@ -44955,7 +45054,7 @@
 		<device_ref name="ipt_merge_any_hi"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="starridrp3" sourcefile="midway/starrider.cpp" cloneof="starridr" romof="starridr">
+	<machine name="starridrp3" sourcefile="williams/starrider.cpp" cloneof="starridr" romof="starridr">
 		<description>Star Rider (PROTO 3)</description>
 		<year>1984</year>
 		<manufacturer>Williams</manufacturer>
@@ -45997,7 +46096,7 @@
 		<device_ref name="palette"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="tenthdeg" sourcefile="midway/vegas.cpp">
+	<machine name="tenthdeg" sourcefile="williams/vegas.cpp">
 		<description>Tenth Degree (prototype)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -47104,7 +47203,7 @@
 	<machine name="trbwtchs" sourcefile="taito/taitotx.cpp">
 		<description>Trouble Witches AC (v1.00J)</description>
 		<year>2008</year>
-		<manufacturer>Adventure Planning Service/Studio SiestA</manufacturer>
+		<manufacturer>Adventure Planning Service / Studio SiestA</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x_bios.bin" size="65536" status="nodump"/>
 		<disk name="troublewitches_ac_v1.00j" sha1="733ecbae040dd32447230d3fc81e6f8614715ee5" region="ide:0:hdd"/>
@@ -47592,7 +47691,7 @@
 		<year>201?</year>
 		<manufacturer>&lt;unknown&gt;</manufacturer>
 		<rom name="internal.rom" size="32768" status="nodump"/>
-		<rom name="ubox_xm25qe16bzig_204015.bin" size="2097920" crc="f8135947" sha1="f2a075ae2b0bae186202f1019b566ffc411742bb"/>
+		<rom name="ubox_xm25qe16bzig_204015.bin" size="2097152" crc="3c6f348b" sha1="06f22a9b4c6b8f0133d3cf549e7b2acfa01577d2"/>
 		<disk name="ubox_sd_512" sha1="99f2f1437d644a5e1fe48ce1445acf48fb8b0359" region="cfcard"/>
 		<device_ref name="score7"/>
 		<device_ref name="screen"/>
@@ -47676,7 +47775,7 @@
 		<device_ref name="icd2061a"/>
 		<driver status="imperfect"/>
 	</machine>
-	<machine name="ultarctc" sourcefile="midway/midqslvr.cpp">
+	<machine name="ultarctc" sourcefile="williams/midqslvr.cpp">
 		<description>Ultimate Arctic Thunder</description>
 		<year>2001</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -47687,7 +47786,7 @@
 		<device_ref name="pci_root"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="ultarctcup" sourcefile="midway/midqslvr.cpp" cloneof="ultarctc" romof="ultarctc">
+	<machine name="ultarctcup" sourcefile="williams/midqslvr.cpp" cloneof="ultarctc" romof="ultarctc">
 		<description>Ultimate Arctic Thunder Update CD ver 1.950 (5/3/04)</description>
 		<year>2004</year>
 		<manufacturer>Midway Games</manufacturer>
@@ -47806,7 +47905,7 @@
 	<machine name="usagiol" sourcefile="taito/taitotx.cpp">
 		<description>Usagi: Yasei no Topai Online (v2.04J)</description>
 		<year>2005</year>
-		<manufacturer>Taito Corporation/Warashi</manufacturer>
+		<manufacturer>Taito / Warashi</manufacturer>
 		<rom name="dongle.pic" size="4096" status="nodump"/>
 		<rom name="taito_type_x_bios.bin" size="65536" status="nodump"/>
 		<disk name="usagionline_v2_04j" sha1="6d4a780c40ee5c9b0192932e926f144d76b87262" region="ide:0:hdd"/>
@@ -47908,7 +48007,7 @@
 		<device_ref name="i8049"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="vaportrx" sourcefile="midway/seattle.cpp">
+	<machine name="vaportrx" sourcefile="williams/seattle.cpp">
 		<description>Vapor TRX (GUTS Jul 2 1998 / MAIN Jul 18 1998)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -47952,7 +48051,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="vaportrxp" sourcefile="midway/seattle.cpp" cloneof="vaportrx" romof="vaportrx">
+	<machine name="vaportrxp" sourcefile="williams/seattle.cpp" cloneof="vaportrx" romof="vaportrx">
 		<description>Vapor TRX (GUTS Apr 10 1998 / MAIN Apr 10 1998)</description>
 		<year>1998</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -50383,7 +50482,7 @@
 		<device_ref name="seganetw"/>
 		<driver status="preliminary"/>
 	</machine>
-	<machine name="warfa" sourcefile="midway/vegas.cpp">
+	<machine name="warfa" sourcefile="williams/vegas.cpp">
 		<description>War: Final Assault (GUTS 1.3 Apr 20 1999, GAME Apr 20 1999)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -50432,7 +50531,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="warfaa" sourcefile="midway/vegas.cpp" cloneof="warfa" romof="warfa">
+	<machine name="warfaa" sourcefile="williams/vegas.cpp" cloneof="warfa" romof="warfa">
 		<description>War: Final Assault (GUTS 1.1 Mar 16 1999, GAME Mar 16 1999)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -50481,7 +50580,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="warfab" sourcefile="midway/vegas.cpp" cloneof="warfa" romof="warfa">
+	<machine name="warfab" sourcefile="williams/vegas.cpp" cloneof="warfa" romof="warfa">
 		<description>War: Final Assault (GUTS 1.3 Mar 25 1999, GAME Mar 23 1999)</description>
 		<year>1999</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -50530,7 +50629,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="wargods" sourcefile="midway/midvunit.cpp">
+	<machine name="wargods" sourcefile="williams/midvunit.cpp">
 		<description>War Gods (HD 10/09/1996 - Dual Resolution)</description>
 		<year>1995</year>
 		<manufacturer>Midway</manufacturer>
@@ -50561,7 +50660,7 @@
 		<device_ref name="dmadac"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="wargodsa" sourcefile="midway/midvunit.cpp" cloneof="wargods" romof="wargods">
+	<machine name="wargodsa" sourcefile="williams/midvunit.cpp" cloneof="wargods" romof="wargods">
 		<description>War Gods (HD 08/15/1996)</description>
 		<year>1995</year>
 		<manufacturer>Midway</manufacturer>
@@ -50592,7 +50691,7 @@
 		<device_ref name="dmadac"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="wargodsb" sourcefile="midway/midvunit.cpp" cloneof="wargods" romof="wargods">
+	<machine name="wargodsb" sourcefile="williams/midvunit.cpp" cloneof="wargods" romof="wargods">
 		<description>War Gods (HD 12/11/1995)</description>
 		<year>1995</year>
 		<manufacturer>Midway</manufacturer>
@@ -51539,7 +51638,7 @@
 		<device_ref name="psxspu"/>
 		<driver status="imperfect"/>
 	</machine>
-	<machine name="wg3dh" sourcefile="midway/seattle.cpp">
+	<machine name="wg3dh" sourcefile="williams/seattle.cpp">
 		<description>Wayne Gretzky's 3D Hockey (ver 1.3)</description>
 		<year>1996</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -51583,7 +51682,7 @@
 		<device_ref name="midway_ioasic"/>
 		<driver status="good"/>
 	</machine>
-	<machine name="wg3dhfe" sourcefile="midway/seattle.cpp" cloneof="wg3dh" romof="wg3dh">
+	<machine name="wg3dhfe" sourcefile="williams/seattle.cpp" cloneof="wg3dh" romof="wg3dh">
 		<description>Wayne Gretzky's 3D Hockey Fatality Edition (prototype)</description>
 		<year>1996</year>
 		<manufacturer>Atari Games</manufacturer>
@@ -52083,7 +52182,7 @@
 	<machine name="zoofari" sourcefile="ice/vp101.cpp">
 		<description>Zoofari</description>
 		<year>2006</year>
-		<manufacturer>ICE/Play Mechanix</manufacturer>
+		<manufacturer>ICE / Play Mechanix</manufacturer>
 		<rom name="8777z-568.bin" size="524288" status="nodump"/>
 		<rom name="zf_boot_rel.u13" size="4194304" crc="e629689a" sha1="7352d033c638040c3e51a453e2440a7f38a1b406"/>
 		<disk name="zoofari" sha1="8fb9cfb1ab2660f40b643fcd772243903bd69a6c" region="ata:0:hdd"/>
